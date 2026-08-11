@@ -11,10 +11,11 @@
     "start": "vite preview",
     "lint": "eslint src scripts",
     "typecheck": "tsc --noEmit",
-    "check": "npm run lint && npm run typecheck && npm run build",
+    "check": "npm run validate:data && npm run lint && npm run typecheck && npm run build",
     "test": "npm run check",
     "import:top": "node scripts/import-vndb-top.mjs",
-    "update:data": "node scripts/update-rankings.mjs"
+    "update:data": "node scripts/update-rankings.mjs",
+    "validate:data": "node scripts/validate-data.mjs"
   },
   "dependencies": {
     "react": "19.2.8",

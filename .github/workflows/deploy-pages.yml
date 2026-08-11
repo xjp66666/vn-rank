@@ -36,6 +36,8 @@ jobs:
             exit 1
           fi
       - run: npm ci
+      - name: Validate committed data
+        run: npm run validate:data
       - name: Fetch source scores and rebuild static data
         run: npm run update:data
         env:

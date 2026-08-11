@@ -1761,11 +1761,7 @@
       }
     }
   ],
-<<<<<<< HEAD
   "updatedAt": "2026-08-11T19:27:09.661Z",
-=======
-  "updatedAt": "2026-08-11T19:12:16.236Z",
->>>>>>> 2a9e13e405c1b9d6bae7446cdcc4f6df31f45524
   "source": "github-actions-static",
   "catalogSize": 100
 }
