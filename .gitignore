@@ -5,6 +5,7 @@
 /dist/
 /coverage
 .vite/
+/.cache/
 
 # misc
 .DS_Store

@@ -79,6 +79,12 @@ deployable `dist/` directory.
 
 Before pushing, run `npm run check` to lint, type-check, and build the site.
 
+To fill an empty catalog from VNDB's highest-rated titles, run
+`npm run import:top`. The importer requires at least 500 VNDB votes by default,
+keeps existing manual mappings, and only accepts normalized exact Bangumi title
+matches. Change the defaults with `TARGET_COUNT` or `VNDB_MIN_VOTES` environment
+variables, then run `npm run update:data`.
+
 ## Deploy to GitHub Pages
 
 1. Create an empty GitHub repository, then publish this cleaned project:

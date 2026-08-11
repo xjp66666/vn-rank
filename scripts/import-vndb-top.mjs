@@ -1,0 +1,286 @@
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { resolve } from "node:path";
+
+const root = resolve(import.meta.dirname, "..");
+const catalogPath = resolve(root, "data/catalog.json");
+const cachePath = resolve(root, ".cache/bangumi-search.json");
+const targetCount = Number(process.env.TARGET_COUNT || 100);
+const minimumVotes = Number(process.env.VNDB_MIN_VOTES || 500);
+const candidatePages = Number(process.env.VNDB_PAGES || 5);
+const SITE_AGENT = "VN-Rank/1.0 (curated visual novel ranking)";
+
+async function loadLocalToken() {
+  if (process.env.BANGUMI_ACCESS_TOKEN) return process.env.BANGUMI_ACCESS_TOKEN;
+  try {
+    const text = await readFile(resolve(root, ".dev.vars"), "utf8");
+    for (const line of text.split(/\r?\n/)) {
+      const match = line.match(/^([A-Z][A-Z0-9_]*)\s*=\s*["']?(.*?)["']?\s*$/);
+      if (match?.[1] === "BANGUMI_ACCESS_TOKEN") return match[2];
+    }
+  } catch {
+    // Public Bangumi search remains available without a token.
+  }
+  return "";
+}
+
+async function loadCache() {
+  try {
+    return JSON.parse(await readFile(cachePath, "utf8"));
+  } catch {
+    return {};
+  }
+}
+
+async function fetchWithRetry(url, init, label) {
+  for (let attempt = 1; attempt <= 4; attempt += 1) {
+    const response = await fetch(url, {
+      ...init,
+      signal: AbortSignal.timeout(20_000),
+    });
+    if (response.ok) return response.json();
+    if (response.status === 401) {
+      const error = new Error(`${label} returned 401`);
+      error.status = 401;
+      throw error;
+    }
+    if (response.status !== 429 && response.status < 500) {
+      throw new Error(`${label} returned ${response.status}`);
+    }
+    await new Promise((resolveDelay) => setTimeout(resolveDelay, attempt * 800));
+  }
+  throw new Error(`${label} failed after retries`);
+}
+
+async function fetchVndbCandidates() {
+  const candidates = [];
+  for (let page = 1; page <= candidatePages; page += 1) {
+    const payload = await fetchWithRetry(
+      "https://api.vndb.org/kana/vn",
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "User-Agent": SITE_AGENT },
+        body: JSON.stringify({
+          filters: ["votecount", ">=", minimumVotes],
+          fields: "title,alttitle,rating,votecount,released",
+          sort: "rating",
+          reverse: true,
+          results: 100,
+          page,
+        }),
+      },
+      "VNDB",
+    );
+    candidates.push(...payload.results);
+    if (!payload.more) break;
+  }
+  return candidates;
+}
+
+function normalized(value) {
+  return String(value ?? "")
+    .normalize("NFKC")
+    .toLocaleLowerCase("und")
+    .replace(/[^\p{L}\p{N}]+/gu, "");
+}
+
+function bigrams(value) {
+  if (value.length < 2) return new Set([value]);
+  return new Set(Array.from({ length: value.length - 1 }, (_, index) => value.slice(index, index + 2)));
+}
+
+function diceSimilarity(left, right) {
+  if (!left || !right) return 0;
+  if (left === right) return 1;
+  const leftPairs = bigrams(left);
+  const rightPairs = bigrams(right);
+  let overlap = 0;
+  for (const pair of leftPairs) if (rightPairs.has(pair)) overlap += 1;
+  return (2 * overlap) / (leftPairs.size + rightPairs.size);
+}
+
+function titleSimilarity(vndb, bangumi) {
+  const sourceNames = [vndb.title, vndb.alttitle].map(normalized).filter(Boolean);
+  const candidateNames = [bangumi.name, bangumi.name_cn].map(normalized).filter(Boolean);
+  let best = 0;
+  for (const source of sourceNames) {
+    for (const candidate of candidateNames) {
+      if (source === candidate) return 1;
+      const shorter = source.length < candidate.length ? source : candidate;
+      const longer = source.length < candidate.length ? candidate : source;
+      const containment = shorter.length >= 6 && longer.includes(shorter)
+        ? shorter.length / longer.length
+        : 0;
+      best = Math.max(best, diceSimilarity(source, candidate), containment);
+    }
+  }
+  return best;
+}
+
+function hasExactTitle(vndb, bangumi) {
+  const sourceNames = [vndb.title, vndb.alttitle].map(normalized).filter(Boolean);
+  const candidateNames = [bangumi.name, bangumi.name_cn].map(normalized).filter(Boolean);
+  return sourceNames.some((source) => candidateNames.includes(source));
+}
+
+function matchScore(vndb, bangumi) {
+  const similarity = titleSimilarity(vndb, bangumi);
+  const vndbYear = Number(vndb.released?.slice(0, 4));
+  const bangumiYear = Number(bangumi.date?.slice(0, 4));
+  const yearDistance = vndbYear && bangumiYear ? Math.abs(vndbYear - bangumiYear) : null;
+  const yearScore = yearDistance === 0 ? 8 : yearDistance <= 2 ? 3 : yearDistance >= 6 ? -8 : 0;
+  const votes = bangumi.rating?.total ?? 0;
+  const evidenceScore = votes >= 100 ? 2 : votes >= 10 ? 1 : -3;
+  return { similarity, score: similarity * 100 + yearScore + evidenceScore, yearDistance };
+}
+
+let accessToken = await loadLocalToken();
+let warnedAboutToken = false;
+const cache = await loadCache();
+
+async function searchBangumi(keyword) {
+  const cacheKey = normalized(keyword);
+  if (cache[cacheKey]) return cache[cacheKey];
+
+  const request = async (withToken) => {
+    const headers = {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+      "User-Agent": SITE_AGENT,
+    };
+    if (withToken && accessToken) headers.Authorization = `Bearer ${accessToken}`;
+    return fetchWithRetry(
+      "https://api.bgm.tv/v0/search/subjects?limit=10&offset=0",
+      {
+        method: "POST",
+        headers,
+        body: JSON.stringify({
+          keyword,
+          sort: "match",
+          filter: { type: [4] },
+        }),
+      },
+      "Bangumi search",
+    );
+  };
+
+  let payload;
+  try {
+    payload = await request(true);
+  } catch (error) {
+    if (error.status !== 401 || !accessToken) throw error;
+    accessToken = "";
+    if (!warnedAboutToken) {
+      console.warn("Bangumi token was rejected; continuing with public search results.");
+      warnedAboutToken = true;
+    }
+    payload = await request(false);
+  }
+  cache[cacheKey] = payload.data ?? [];
+  return cache[cacheKey];
+}
+
+async function findBangumiMatch(vndb) {
+  const queries = Array.from(new Set([vndb.alttitle, vndb.title].filter(Boolean)));
+  const candidates = new Map();
+  for (const query of queries) {
+    const results = await searchBangumi(query);
+    for (const item of results) candidates.set(item.id, item);
+    const exact = results.some((item) => titleSimilarity(vndb, item) === 1);
+    if (exact) break;
+  }
+  const ranked = [...candidates.values()]
+    .map((item) => ({ item, exact: hasExactTitle(vndb, item), ...matchScore(vndb, item) }))
+    .sort((left, right) => right.score - left.score);
+  const best = ranked.find(
+    (candidate) =>
+      candidate.exact &&
+      (candidate.yearDistance === null || candidate.yearDistance <= 5),
+  );
+  if (!best) return null;
+  return best;
+}
+
+const catalog = JSON.parse(await readFile(catalogPath, "utf8"));
+if (catalog.schemaVersion !== 1 || !Array.isArray(catalog.titles)) {
+  throw new Error("data/catalog.json is not a version 1 catalog");
+}
+const resetIds = new Set(
+  String(process.env.RESET_TO_VNDB_IDS || "")
+    .split(",")
+    .map((value) => value.trim())
+    .filter(Boolean),
+);
+if (resetIds.size) {
+  catalog.titles = catalog.titles.filter((title) => resetIds.has(title.vndbId));
+  console.log(`Reset catalog to ${catalog.titles.length} explicitly preserved titles.`);
+}
+const pruneIds = new Set(
+  String(process.env.PRUNE_VNDB_IDS || "")
+    .split(",")
+    .map((value) => value.trim())
+    .filter(Boolean),
+);
+if (pruneIds.size) {
+  catalog.titles = catalog.titles.filter((title) => !pruneIds.has(title.vndbId));
+  console.log(`Pruned catalog to ${catalog.titles.length} titles.`);
+}
+if (catalog.titles.length >= targetCount) {
+  console.log(`Catalog already contains ${catalog.titles.length} titles.`);
+  process.exit(0);
+}
+
+const existingVndbIds = new Set(catalog.titles.map((title) => title.vndbId));
+const existingBangumiIds = new Set(catalog.titles.map((title) => String(title.bangumiId)));
+const vndbCandidates = await fetchVndbCandidates();
+const skipped = [];
+
+for (const [index, vndb] of vndbCandidates.entries()) {
+  if (catalog.titles.length >= targetCount) break;
+  if (existingVndbIds.has(vndb.id)) continue;
+  try {
+    const match = await findBangumiMatch(vndb);
+    if (!match || existingBangumiIds.has(String(match.item.id))) {
+      skipped.push({ vndbId: vndb.id, title: vndb.title, reason: match ? "duplicate Bangumi ID" : "uncertain match" });
+      continue;
+    }
+    catalog.titles.push({
+      name: vndb.title,
+      vndbId: vndb.id,
+      bangumiId: String(match.item.id),
+      vndbScore: vndb.rating ?? null,
+      vndbVotes: vndb.votecount ?? null,
+      bangumiScore: match.item.rating?.score ? match.item.rating.score * 10 : null,
+      bangumiVotes: match.item.rating?.total ?? null,
+      metadata: {
+        altTitle: vndb.alttitle || match.item.name || vndb.title,
+        released: vndb.released || match.item.date,
+        year: Number((vndb.released || match.item.date)?.slice(0, 4)) || 0,
+        image: match.item.images?.common || match.item.images?.large || "",
+        genres: ["Visual novel"],
+        platforms: ["PC"],
+        synopsis: match.item.summary || "",
+      },
+      scoresUpdatedAt: new Date().toISOString(),
+      lastError: null,
+    });
+    existingVndbIds.add(vndb.id);
+    existingBangumiIds.add(String(match.item.id));
+    console.log(
+      `${String(catalog.titles.length).padStart(3)}. ${vndb.id} ${vndb.title} -> Bangumi ${match.item.id} ${match.item.name} (${match.similarity.toFixed(2)})`,
+    );
+  } catch (error) {
+    skipped.push({ vndbId: vndb.id, title: vndb.title, reason: error.message });
+  }
+  if ((index + 1) % 20 === 0) await new Promise((resolveDelay) => setTimeout(resolveDelay, 400));
+}
+
+await mkdir(resolve(root, ".cache"), { recursive: true });
+await writeFile(cachePath, `${JSON.stringify(cache)}\n`);
+await writeFile(catalogPath, `${JSON.stringify(catalog, null, 2)}\n`);
+
+console.log(`Catalog now contains ${catalog.titles.length} titles; skipped ${skipped.length} candidates.`);
+if (skipped.length) {
+  console.log("First skipped candidates:");
+  for (const item of skipped.slice(0, 20)) console.log(`- ${item.vndbId} ${item.title}: ${item.reason}`);
+}
+if (catalog.titles.length < targetCount) process.exitCode = 2;

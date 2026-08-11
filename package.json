@@ -13,6 +13,7 @@
     "typecheck": "tsc --noEmit",
     "check": "npm run lint && npm run typecheck && npm run build",
     "test": "npm run check",
+    "import:top": "node scripts/import-vndb-top.mjs",
     "update:data": "node scripts/update-rankings.mjs"
   },
   "dependencies": {

@@ -54,14 +54,25 @@ async function fetchVndb(id) {
   return record;
 }
 
+let bangumiTokenRejected = false;
+
 async function fetchBangumi(id) {
-  const headers = { Accept: "application/json", "User-Agent": SITE_AGENT };
-  const token = process.env.BANGUMI_ACCESS_TOKEN?.trim();
-  if (token) headers.Authorization = `Bearer ${token}`;
-  const response = await fetch(`https://api.bgm.tv/v0/subjects/${id}`, {
-    headers,
-    signal: AbortSignal.timeout(15_000),
-  });
+  const token = bangumiTokenRejected
+    ? ""
+    : process.env.BANGUMI_ACCESS_TOKEN?.trim();
+  const request = async (accessToken) => {
+    const headers = { Accept: "application/json", "User-Agent": SITE_AGENT };
+    if (accessToken) headers.Authorization = `Bearer ${accessToken}`;
+    return fetch(`https://api.bgm.tv/v0/subjects/${id}`, {
+      headers,
+      signal: AbortSignal.timeout(15_000),
+    });
+  };
+  let response = await request(token);
+  if (response.status === 401 && token) {
+    bangumiTokenRejected = true;
+    response = await request("");
+  }
   if (!response.ok) throw new Error(`Bangumi returned ${response.status}`);
   return response.json();
 }
