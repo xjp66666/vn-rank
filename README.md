@@ -1,100 +1,133 @@
-# vinext-starter
+# VN Rank
 
-A clean full-stack starter running on
-[vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
-Drizzle support.
+A fully static visual novel ranking built from a manually curated catalog. A
+daily GitHub Actions workflow fetches the exact VNDB and Bangumi records, stores
+their current scores in the catalog, calculates the combined top 50, and deploys
+the result to GitHub Pages.
 
-## Prerequisites
-
-- Node.js `>=22.13.0`
-
-## Quick Start
-
-```bash
-npm install
-npm run dev
-npm run build
+```text
+data/catalog.json (manual database)
+        |
+        v
+GitHub Actions --> VNDB + Bangumi --> public/data/rankings.json
+        |
+        v
+GitHub Pages (static React site)
 ```
 
-This starter does not use `wrangler.jsonc`.
+There is no server, Cloudflare account, runtime database, or browser-side API
+token.
 
-## Included Shape
+## Catalog format
 
-- edit site code under `app/`
-- `.openai/hosting.json` declares optional Sites D1 and R2 bindings
-- `vite.config.ts` simulates declared bindings for local development
-- `db/schema.ts` starts intentionally empty
-- `examples/d1/` contains an optional D1 example surface
-- `drizzle.config.ts` supports local migration generation when needed
+Add each visual novel to `data/catalog.json` using its permanent IDs:
 
-## Workspace Auth Headers
-
-Signed-in visitors receive both `oai-authenticated-user-id` and `oai-authenticated-user-email`. Private Sites require every visitor to sign in; public Sites may also have anonymous visitors, for whom neither header is present.
-
-The user ID is stable for the same user on the same Site and different across Sites. Email and name are intended for display or contact purposes.
-
-SIWC-authenticated workspace sites may also receive
-`oai-authenticated-user-full-name` when the user's SIWC profile has a non-empty
-`name` claim. The full-name value is percent-encoded UTF-8 and is accompanied by
-`oai-authenticated-user-full-name-encoding: percent-encoded-utf-8`.
-
-Treat the full name as optional and fall back to email when it is absent:
-
-```tsx
-import { headers } from "next/headers";
-
-export default async function Home() {
-  const requestHeaders = await headers();
-  const userId = requestHeaders.get("oai-authenticated-user-id");
-  const email = requestHeaders.get("oai-authenticated-user-email");
-  const encodedFullName = requestHeaders.get("oai-authenticated-user-full-name");
-  const fullName =
-    encodedFullName &&
-    requestHeaders.get("oai-authenticated-user-full-name-encoding") ===
-      "percent-encoded-utf-8"
-      ? decodeURIComponent(encodedFullName)
-      : null;
-
-  const displayName = fullName ?? email;
-  // ...
+```json
+{
+  "schemaVersion": 1,
+  "titles": [
+    {
+      "name": "WHITE ALBUM2",
+      "vndbId": "v7771",
+      "bangumiId": "22290"
+    }
+  ]
 }
 ```
 
-## Optional Dispatch-Owned ChatGPT Sign-In
+IDs or full source URLs are accepted. After the updater runs, that same object
+also contains its VNDB score and votes, Bangumi score and votes, cover/metadata,
+last refresh time, and any source error. The IDs never change automatically.
 
-Import the ready-to-use helpers from `app/chatgpt-auth.ts` when the site needs
-optional or required ChatGPT sign-in:
+The website's **Manage database** screen is a convenient editor. Because the
+site is static, it downloads a new `catalog.json`; replace `data/catalog.json`
+with that file and commit it.
 
-- Use `getChatGPTUser()` for optional signed-in UI.
-- Use `requireChatGPTUser(returnTo)` for server-rendered pages that should send
-  anonymous visitors through Sign in with ChatGPT.
-- Use `chatGPTSignInPath(returnTo)` and `chatGPTSignOutPath(returnTo)` for
-  browser links or actions.
-- Pass a same-origin relative `returnTo` path for the destination after sign-in
-  or sign-out. The helper validates and safely encodes it.
-- Mark protected pages with `export const dynamic = "force-dynamic"` because
-  they depend on per-request identity headers.
+## Run locally
 
-Dispatch owns `/signin-with-chatgpt`, `/signout-with-chatgpt`, `/callback`, the
-OAuth cookies, and identity header injection. Do not implement app routes for
-those reserved paths. Routes that do not import and call the helper remain
-anonymous-compatible.
+Requirements: Node.js 22 or later.
 
-SIWC establishes identity only; it does not prove workspace membership. Use the
-Sites hosting platform's access policy controls for workspace-wide restrictions,
-or enforce explicit server-side membership or allowlist checks.
+1. Install dependencies:
 
-Use SIWC for account pages, user-specific dashboards, saved records, and write
-actions tied to the current ChatGPT user. Leave public content anonymous.
+   ```powershell
+   npm install
+   ```
 
-## Useful Commands
+2. Keep the Bangumi personal access token in the already ignored `.dev.vars`:
 
-- `npm run dev`: start local development
-- `npm run build`: verify the vinext build output
-- `npm test`: build the starter and verify its rendered loading skeleton
-- `npm run db:generate`: generate Drizzle migrations after schema changes
+   ```dotenv
+   BANGUMI_ACCESS_TOKEN="your-token"
+   ```
 
-## Learn More
+   The token lets the updater read subjects that Bangumi hides from anonymous
+   API requests. It is never included in the built site.
 
-- [vinext Documentation](https://github.com/cloudflare/vinext)
-- [Drizzle D1 Guide](https://orm.drizzle.team/docs/get-started/d1-new)
+3. Refresh the static data:
+
+   ```powershell
+   npm run update:data
+   ```
+
+4. Start the site:
+
+   ```powershell
+   npm run dev
+   ```
+
+Open `http://localhost:3000`. You can also run `npm run build` to produce the
+deployable `dist/` directory.
+
+Before pushing, run `npm run check` to lint, type-check, and build the site.
+
+## Deploy to GitHub Pages
+
+1. Create an empty GitHub repository, then publish this cleaned project:
+
+   ```powershell
+   git add -A
+   git commit -m "Build static VN ranking site"
+   git remote add origin https://github.com/YOUR_USERNAME/vn-ranking.git
+   git push -u origin main
+   ```
+
+2. Open **Settings → Secrets and variables → Actions → Secrets**, create a
+   repository secret named `BANGUMI_ACCESS_TOKEN`, and paste your Bangumi token.
+
+3. Open **Settings → Pages** and set **Source** to **GitHub Actions**.
+
+4. Push to `main`, or manually run **Refresh rankings and deploy Pages** in the
+   Actions tab.
+
+The included workflow does all of this in one run:
+
+- fetches the current scores;
+- updates and commits `data/catalog.json`;
+- writes `public/data/rankings.json`;
+- builds the static Vite frontend;
+- deploys it to GitHub Pages.
+
+It also runs every day at 08:17 UTC. The non-round minute reduces the chance of
+GitHub's top-of-hour scheduling congestion. Scheduled jobs can still start late;
+in an inactive public repository, GitHub disables scheduled workflows after 60
+days without repository activity. You can re-enable or run it from the Actions
+tab.
+
+If the workflow cannot push its refreshed JSON, check **Settings → Actions →
+General → Workflow permissions** and allow read/write access. The workflow itself
+requests only the repository, Pages, and deployment permissions it needs.
+
+## Ranking method
+
+- VNDB: 60%
+- Bangumi: 40%
+- Output: top 50 from the manually curated catalog
+
+Bangumi's 10-point API score is converted to the same 100-point scale as VNDB.
+If one source temporarily fails, its last stored value is kept and the error is
+written into that title's catalog object.
+
+Official references:
+
+- [GitHub Actions scheduled workflows](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
+- [GitHub Pages custom workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
+- [GitHub Actions token permissions](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#permissions)

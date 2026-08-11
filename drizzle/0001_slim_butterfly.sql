@@ -1,1 +1,0 @@
-ALTER TABLE `pipeline_runs` ADD `pipeline_version` integer DEFAULT 1 NOT NULL;

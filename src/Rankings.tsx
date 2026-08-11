@@ -1,63 +1,55 @@
-"use client";
-
 import { useEffect, useMemo, useState } from "react";
 import {
   scoreFor,
-  seedRankings,
   type RankingItem,
   type SourceKey,
-} from "./data";
+} from "./ranking";
+import { loadStaticRankings } from "./data";
 
-type ActiveSourceKey = Exclude<SourceKey, "erogamescape">;
-type ViewMode = ActiveSourceKey | "consensus";
+type ViewMode = SourceKey | "consensus";
 
-const activeSources: ActiveSourceKey[] = ["vndb", "bangumi"];
-
+const activeSources: SourceKey[] = ["vndb", "bangumi"];
 const sourceLabels: Record<ViewMode, string> = {
   consensus: "Overall",
   vndb: "VNDB",
   bangumi: "Bangumi",
 };
 
-const formatVotes = (value: number | null) => {
+function formatVotes(value: number | null) {
   if (!value) return "No votes";
   return value >= 1000 ? `${(value / 1000).toFixed(1)}k votes` : `${value} votes`;
-};
+}
 
-const formatRuntime = (minutes: number | null) => {
+function formatRuntime(minutes: number | null) {
   if (!minutes) return "Runtime unknown";
   return `About ${Math.round(minutes / 60)} hours`;
-};
+}
 
-export default function Home() {
-  const [rankings, setRankings] = useState(seedRankings);
+export function Rankings() {
+  const [rankings, setRankings] = useState<RankingItem[]>([]);
   const [view, setView] = useState<ViewMode>("consensus");
   const [query, setQuery] = useState("");
   const [era, setEra] = useState("all");
   const [genre, setGenre] = useState("all");
   const [expanded, setExpanded] = useState<string | null>(null);
-  const [feedState, setFeedState] = useState<"syncing" | "live" | "snapshot">(
+  const [feedState, setFeedState] = useState<"syncing" | "live" | "offline">(
     "syncing",
   );
   const [updatedAt, setUpdatedAt] = useState<string | null>(null);
 
   useEffect(() => {
     const controller = new AbortController();
-
-    fetch("/api/rankings", { signal: controller.signal })
-      .then((response) => {
-        if (!response.ok) throw new Error("Feed unavailable");
-        return response.json();
-      })
-      .then((payload: { rankings?: RankingItem[]; updatedAt?: string }) => {
-        if (payload.rankings?.length) setRankings(payload.rankings);
+    loadStaticRankings<{ rankings: RankingItem[]; updatedAt: string | null }>(
+      controller.signal,
+    )
+      .then((payload) => {
+        setRankings(payload.rankings ?? []);
         setUpdatedAt(payload.updatedAt ?? null);
         setFeedState("live");
       })
       .catch((error: Error) => {
-        if (error.name !== "AbortError") setFeedState("snapshot");
+        if (error.name !== "AbortError") setFeedState("offline");
       });
-
     return () => controller.abort();
   }, []);
 
@@ -72,7 +64,6 @@ export default function Home() {
   const visibleRankings = useMemo(() => {
     const needle = query.trim().toLowerCase();
     const eraStart = era === "all" ? 0 : Number(era);
-
     return rankings
       .filter((item) => {
         const matchesText =
@@ -94,7 +85,7 @@ export default function Home() {
         day: "numeric",
         year: "numeric",
       })
-    : "Saved snapshot";
+    : "Not updated yet";
 
   return (
     <main className="app-shell">
@@ -109,9 +100,17 @@ export default function Home() {
           </div>
           <div className="feed-status" aria-live="polite">
             <span className={feedState}>
-              <i /> {feedState === "syncing" ? "Updating" : feedState === "live" ? "Live data" : "Snapshot"}
+              <i />{" "}
+              {feedState === "syncing"
+                ? "Updating"
+                : feedState === "live"
+                  ? "Static data"
+                  : "Data unavailable"}
             </span>
             <small>{lastUpdated}</small>
+            <a className="manage-link" href="#manage">
+              Manage database
+            </a>
           </div>
         </div>
 
@@ -129,6 +128,7 @@ export default function Home() {
             <span>Era</span>
             <select value={era} onChange={(event) => setEra(event.target.value)}>
               <option value="all">All years</option>
+              <option value="1990">1990s</option>
               <option value="2000">2000s</option>
               <option value="2010">2010s</option>
               <option value="2020">2020s</option>
@@ -136,10 +136,7 @@ export default function Home() {
           </label>
           <label className="select-control">
             <span>Genre</span>
-            <select
-              value={genre}
-              onChange={(event) => setGenre(event.target.value)}
-            >
+            <select value={genre} onChange={(event) => setGenre(event.target.value)}>
               <option value="all">All genres</option>
               {genres.map((item) => (
                 <option key={item}>{item}</option>
@@ -186,44 +183,46 @@ export default function Home() {
                 >
                   <span className="rank-number">{index + 1}</span>
                   <span className="cover">
-                    <img
-                      alt=""
-                      height="76"
-                      loading="lazy"
-                      referrerPolicy="no-referrer"
-                      src={item.image}
-                      width="54"
-                    />
+                    {item.image ? (
+                      <img
+                        alt=""
+                        height="76"
+                        loading="lazy"
+                        referrerPolicy="no-referrer"
+                        src={item.image}
+                        width="54"
+                      />
+                    ) : null}
                   </span>
                   <span className="title-info">
                     <strong>{item.title}</strong>
                     <small>{item.altTitle}</small>
                     <span className="title-meta">
-                      <span>{item.year}</span>
+                      <span>{item.year || "Year unknown"}</span>
                       <span>{item.genres.join(" / ")}</span>
                     </span>
                     <span className="mobile-scores">
-                      VNDB {item.sources.vndb.score?.toFixed(1) ?? "-"} / Bangumi{" "}
-                      {item.sources.bangumi.score?.toFixed(1) ?? "-"}
+                      VNDB {item.sources.vndb.score?.toFixed(1) ?? "–"} / Bangumi{" "}
+                      {item.sources.bangumi.score?.toFixed(1) ?? "–"}
                     </span>
                   </span>
                   <span className="source-scores">
                     {activeSources.map((source) => (
-                        <span key={source}>
-                          <small>{source}</small>
-                          <strong>{item.sources[source].score?.toFixed(1) ?? "-"}</strong>
-                        </span>
-                      ))}
+                      <span key={source}>
+                        <small>{source}</small>
+                        <strong>{item.sources[source].score?.toFixed(1) ?? "–"}</strong>
+                      </span>
+                    ))}
                   </span>
                   <strong className="overall-score">
                     {scoreFor(item, view).toFixed(1)}
                   </strong>
                   <span className="expand-button" aria-hidden="true">
-                    {isExpanded ? "-" : "+"}
+                    {isExpanded ? "−" : "+"}
                   </span>
                 </button>
 
-                {isExpanded && (
+                {isExpanded ? (
                   <div className="ranking-details">
                     <div className="details-copy">
                       <h2>About this title</h2>
@@ -253,27 +252,37 @@ export default function Home() {
                       )}
                     </div>
                   </div>
-                )}
+                ) : null}
               </article>
             );
           })}
 
-          {!visibleRankings.length && (
+          {!visibleRankings.length ? (
             <div className="empty-state">
-              <h2>No titles found</h2>
-              <p>Try a different search, era, or genre.</p>
-              <button
-                type="button"
-                onClick={() => {
-                  setQuery("");
-                  setEra("all");
-                  setGenre("all");
-                }}
-              >
-                Clear filters
-              </button>
+              <h2>{rankings.length ? "No titles found" : "Your database is empty"}</h2>
+              <p>
+                {rankings.length
+                  ? "Try a different search, era, or genre."
+                  : "Add a visual novel and its fixed VNDB and Bangumi links."}
+              </p>
+              {rankings.length ? (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setQuery("");
+                    setEra("all");
+                    setGenre("all");
+                  }}
+                >
+                  Clear filters
+                </button>
+              ) : (
+                <a className="empty-action" href="#manage">
+                  Add your first title
+                </a>
+              )}
             </div>
-          )}
+          ) : null}
         </div>
 
         <section className="method-card" aria-labelledby="method-title">
@@ -282,9 +291,9 @@ export default function Home() {
             <h2 id="method-title">One score, two communities.</h2>
           </div>
           <p>
-            Each daily list starts with VNDB&apos;s top 100 visual novels that have
-            at least 500 votes. Their Japanese or English titles are matched on
-            Bangumi, then scores are combined using 60% VNDB and 40% Bangumi.
+            You choose every title and permanently link its VNDB and Bangumi records.
+            GitHub Actions refreshes those exact scores once per day, stores them in
+            the catalog, then combines them using 60% VNDB and 40% Bangumi.
           </p>
           <div className="weight-list" aria-label="Source weights">
             <span><strong>60%</strong> VNDB</span>
