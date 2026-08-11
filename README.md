@@ -133,14 +133,13 @@ requests only the repository, Pages, and deployment permissions it needs.
 
 ## Ranking method
 
-- Each source value: rating multiplied by votes
-- Each source value is normalized against that source's catalog maximum
-- Overall score: 60% normalized VNDB + 40% normalized Bangumi
+- Each source contributes its rating multiplied by its vote count
+- The products are added and divided by the title's combined vote count
+- The community with more votes for that title has more influence
 - Output: top 50 from the manually curated catalog
 
 Bangumi's 10-point API score is converted to the same 100-point scale as VNDB.
-The final overall score remains on a readable 0-to-100 scale while giving more
-popular, highly rated titles a higher position.
+The final result is a vote-weighted average on the same 0-to-100 scale.
 If one source temporarily fails, its last stored value is kept and the error is
 written into that title's catalog object.
 

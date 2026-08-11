@@ -21,11 +21,6 @@ export type RankingItem = {
   sources: Record<SourceKey, SourceScore>;
 };
 
-export const sourceWeights: Record<SourceKey, number> = {
-  vndb: 0.6,
-  bangumi: 0.4,
-};
-
 export function scoreFor(item: RankingItem) {
   return Number.isFinite(item.overallScore) ? item.overallScore : 0;
 }
@@ -37,33 +32,18 @@ export type PopularityRecord = {
   bangumiVotes?: number | null;
 };
 
-export type SourceMaximums = Record<SourceKey, number>;
+export function voteWeightedScore(title: PopularityRecord) {
+  const vndbScore = title.vndbScore ?? 0;
+  const vndbVotes = title.vndbVotes ?? 0;
+  const bangumiScore = title.bangumiScore ?? 0;
+  const bangumiVotes = title.bangumiVotes ?? 0;
+  const totalVotes = vndbVotes + bangumiVotes;
 
-export function sourceProduct(title: PopularityRecord, source: SourceKey) {
-  const score = source === "vndb" ? title.vndbScore : title.bangumiScore;
-  const votes = source === "vndb" ? title.vndbVotes : title.bangumiVotes;
-  return Number.isFinite(score) && Number.isFinite(votes) && (votes ?? 0) > 0
-    ? (score ?? 0) * (votes ?? 0)
-    : 0;
-}
-
-export function sourceMaximums(titles: PopularityRecord[]): SourceMaximums {
-  return {
-    vndb: Math.max(0, ...titles.map((title) => sourceProduct(title, "vndb"))),
-    bangumi: Math.max(0, ...titles.map((title) => sourceProduct(title, "bangumi"))),
-  };
-}
-
-export function popularityScore(
-  title: PopularityRecord,
-  maximums: SourceMaximums,
-) {
-  return (Object.keys(sourceWeights) as SourceKey[]).reduce((total, source) => {
-    const normalized = maximums[source]
-      ? sourceProduct(title, source) / maximums[source] * 100
-      : 0;
-    return total + normalized * sourceWeights[source];
-  }, 0);
+  if (totalVotes === 0) return 0;
+  return (
+    vndbScore * (vndbVotes / totalVotes) +
+    bangumiScore * (bangumiVotes / totalVotes)
+  );
 }
 
 export type CatalogTitle = {

@@ -276,12 +276,12 @@ export function Rankings() {
           <p>
             You choose every title and permanently link its VNDB and Bangumi records.
             GitHub Actions refreshes those exact scores once per day, stores them in
-            the catalog, multiplies each rating by its votes, normalizes each source
-            to 100, then combines them using 60% VNDB and 40% Bangumi.
+            the catalog, then averages the two ratings with the vote count from
+            each community determining its influence.
           </p>
-          <div className="weight-list" aria-label="Source weights">
-            <span><strong>60%</strong> VNDB</span>
-            <span><strong>40%</strong> Bangumi</span>
+          <div className="weight-list" aria-label="Score formula">
+            <span><strong>Rating × votes</strong> for each source</span>
+            <span><strong>÷ combined votes</strong> overall</span>
           </div>
         </section>
 

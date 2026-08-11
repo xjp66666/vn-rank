@@ -420,10 +420,9 @@ The major steps in code are:
 3. `mapConcurrent()` refreshes titles with a concurrency limit of six.
 4. `Promise.allSettled()` lets one API fail without losing the other API's data.
 5. `mergeMetadata()` prefers new values while preserving useful stored values.
-6. `sourceMaximums()` finds the largest rating-times-votes product per source.
-7. `overallScore()` normalizes those products and calculates a comparable score.
-8. The array is sorted descending and `.slice(0, 50)` keeps the top 50.
-9. `JSON.stringify(..., null, 2)` writes readable, indented JSON.
+6. `overallScore()` calculates the vote-weighted average.
+7. The array is sorted descending and `.slice(0, 50)` keeps the top 50.
+8. `JSON.stringify(..., null, 2)` writes readable, indented JSON.
 
 If one source fails, the script retains that source's last stored score and
 writes the reason to `lastError`. If every request to every source fails, it
@@ -432,47 +431,42 @@ throws an error before overwriting the existing files.
 ## 11. Ranking calculation
 
 VNDB ratings already use a 100-point scale. Bangumi's 10-point score is
-multiplied by 10 when stored, so both ratings share the same scale. Vote count
-then makes the ranking favor titles that are both highly rated and popular.
+multiplied by 10 when stored, so both ratings share the same scale. The source
+with more votes for a particular title has more influence on its overall score.
 
-First, calculate a raw popularity value for every title at each source:
-
-```text
-raw source value = rating x votes
-```
-
-VNDB and Bangumi have different audience sizes, so their raw products cannot be
-combined directly. Each source is normalized separately against its largest
-product in the complete catalog:
+The complete formula is:
 
 ```text
-normalized source value = raw source value / largest source value x 100
+total votes = VNDB votes + Bangumi votes
+
+overall = (VNDB score x VNDB votes + Bangumi score x Bangumi votes)
+          / total votes
 ```
 
-Finally, combine the two normalized values:
+The same calculation can be written as two vote shares:
 
 ```text
-overall = normalized VNDB x 0.60 + normalized Bangumi x 0.40
+overall = VNDB score x (VNDB votes / total votes)
+        + Bangumi score x (Bangumi votes / total votes)
 ```
 
-For a simplified example, suppose a title has a VNDB raw product of 400,000 and
-the largest VNDB product is 1,000,000. Its normalized VNDB value is 40. Suppose
-its normalized Bangumi value is 80:
+For WHITE ALBUM2 using example stored values:
 
 ```text
-VNDB:    40 x 0.60 = 24
-Bangumi: 80 x 0.40 = 32
-Overall:             56
+total votes = 4,425 + 7,100 = 11,525
+
+overall = (90.3 x 4,425 + 91.0 x 7,100) / 11,525
+        = 90.73
 ```
 
-Normalization keeps the overall result between 0 and 100 and preserves the
-intended 60/40 source split even when one community has many more voters. A
-missing source product counts as zero. A temporary request failure normally
-retains its last stored rating and vote count before the calculation runs.
+This remains between 0 and 100. The formula does not give a direct bonus merely
+for having more total votes; vote counts determine how strongly each source's
+rating influences the average. If both vote counts are zero, the score is zero.
+A temporary request failure normally retains its last stored rating and vote
+count before the calculation runs.
 
 The generated `public/data/rankings.json` stores `overallScore` for every
-published title and also records the calculation method, weights, and maximum
-products used for that run.
+published title and records `vote-weighted-average` as the calculation method.
 
 The formula has two implementations because the Node updater and browser-based
 catalog preview run in different environments:
@@ -480,7 +474,7 @@ catalog preview run in different environments:
 - `scripts/update-rankings.mjs` generates the top 50;
 - `src/ranking.ts` calculates the same preview in the catalog manager.
 
-If you change the formula or weights, update both places to keep them consistent.
+If you change the formula, update both places to keep them consistent.
 
 The 500-vote requirement applies only when initially importing candidates with
 `npm run import:top`. The daily updater refreshes every manually curated title,

@@ -152,36 +152,21 @@ async function mapConcurrent(items, concurrency, worker) {
   return results;
 }
 
-const sourceWeights = { vndb: 0.6, bangumi: 0.4 };
+function overallScore(title) {
+  const vndbScore = title.vndbScore ?? 0;
+  const vndbVotes = title.vndbVotes ?? 0;
+  const bangumiScore = title.bangumiScore ?? 0;
+  const bangumiVotes = title.bangumiVotes ?? 0;
+  const totalVotes = vndbVotes + bangumiVotes;
 
-function sourceProduct(title, source) {
-  const score = title[`${source}Score`];
-  const votes = title[`${source}Votes`];
-  return Number.isFinite(score) && Number.isFinite(votes) && votes > 0
-    ? score * votes
-    : 0;
-}
-
-function sourceMaximums(titles) {
-  return Object.fromEntries(
-    Object.keys(sourceWeights).map((source) => [
-      source,
-      Math.max(0, ...titles.map((title) => sourceProduct(title, source))),
-    ]),
+  if (totalVotes === 0) return 0;
+  return (
+    vndbScore * (vndbVotes / totalVotes) +
+    bangumiScore * (bangumiVotes / totalVotes)
   );
 }
 
-function overallScore(title, maximums) {
-  return Object.entries(sourceWeights).reduce((total, [source, weight]) => {
-    const maximum = maximums[source];
-    const normalized = maximum
-      ? sourceProduct(title, source) / maximum * 100
-      : 0;
-    return total + normalized * weight;
-  }, 0);
-}
-
-function toRanking(title, maximums) {
+function toRanking(title) {
   const metadata = title.metadata ?? {};
   return {
     id: title.vndbId,
@@ -194,7 +179,7 @@ function toRanking(title, maximums) {
     genres: metadata.genres?.length ? metadata.genres : ["Visual novel"],
     platforms: metadata.platforms?.length ? metadata.platforms : ["PC"],
     synopsis: metadata.synopsis || "This title is part of the manually curated visual novel database.",
-    overallScore: overallScore(title, maximums),
+    overallScore: overallScore(title),
     sources: {
       vndb: { score: title.vndbScore, votes: title.vndbVotes, href: `https://vndb.org/${title.vndbId}` },
       bangumi: { score: title.bangumiScore, votes: title.bangumiVotes, href: `https://bgm.tv/subject/${title.bangumiId}` },
@@ -211,9 +196,8 @@ if (catalog.titles.length && !refreshed.some((result) => result.successes > 0)) 
 }
 
 catalog.titles = refreshed.map((result) => result.title);
-const maximumProducts = sourceMaximums(catalog.titles);
 const rankings = catalog.titles
-  .map((title) => toRanking(title, maximumProducts))
+  .map((title) => toRanking(title))
   .sort((a, b) => b.overallScore - a.overallScore)
   .slice(0, 50);
 
@@ -227,9 +211,8 @@ await writeFile(
     source: "github-actions-static",
     catalogSize: catalog.titles.length,
     calculation: {
-      method: "normalized-rating-times-votes",
-      weights: sourceWeights,
-      maximumProducts,
+      method: "vote-weighted-average",
+      formula: "(vndbScore * vndbVotes + bangumiScore * bangumiVotes) / totalVotes",
     },
   }, null, 2)}\n`,
 );

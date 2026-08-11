@@ -1,8 +1,7 @@
-import { type FormEvent, useMemo, useState } from "react";
+import { type FormEvent, useState } from "react";
 import initialCatalogJson from "../data/catalog.json";
 import {
-  popularityScore,
-  sourceMaximums,
+  voteWeightedScore,
   type CatalogFile,
   type CatalogRecord,
 } from "./ranking";
@@ -29,7 +28,6 @@ export function Manage() {
   const [status, setStatus] = useState(
     "Edit the catalog here, then download and commit the JSON file.",
   );
-  const maximumProducts = useMemo(() => sourceMaximums(titles), [titles]);
 
   function saveTitle(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -170,7 +168,7 @@ export function Manage() {
               <div className="catalog-scores">
                 <span><small>VNDB</small>{formatScore(title.vndbScore)}</span>
                 <span><small>Bangumi</small>{formatScore(title.bangumiScore)}</span>
-                <strong>{formatScore(popularityScore(title, maximumProducts))}</strong>
+                <strong>{formatScore(voteWeightedScore(title))}</strong>
               </div>
               <div className="catalog-actions">
                 <button onClick={() => editTitle(title)} type="button">Edit</button>

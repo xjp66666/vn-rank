@@ -37,19 +37,8 @@ if (rankings.rankings.length > 50) {
   throw new Error("public/data/rankings.json cannot contain more than 50 rankings");
 }
 
-if (rankings.calculation?.method !== "normalized-rating-times-votes") {
-  throw new Error("rankings must use the normalized-rating-times-votes calculation");
-}
-
-for (const source of ["vndb", "bangumi"]) {
-  const weight = rankings.calculation.weights?.[source];
-  const maximum = rankings.calculation.maximumProducts?.[source];
-  if (!Number.isFinite(weight) || weight < 0 || weight > 1) {
-    throw new Error(`rankings calculation has an invalid ${source} weight`);
-  }
-  if (!Number.isFinite(maximum) || maximum <= 0) {
-    throw new Error(`rankings calculation has an invalid ${source} maximum product`);
-  }
+if (rankings.calculation?.method !== "vote-weighted-average") {
+  throw new Error("rankings must use the vote-weighted-average calculation");
 }
 
 const vndbIds = new Set();
@@ -97,15 +86,14 @@ for (const [index, title] of rankings.rankings.entries()) {
     throw new Error(`ranking ${index + 1} must have an overallScore from 0 to 100`);
   }
 
-  const expectedScore = ["vndb", "bangumi"].reduce((total, source) => {
-    const score = title.sources?.[source]?.score;
-    const votes = title.sources?.[source]?.votes;
-    const product = Number.isFinite(score) && Number.isFinite(votes) && votes > 0
-      ? score * votes
-      : 0;
-    return total + product / rankings.calculation.maximumProducts[source]
-      * 100 * rankings.calculation.weights[source];
-  }, 0);
+  const vndbScore = title.sources?.vndb?.score ?? 0;
+  const vndbVotes = title.sources?.vndb?.votes ?? 0;
+  const bangumiScore = title.sources?.bangumi?.score ?? 0;
+  const bangumiVotes = title.sources?.bangumi?.votes ?? 0;
+  const totalVotes = vndbVotes + bangumiVotes;
+  const expectedScore = totalVotes
+    ? (vndbScore * vndbVotes + bangumiScore * bangumiVotes) / totalVotes
+    : 0;
   if (Math.abs(title.overallScore - expectedScore) > 1e-8) {
     throw new Error(`ranking ${index + 1} has an incorrectly calculated overallScore`);
   }
