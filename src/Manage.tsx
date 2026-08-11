@@ -1,6 +1,11 @@
-import { type FormEvent, useState } from "react";
+import { type FormEvent, useMemo, useState } from "react";
 import initialCatalogJson from "../data/catalog.json";
-import type { CatalogFile, CatalogRecord } from "./ranking";
+import {
+  popularityScore,
+  sourceMaximums,
+  type CatalogFile,
+  type CatalogRecord,
+} from "./ranking";
 
 type FormState = { name: string; vndbId: string; bangumiId: string };
 const emptyForm: FormState = { name: "", vndbId: "", bangumiId: "" };
@@ -18,27 +23,13 @@ function formatScore(value: number | null | undefined) {
   return value == null ? "–" : value.toFixed(1);
 }
 
-function overallScore(title: CatalogRecord) {
-  const values = [
-    [title.vndbScore, 0.6],
-    [title.bangumiScore, 0.4],
-  ] as const;
-  const available = values.filter(([score]) => score != null);
-  const weight = available.reduce((total, [, itemWeight]) => total + itemWeight, 0);
-  return weight
-    ? available.reduce(
-        (total, [score, itemWeight]) => total + (score ?? 0) * itemWeight / weight,
-        0,
-      )
-    : null;
-}
-
 export function Manage() {
   const [titles, setTitles] = useState<CatalogRecord[]>(initialCatalog.titles);
   const [form, setForm] = useState(emptyForm);
   const [status, setStatus] = useState(
     "Edit the catalog here, then download and commit the JSON file.",
   );
+  const maximumProducts = useMemo(() => sourceMaximums(titles), [titles]);
 
   function saveTitle(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -179,7 +170,7 @@ export function Manage() {
               <div className="catalog-scores">
                 <span><small>VNDB</small>{formatScore(title.vndbScore)}</span>
                 <span><small>Bangumi</small>{formatScore(title.bangumiScore)}</span>
-                <strong>{formatScore(overallScore(title))}</strong>
+                <strong>{formatScore(popularityScore(title, maximumProducts))}</strong>
               </div>
               <div className="catalog-actions">
                 <button onClick={() => editTitle(title)} type="button">Edit</button>

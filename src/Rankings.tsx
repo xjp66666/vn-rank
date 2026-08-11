@@ -6,11 +6,8 @@ import {
 } from "./ranking";
 import { loadStaticRankings } from "./data";
 
-type ViewMode = SourceKey | "consensus";
-
 const activeSources: SourceKey[] = ["vndb", "bangumi"];
-const sourceLabels: Record<ViewMode, string> = {
-  consensus: "Overall",
+const sourceLabels: Record<SourceKey, string> = {
   vndb: "VNDB",
   bangumi: "Bangumi",
 };
@@ -27,7 +24,6 @@ function formatRuntime(minutes: number | null) {
 
 export function Rankings() {
   const [rankings, setRankings] = useState<RankingItem[]>([]);
-  const [view, setView] = useState<ViewMode>("consensus");
   const [query, setQuery] = useState("");
   const [era, setEra] = useState("all");
   const [genre, setGenre] = useState("all");
@@ -73,11 +69,10 @@ export function Rankings() {
         const matchesEra =
           era === "all" || (item.year >= eraStart && item.year < eraStart + 10);
         const matchesGenre = genre === "all" || item.genres.includes(genre);
-        const hasSource = view === "consensus" || item.sources[view].score !== null;
-        return matchesText && matchesEra && matchesGenre && hasSource;
+        return matchesText && matchesEra && matchesGenre;
       })
-      .sort((a, b) => scoreFor(b, view) - scoreFor(a, view));
-  }, [rankings, query, era, genre, view]);
+      .sort((a, b) => scoreFor(b) - scoreFor(a));
+  }, [rankings, query, era, genre]);
 
   const lastUpdated = updatedAt
     ? new Date(updatedAt).toLocaleDateString(undefined, {
@@ -146,18 +141,6 @@ export function Rankings() {
         </div>
 
         <div className="ranking-nav">
-          <div className="source-tabs" role="group" aria-label="Ranking source">
-            {(Object.keys(sourceLabels) as ViewMode[]).map((source) => (
-              <button
-                className={view === source ? "selected" : ""}
-                key={source}
-                onClick={() => setView(source)}
-                type="button"
-              >
-                {sourceLabels[source]}
-              </button>
-            ))}
-          </div>
           <p>
             {visibleRankings.length} {visibleRankings.length === 1 ? "title" : "titles"}
           </p>
@@ -168,7 +151,7 @@ export function Rankings() {
             <span>Rank</span>
             <span>Title</span>
             <span>Source scores</span>
-            <span>{sourceLabels[view]} score</span>
+            <span>Overall score</span>
           </div>
 
           {visibleRankings.map((item, index) => {
@@ -215,7 +198,7 @@ export function Rankings() {
                     ))}
                   </span>
                   <strong className="overall-score">
-                    {scoreFor(item, view).toFixed(1)}
+                    {scoreFor(item).toFixed(1)}
                   </strong>
                   <span className="expand-button" aria-hidden="true">
                     {isExpanded ? "−" : "+"}
@@ -293,7 +276,8 @@ export function Rankings() {
           <p>
             You choose every title and permanently link its VNDB and Bangumi records.
             GitHub Actions refreshes those exact scores once per day, stores them in
-            the catalog, then combines them using 60% VNDB and 40% Bangumi.
+            the catalog, multiplies each rating by its votes, normalizes each source
+            to 100, then combines them using 60% VNDB and 40% Bangumi.
           </p>
           <div className="weight-list" aria-label="Source weights">
             <span><strong>60%</strong> VNDB</span>

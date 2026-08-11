@@ -5,6 +5,10 @@ daily GitHub Actions workflow fetches the exact VNDB and Bangumi records, stores
 their current scores in the catalog, calculates the combined top 50, and deploys
 the result to GitHub Pages.
 
+New to JavaScript, HTTP, or GitHub Actions? Read the
+**[complete beginner guide](docs/BEGINNER_GUIDE.md)**. Catalog contributors can
+use the shorter **[contribution checklist](CONTRIBUTING.md)**.
+
 ```text
 data/catalog.json (manual database)
         |
@@ -77,7 +81,8 @@ Requirements: Node.js 22 or later.
 Open `http://localhost:3000`. You can also run `npm run build` to produce the
 deployable `dist/` directory.
 
-Before pushing, run `npm run check` to lint, type-check, and build the site.
+Before pushing, run `npm run check` to validate data, lint, type-check, and build
+the site.
 
 To fill an empty catalog from VNDB's highest-rated titles, run
 `npm run import:top`. The importer requires at least 500 VNDB votes by default,
@@ -124,11 +129,14 @@ requests only the repository, Pages, and deployment permissions it needs.
 
 ## Ranking method
 
-- VNDB: 60%
-- Bangumi: 40%
+- Each source value: rating multiplied by votes
+- Each source value is normalized against that source's catalog maximum
+- Overall score: 60% normalized VNDB + 40% normalized Bangumi
 - Output: top 50 from the manually curated catalog
 
 Bangumi's 10-point API score is converted to the same 100-point scale as VNDB.
+The final overall score remains on a readable 0-to-100 scale while giving more
+popular, highly rated titles a higher position.
 If one source temporarily fails, its last stored value is kept and the error is
 written into that title's catalog object.
 

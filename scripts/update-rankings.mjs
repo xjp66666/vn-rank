@@ -152,18 +152,36 @@ async function mapConcurrent(items, concurrency, worker) {
   return results;
 }
 
-function overallScore(title) {
-  const available = [
-    [title.vndbScore, 0.6],
-    [title.bangumiScore, 0.4],
-  ].filter(([score]) => score !== null && score !== undefined);
-  const totalWeight = available.reduce((total, [, weight]) => total + weight, 0);
-  return totalWeight
-    ? available.reduce((total, [score, weight]) => total + score * weight / totalWeight, 0)
+const sourceWeights = { vndb: 0.6, bangumi: 0.4 };
+
+function sourceProduct(title, source) {
+  const score = title[`${source}Score`];
+  const votes = title[`${source}Votes`];
+  return Number.isFinite(score) && Number.isFinite(votes) && votes > 0
+    ? score * votes
     : 0;
 }
 
-function toRanking(title) {
+function sourceMaximums(titles) {
+  return Object.fromEntries(
+    Object.keys(sourceWeights).map((source) => [
+      source,
+      Math.max(0, ...titles.map((title) => sourceProduct(title, source))),
+    ]),
+  );
+}
+
+function overallScore(title, maximums) {
+  return Object.entries(sourceWeights).reduce((total, [source, weight]) => {
+    const maximum = maximums[source];
+    const normalized = maximum
+      ? sourceProduct(title, source) / maximum * 100
+      : 0;
+    return total + normalized * weight;
+  }, 0);
+}
+
+function toRanking(title, maximums) {
   const metadata = title.metadata ?? {};
   return {
     id: title.vndbId,
@@ -176,6 +194,7 @@ function toRanking(title) {
     genres: metadata.genres?.length ? metadata.genres : ["Visual novel"],
     platforms: metadata.platforms?.length ? metadata.platforms : ["PC"],
     synopsis: metadata.synopsis || "This title is part of the manually curated visual novel database.",
+    overallScore: overallScore(title, maximums),
     sources: {
       vndb: { score: title.vndbScore, votes: title.vndbVotes, href: `https://vndb.org/${title.vndbId}` },
       bangumi: { score: title.bangumiScore, votes: title.bangumiVotes, href: `https://bgm.tv/subject/${title.bangumiId}` },
@@ -192,21 +211,26 @@ if (catalog.titles.length && !refreshed.some((result) => result.successes > 0)) 
 }
 
 catalog.titles = refreshed.map((result) => result.title);
+const maximumProducts = sourceMaximums(catalog.titles);
 const rankings = catalog.titles
-  .map(toRanking)
-  .sort((a, b) => {
-    const source = (item) => {
-      const title = catalog.titles.find((entry) => entry.vndbId === item.id);
-      return overallScore(title);
-    };
-    return source(b) - source(a);
-  })
+  .map((title) => toRanking(title, maximumProducts))
+  .sort((a, b) => b.overallScore - a.overallScore)
   .slice(0, 50);
 
 await mkdir(resolve(root, "public/data"), { recursive: true });
 await writeFile(catalogPath, `${JSON.stringify(catalog, null, 2)}\n`);
 await writeFile(
   rankingsPath,
-  `${JSON.stringify({ rankings, updatedAt: catalog.titles.length ? runAt : null, source: "github-actions-static", catalogSize: catalog.titles.length }, null, 2)}\n`,
+  `${JSON.stringify({
+    rankings,
+    updatedAt: catalog.titles.length ? runAt : null,
+    source: "github-actions-static",
+    catalogSize: catalog.titles.length,
+    calculation: {
+      method: "normalized-rating-times-votes",
+      weights: sourceWeights,
+      maximumProducts,
+    },
+  }, null, 2)}\n`,
 );
 console.log(`Updated ${catalog.titles.length} catalog titles and wrote ${rankings.length} rankings.`);

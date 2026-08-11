@@ -17,6 +17,7 @@ export type RankingItem = {
   genres: string[];
   platforms: string[];
   synopsis: string;
+  overallScore: number;
   sources: Record<SourceKey, SourceScore>;
 };
 
@@ -25,24 +26,44 @@ export const sourceWeights: Record<SourceKey, number> = {
   bangumi: 0.4,
 };
 
-export function scoreFor(
-  item: RankingItem,
-  source: SourceKey | "consensus" = "consensus",
+export function scoreFor(item: RankingItem) {
+  return Number.isFinite(item.overallScore) ? item.overallScore : 0;
+}
+
+export type PopularityRecord = {
+  vndbScore?: number | null;
+  vndbVotes?: number | null;
+  bangumiScore?: number | null;
+  bangumiVotes?: number | null;
+};
+
+export type SourceMaximums = Record<SourceKey, number>;
+
+export function sourceProduct(title: PopularityRecord, source: SourceKey) {
+  const score = source === "vndb" ? title.vndbScore : title.bangumiScore;
+  const votes = source === "vndb" ? title.vndbVotes : title.bangumiVotes;
+  return Number.isFinite(score) && Number.isFinite(votes) && (votes ?? 0) > 0
+    ? (score ?? 0) * (votes ?? 0)
+    : 0;
+}
+
+export function sourceMaximums(titles: PopularityRecord[]): SourceMaximums {
+  return {
+    vndb: Math.max(0, ...titles.map((title) => sourceProduct(title, "vndb"))),
+    bangumi: Math.max(0, ...titles.map((title) => sourceProduct(title, "bangumi"))),
+  };
+}
+
+export function popularityScore(
+  title: PopularityRecord,
+  maximums: SourceMaximums,
 ) {
-  if (source !== "consensus") return item.sources[source].score ?? 0;
-  const available = (Object.keys(sourceWeights) as SourceKey[]).filter(
-    (key) => item.sources[key].score !== null,
-  );
-  const weightTotal = available.reduce(
-    (total, key) => total + sourceWeights[key],
-    0,
-  );
-  if (!weightTotal) return 0;
-  return available.reduce(
-    (total, key) =>
-      total + ((item.sources[key].score ?? 0) * sourceWeights[key]) / weightTotal,
-    0,
-  );
+  return (Object.keys(sourceWeights) as SourceKey[]).reduce((total, source) => {
+    const normalized = maximums[source]
+      ? sourceProduct(title, source) / maximums[source] * 100
+      : 0;
+    return total + normalized * sourceWeights[source];
+  }, 0);
 }
 
 export type CatalogTitle = {

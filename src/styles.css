@@ -190,33 +190,8 @@ a {
 .ranking-nav {
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin: 26px 0 14px;
-}
-
-.source-tabs {
-  background: #e9eaee;
-  border-radius: 10px;
-  display: inline-flex;
-  padding: 3px;
-}
-
-.source-tabs button {
-  background: transparent;
-  border: 0;
-  border-radius: 8px;
-  color: var(--muted);
-  cursor: pointer;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 9px 15px;
-  transition: background 150ms ease, color 150ms ease, box-shadow 150ms ease;
-}
-
-.source-tabs button.selected {
-  background: var(--surface);
-  box-shadow: 0 1px 4px rgba(20, 22, 27, 0.09);
-  color: var(--text);
 }
 
 .ranking-nav > p {
@@ -917,22 +892,6 @@ select:focus-visible {
 
   .select-control:first-of-type {
     border-right: 1px solid var(--border);
-  }
-
-  .ranking-nav {
-    align-items: start;
-    display: grid;
-    gap: 10px;
-  }
-
-  .source-tabs {
-    max-width: 100%;
-    overflow-x: auto;
-  }
-
-  .source-tabs button {
-    flex: 0 0 auto;
-    padding: 8px 12px;
   }
 
   .list-head {
