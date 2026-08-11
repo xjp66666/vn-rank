@@ -15,11 +15,11 @@ export async function generateMetadata(): Promise<Metadata> {
     metadataBase: new URL(origin),
     title: "VN Rank - Simple visual novel rankings",
     description:
-      "A transparent visual novel leaderboard combining VNDB, Bangumi, and ErogameScape community scores.",
+      "A transparent visual novel leaderboard combining VNDB and Bangumi community scores.",
     openGraph: {
       title: "VN Rank - Simple visual novel rankings",
       description:
-        "One ranking built from three visual novel communities.",
+        "One ranking built from VNDB and Bangumi.",
       type: "website",
       url: origin,
       images: [{ url: `${origin}/og-simple.png`, width: 1200, height: 630 }],
@@ -28,7 +28,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title: "VN Rank - Simple visual novel rankings",
       description:
-        "One ranking built from three visual novel communities.",
+        "One ranking built from VNDB and Bangumi.",
       images: [`${origin}/og-simple.png`],
     },
   };

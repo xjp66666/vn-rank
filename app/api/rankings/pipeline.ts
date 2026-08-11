@@ -2,7 +2,6 @@ import { seedRankings, sourceWeights, type RankingItem, type SourceKey } from ".
 
 const SITE_AGENT =
   "VN-Rank/0.4 (+https://vn-rank-index.hellostevenleong.chatgpt.site)";
-const EGS_BASE = "https://erogamescape.org/~ap2/ero/toukei_kaiseki/";
 
 export const VNDB_MIN_VOTES = 500;
 
@@ -35,16 +34,10 @@ type BangumiEntry = RawSourceEntry & {
   tags: string[];
 };
 
-type EgsEntry = RawSourceEntry & {
-  source: "erogamescape";
-  released: string;
-};
-
 type Candidate = {
   canonicalKey: string;
   vndb: VndbEntry;
   bangumi?: BangumiEntry;
-  erogamescape?: EgsEntry;
 };
 
 type BangumiSubject = {
@@ -280,93 +273,14 @@ async function searchBangumi(vn: VndbEntry): Promise<BangumiEntry | null> {
   };
 }
 
-function escapeSqlLiteral(value: string) {
-  return `'${value.replace(/'/g, "''")}'`;
-}
-
-async function fetchErogameScape(vndb: VndbEntry[]): Promise<EgsEntry[]> {
-  const searchableTitles = uniqueStrings(
-    vndb.flatMap((item) => item.searchTitles.slice(0, 2)),
-  );
-  const sql = `SELECT id, gamename, sellday, median, count2
-    FROM gamelist
-    WHERE gamename IN (${searchableTitles.map(escapeSqlLiteral).join(",")})
-      AND median IS NOT NULL
-      AND count2 > 0
-    ORDER BY count2 DESC, id`;
-  const response = await fetch(`${EGS_BASE}sql_for_erogamer_form.php`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-      Accept: "text/html",
-      "User-Agent": SITE_AGENT,
-    },
-    body: new URLSearchParams({ sql }),
-    signal: AbortSignal.timeout(30_000),
-  });
-  if (!response.ok) throw new Error(`ErogameScape returned ${response.status}`);
-
-  const titleIndex = new Map<string, VndbEntry[]>();
-  for (const item of vndb) {
-    for (const title of item.searchTitles.slice(0, 2)) {
-      const key = normalizeTitle(title);
-      titleIndex.set(key, [...(titleIndex.get(key) ?? []), item]);
-    }
-  }
-
-  const bestByRank = new Map<
-    number,
-    { entry: EgsEntry; matchScore: number }
-  >();
-  const html = await response.text();
-  for (const row of html.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)) {
-    const cells = Array.from(row[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)).map(
-      (cell) => stripHtml(cell[1]),
-    );
-    if (cells.length < 5) continue;
-    const [externalId, title, released, scoreText, votesText] = cells;
-    const score = Number(scoreText);
-    const votes = Number(votesText);
-    if (!/^\d+$/.test(externalId) || !Number.isFinite(score) || !Number.isFinite(votes)) {
-      continue;
-    }
-
-    const owners = titleIndex.get(normalizeTitle(title)) ?? [];
-    for (const vn of owners) {
-      const vnYear = Number(vn.released.slice(0, 4));
-      const releaseYear = Number(released.slice(0, 4));
-      const yearDistance =
-        vnYear && releaseYear ? Math.abs(vnYear - releaseYear) : Number.POSITIVE_INFINITY;
-      const matchScore =
-        (yearDistance === 0 ? 100 : yearDistance === 1 ? 30 : 0) +
-        Math.log10(votes + 1);
-      if ((bestByRank.get(vn.sourceRank)?.matchScore ?? -1) >= matchScore) continue;
-      bestByRank.set(vn.sourceRank, {
-        matchScore,
-        entry: {
-          source: "erogamescape",
-          sourceRank: vn.sourceRank,
-          externalId,
-          title,
-          released,
-          score,
-          votes,
-          href: `${EGS_BASE}game.php?game=${externalId}`,
-        },
-      });
-    }
-  }
-
-  return Array.from(bestByRank.values()).map(({ entry }) => entry);
-}
-
 function findUsefulTags(tags: string[]) {
   const ignored = /^(pc|ps[2-5]|psp|psv|ns|switch|xbox|windows|galgame|game|游戏)$/i;
   return tags.filter((tag) => !ignored.test(tag)).slice(0, 2);
 }
 
 function calculateScore(candidate: Candidate) {
-  const available = (Object.keys(sourceWeights) as SourceKey[]).filter(
+  const activeSources = ["vndb", "bangumi"] as const;
+  const available = activeSources.filter(
     (source) => candidate[source]?.score !== undefined,
   );
   const weightTotal = available.reduce(
@@ -378,31 +292,23 @@ function calculateScore(candidate: Candidate) {
       total + ((candidate[source]?.score ?? 0) * sourceWeights[source]) / weightTotal,
     0,
   );
-  const coverageFactor = available.length === 3 ? 1 : available.length === 2 ? 0.97 : 0.88;
+  const coverageFactor = available.length === 2 ? 1 : 0.9;
   return { score: weighted * coverageFactor, sourceCount: available.length };
 }
 
 export async function runDailyPipeline(): Promise<PipelineResult> {
   const vndb = await fetchVndb();
-  const [bangumi, erogamescape] = await Promise.all([
-    mapWithConcurrency(vndb, 8, searchBangumi),
-    fetchErogameScape(vndb),
-  ]);
+  const bangumi = await mapWithConcurrency(vndb, 8, searchBangumi);
 
   if (bangumi.length < 20) {
     throw new Error(`Bangumi matched only ${bangumi.length} VNDB entries`);
   }
-  if (erogamescape.length < 20) {
-    throw new Error(`ErogameScape matched only ${erogamescape.length} VNDB entries`);
-  }
 
   const bangumiByRank = new Map(bangumi.map((item) => [item.sourceRank, item]));
-  const egsByRank = new Map(erogamescape.map((item) => [item.sourceRank, item]));
   const candidates: Candidate[] = vndb.map((item) => ({
     canonicalKey: `vndb:${item.externalId}`,
     vndb: item,
     bangumi: bangumiByRank.get(item.sourceRank),
-    erogamescape: egsByRank.get(item.sourceRank),
   }));
 
   const ranked = candidates
@@ -444,9 +350,9 @@ export async function runDailyPipeline(): Promise<PipelineResult> {
           href: candidate.bangumi?.href ?? null,
         },
         erogamescape: {
-          score: candidate.erogamescape?.score ?? null,
-          votes: candidate.erogamescape?.votes ?? null,
-          href: candidate.erogamescape?.href ?? null,
+          score: null,
+          votes: null,
+          href: null,
         },
       },
     } satisfies RankingItem;
@@ -454,11 +360,11 @@ export async function runDailyPipeline(): Promise<PipelineResult> {
 
   return {
     rankings,
-    rawEntries: [...vndb, ...bangumi, ...erogamescape],
+    rawEntries: [...vndb, ...bangumi],
     sourceCounts: {
       vndb: vndb.length,
       bangumi: bangumi.length,
-      erogamescape: erogamescape.length,
+      erogamescape: 0,
     },
     matchedCount: ranked.filter((item) => item.sourceCount >= 2).length,
   };

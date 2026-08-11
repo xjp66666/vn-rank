@@ -8,13 +8,15 @@ import {
   type SourceKey,
 } from "./data";
 
-type ViewMode = SourceKey | "consensus";
+type ActiveSourceKey = Exclude<SourceKey, "erogamescape">;
+type ViewMode = ActiveSourceKey | "consensus";
+
+const activeSources: ActiveSourceKey[] = ["vndb", "bangumi"];
 
 const sourceLabels: Record<ViewMode, string> = {
   consensus: "Overall",
   vndb: "VNDB",
   bangumi: "Bangumi",
-  erogamescape: "ErogameScape",
 };
 
 const formatVotes = (value: number | null) => {
@@ -102,7 +104,7 @@ export default function Home() {
             <p className="brand">VN Rank</p>
             <h1>Visual novel rankings</h1>
             <p className="intro-copy">
-              A simple combined ranking from VNDB, Bangumi, and ErogameScape.
+              A simple combined ranking from VNDB and Bangumi.
             </p>
           </div>
           <div className="feed-status" aria-live="polite">
@@ -202,19 +204,16 @@ export default function Home() {
                     </span>
                     <span className="mobile-scores">
                       VNDB {item.sources.vndb.score?.toFixed(1) ?? "-"} / Bangumi{" "}
-                      {item.sources.bangumi.score?.toFixed(1) ?? "-"} / EGS{" "}
-                      {item.sources.erogamescape.score?.toFixed(1) ?? "-"}
+                      {item.sources.bangumi.score?.toFixed(1) ?? "-"}
                     </span>
                   </span>
                   <span className="source-scores">
-                    {(["vndb", "bangumi", "erogamescape"] as SourceKey[]).map(
-                      (source) => (
+                    {activeSources.map((source) => (
                         <span key={source}>
-                          <small>{source === "erogamescape" ? "EGS" : source}</small>
+                          <small>{source}</small>
                           <strong>{item.sources[source].score?.toFixed(1) ?? "-"}</strong>
                         </span>
-                      ),
-                    )}
+                      ))}
                   </span>
                   <strong className="overall-score">
                     {scoreFor(item, view).toFixed(1)}
@@ -236,7 +235,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="details-sources">
-                      {(Object.keys(item.sources) as SourceKey[]).map((source) =>
+                      {activeSources.map((source) =>
                         item.sources[source].href ? (
                           <a
                             href={item.sources[source].href ?? "#"}
@@ -280,18 +279,16 @@ export default function Home() {
         <section className="method-card" aria-labelledby="method-title">
           <div>
             <p className="section-label">How scores work</p>
-            <h2 id="method-title">One score, three communities.</h2>
+            <h2 id="method-title">One score, two communities.</h2>
           </div>
           <p>
             Each daily list starts with VNDB&apos;s top 100 visual novels that have
             at least 500 votes. Their Japanese or English titles are matched on
-            Bangumi and ErogameScape, then scores are combined using 45% VNDB,
-            30% Bangumi, and 25% ErogameScape.
+            Bangumi, then scores are combined using 60% VNDB and 40% Bangumi.
           </p>
           <div className="weight-list" aria-label="Source weights">
-            <span><strong>45%</strong> VNDB</span>
-            <span><strong>30%</strong> Bangumi</span>
-            <span><strong>25%</strong> ErogameScape</span>
+            <span><strong>60%</strong> VNDB</span>
+            <span><strong>40%</strong> Bangumi</span>
           </div>
         </section>
 

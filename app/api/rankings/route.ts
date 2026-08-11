@@ -2,7 +2,7 @@ import { env } from "cloudflare:workers";
 import { seedRankings, scoreFor, type RankingItem } from "../../data";
 import { runDailyPipeline, type PipelineResult } from "./pipeline";
 
-const PIPELINE_VERSION = 2;
+const PIPELINE_VERSION = 3;
 
 async function ensureSchema(db: D1Database) {
   await db.batch([

@@ -21,9 +21,9 @@ export type RankingItem = {
 };
 
 export const sourceWeights: Record<SourceKey, number> = {
-  vndb: 0.45,
-  bangumi: 0.3,
-  erogamescape: 0.25,
+  vndb: 0.6,
+  bangumi: 0.4,
+  erogamescape: 0,
 };
 
 export function scoreFor(
@@ -33,7 +33,7 @@ export function scoreFor(
   if (source !== "consensus") return item.sources[source].score ?? 0;
 
   const available = (Object.keys(sourceWeights) as SourceKey[]).filter(
-    (key) => item.sources[key].score !== null,
+    (key) => sourceWeights[key] > 0 && item.sources[key].score !== null,
   );
   const activeWeight = available.reduce(
     (total, key) => total + sourceWeights[key],
