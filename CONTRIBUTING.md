@@ -26,8 +26,9 @@ Before opening a pull request:
 
 Do not add API tokens, `.dev.vars`, `node_modules/`, `dist/`, or unrelated
 generated files. Contributors do not need a Bangumi token. After the pull
-request is merged, the repository's daily workflow fetches current scores and
-metadata using the owner's secret.
+request is merged, the deployment workflow fetches and publishes current scores
+using the owner's secret; the scheduled daily run also persists refreshed data
+in Git.
 
 ## Pull request checklist
 

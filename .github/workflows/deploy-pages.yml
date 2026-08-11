@@ -43,13 +43,16 @@ jobs:
         env:
           BANGUMI_ACCESS_TOKEN: ${{ secrets.BANGUMI_ACCESS_TOKEN }}
       - name: Commit refreshed scores
+        if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/catalog.json public/data/rankings.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh visual novel scores"
-            git push
+            if ! git push; then
+              echo "::warning::main changed during the refresh; deploying the refreshed data without committing it"
+            fi
           fi
       - run: npm run check
       - uses: actions/configure-pages@v5

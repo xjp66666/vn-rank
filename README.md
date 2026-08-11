@@ -112,10 +112,14 @@ variables, then run `npm run update:data`.
 The included workflow does all of this in one run:
 
 - fetches the current scores;
-- updates and commits `data/catalog.json`;
-- writes `public/data/rankings.json`;
+- updates `data/catalog.json` and `public/data/rankings.json`;
 - builds the static Vite frontend;
 - deploys it to GitHub Pages.
+
+Ordinary pushes refresh the deployed artifact without creating a competing bot
+commit. Scheduled and manually dispatched runs also commit refreshed JSON when
+`main` has not changed during the run. This reduces merge conflicts while still
+keeping daily data in Git history.
 
 It also runs every day at 08:17 UTC. The non-round minute reduces the chance of
 GitHub's top-of-hour scheduling congestion. Scheduled jobs can still start late;

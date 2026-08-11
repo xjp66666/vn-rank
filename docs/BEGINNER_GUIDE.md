@@ -641,7 +641,8 @@ The workflow then:
 4. installs exact dependencies with `npm ci`;
 5. validates the committed JSON before contacting APIs;
 6. refreshes VNDB and Bangumi data;
-7. commits changed JSON as `github-actions[bot]` and pushes it;
+7. on scheduled or manually started runs, commits changed JSON as
+   `github-actions[bot]` when `main` has not changed during the refresh;
 8. validates, lints, type-checks, and builds the site;
 9. uploads `dist/` as a GitHub Pages artifact;
 10. deploys that artifact.
@@ -649,6 +650,13 @@ The workflow then:
 The separate `.github/workflows/validate-pr.yml` runs `npm run check` for pull
 requests. It does not refresh scores and therefore does not expose the Bangumi
 secret to contributors.
+
+For a normal push, the workflow refreshes the data used by that deployment but
+does not create another commit immediately afterward. This prevents the bot from
+racing with your next local commit. The scheduled daily run and the **Run
+workflow** button persist refreshed JSON in Git. If `main` changes while one of
+those refreshes is running, the bot skips its push and still deploys its local
+result instead of attempting an automatic merge.
 
 ### Why permissions are declared
 
@@ -737,6 +745,9 @@ Before editing shared data, get the latest main branch:
 git switch main
 git pull --ff-only
 ```
+
+Run this before beginning a new change as well as immediately before pushing.
+The daily updater may have added a data commit since your last local pull.
 
 Do not type Git conflict markers into JSON. If a merge conflict occurs, Git may
 insert lines beginning with `<<<<<<<`, `=======`, and `>>>>>>>`. Choose the
