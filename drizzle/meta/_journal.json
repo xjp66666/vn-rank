@@ -1,5 +1,13 @@
 {
   "version": "7",
   "dialect": "sqlite",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1786466631334,
+      "tag": "0000_open_silver_centurion",
+      "breakpoints": true
+    }
+  ]
 }

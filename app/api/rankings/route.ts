@@ -1,150 +1,224 @@
-import { seedRankings, type RankingItem } from "../../data";
+import { env } from "cloudflare:workers";
+import { seedRankings, scoreFor, type RankingItem } from "../../data";
+import { runDailyPipeline, type PipelineResult } from "./pipeline";
 
-const crosswalk: Record<
-  string,
-  { bangumi: number; erogamescape: string }
-> = {
-  v7771: { bangumi: 54898, erogamescape: "18010" },
-  v2002: { bangumi: 3154, erogamescape: "12797" },
-  v92: { bangumi: 4828, erogamescape: "4286" },
-  v2153: { bangumi: 56363, erogamescape: "15861" },
-  v18717: { bangumi: 157916, erogamescape: "22900" },
-  v68: { bangumi: 80705, erogamescape: "7985" },
-  v12402: { bangumi: 73806, erogamescape: "18111" },
-  v24: { bangumi: 1020, erogamescape: "11938" },
-};
-
-type VndbResult = {
-  id: string;
-  title: string;
-  alttitle: string | null;
-  rating: number;
-  votecount: number;
-  released: string;
-  image: { url: string } | null;
-  length_minutes: number | null;
-};
-
-const siteAgent = "VN-Rank/0.1 (+https://vnrank.pages.dev)";
-
-async function getBangumi(subjectId: number) {
-  const response = await fetch(`https://api.bgm.tv/v0/subjects/${subjectId}`, {
-    headers: { "User-Agent": siteAgent, Accept: "application/json" },
-  });
-  if (!response.ok) throw new Error(`Bangumi returned ${response.status}`);
-  const subject = (await response.json()) as {
-    rating?: { score?: number; total?: number };
-  };
-  return {
-    score: subject.rating?.score ? subject.rating.score * 10 : null,
-    votes: subject.rating?.total ?? null,
-  };
+async function ensureSchema(db: D1Database) {
+  await db.batch([
+    db.prepare(`CREATE TABLE IF NOT EXISTS pipeline_runs (
+      snapshot_date TEXT PRIMARY KEY,
+      started_at TEXT NOT NULL,
+      completed_at TEXT,
+      status TEXT NOT NULL,
+      vndb_count INTEGER NOT NULL DEFAULT 0,
+      bangumi_count INTEGER NOT NULL DEFAULT 0,
+      erogamescape_count INTEGER NOT NULL DEFAULT 0,
+      matched_count INTEGER NOT NULL DEFAULT 0,
+      error TEXT
+    )`),
+    db.prepare(`CREATE TABLE IF NOT EXISTS source_entries (
+      id TEXT PRIMARY KEY,
+      snapshot_date TEXT NOT NULL,
+      source TEXT NOT NULL,
+      source_rank INTEGER NOT NULL,
+      external_id TEXT NOT NULL,
+      title TEXT NOT NULL,
+      score REAL NOT NULL,
+      votes INTEGER NOT NULL,
+      source_url TEXT NOT NULL
+    )`),
+    db.prepare(`CREATE TABLE IF NOT EXISTS daily_rankings (
+      id TEXT PRIMARY KEY,
+      snapshot_date TEXT NOT NULL,
+      rank INTEGER NOT NULL,
+      canonical_key TEXT NOT NULL,
+      consensus_score REAL NOT NULL,
+      source_count INTEGER NOT NULL,
+      item_json TEXT NOT NULL
+    )`),
+    db.prepare(`CREATE INDEX IF NOT EXISTS idx_source_entries_date_source_rank
+      ON source_entries(snapshot_date, source, source_rank)`),
+    db.prepare(`CREATE INDEX IF NOT EXISTS idx_daily_rankings_date_rank
+      ON daily_rankings(snapshot_date, rank)`),
+  ]);
 }
 
-async function getErogameScape(gameId: string) {
-  const href = `https://erogamescape.org/~ap2/ero/toukei_kaiseki/game.php?game=${gameId}`;
-  const response = await fetch(href, {
-    headers: { "User-Agent": siteAgent, Accept: "text/html" },
-  });
-  if (!response.ok) throw new Error(`ErogameScape returned ${response.status}`);
-  const html = await response.text();
-  const median = html.match(/中央値\s*(?:<\/th>\s*<td[^>]*>\s*)?(\d+)/)?.[1];
-  const votes = html.match(/データ数\s*(?:<\/th>\s*<td[^>]*>\s*)?(\d+)/)?.[1];
-  return {
-    score: median ? Number(median) : null,
-    votes: votes ? Number(votes) : null,
-  };
+async function latestSnapshot(db: D1Database, date?: string) {
+  const result = date
+    ? await db
+        .prepare(
+          "SELECT item_json FROM daily_rankings WHERE snapshot_date = ? ORDER BY rank LIMIT 50",
+        )
+        .bind(date)
+        .all<{ item_json: string }>()
+    : await db
+        .prepare(
+          `SELECT item_json FROM daily_rankings
+           WHERE snapshot_date = (SELECT MAX(snapshot_date) FROM pipeline_runs WHERE status = 'complete')
+           ORDER BY rank LIMIT 50`,
+        )
+        .all<{ item_json: string }>();
+  return result.results.map((row) => JSON.parse(row.item_json) as RankingItem);
 }
 
-export async function GET() {
+async function runExists(db: D1Database, date: string) {
+  return db
+    .prepare("SELECT status FROM pipeline_runs WHERE snapshot_date = ?")
+    .bind(date)
+    .first<{ status: string }>();
+}
+
+async function writeInChunks(db: D1Database, statements: D1PreparedStatement[]) {
+  for (let index = 0; index < statements.length; index += 50) {
+    await db.batch(statements.slice(index, index + 50));
+  }
+}
+
+async function persistResult(
+  db: D1Database,
+  date: string,
+  result: PipelineResult,
+) {
+  await db.batch([
+    db.prepare("DELETE FROM source_entries WHERE snapshot_date = ?").bind(date),
+    db.prepare("DELETE FROM daily_rankings WHERE snapshot_date = ?").bind(date),
+  ]);
+
+  const sourceStatements = result.rawEntries.map((entry) =>
+    db
+      .prepare(
+        `INSERT INTO source_entries
+         (id, snapshot_date, source, source_rank, external_id, title, score, votes, source_url)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+      )
+      .bind(
+        `${date}:${entry.source}:${entry.externalId}`,
+        date,
+        entry.source,
+        entry.sourceRank,
+        entry.externalId,
+        entry.title,
+        entry.score,
+        entry.votes,
+        entry.href,
+      ),
+  );
+  await writeInChunks(db, sourceStatements);
+
+  const rankingStatements = result.rankings.map((item, index) => {
+    const sourceCount = Object.values(item.sources).filter(
+      (source) => source.score !== null,
+    ).length;
+    return db
+      .prepare(
+        `INSERT INTO daily_rankings
+         (id, snapshot_date, rank, canonical_key, consensus_score, source_count, item_json)
+         VALUES (?, ?, ?, ?, ?, ?, ?)`,
+      )
+      .bind(
+        `${date}:${item.id}`,
+        date,
+        index + 1,
+        item.id,
+        scoreFor(item),
+        sourceCount,
+        JSON.stringify(item),
+      );
+  });
+  await writeInChunks(db, rankingStatements);
+
+  await db
+    .prepare(
+      `UPDATE pipeline_runs SET status = 'complete', completed_at = ?,
+       vndb_count = ?, bangumi_count = ?, erogamescape_count = ?, matched_count = ?, error = NULL
+       WHERE snapshot_date = ?`,
+    )
+    .bind(
+      new Date().toISOString(),
+      result.sourceCounts.vndb,
+      result.sourceCounts.bangumi,
+      result.sourceCounts.erogamescape,
+      result.matchedCount,
+      date,
+    )
+    .run();
+}
+
+export async function GET(request: Request) {
+  const db = env.DB;
+  const today = new Date().toISOString().slice(0, 10);
+  const url = new URL(request.url);
+  const forceLocalRefresh =
+    url.searchParams.get("refresh") === "1" &&
+    (url.hostname === "localhost" || url.hostname === "127.0.0.1");
+
   try {
-    const response = await fetch("https://api.vndb.org/kana/vn", {
-      method: "POST",
-      headers: { "Content-Type": "application/json", "User-Agent": siteAgent },
-      body: JSON.stringify({
-        fields:
-          "title,alttitle,rating,votecount,released,image.url,length_minutes",
-        sort: "rating",
-        reverse: true,
-        results: 12,
-        filters: ["votecount", ">=", 1000],
-      }),
-    });
-    if (!response.ok) throw new Error(`VNDB returned ${response.status}`);
+    await ensureSchema(db);
+    const existing = await runExists(db, today);
 
-    const payload = (await response.json()) as { results: VndbResult[] };
-    const seedById = new Map(seedRankings.map((item) => [item.id, item]));
+    if (existing?.status === "complete" && !forceLocalRefresh) {
+      const rankings = await latestSnapshot(db, today);
+      return Response.json(
+        { rankings, updatedAt: `${today}T00:00:00.000Z`, source: "daily-snapshot" },
+        { headers: { "Cache-Control": "public, max-age=300, s-maxage=3600" } },
+      );
+    }
 
-    const rankings = await Promise.all(
-      payload.results.map(async (vn): Promise<RankingItem> => {
-        const seed = seedById.get(vn.id);
-        const linked = crosswalk[vn.id];
-        const [bangumi, erogamescape] = linked
-          ? await Promise.allSettled([
-              getBangumi(linked.bangumi),
-              getErogameScape(linked.erogamescape),
-            ])
-          : [null, null];
+    if (existing?.status === "running") {
+      const rankings = await latestSnapshot(db);
+      if (rankings.length) {
+        return Response.json(
+          { rankings, updatedAt: null, source: "previous-snapshot", refreshing: true },
+          { headers: { "Cache-Control": "public, max-age=60" } },
+        );
+      }
+    }
 
-        const bangumiData =
-          bangumi?.status === "fulfilled" ? bangumi.value : null;
-        const erogameData =
-          erogamescape?.status === "fulfilled" ? erogamescape.value : null;
-        const year = Number(vn.released?.slice(0, 4)) || seed?.year || 0;
+    await db
+      .prepare(
+        `INSERT INTO pipeline_runs (snapshot_date, started_at, status)
+         VALUES (?, ?, 'running')
+         ON CONFLICT(snapshot_date) DO UPDATE SET started_at = excluded.started_at, status = 'running', error = NULL`,
+      )
+      .bind(today, new Date().toISOString())
+      .run();
 
-        return {
-          id: vn.id,
-          title: seed?.title ?? vn.title,
-          altTitle: seed?.altTitle ?? vn.alttitle ?? vn.title,
-          year,
-          released: vn.released,
-          image: vn.image?.url ?? seed?.image ?? "",
-          lengthMinutes: vn.length_minutes,
-          genres: seed?.genres ?? ["Visual novel"],
-          platforms: seed?.platforms ?? ["PC"],
-          synopsis:
-            seed?.synopsis ??
-            "A highly rated visual novel currently rising across the VNDB community.",
-          sources: {
-            vndb: {
-              score: vn.rating,
-              votes: vn.votecount,
-              href: `https://vndb.org/${vn.id}`,
-            },
-            bangumi: {
-              score: bangumiData?.score ?? seed?.sources.bangumi.score ?? null,
-              votes: bangumiData?.votes ?? seed?.sources.bangumi.votes ?? null,
-              href: linked
-                ? `https://bgm.tv/subject/${linked.bangumi}`
-                : (seed?.sources.bangumi.href ?? null),
-            },
-            erogamescape: {
-              score:
-                erogameData?.score ?? seed?.sources.erogamescape.score ?? null,
-              votes:
-                erogameData?.votes ?? seed?.sources.erogamescape.votes ?? null,
-              href: linked
-                ? `https://erogamescape.org/~ap2/ero/toukei_kaiseki/game.php?game=${linked.erogamescape}`
-                : (seed?.sources.erogamescape.href ?? null),
-            },
-          },
-        };
-      }),
-    );
+    const result = await runDailyPipeline();
+    await persistResult(db, today, result);
 
     return Response.json(
-      { rankings, updatedAt: new Date().toISOString() },
       {
-        headers: {
-          "Cache-Control":
-            "public, max-age=300, s-maxage=21600, stale-while-revalidate=86400",
-        },
+        rankings: result.rankings,
+        updatedAt: new Date().toISOString(),
+        source: "fresh-import",
+        sourceCounts: result.sourceCounts,
       },
+      { headers: { "Cache-Control": "public, max-age=300, s-maxage=3600" } },
     );
-  } catch {
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "Unknown pipeline error";
+    try {
+      await db
+        .prepare(
+          `INSERT INTO pipeline_runs (snapshot_date, started_at, completed_at, status, error)
+           VALUES (?, ?, ?, 'failed', ?)
+           ON CONFLICT(snapshot_date) DO UPDATE SET completed_at = excluded.completed_at, status = 'failed', error = excluded.error`,
+        )
+        .bind(today, new Date().toISOString(), new Date().toISOString(), message.slice(0, 500))
+        .run();
+      const rankings = await latestSnapshot(db);
+      if (rankings.length) {
+        return Response.json(
+          { rankings, updatedAt: null, source: "previous-snapshot", warning: message },
+          { headers: { "Cache-Control": "public, max-age=300" } },
+        );
+      }
+    } catch {
+      // The verified seed keeps the site useful during first-run database failures.
+    }
+
     return Response.json(
-      { rankings: seedRankings, updatedAt: null, snapshot: true },
-      { headers: { "Cache-Control": "public, max-age=300" } },
+      { rankings: seedRankings, updatedAt: null, source: "seed-snapshot", warning: message },
+      { headers: { "Cache-Control": "public, max-age=60" } },
     );
   }
 }
