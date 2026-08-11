@@ -2,6 +2,8 @@ import { env } from "cloudflare:workers";
 import { seedRankings, scoreFor, type RankingItem } from "../../data";
 import { runDailyPipeline, type PipelineResult } from "./pipeline";
 
+const PIPELINE_VERSION = 2;
+
 async function ensureSchema(db: D1Database) {
   await db.batch([
     db.prepare(`CREATE TABLE IF NOT EXISTS pipeline_runs (
@@ -9,6 +11,7 @@ async function ensureSchema(db: D1Database) {
       started_at TEXT NOT NULL,
       completed_at TEXT,
       status TEXT NOT NULL,
+      pipeline_version INTEGER NOT NULL DEFAULT 1,
       vndb_count INTEGER NOT NULL DEFAULT 0,
       bangumi_count INTEGER NOT NULL DEFAULT 0,
       erogamescape_count INTEGER NOT NULL DEFAULT 0,
@@ -40,6 +43,17 @@ async function ensureSchema(db: D1Database) {
     db.prepare(`CREATE INDEX IF NOT EXISTS idx_daily_rankings_date_rank
       ON daily_rankings(snapshot_date, rank)`),
   ]);
+
+  const columns = await db
+    .prepare("PRAGMA table_info(pipeline_runs)")
+    .all<{ name: string }>();
+  if (!columns.results.some((column) => column.name === "pipeline_version")) {
+    await db
+      .prepare(
+        "ALTER TABLE pipeline_runs ADD COLUMN pipeline_version INTEGER NOT NULL DEFAULT 1",
+      )
+      .run();
+  }
 }
 
 async function latestSnapshot(db: D1Database, date?: string) {
@@ -62,9 +76,11 @@ async function latestSnapshot(db: D1Database, date?: string) {
 
 async function runExists(db: D1Database, date: string) {
   return db
-    .prepare("SELECT status FROM pipeline_runs WHERE snapshot_date = ?")
+    .prepare(
+      "SELECT status, pipeline_version FROM pipeline_runs WHERE snapshot_date = ?",
+    )
     .bind(date)
-    .first<{ status: string }>();
+    .first<{ status: string; pipeline_version: number }>();
 }
 
 async function writeInChunks(db: D1Database, statements: D1PreparedStatement[]) {
@@ -128,11 +144,12 @@ async function persistResult(
 
   await db
     .prepare(
-      `UPDATE pipeline_runs SET status = 'complete', completed_at = ?,
+      `UPDATE pipeline_runs SET status = 'complete', pipeline_version = ?, completed_at = ?,
        vndb_count = ?, bangumi_count = ?, erogamescape_count = ?, matched_count = ?, error = NULL
        WHERE snapshot_date = ?`,
     )
     .bind(
+      PIPELINE_VERSION,
       new Date().toISOString(),
       result.sourceCounts.vndb,
       result.sourceCounts.bangumi,
@@ -155,7 +172,11 @@ export async function GET(request: Request) {
     await ensureSchema(db);
     const existing = await runExists(db, today);
 
-    if (existing?.status === "complete" && !forceLocalRefresh) {
+    if (
+      existing?.status === "complete" &&
+      existing.pipeline_version === PIPELINE_VERSION &&
+      !forceLocalRefresh
+    ) {
       const rankings = await latestSnapshot(db, today);
       return Response.json(
         { rankings, updatedAt: `${today}T00:00:00.000Z`, source: "daily-snapshot" },
@@ -163,7 +184,10 @@ export async function GET(request: Request) {
       );
     }
 
-    if (existing?.status === "running") {
+    if (
+      existing?.status === "running" &&
+      existing.pipeline_version === PIPELINE_VERSION
+    ) {
       const rankings = await latestSnapshot(db);
       if (rankings.length) {
         return Response.json(
@@ -175,11 +199,12 @@ export async function GET(request: Request) {
 
     await db
       .prepare(
-        `INSERT INTO pipeline_runs (snapshot_date, started_at, status)
-         VALUES (?, ?, 'running')
-         ON CONFLICT(snapshot_date) DO UPDATE SET started_at = excluded.started_at, status = 'running', error = NULL`,
+        `INSERT INTO pipeline_runs (snapshot_date, started_at, status, pipeline_version)
+         VALUES (?, ?, 'running', ?)
+         ON CONFLICT(snapshot_date) DO UPDATE SET started_at = excluded.started_at,
+           status = 'running', pipeline_version = excluded.pipeline_version, error = NULL`,
       )
-      .bind(today, new Date().toISOString())
+      .bind(today, new Date().toISOString(), PIPELINE_VERSION)
       .run();
 
     const result = await runDailyPipeline();
@@ -199,11 +224,20 @@ export async function GET(request: Request) {
     try {
       await db
         .prepare(
-          `INSERT INTO pipeline_runs (snapshot_date, started_at, completed_at, status, error)
-           VALUES (?, ?, ?, 'failed', ?)
-           ON CONFLICT(snapshot_date) DO UPDATE SET completed_at = excluded.completed_at, status = 'failed', error = excluded.error`,
+          `INSERT INTO pipeline_runs
+           (snapshot_date, started_at, completed_at, status, pipeline_version, error)
+           VALUES (?, ?, ?, 'failed', ?, ?)
+           ON CONFLICT(snapshot_date) DO UPDATE SET completed_at = excluded.completed_at,
+             status = 'failed', pipeline_version = excluded.pipeline_version,
+             error = excluded.error`,
         )
-        .bind(today, new Date().toISOString(), new Date().toISOString(), message.slice(0, 500))
+        .bind(
+          today,
+          new Date().toISOString(),
+          new Date().toISOString(),
+          PIPELINE_VERSION,
+          message.slice(0, 500),
+        )
         .run();
       const rankings = await latestSnapshot(db);
       if (rankings.length) {

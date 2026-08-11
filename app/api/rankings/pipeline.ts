@@ -1,8 +1,10 @@
 import { seedRankings, sourceWeights, type RankingItem, type SourceKey } from "../../data";
 
 const SITE_AGENT =
-  "VN-Rank/0.3 (+https://vn-rank-index.hellostevenleong.chatgpt.site)";
+  "VN-Rank/0.4 (+https://vn-rank-index.hellostevenleong.chatgpt.site)";
 const EGS_BASE = "https://erogamescape.org/~ap2/ero/toukei_kaiseki/";
+
+export const VNDB_MIN_VOTES = 500;
 
 type RawSourceEntry = {
   source: SourceKey;
@@ -17,6 +19,7 @@ type RawSourceEntry = {
 type VndbEntry = RawSourceEntry & {
   source: "vndb";
   altTitle: string;
+  searchTitles: string[];
   released: string;
   image: string;
   lengthMinutes: number | null;
@@ -30,17 +33,31 @@ type BangumiEntry = RawSourceEntry & {
   image: string;
   summary: string;
   tags: string[];
-  vndbId: string | null;
-  egsId: string | null;
 };
 
-type EgsEntry = RawSourceEntry & { source: "erogamescape" };
+type EgsEntry = RawSourceEntry & {
+  source: "erogamescape";
+  released: string;
+};
 
 type Candidate = {
   canonicalKey: string;
-  vndb?: VndbEntry;
+  vndb: VndbEntry;
   bangumi?: BangumiEntry;
   erogamescape?: EgsEntry;
+};
+
+type BangumiSubject = {
+  id: number;
+  name: string;
+  name_cn?: string;
+  date?: string;
+  summary?: string;
+  images?: { common?: string; large?: string };
+  tags?: Array<{ name: string }>;
+  meta_tags?: string[];
+  infobox?: unknown;
+  rating?: { score?: number; total?: number; rank?: number };
 };
 
 export type PipelineResult = {
@@ -52,24 +69,25 @@ export type PipelineResult = {
 
 const seedByVndb = new Map(seedRankings.map((item) => [item.id, item]));
 
-const knownLinks: Record<string, { bangumi: string; erogamescape: string }> = {
-  v7771: { bangumi: "54898", erogamescape: "18010" },
-  v2002: { bangumi: "3154", erogamescape: "12797" },
-  v92: { bangumi: "4828", erogamescape: "4286" },
-  v2153: { bangumi: "56363", erogamescape: "15861" },
-  v18717: { bangumi: "157916", erogamescape: "22900" },
-  v68: { bangumi: "80705", erogamescape: "7985" },
-  v12402: { bangumi: "73806", erogamescape: "18111" },
-  v24: { bangumi: "1020", erogamescape: "11938" },
-};
-
 function normalizeTitle(value: string) {
   return value
     .normalize("NFKC")
     .toLowerCase()
-    .replace(/\((?:ps[2-5]|switch|xb360|xbox|vita|pc)[^)]*\)/gi, "")
-    .replace(/(?:extended|premium|complete|全年齢)\s*(?:edition|版)?/gi, "")
+    .replace(/\((?:ps[2-5]|switch|xb360|xbox|vita|pc|android|ios|ns)[^)]*\)/gi, "")
+    .replace(/\b(?:extended|premium|complete|full voice|hd edition)\b/gi, "")
     .replace(/[\p{P}\p{S}\s]/gu, "");
+}
+
+function uniqueStrings(values: Array<string | null | undefined>) {
+  const seen = new Set<string>();
+  return values.filter((value): value is string => {
+    const cleaned = value?.trim();
+    if (!cleaned) return false;
+    const key = normalizeTitle(cleaned);
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 function decodeHtml(value: string) {
@@ -97,17 +115,39 @@ function extractExternalId(infobox: unknown, pattern: RegExp) {
   return JSON.stringify(infobox).match(pattern)?.[1] ?? null;
 }
 
+async function mapWithConcurrency<T, R>(
+  items: T[],
+  concurrency: number,
+  worker: (item: T) => Promise<R | null>,
+) {
+  const output: Array<R | null> = new Array(items.length).fill(null);
+  let cursor = 0;
+  await Promise.all(
+    Array.from({ length: Math.min(concurrency, items.length) }, async () => {
+      while (cursor < items.length) {
+        const index = cursor++;
+        try {
+          output[index] = await worker(items[index]);
+        } catch {
+          output[index] = null;
+        }
+      }
+    }),
+  );
+  return output.filter((item): item is R => item !== null);
+}
+
 async function fetchVndb(): Promise<VndbEntry[]> {
   const response = await fetch("https://api.vndb.org/kana/vn", {
     method: "POST",
     headers: { "Content-Type": "application/json", "User-Agent": SITE_AGENT },
     body: JSON.stringify({
       fields:
-        "title,alttitle,rating,votecount,released,image.url,length_minutes,platforms",
+        "title,alttitle,titles{lang,title,latin,official,main},rating,votecount,released,image.url,length_minutes,platforms",
       sort: "rating",
       reverse: true,
       results: 100,
-      filters: ["votecount", ">=", 500],
+      filters: ["votecount", ">=", VNDB_MIN_VOTES],
     }),
   });
   if (!response.ok) throw new Error(`VNDB returned ${response.status}`);
@@ -116,6 +156,13 @@ async function fetchVndb(): Promise<VndbEntry[]> {
       id: string;
       title: string;
       alttitle: string | null;
+      titles: Array<{
+        lang: string;
+        title: string;
+        latin: string | null;
+        official: boolean;
+        main: boolean;
+      }>;
       rating: number;
       votecount: number;
       released: string;
@@ -125,69 +172,101 @@ async function fetchVndb(): Promise<VndbEntry[]> {
     }>;
   };
 
-  return payload.results.map((item, index) => ({
-    source: "vndb",
-    sourceRank: index + 1,
-    externalId: item.id,
-    title: item.title,
-    altTitle: item.alttitle ?? item.title,
-    released: item.released,
-    image: item.image?.url ?? "",
-    lengthMinutes: item.length_minutes,
-    platforms: item.platforms ?? [],
-    score: item.rating,
-    votes: item.votecount,
-    href: `https://vndb.org/${item.id}`,
-  }));
+  if (payload.results.length !== 100) {
+    throw new Error(`VNDB returned ${payload.results.length} eligible entries`);
+  }
+
+  return payload.results.map((item, index) => {
+    const japaneseTitles = item.titles
+      .filter((title) => title.lang === "ja")
+      .flatMap((title) => [title.title, title.latin]);
+    const englishTitles = item.titles
+      .filter((title) => title.lang === "en")
+      .flatMap((title) => [title.title, title.latin]);
+    const mainTitles = item.titles
+      .filter((title) => title.main)
+      .flatMap((title) => [title.title, title.latin]);
+
+    return {
+      source: "vndb",
+      sourceRank: index + 1,
+      externalId: item.id,
+      title: item.title,
+      altTitle: item.alttitle ?? item.title,
+      searchTitles: uniqueStrings([
+        ...japaneseTitles,
+        ...englishTitles,
+        ...mainTitles,
+        item.alttitle,
+        item.title,
+      ]),
+      released: item.released,
+      image: item.image?.url ?? "",
+      lengthMinutes: item.length_minutes,
+      platforms: item.platforms ?? [],
+      score: item.rating,
+      votes: item.votecount,
+      href: `https://vndb.org/${item.id}`,
+    } satisfies VndbEntry;
+  });
 }
 
-async function fetchBangumi(): Promise<BangumiEntry[]> {
-  type BangumiPayload = {
-    data: Array<{
-      id: number;
-      name: string;
-      name_cn?: string;
-      date?: string;
-      summary?: string;
-      images?: { common?: string; large?: string };
-      tags?: Array<{ name: string }>;
-      infobox?: unknown;
-      rating?: { score?: number; total?: number; rank?: number };
-    }>;
-  };
-  const body = JSON.stringify({
-    keyword: "",
-    sort: "rank",
-    filter: {
-      type: [4],
-      meta_tags: ["Galgame"],
-      rank: [">0"],
-      rating_count: [">=100"],
-    },
-  });
-  const pages = await Promise.all(
-    [0, 20, 40, 60, 80].map(async (offset) => {
-      const response = await fetch(
-        `https://api.bgm.tv/v0/search/subjects?limit=20&offset=${offset}`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json",
-            "User-Agent": SITE_AGENT,
-          },
-          body,
-        },
+function selectBangumiMatch(vn: VndbEntry, subjects: BangumiSubject[]) {
+  const validTitles = new Set(vn.searchTitles.map(normalizeTitle));
+  const vnYear = Number(vn.released.slice(0, 4));
+  const scored = subjects
+    .map((subject) => {
+      const linkedVndb = extractExternalId(subject.infobox, /vndb\.org\/(v\d+)/i);
+      const exactTitle = [subject.name, subject.name_cn ?? ""].some((title) =>
+        validTitles.has(normalizeTitle(title)),
       );
-      if (!response.ok) throw new Error(`Bangumi returned ${response.status}`);
-      return (await response.json()) as BangumiPayload;
-    }),
-  );
-  const payload = { data: pages.flatMap((page) => page.data).slice(0, 100) };
+      if (linkedVndb !== vn.externalId && !exactTitle) return null;
 
-  return payload.data.map((item, index) => ({
+      const subjectYear = Number((subject.date ?? "").slice(0, 4));
+      const yearDistance =
+        vnYear && subjectYear ? Math.abs(vnYear - subjectYear) : Number.POSITIVE_INFINITY;
+      const linkScore = linkedVndb === vn.externalId ? 1_000 : 0;
+      const titleScore = exactTitle ? 100 : 0;
+      const yearScore = yearDistance === 0 ? 30 : yearDistance === 1 ? 10 : 0;
+      const galgameScore = subject.meta_tags?.includes("Galgame") ? 10 : 0;
+      return {
+        subject,
+        score: linkScore + titleScore + yearScore + galgameScore + Math.log10((subject.rating?.total ?? 0) + 1),
+      };
+    })
+    .filter((item): item is { subject: BangumiSubject; score: number } => item !== null)
+    .sort((a, b) => b.score - a.score);
+  return scored[0]?.subject ?? null;
+}
+
+async function searchBangumi(vn: VndbEntry): Promise<BangumiEntry | null> {
+  const query = vn.searchTitles[0];
+  if (!query) return null;
+  const response = await fetch(
+    "https://api.bgm.tv/v0/search/subjects?limit=5&offset=0",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+        "User-Agent": SITE_AGENT,
+      },
+      body: JSON.stringify({
+        keyword: query,
+        sort: "match",
+        filter: { type: [4] },
+      }),
+      signal: AbortSignal.timeout(12_000),
+    },
+  );
+  if (!response.ok) return null;
+  const payload = (await response.json()) as { data: BangumiSubject[] };
+  const item = selectBangumiMatch(vn, payload.data ?? []);
+  if (!item || !item.rating?.score || !item.rating.total) return null;
+
+  return {
     source: "bangumi",
-    sourceRank: index + 1,
+    sourceRank: vn.sourceRank,
     externalId: String(item.id),
     title: item.name,
     nameCn: item.name_cn ?? "",
@@ -195,61 +274,90 @@ async function fetchBangumi(): Promise<BangumiEntry[]> {
     image: item.images?.common ?? item.images?.large ?? "",
     summary: item.summary ?? "",
     tags: (item.tags ?? []).slice(0, 12).map((tag) => tag.name),
-    vndbId: extractExternalId(item.infobox, /vndb\.org\/(v\d+)/i),
-    egsId: extractExternalId(item.infobox, /erogamescape[^"\\]*game(?:\.php)?\?game=(\d+)/i),
-    score: (item.rating?.score ?? 0) * 10,
-    votes: item.rating?.total ?? 0,
+    score: item.rating.score * 10,
+    votes: item.rating.total,
     href: `https://bgm.tv/subject/${item.id}`,
-  }));
+  };
 }
 
-async function fetchErogameScape(): Promise<EgsEntry[]> {
-  const pages = await Promise.all(
-    [0, 100, 200, 300].map(async (offset) => {
-      const suffix = offset ? `?offset=${offset}&year=1900&count=5` : "";
-      const response = await fetch(`${EGS_BASE}toukei_median.php${suffix}`, {
-        headers: { Accept: "text/html", "User-Agent": SITE_AGENT },
-      });
-      if (!response.ok) throw new Error(`ErogameScape returned ${response.status}`);
-      return response.text();
-    }),
+function escapeSqlLiteral(value: string) {
+  return `'${value.replace(/'/g, "''")}'`;
+}
+
+async function fetchErogameScape(vndb: VndbEntry[]): Promise<EgsEntry[]> {
+  const searchableTitles = uniqueStrings(
+    vndb.flatMap((item) => item.searchTitles.slice(0, 2)),
   );
-  const entries: EgsEntry[] = [];
+  const sql = `SELECT id, gamename, sellday, median, count2
+    FROM gamelist
+    WHERE gamename IN (${searchableTitles.map(escapeSqlLiteral).join(",")})
+      AND median IS NOT NULL
+      AND count2 > 0
+    ORDER BY count2 DESC, id`;
+  const response = await fetch(`${EGS_BASE}sql_for_erogamer_form.php`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+      Accept: "text/html",
+      "User-Agent": SITE_AGENT,
+    },
+    body: new URLSearchParams({ sql }),
+    signal: AbortSignal.timeout(30_000),
+  });
+  if (!response.ok) throw new Error(`ErogameScape returned ${response.status}`);
 
-  for (const html of pages) {
-    const rows = Array.from(html.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi));
-    for (const row of rows) {
-      const body = row[1];
-      const game = body.match(
-        /game\.php\?game=(\d+)[^>]*>([\s\S]*?)<\/a>/i,
-      );
-      if (!game) continue;
-      const cells = Array.from(body.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)).map(
-        (cell) => stripHtml(cell[1]),
-      );
-      if (cells.length < 6) continue;
-      const score = Number(cells[2]);
-      const votes = Number(cells[5]);
-      if (!Number.isFinite(score) || !Number.isFinite(votes) || votes < 100) continue;
-
-      entries.push({
-        source: "erogamescape",
-        sourceRank: entries.length + 1,
-        externalId: game[1],
-        title: stripHtml(game[2]),
-        score,
-        votes,
-        href: `${EGS_BASE}game.php?game=${game[1]}`,
-      });
-      if (entries.length === 100) break;
+  const titleIndex = new Map<string, VndbEntry[]>();
+  for (const item of vndb) {
+    for (const title of item.searchTitles.slice(0, 2)) {
+      const key = normalizeTitle(title);
+      titleIndex.set(key, [...(titleIndex.get(key) ?? []), item]);
     }
-    if (entries.length === 100) break;
   }
 
-  if (entries.length < 50) {
-    throw new Error(`ErogameScape returned only ${entries.length} eligible rows`);
+  const bestByRank = new Map<
+    number,
+    { entry: EgsEntry; matchScore: number }
+  >();
+  const html = await response.text();
+  for (const row of html.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)) {
+    const cells = Array.from(row[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)).map(
+      (cell) => stripHtml(cell[1]),
+    );
+    if (cells.length < 5) continue;
+    const [externalId, title, released, scoreText, votesText] = cells;
+    const score = Number(scoreText);
+    const votes = Number(votesText);
+    if (!/^\d+$/.test(externalId) || !Number.isFinite(score) || !Number.isFinite(votes)) {
+      continue;
+    }
+
+    const owners = titleIndex.get(normalizeTitle(title)) ?? [];
+    for (const vn of owners) {
+      const vnYear = Number(vn.released.slice(0, 4));
+      const releaseYear = Number(released.slice(0, 4));
+      const yearDistance =
+        vnYear && releaseYear ? Math.abs(vnYear - releaseYear) : Number.POSITIVE_INFINITY;
+      const matchScore =
+        (yearDistance === 0 ? 100 : yearDistance === 1 ? 30 : 0) +
+        Math.log10(votes + 1);
+      if ((bestByRank.get(vn.sourceRank)?.matchScore ?? -1) >= matchScore) continue;
+      bestByRank.set(vn.sourceRank, {
+        matchScore,
+        entry: {
+          source: "erogamescape",
+          sourceRank: vn.sourceRank,
+          externalId,
+          title,
+          released,
+          score,
+          votes,
+          href: `${EGS_BASE}game.php?game=${externalId}`,
+        },
+      });
+    }
   }
-  return entries;
+
+  return Array.from(bestByRank.values()).map(({ entry }) => entry);
 }
 
 function findUsefulTags(tags: string[]) {
@@ -275,112 +383,50 @@ function calculateScore(candidate: Candidate) {
 }
 
 export async function runDailyPipeline(): Promise<PipelineResult> {
-  const [vndb, bangumi, erogamescape] = await Promise.all([
-    fetchVndb(),
-    fetchBangumi(),
-    fetchErogameScape(),
+  const vndb = await fetchVndb();
+  const [bangumi, erogamescape] = await Promise.all([
+    mapWithConcurrency(vndb, 8, searchBangumi),
+    fetchErogameScape(vndb),
   ]);
 
-  const candidates = new Map<string, Candidate>();
-  const bangumiByVndb = new Map<string, BangumiEntry>();
-  const bangumiByEgs = new Map<string, BangumiEntry>();
-
-  for (const item of bangumi) {
-    if (item.vndbId) bangumiByVndb.set(item.vndbId, item);
-    if (item.egsId) bangumiByEgs.set(item.egsId, item);
+  if (bangumi.length < 20) {
+    throw new Error(`Bangumi matched only ${bangumi.length} VNDB entries`);
   }
-  for (const [vndbId, links] of Object.entries(knownLinks)) {
-    const item = bangumi.find((entry) => entry.externalId === links.bangumi);
-    if (item) {
-      bangumiByVndb.set(vndbId, item);
-      bangumiByEgs.set(links.erogamescape, item);
-    }
+  if (erogamescape.length < 20) {
+    throw new Error(`ErogameScape matched only ${erogamescape.length} VNDB entries`);
   }
 
-  for (const item of vndb) {
-    const key = `vndb:${item.externalId}`;
-    candidates.set(key, { canonicalKey: key, vndb: item });
-  }
+  const bangumiByRank = new Map(bangumi.map((item) => [item.sourceRank, item]));
+  const egsByRank = new Map(erogamescape.map((item) => [item.sourceRank, item]));
+  const candidates: Candidate[] = vndb.map((item) => ({
+    canonicalKey: `vndb:${item.externalId}`,
+    vndb: item,
+    bangumi: bangumiByRank.get(item.sourceRank),
+    erogamescape: egsByRank.get(item.sourceRank),
+  }));
 
-  const titleIndex = new Map<string, string>();
-  for (const [key, candidate] of candidates) {
-    if (candidate.vndb) {
-      titleIndex.set(normalizeTitle(candidate.vndb.title), key);
-      titleIndex.set(normalizeTitle(candidate.vndb.altTitle), key);
-    }
-  }
-
-  for (const item of bangumi) {
-    const knownVndb = item.vndbId ??
-      Object.entries(knownLinks).find(([, links]) => links.bangumi === item.externalId)?.[0];
-    const matchedTitle =
-      titleIndex.get(normalizeTitle(item.title)) ??
-      titleIndex.get(normalizeTitle(item.nameCn));
-    const key = knownVndb
-      ? `vndb:${knownVndb}`
-      : matchedTitle ?? (item.egsId ? `egs:${item.egsId}` : `bangumi:${item.externalId}`);
-    const candidate = candidates.get(key) ?? { canonicalKey: key };
-    candidate.bangumi = item;
-    candidates.set(key, candidate);
-    titleIndex.set(normalizeTitle(item.title), key);
-    if (item.nameCn) titleIndex.set(normalizeTitle(item.nameCn), key);
-  }
-
-  for (const item of erogamescape) {
-    const bridge = bangumiByEgs.get(item.externalId);
-    const knownVndb = bridge?.vndbId ??
-      Object.entries(knownLinks).find(([, links]) => links.erogamescape === item.externalId)?.[0];
-    const matchedTitle = titleIndex.get(normalizeTitle(item.title));
-    const key = knownVndb
-      ? `vndb:${knownVndb}`
-      : bridge
-        ? bridge.vndbId
-          ? `vndb:${bridge.vndbId}`
-          : `bangumi:${bridge.externalId}`
-        : matchedTitle ?? `egs:${item.externalId}`;
-    const candidate = candidates.get(key) ?? { canonicalKey: key };
-    candidate.erogamescape = item;
-    candidates.set(key, candidate);
-  }
-
-  const ranked = Array.from(candidates.values())
+  const ranked = candidates
     .map((candidate) => ({ candidate, ...calculateScore(candidate) }))
     .sort((a, b) => b.score - a.score)
     .slice(0, 50);
 
   const rankings = ranked.map(({ candidate }) => {
-    const seed = candidate.vndb ? seedByVndb.get(candidate.vndb.externalId) : undefined;
-    const primary = candidate.vndb ?? candidate.bangumi ?? candidate.erogamescape;
-    const year = Number(
-      (candidate.vndb?.released ?? candidate.bangumi?.released ?? "").slice(0, 4),
-    );
+    const seed = seedByVndb.get(candidate.vndb.externalId);
+    const year = Number(candidate.vndb.released.slice(0, 4));
     const tags = candidate.bangumi ? findUsefulTags(candidate.bangumi.tags) : [];
 
     return {
-      id: candidate.vndb?.externalId ?? candidate.canonicalKey,
-      title:
-        seed?.title ??
-        candidate.vndb?.title ??
-        candidate.bangumi?.nameCn ??
-        candidate.bangumi?.title ??
-        candidate.erogamescape?.title ??
-        "Untitled",
-      altTitle:
-        seed?.altTitle ??
-        candidate.vndb?.altTitle ??
-        candidate.bangumi?.title ??
-        candidate.erogamescape?.title ??
-        "",
+      id: candidate.vndb.externalId,
+      title: seed?.title ?? candidate.vndb.title,
+      altTitle: seed?.altTitle ?? candidate.vndb.altTitle,
       year: year || seed?.year || 0,
-      released:
-        candidate.vndb?.released ?? candidate.bangumi?.released ?? seed?.released ?? "Unknown",
-      image:
-        candidate.vndb?.image ?? candidate.bangumi?.image ?? seed?.image ?? "",
-      lengthMinutes: candidate.vndb?.lengthMinutes ?? seed?.lengthMinutes ?? null,
+      released: candidate.vndb.released ?? seed?.released ?? "Unknown",
+      image: candidate.vndb.image || candidate.bangumi?.image || seed?.image || "",
+      lengthMinutes: candidate.vndb.lengthMinutes ?? seed?.lengthMinutes ?? null,
       genres: seed?.genres ?? (tags.length ? tags : ["Visual novel"]),
       platforms:
         seed?.platforms ??
-        (candidate.vndb?.platforms.length ? candidate.vndb.platforms : ["PC"]),
+        (candidate.vndb.platforms.length ? candidate.vndb.platforms : ["PC"]),
       synopsis:
         seed?.synopsis ??
         (candidate.bangumi?.summary
@@ -388,9 +434,9 @@ export async function runDailyPipeline(): Promise<PipelineResult> {
           : "A highly rated visual novel included in today's cross-community ranking."),
       sources: {
         vndb: {
-          score: candidate.vndb?.score ?? null,
-          votes: candidate.vndb?.votes ?? null,
-          href: candidate.vndb?.href ?? null,
+          score: candidate.vndb.score,
+          votes: candidate.vndb.votes,
+          href: candidate.vndb.href,
         },
         bangumi: {
           score: candidate.bangumi?.score ?? null,

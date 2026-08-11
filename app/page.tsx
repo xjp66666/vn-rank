@@ -283,9 +283,10 @@ export default function Home() {
             <h2 id="method-title">One score, three communities.</h2>
           </div>
           <p>
-            Scores are converted to a 100-point scale and combined using 45%
-            VNDB, 30% Bangumi, and 25% ErogameScape. If a source is missing, its
-            weight is shared across the available sources.
+            Each daily list starts with VNDB&apos;s top 100 visual novels that have
+            at least 500 votes. Their Japanese or English titles are matched on
+            Bangumi and ErogameScape, then scores are combined using 45% VNDB,
+            30% Bangumi, and 25% ErogameScape.
           </p>
           <div className="weight-list" aria-label="Source weights">
             <span><strong>45%</strong> VNDB</span>

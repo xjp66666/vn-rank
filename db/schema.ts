@@ -5,6 +5,7 @@ export const pipelineRuns = sqliteTable("pipeline_runs", {
   startedAt: text("started_at").notNull(),
   completedAt: text("completed_at"),
   status: text("status").notNull(),
+  pipelineVersion: integer("pipeline_version").notNull().default(1),
   vndbCount: integer("vndb_count").notNull().default(0),
   bangumiCount: integer("bangumi_count").notNull().default(0),
   erogamescapeCount: integer("erogamescape_count").notNull().default(0),
