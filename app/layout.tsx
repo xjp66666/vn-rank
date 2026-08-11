@@ -13,23 +13,23 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     metadataBase: new URL(origin),
-    title: "VN Rank — The visual novel canon, recalculated",
+    title: "VN Rank - Simple visual novel rankings",
     description:
       "A transparent visual novel leaderboard combining VNDB, Bangumi, and ErogameScape community scores.",
     openGraph: {
-      title: "VN Rank — The canon, recalculated",
+      title: "VN Rank - Simple visual novel rankings",
       description:
         "One ranking built from three visual novel communities.",
       type: "website",
       url: origin,
-      images: [{ url: `${origin}/og.png`, width: 1200, height: 630 }],
+      images: [{ url: `${origin}/og-simple.png`, width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
-      title: "VN Rank — The canon, recalculated",
+      title: "VN Rank - Simple visual novel rankings",
       description:
         "One ranking built from three visual novel communities.",
-      images: [`${origin}/og.png`],
+      images: [`${origin}/og-simple.png`],
     },
   };
 }

@@ -11,20 +11,20 @@ import {
 type ViewMode = SourceKey | "consensus";
 
 const sourceLabels: Record<ViewMode, string> = {
-  consensus: "Consensus",
+  consensus: "Overall",
   vndb: "VNDB",
   bangumi: "Bangumi",
   erogamescape: "ErogameScape",
 };
 
 const formatVotes = (value: number | null) => {
-  if (!value) return "—";
-  return value >= 1000 ? `${(value / 1000).toFixed(1)}k` : value.toString();
+  if (!value) return "No votes";
+  return value >= 1000 ? `${(value / 1000).toFixed(1)}k votes` : `${value} votes`;
 };
 
 const formatRuntime = (minutes: number | null) => {
   if (!minutes) return "Runtime unknown";
-  return `≈ ${Math.round(minutes / 60)} hours`;
+  return `About ${Math.round(minutes / 60)} hours`;
 };
 
 export default function Home() {
@@ -86,151 +86,44 @@ export default function Home() {
       .sort((a, b) => scoreFor(b, view) - scoreFor(a, view));
   }, [rankings, query, era, genre, view]);
 
-  const leader = visibleRankings[0] ?? rankings[0];
-  const totalVotes = rankings.reduce(
-    (total, item) =>
-      total +
-      Object.values(item.sources).reduce(
-        (sourceTotal, source) => sourceTotal + (source.votes ?? 0),
-        0,
-      ),
-    0,
-  );
+  const lastUpdated = updatedAt
+    ? new Date(updatedAt).toLocaleDateString(undefined, {
+        month: "short",
+        day: "numeric",
+        year: "numeric",
+      })
+    : "Saved snapshot";
 
   return (
-    <main>
-      <header className="site-header">
-        <a className="wordmark" href="#top" aria-label="VN Rank home">
-          VN<span>/</span>RANK
-        </a>
-        <nav aria-label="Primary navigation">
-          <a className="active" href="#ranking">
-            Ranking
-          </a>
-          <a href="#method">Method</a>
-          <a href="#sources">Sources</a>
-        </nav>
-        <a className="header-cta" href="#ranking">
-          Explore the list <span aria-hidden="true">↘</span>
-        </a>
-      </header>
-
-      <section className="hero" id="top">
-        <div className="hero-copy">
-          <p className="eyebrow">
-            <span /> The cross-database visual novel index
-          </p>
-          <h1>
-            The canon,
-            <br />
-            <em>recalculated.</em>
-          </h1>
-          <p className="hero-intro">
-            One opinion is taste. Three communities are a signal. VN Rank
-            combines scores from the biggest Japanese and international visual
-            novel databases into one legible leaderboard.
-          </p>
-        </div>
-
-        <aside className="hero-scorecard" aria-label="Current ranking leader">
-          <div className="scorecard-topline">
-            <span>Current #1</span>
-            <span className={`feed-pill ${feedState}`}>
-              <i /> {feedState}
-            </span>
-          </div>
-          <div className="leader-lockup">
-            <div>
-              <span className="leader-index">001</span>
-              <h2>{leader.title}</h2>
-              <p>{leader.altTitle}</p>
-            </div>
-            <strong>{scoreFor(leader).toFixed(1)}</strong>
-          </div>
-          <div className="source-stack" id="sources">
-            {(["vndb", "bangumi", "erogamescape"] as SourceKey[]).map(
-              (source) => (
-                <div className={`source-line ${source}`} key={source}>
-                  <span>{sourceLabels[source]}</span>
-                  <div>
-                    <i
-                      style={{
-                        width: `${leader.sources[source].score ?? 0}%`,
-                      }}
-                    />
-                  </div>
-                  <b>{leader.sources[source].score?.toFixed(1) ?? "—"}</b>
-                </div>
-              ),
-            )}
-          </div>
-          <div className="scorecard-foot">
-            <span>{rankings.length} titles in the live shortlist</span>
-            <span>{updatedAt ? "synced just now" : "cached snapshot"}</span>
-          </div>
-        </aside>
-      </section>
-
-      <section className="signal-strip" aria-label="Dataset summary">
-        <div>
-          <small>COMMUNITY SIGNALS</small>
-          <strong>{totalVotes.toLocaleString()}+</strong>
-          <span>ratings compared</span>
-        </div>
-        <div>
-          <small>SOURCE MIX</small>
-          <strong>45 / 30 / 25</strong>
-          <span>normalized weighting</span>
-        </div>
-        <div>
-          <small>REFRESH RATE</small>
-          <strong>06H</strong>
-          <span>with snapshot fallback</span>
-        </div>
-        <p>
-          Built for readers who want the shape of the conversation—not another
-          unexplained top ten.
-        </p>
-      </section>
-
-      <section className="ranking-section" id="ranking">
-        <div className="section-heading">
+    <main className="app-shell">
+      <section className="rankings-page" id="ranking">
+        <div className="page-intro">
           <div>
-            <p className="eyebrow">
-              <span /> Live leaderboard
+            <p className="brand">VN Rank</p>
+            <h1>Visual novel rankings</h1>
+            <p className="intro-copy">
+              A simple combined ranking from VNDB, Bangumi, and ErogameScape.
             </p>
-            <h2>Top visual novels</h2>
           </div>
-          <p>
-            Scores are normalized to 100. Switch sources to see where the
-            communities agree—and where they really don’t.
-          </p>
+          <div className="feed-status" aria-live="polite">
+            <span className={feedState}>
+              <i /> {feedState === "syncing" ? "Updating" : feedState === "live" ? "Live data" : "Snapshot"}
+            </span>
+            <small>{lastUpdated}</small>
+          </div>
         </div>
 
-        <div className="rank-controls">
-          <div className="source-tabs" role="group" aria-label="Ranking source">
-            {(Object.keys(sourceLabels) as ViewMode[]).map((source) => (
-              <button
-                className={view === source ? "selected" : ""}
-                key={source}
-                onClick={() => setView(source)}
-                type="button"
-              >
-                {sourceLabels[source]}
-              </button>
-            ))}
-          </div>
-          <label className="search-field">
-            <span aria-hidden="true">⌕</span>
-            <span className="sr-only">Search titles</span>
+        <div className="toolbar">
+          <label className="search-control">
+            <span>Search</span>
             <input
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Search a title…"
+              placeholder="Title or Japanese title"
               type="search"
               value={query}
             />
           </label>
-          <label className="filter-field">
+          <label className="select-control">
             <span>Era</span>
             <select value={era} onChange={(event) => setEra(event.target.value)}>
               <option value="all">All years</option>
@@ -239,7 +132,7 @@ export default function Home() {
               <option value="2020">2020s</option>
             </select>
           </label>
-          <label className="filter-field">
+          <label className="select-control">
             <span>Genre</span>
             <select
               value={genre}
@@ -253,8 +146,26 @@ export default function Home() {
           </label>
         </div>
 
-        <div className="ranking-table">
-          <div className="table-head" aria-hidden="true">
+        <div className="ranking-nav">
+          <div className="source-tabs" role="group" aria-label="Ranking source">
+            {(Object.keys(sourceLabels) as ViewMode[]).map((source) => (
+              <button
+                className={view === source ? "selected" : ""}
+                key={source}
+                onClick={() => setView(source)}
+                type="button"
+              >
+                {sourceLabels[source]}
+              </button>
+            ))}
+          </div>
+          <p>
+            {visibleRankings.length} {visibleRankings.length === 1 ? "title" : "titles"}
+          </p>
+        </div>
+
+        <div className="ranking-list">
+          <div className="list-head" aria-hidden="true">
             <span>Rank</span>
             <span>Title</span>
             <span>Source scores</span>
@@ -264,66 +175,67 @@ export default function Home() {
           {visibleRankings.map((item, index) => {
             const isExpanded = expanded === item.id;
             return (
-              <article className="rank-card" key={item.id}>
+              <article className="ranking-item" key={item.id}>
                 <button
                   aria-expanded={isExpanded}
-                  className="rank-row"
+                  className="ranking-row"
                   onClick={() => setExpanded(isExpanded ? null : item.id)}
                   type="button"
                 >
-                  <span className="rank-number">
-                    {String(index + 1).padStart(2, "0")}
-                  </span>
-                  <span className="cover-wrap">
+                  <span className="rank-number">{index + 1}</span>
+                  <span className="cover">
                     <img
                       alt=""
-                      height="96"
+                      height="76"
                       loading="lazy"
                       referrerPolicy="no-referrer"
                       src={item.image}
-                      width="68"
+                      width="54"
                     />
                   </span>
-                  <span className="title-cell">
+                  <span className="title-info">
                     <strong>{item.title}</strong>
-                    <small>
-                      {item.altTitle} <i /> {item.year}
-                    </small>
-                    <span>
-                      {item.genres.map((itemGenre) => (
-                        <em key={itemGenre}>{itemGenre}</em>
-                      ))}
+                    <small>{item.altTitle}</small>
+                    <span className="title-meta">
+                      <span>{item.year}</span>
+                      <span>{item.genres.join(" / ")}</span>
+                    </span>
+                    <span className="mobile-scores">
+                      VNDB {item.sources.vndb.score?.toFixed(1) ?? "-"} / Bangumi{" "}
+                      {item.sources.bangumi.score?.toFixed(1) ?? "-"} / EGS{" "}
+                      {item.sources.erogamescape.score?.toFixed(1) ?? "-"}
                     </span>
                   </span>
-                  <span className="mini-sources">
+                  <span className="source-scores">
                     {(["vndb", "bangumi", "erogamescape"] as SourceKey[]).map(
                       (source) => (
-                        <span className={source} key={source}>
+                        <span key={source}>
                           <small>{source === "erogamescape" ? "EGS" : source}</small>
-                          <b>{item.sources[source].score?.toFixed(1) ?? "—"}</b>
-                          <i>{formatVotes(item.sources[source].votes)}</i>
+                          <strong>{item.sources[source].score?.toFixed(1) ?? "-"}</strong>
                         </span>
                       ),
                     )}
                   </span>
-                  <strong className="consensus-score">
+                  <strong className="overall-score">
                     {scoreFor(item, view).toFixed(1)}
-                    <small>/100</small>
                   </strong>
-                  <span className="expand-mark" aria-hidden="true">
-                    {isExpanded ? "−" : "+"}
+                  <span className="expand-button" aria-hidden="true">
+                    {isExpanded ? "-" : "+"}
                   </span>
                 </button>
 
                 {isExpanded && (
-                  <div className="rank-details">
-                    <p>{item.synopsis}</p>
-                    <div>
-                      <span>{formatRuntime(item.lengthMinutes)}</span>
-                      <span>Released {item.released}</span>
-                      <span>{item.platforms.join(" · ")}</span>
+                  <div className="ranking-details">
+                    <div className="details-copy">
+                      <h2>About this title</h2>
+                      <p>{item.synopsis}</p>
+                      <div className="details-meta">
+                        <span>{formatRuntime(item.lengthMinutes)}</span>
+                        <span>Released {item.released}</span>
+                        <span>{item.platforms.join(" / ")}</span>
+                      </div>
                     </div>
-                    <nav aria-label={`Source links for ${item.title}`}>
+                    <div className="details-sources">
                       {(Object.keys(item.sources) as SourceKey[]).map((source) =>
                         item.sources[source].href ? (
                           <a
@@ -332,11 +244,15 @@ export default function Home() {
                             rel="noreferrer"
                             target="_blank"
                           >
-                            Open on {sourceLabels[source]} ↗
+                            <span>
+                              <strong>{sourceLabels[source]}</strong>
+                              <small>{formatVotes(item.sources[source].votes)}</small>
+                            </span>
+                            <span>Open</span>
                           </a>
                         ) : null,
                       )}
-                    </nav>
+                    </div>
                   </div>
                 )}
               </article>
@@ -345,9 +261,8 @@ export default function Home() {
 
           {!visibleRankings.length && (
             <div className="empty-state">
-              <span>∅</span>
-              <h3>No titles found</h3>
-              <p>Try a wider era, another genre, or a shorter search.</p>
+              <h2>No titles found</h2>
+              <p>Try a different search, era, or genre.</p>
               <button
                 type="button"
                 onClick={() => {
@@ -356,78 +271,33 @@ export default function Home() {
                   setGenre("all");
                 }}
               >
-                Reset filters
+                Clear filters
               </button>
             </div>
           )}
         </div>
-      </section>
 
-      <section className="method-section" id="method">
-        <div className="method-title">
-          <p className="eyebrow">
-            <span /> Method, not magic
-          </p>
-          <h2>Three scenes.<br />One common scale.</h2>
-        </div>
-        <div className="method-grid">
-          <article>
-            <span>01</span>
-            <h3>Collect</h3>
-            <p>
-              Pull Bayesian ratings and vote counts from VNDB, Bangumi subject
-              ratings, and ErogameScape median scores.
-            </p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>Normalize</h3>
-            <p>
-              Convert each source to a 100-point scale. Missing sources are
-              excluded instead of being treated as zero.
-            </p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>Combine</h3>
-            <p>
-              Weight VNDB 45%, Bangumi 30%, and ErogameScape 25%, then rebalance
-              the mix across available sources.
-            </p>
-          </article>
-        </div>
-        <div className="method-note">
-          <strong>Why these weights?</strong>
+        <section className="method-card" aria-labelledby="method-title">
+          <div>
+            <p className="section-label">How scores work</p>
+            <h2 id="method-title">One score, three communities.</h2>
+          </div>
           <p>
-            VNDB has the broadest VN-focused international sample. Bangumi adds
-            a distinct Chinese-speaking audience. ErogameScape adds deep
-            Japanese eroge coverage but often a smaller sample. The raw scores
-            always remain visible so the consensus can be audited.
+            Scores are converted to a 100-point scale and combined using 45%
+            VNDB, 30% Bangumi, and 25% ErogameScape. If a source is missing, its
+            weight is shared across the available sources.
           </p>
-        </div>
-      </section>
+          <div className="weight-list" aria-label="Source weights">
+            <span><strong>45%</strong> VNDB</span>
+            <span><strong>30%</strong> Bangumi</span>
+            <span><strong>25%</strong> ErogameScape</span>
+          </div>
+        </section>
 
-      <footer>
-        <div className="wordmark">
-          VN<span>/</span>RANK
-        </div>
-        <p>Independent index. Data belongs to its respective communities.</p>
-        <div>
-          <a href="https://vndb.org" rel="noreferrer" target="_blank">
-            VNDB ↗
-          </a>
-          <a href="https://bgm.tv" rel="noreferrer" target="_blank">
-            Bangumi ↗
-          </a>
-          <a
-            href="https://erogamescape.org/~ap2/ero/toukei_kaiseki/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            ErogameScape ↗
-          </a>
-        </div>
-      </footer>
+        <p className="page-note">
+          Independent ranking. Scores and cover images belong to their respective sources.
+        </p>
+      </section>
     </main>
   );
 }
