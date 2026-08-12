@@ -1,4 +1,5 @@
-export type SourceKey = "vndb" | "bangumi";
+export type SourceKey = "vndb" | "bangumi" | "egs";
+export const EGS_VOTE_WEIGHT = 2;
 
 export type SourceScore = {
   score: number | null;
@@ -30,6 +31,8 @@ export type PopularityRecord = {
   vndbVotes?: number | null;
   bangumiScore?: number | null;
   bangumiVotes?: number | null;
+  egsScore?: number | null;
+  egsVotes?: number | null;
 };
 
 export function voteWeightedScore(title: PopularityRecord) {
@@ -37,23 +40,31 @@ export function voteWeightedScore(title: PopularityRecord) {
   const vndbVotes = title.vndbVotes ?? 0;
   const bangumiScore = title.bangumiScore ?? 0;
   const bangumiVotes = title.bangumiVotes ?? 0;
-  const totalVotes = vndbVotes + bangumiVotes;
+  const egsScore = title.egsScore ?? 0;
+  const egsVotes = title.egsVotes ?? 0;
+  const weightedEgsVotes = egsVotes * EGS_VOTE_WEIGHT;
+  const totalVotes = vndbVotes + bangumiVotes + weightedEgsVotes;
 
   if (totalVotes === 0) return 0;
   return (
     vndbScore * (vndbVotes / totalVotes) +
-    bangumiScore * (bangumiVotes / totalVotes)
+    bangumiScore * (bangumiVotes / totalVotes) +
+    egsScore * (weightedEgsVotes / totalVotes)
   );
 }
 
 export type CatalogTitle = {
   name: string;
   vndbId: string;
-  bangumiId: string;
+  bangumiId?: string;
   vndbScore: number | null;
   vndbVotes: number | null;
   bangumiScore: number | null;
   bangumiVotes: number | null;
+  egsId?: string;
+  egsScore?: number | null;
+  egsVotes?: number | null;
+  egsMedian?: number | null;
   overallScore: number;
   scoresUpdatedAt: string | null;
   lastError: string | null;

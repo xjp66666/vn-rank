@@ -6,7 +6,6 @@ const catalogPath = resolve(root, "data/catalog.json");
 const cachePath = resolve(root, ".cache/bangumi-search.json");
 const targetCount = Number(process.env.TARGET_COUNT || 100);
 const minimumVotes = Number(process.env.VNDB_MIN_VOTES || 500);
-const candidatePages = Number(process.env.VNDB_PAGES || 5);
 const SITE_AGENT = "VN-Rank/1.0 (curated visual novel ranking)";
 
 async function loadLocalToken() {
@@ -53,7 +52,8 @@ async function fetchWithRetry(url, init, label) {
 
 async function fetchVndbCandidates() {
   const candidates = [];
-  for (let page = 1; page <= candidatePages; page += 1) {
+  const pages = Math.ceil(targetCount / 100);
+  for (let page = 1; page <= pages; page += 1) {
     const payload = await fetchWithRetry(
       "https://api.vndb.org/kana/vn",
       {
@@ -73,7 +73,7 @@ async function fetchVndbCandidates() {
     candidates.push(...payload.results);
     if (!payload.more) break;
   }
-  return candidates;
+  return candidates.slice(0, targetCount);
 }
 
 function normalized(value) {
@@ -138,7 +138,7 @@ let warnedAboutToken = false;
 const cache = await loadCache();
 
 async function searchBangumi(keyword) {
-  const cacheKey = normalized(keyword);
+  const cacheKey = `v2:${normalized(keyword)}`;
   if (cache[cacheKey]) return cache[cacheKey];
 
   const request = async (withToken) => {
@@ -149,7 +149,7 @@ async function searchBangumi(keyword) {
     };
     if (withToken && accessToken) headers.Authorization = `Bearer ${accessToken}`;
     return fetchWithRetry(
-      "https://api.bgm.tv/v0/search/subjects?limit=10&offset=0",
+      "https://api.bgm.tv/v0/search/subjects?limit=50&offset=0",
       {
         method: "POST",
         headers,
@@ -204,81 +204,79 @@ const catalog = JSON.parse(await readFile(catalogPath, "utf8"));
 if (catalog.schemaVersion !== 1 || !Array.isArray(catalog.titles)) {
   throw new Error("data/catalog.json is not a version 1 catalog");
 }
-const resetIds = new Set(
-  String(process.env.RESET_TO_VNDB_IDS || "")
-    .split(",")
-    .map((value) => value.trim())
-    .filter(Boolean),
-);
-if (resetIds.size) {
-  catalog.titles = catalog.titles.filter((title) => resetIds.has(title.vndbId));
-  console.log(`Reset catalog to ${catalog.titles.length} explicitly preserved titles.`);
-}
-const pruneIds = new Set(
-  String(process.env.PRUNE_VNDB_IDS || "")
-    .split(",")
-    .map((value) => value.trim())
-    .filter(Boolean),
-);
-if (pruneIds.size) {
-  catalog.titles = catalog.titles.filter((title) => !pruneIds.has(title.vndbId));
-  console.log(`Pruned catalog to ${catalog.titles.length} titles.`);
-}
-if (catalog.titles.length >= targetCount) {
-  console.log(`Catalog already contains ${catalog.titles.length} titles.`);
-  process.exit(0);
-}
-
-const existingVndbIds = new Set(catalog.titles.map((title) => title.vndbId));
-const existingBangumiIds = new Set(catalog.titles.map((title) => String(title.bangumiId)));
+const existingByVndbId = new Map(catalog.titles.map((title) => [title.vndbId, title]));
+const usedBangumiIds = new Set();
 const vndbCandidates = await fetchVndbCandidates();
 const skipped = [];
+const nextTitles = [];
 
 for (const [index, vndb] of vndbCandidates.entries()) {
-  if (catalog.titles.length >= targetCount) break;
-  if (existingVndbIds.has(vndb.id)) continue;
+  const existing = existingByVndbId.get(vndb.id);
+  let match = null;
+  let bangumiId = existing?.bangumiId;
+  if (bangumiId && usedBangumiIds.has(String(bangumiId))) bangumiId = undefined;
+
   try {
-    const match = await findBangumiMatch(vndb);
-    if (!match || existingBangumiIds.has(String(match.item.id))) {
-      skipped.push({ vndbId: vndb.id, title: vndb.title, reason: match ? "duplicate Bangumi ID" : "uncertain match" });
-      continue;
+    if (!bangumiId) {
+      match = await findBangumiMatch(vndb);
+      if (match && !usedBangumiIds.has(String(match.item.id))) {
+        bangumiId = String(match.item.id);
+      } else {
+        skipped.push({
+          vndbId: vndb.id,
+          title: vndb.title,
+          reason: match ? "duplicate Bangumi ID" : "no confident Bangumi match",
+        });
+      }
     }
-    catalog.titles.push({
+  } catch (error) {
+    skipped.push({ vndbId: vndb.id, title: vndb.title, reason: error.message });
+  }
+
+  if (bangumiId) usedBangumiIds.add(String(bangumiId));
+  const matchedBangumi = match?.item;
+  nextTitles.push({
+      ...existing,
       name: vndb.title,
       vndbId: vndb.id,
-      bangumiId: String(match.item.id),
+      ...(bangumiId ? { bangumiId: String(bangumiId) } : {}),
       vndbScore: vndb.rating ?? null,
       vndbVotes: vndb.votecount ?? null,
-      bangumiScore: match.item.rating?.score ? match.item.rating.score * 10 : null,
-      bangumiVotes: match.item.rating?.total ?? null,
+      bangumiScore: existing && existing.bangumiId === bangumiId
+        ? existing.bangumiScore ?? null
+        : matchedBangumi?.rating?.score ? matchedBangumi.rating.score * 10 : null,
+      bangumiVotes: existing && existing.bangumiId === bangumiId
+        ? existing.bangumiVotes ?? null
+        : matchedBangumi?.rating?.total ?? null,
       metadata: {
-        altTitle: vndb.alttitle || match.item.name || vndb.title,
-        released: vndb.released || match.item.date,
-        year: Number((vndb.released || match.item.date)?.slice(0, 4)) || 0,
-        image: match.item.images?.common || match.item.images?.large || "",
-        genres: ["Visual novel"],
-        platforms: ["PC"],
-        synopsis: match.item.summary || "",
+        ...existing?.metadata,
+        altTitle: vndb.alttitle || matchedBangumi?.name || existing?.metadata?.altTitle || vndb.title,
+        released: vndb.released || matchedBangumi?.date || existing?.metadata?.released,
+        year: Number((vndb.released || matchedBangumi?.date)?.slice(0, 4))
+          || existing?.metadata?.year || 0,
+        image: existing?.metadata?.image
+          || matchedBangumi?.images?.common || matchedBangumi?.images?.large || "",
+        genres: existing?.metadata?.genres ?? ["Visual novel"],
+        platforms: existing?.metadata?.platforms ?? ["PC"],
+        synopsis: existing?.metadata?.synopsis || matchedBangumi?.summary || "",
       },
       scoresUpdatedAt: new Date().toISOString(),
       lastError: null,
     });
-    existingVndbIds.add(vndb.id);
-    existingBangumiIds.add(String(match.item.id));
-    console.log(
-      `${String(catalog.titles.length).padStart(3)}. ${vndb.id} ${vndb.title} -> Bangumi ${match.item.id} ${match.item.name} (${match.similarity.toFixed(2)})`,
-    );
-  } catch (error) {
-    skipped.push({ vndbId: vndb.id, title: vndb.title, reason: error.message });
-  }
+  console.log(
+    `${String(index + 1).padStart(3)}. ${vndb.id} ${vndb.title} -> ${bangumiId ? `Bangumi ${bangumiId}` : "Bangumi unmapped"}`,
+  );
   if ((index + 1) % 20 === 0) await new Promise((resolveDelay) => setTimeout(resolveDelay, 400));
 }
 
+catalog.titles = nextTitles;
 await mkdir(resolve(root, ".cache"), { recursive: true });
 await writeFile(cachePath, `${JSON.stringify(cache)}\n`);
 await writeFile(catalogPath, `${JSON.stringify(catalog, null, 2)}\n`);
 
-console.log(`Catalog now contains ${catalog.titles.length} titles; skipped ${skipped.length} candidates.`);
+console.log(
+  `Catalog now contains the exact top ${catalog.titles.length}; ${catalog.titles.filter((title) => title.bangumiId).length} have Bangumi mappings.`,
+);
 if (skipped.length) {
   console.log("First skipped candidates:");
   for (const item of skipped.slice(0, 20)) console.log(`- ${item.vndbId} ${item.title}: ${item.reason}`);

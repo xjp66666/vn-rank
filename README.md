@@ -1,9 +1,9 @@
 # VN Rank
 
-A fully static visual novel ranking built from a manually curated catalog. A
-daily GitHub Actions workflow fetches the exact VNDB and Bangumi records, stores
-their current scores in the catalog, calculates the combined top 50, and deploys
-the result to GitHub Pages.
+A fully static visual novel ranking built from a VNDB-origin catalog. A daily
+GitHub Actions workflow fetches exact VNDB records plus any optional Bangumi and
+ErogameScape mappings, stores their current scores in the catalog, calculates
+the combined ranking for the full catalog, and deploys the result to GitHub Pages.
 
 New to JavaScript, HTTP, or GitHub Actions? Read the
 **[complete beginner guide](docs/BEGINNER_GUIDE.md)**. Catalog contributors can
@@ -13,7 +13,7 @@ use the shorter **[contribution checklist](CONTRIBUTING.md)**.
 data/catalog.json (manual database)
         |
         v
-GitHub Actions --> VNDB + Bangumi --> public/data/rankings.json
+GitHub Actions --> VNDB + Bangumi + optional EGS --> public/data/rankings.json
         |
         v
 GitHub Pages (static React site)
@@ -33,15 +33,18 @@ Add each visual novel to `data/catalog.json` using its permanent IDs:
     {
       "name": "WHITE ALBUM2",
       "vndbId": "v7771",
-      "bangumiId": "22290"
+      "bangumiId": "22290",
+      "egsId": "13255"
     }
   ]
 }
 ```
 
-IDs or full source URLs are accepted. After the updater runs, that same object
-also contains its VNDB score and votes, Bangumi score and votes, cover/metadata,
-last refresh time, and any source error. The IDs never change automatically.
+Only the name and VNDB ID are required. Bangumi and ErogameScape IDs are
+optional best-effort mappings. IDs or full source URLs are accepted. After the
+updater runs, that same object also contains source scores and votes,
+cover/metadata, last refresh time, and any source error. The IDs never change
+automatically.
 
 The website's **Manage database** screen is a convenient editor. Because the
 site is static, it downloads a new `catalog.json`; replace `data/catalog.json`
@@ -86,9 +89,21 @@ the site.
 
 To fill an empty catalog from VNDB's highest-rated titles, run
 `npm run import:top`. The importer requires at least 500 VNDB votes by default,
-keeps existing manual mappings, and only accepts normalized exact Bangumi title
-matches. Change the defaults with `TARGET_COUNT` or `VNDB_MIN_VOTES` environment
-variables, then run `npm run update:data`.
+keeps exactly the requested number of VNDB results in VNDB order, preserves
+existing mappings for those titles, and attempts normalized exact Bangumi title
+matches. A missing Bangumi result does not replace the VN with a lower-ranked
+one. Change the defaults with `TARGET_COUNT` or `VNDB_MIN_VOTES`, then run
+`npm run update:data`. The import rewrites the catalog to that exact VNDB set,
+so review the diff before committing.
+
+To populate missing ErogameScape IDs from exact EGS links attached to VNDB
+release records, run `npm run map:egs`. Existing valid manual EGS mappings are
+preserved. When several editions are available, the mapper prefers the original
+release date and then the edition with more EGS votes. It deliberately leaves a
+title unmapped when VNDB has no exact EGS release link or EGS no longer returns
+that record; review those titles manually instead of accepting a fuzzy name
+match. Run `npm run update:data` after mapping to refresh every source and
+rebuild the ranking.
 
 ## Deploy to GitHub Pages
 
@@ -133,10 +148,12 @@ requests only the repository, Pages, and deployment permissions it needs.
 
 ## Ranking method
 
-- Each source contributes its rating multiplied by its vote count
-- The products are added and divided by the title's combined vote count
+- Each source contributes its rating multiplied by its weighted vote count
+- ErogameScape votes use a `2x` multiplier; VNDB and Bangumi use `1x`
+- The products are added and divided by the combined weighted vote count
 - The community with more votes for that title has more influence
-- Output: top 50 from the manually curated catalog
+- ErogameScape uses `average` as its score and `count` as its votes
+- Output: every title from the manually curated catalog, sorted by combined score
 
 Bangumi's 10-point API score is converted to the same 100-point scale as VNDB.
 The final result is a vote-weighted average on the same 0-to-100 scale.

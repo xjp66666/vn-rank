@@ -6,8 +6,8 @@ import {
   type CatalogRecord,
 } from "./ranking";
 
-type FormState = { name: string; vndbId: string; bangumiId: string };
-const emptyForm: FormState = { name: "", vndbId: "", bangumiId: "" };
+type FormState = { name: string; vndbId: string; bangumiId: string; egsId: string };
+const emptyForm: FormState = { name: "", vndbId: "", bangumiId: "", egsId: "" };
 const initialCatalog = initialCatalogJson as unknown as CatalogFile;
 
 function normalizeVndb(value: string) {
@@ -16,6 +16,11 @@ function normalizeVndb(value: string) {
 
 function normalizeBangumi(value: string) {
   return value.match(/(?:(?:bgm\.tv|bangumi\.tv)\/subject\/)?(\d+)/i)?.[1] ?? "";
+}
+
+function normalizeEgs(value: string) {
+  const text = value.trim();
+  return text.match(/[?&]game=(\d+)/i)?.[1] ?? text.match(/^\d+$/)?.[0] ?? "";
 }
 
 function formatScore(value: number | null | undefined) {
@@ -33,8 +38,17 @@ export function Manage() {
     event.preventDefault();
     const vndbId = normalizeVndb(form.vndbId);
     const bangumiId = normalizeBangumi(form.bangumiId);
-    if (!form.name.trim() || !vndbId || !bangumiId) {
-      setStatus("Enter a name, valid VNDB ID or URL, and valid Bangumi ID or URL.");
+    const egsId = normalizeEgs(form.egsId);
+    if (!form.name.trim() || !vndbId) {
+      setStatus("Enter a name and valid VNDB ID or URL.");
+      return;
+    }
+    if (form.bangumiId.trim() && !bangumiId) {
+      setStatus("Enter a valid numeric Bangumi ID or subject URL.");
+      return;
+    }
+    if (form.egsId.trim() && !egsId) {
+      setStatus("Enter a valid numeric ErogameScape ID or game URL.");
       return;
     }
 
@@ -42,11 +56,17 @@ export function Manage() {
     const next: CatalogRecord = {
       name: form.name.trim(),
       vndbId,
-      bangumiId,
+      ...(bangumiId ? { bangumiId } : {}),
       vndbScore: existing?.vndbScore ?? null,
       vndbVotes: existing?.vndbVotes ?? null,
-      bangumiScore: existing?.bangumiScore ?? null,
-      bangumiVotes: existing?.bangumiVotes ?? null,
+      bangumiScore: existing?.bangumiId === bangumiId ? existing.bangumiScore ?? null : null,
+      bangumiVotes: existing?.bangumiId === bangumiId ? existing.bangumiVotes ?? null : null,
+      ...(egsId ? {
+        egsId,
+        egsScore: existing?.egsId === egsId ? existing.egsScore ?? null : null,
+        egsVotes: existing?.egsId === egsId ? existing.egsVotes ?? null : null,
+        egsMedian: existing?.egsId === egsId ? existing.egsMedian ?? null : null,
+      } : {}),
       metadata: existing?.metadata ?? {},
       scoresUpdatedAt: existing?.scoresUpdatedAt ?? null,
       lastError: existing?.lastError ?? null,
@@ -68,7 +88,12 @@ export function Manage() {
   }
 
   function editTitle(title: CatalogRecord) {
-    setForm({ name: title.name, vndbId: title.vndbId, bangumiId: title.bangumiId });
+    setForm({
+      name: title.name,
+      vndbId: title.vndbId,
+      bangumiId: title.bangumiId ?? "",
+      egsId: title.egsId ?? "",
+    });
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
@@ -104,8 +129,8 @@ export function Manage() {
         <div className="catalog-help">
           <p>
             Save the download as <code>data/catalog.json</code>, commit, and push.
-            The workflow updates VNDB and Bangumi scores and republishes the ranking.
-            No API token is ever sent to this page.
+            The workflow updates VNDB and any optional Bangumi/ErogameScape scores
+            and republishes the ranking. No API token is ever sent to this page.
           </p>
         </div>
 
@@ -129,12 +154,19 @@ export function Manage() {
             />
           </label>
           <label>
-            <span>Bangumi ID or URL</span>
+            <span>Bangumi ID or URL (optional)</span>
             <input
               onChange={(event) => setForm({ ...form, bangumiId: event.target.value })}
               placeholder="54898"
-              required
               value={form.bangumiId}
+            />
+          </label>
+          <label>
+            <span>EGS ID or URL (optional)</span>
+            <input
+              onChange={(event) => setForm({ ...form, egsId: event.target.value })}
+              placeholder="13255"
+              value={form.egsId}
             />
           </label>
           <button type="submit">Save to draft</button>
@@ -161,13 +193,25 @@ export function Manage() {
                 <a href={`https://vndb.org/${title.vndbId}`} rel="noreferrer" target="_blank">
                   {title.vndbId}
                 </a>
-                <a href={`https://bgm.tv/subject/${title.bangumiId}`} rel="noreferrer" target="_blank">
-                  Bangumi {title.bangumiId}
-                </a>
+                {title.bangumiId ? (
+                  <a href={`https://bgm.tv/subject/${title.bangumiId}`} rel="noreferrer" target="_blank">
+                    Bangumi {title.bangumiId}
+                  </a>
+                ) : null}
+                {title.egsId ? (
+                  <a
+                    href={`https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=${title.egsId}`}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    EGS {title.egsId}
+                  </a>
+                ) : null}
               </div>
               <div className="catalog-scores">
                 <span><small>VNDB</small>{formatScore(title.vndbScore)}</span>
                 <span><small>Bangumi</small>{formatScore(title.bangumiScore)}</span>
+                <span><small>EGS</small>{formatScore(title.egsScore)}</span>
                 <strong>{formatScore(voteWeightedScore(title))}</strong>
               </div>
               <div className="catalog-actions">

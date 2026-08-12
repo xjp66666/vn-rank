@@ -1,5 +1,7 @@
 import { readFile } from "node:fs/promises";
 
+const EGS_VOTE_WEIGHT = 2;
+
 const dataFiles = [
   ["catalog", new URL("../data/catalog.json", import.meta.url)],
   ["rankings", new URL("../public/data/rankings.json", import.meta.url)],
@@ -33,16 +35,23 @@ if (!Array.isArray(rankings.rankings)) {
   throw new Error("public/data/rankings.json must contain a rankings array");
 }
 
-if (rankings.rankings.length > 50) {
-  throw new Error("public/data/rankings.json cannot contain more than 50 rankings");
+if (rankings.rankings.length !== catalog.titles.length) {
+  throw new Error(
+    "public/data/rankings.json must contain every title from data/catalog.json",
+  );
 }
 
 if (rankings.calculation?.method !== "vote-weighted-average") {
   throw new Error("rankings must use the vote-weighted-average calculation");
 }
 
+if (rankings.calculation?.weights?.egs !== EGS_VOTE_WEIGHT) {
+  throw new Error(`rankings must use EGS vote weight ${EGS_VOTE_WEIGHT}`);
+}
+
 const vndbIds = new Set();
 const bangumiIds = new Set();
+const egsIds = new Set();
 
 for (const [index, title] of catalog.titles.entries()) {
   const label = `catalog title ${index + 1}`;
@@ -55,20 +64,29 @@ for (const [index, title] of catalog.titles.entries()) {
     throw new Error(`${label} has an invalid VNDB ID: ${title.vndbId}`);
   }
 
-  if (!/^\d+$/.test(title.bangumiId)) {
+  if (title.bangumiId !== undefined && !/^\d+$/.test(title.bangumiId)) {
     throw new Error(`${label} has an invalid Bangumi ID: ${title.bangumiId}`);
+  }
+
+  if (title.egsId !== undefined && !/^\d+$/.test(title.egsId)) {
+    throw new Error(`${label} has an invalid EGS ID: ${title.egsId}`);
   }
 
   if (vndbIds.has(title.vndbId)) {
     throw new Error(`duplicate VNDB ID in catalog: ${title.vndbId}`);
   }
 
-  if (bangumiIds.has(title.bangumiId)) {
+  if (title.bangumiId && bangumiIds.has(title.bangumiId)) {
     throw new Error(`duplicate Bangumi ID in catalog: ${title.bangumiId}`);
   }
 
+  if (title.egsId && egsIds.has(title.egsId)) {
+    throw new Error(`duplicate EGS ID in catalog: ${title.egsId}`);
+  }
+
   vndbIds.add(title.vndbId);
-  bangumiIds.add(title.bangumiId);
+  if (title.bangumiId) bangumiIds.add(title.bangumiId);
+  if (title.egsId) egsIds.add(title.egsId);
 }
 
 const rankedIds = new Set();
@@ -90,9 +108,15 @@ for (const [index, title] of rankings.rankings.entries()) {
   const vndbVotes = title.sources?.vndb?.votes ?? 0;
   const bangumiScore = title.sources?.bangumi?.score ?? 0;
   const bangumiVotes = title.sources?.bangumi?.votes ?? 0;
-  const totalVotes = vndbVotes + bangumiVotes;
+  const egsScore = title.sources?.egs?.score ?? 0;
+  const egsVotes = title.sources?.egs?.votes ?? 0;
+  const weightedEgsVotes = egsVotes * EGS_VOTE_WEIGHT;
+  const totalVotes = vndbVotes + bangumiVotes + weightedEgsVotes;
   const expectedScore = totalVotes
-    ? (vndbScore * vndbVotes + bangumiScore * bangumiVotes) / totalVotes
+    ? (vndbScore * vndbVotes
+      + bangumiScore * bangumiVotes
+      + egsScore * weightedEgsVotes)
+      / totalVotes
     : 0;
   if (Math.abs(title.overallScore - expectedScore) > 1e-8) {
     throw new Error(`ranking ${index + 1} has an incorrectly calculated overallScore`);

@@ -8,14 +8,14 @@ the later sections when you want to change something.
 ## 1. What this project does
 
 VN Rank maintains a manually curated list of visual novels. Every catalog entry
-permanently links one VNDB record and one Bangumi record. Once per day, a GitHub
-Actions runner:
+permanently links one VNDB record and one Bangumi record, with an optional
+ErogameScape mapping. Once per day, a GitHub Actions runner:
 
 1. reads those fixed IDs;
-2. asks VNDB and Bangumi for their current scores;
+2. asks VNDB, Bangumi, and any mapped ErogameScape records for current scores;
 3. stores the scores and metadata in the catalog;
 4. calculates a combined score;
-5. writes the top 50 to a static JSON file;
+5. writes the complete sorted ranking to a static JSON file;
 6. builds and deploys the website to GitHub Pages.
 
 The published website has no backend server and no database service. It consists
@@ -28,8 +28,10 @@ flowchart LR
     Human["Human edits data/catalog.json"] --> Action["GitHub Actions or local Node.js"]
     Action -->|"HTTP POST"| VNDB["VNDB API"]
     Action -->|"HTTP GET + optional token"| Bangumi["Bangumi API"]
+    Action -->|"One SQL form POST"| EGS["ErogameScape"]
     VNDB --> Action
     Bangumi --> Action
+    EGS --> Action
     Action --> Catalog["Updated data/catalog.json"]
     Action --> Rankings["Generated public/data/rankings.json"]
     Rankings --> Build["Vite builds the React app"]
@@ -73,7 +75,7 @@ the Bangumi token. The browser downloads the already generated rankings.
 | Path | Purpose | Edit manually? |
 | --- | --- | --- |
 | `data/catalog.json` | Permanent catalog, mappings, stored scores, and metadata | Yes |
-| `public/data/rankings.json` | Generated top-50 data consumed by the browser | Usually no |
+| `public/data/rankings.json` | Generated full ranking consumed by the browser | Usually no |
 | `scripts/update-rankings.mjs` | Fetches exact records, updates scores, ranks titles | Yes, for updater behavior |
 | `scripts/import-vndb-top.mjs` | Helps populate a catalog from high-rated VNDB titles | Run occasionally |
 | `scripts/validate-data.mjs` | Checks JSON, IDs, duplicates, and merge markers | Rarely |
@@ -166,7 +168,7 @@ and must stay private.
 The update command changes these tracked files:
 
 - `data/catalog.json`, with fresh scores and metadata;
-- `public/data/rankings.json`, with the newly calculated top 50.
+- `public/data/rankings.json`, with every catalog title in calculated rank order.
 
 Review the changes with:
 
@@ -195,8 +197,9 @@ When you type `npm run dev`, npm looks up and runs the `dev` entry.
 | Command | Result |
 | --- | --- |
 | `npm run dev` | Starts the local site at port 3000 |
-| `npm run update:data` | Fetches and stores current VNDB/Bangumi data |
+| `npm run update:data` | Fetches and stores current VNDB/Bangumi/EGS data |
 | `npm run import:top` | Adds candidates from VNDB and searches Bangumi matches |
+| `npm run map:egs` | Saves exact EGS IDs linked from VNDB releases |
 | `npm run validate:data` | Validates both JSON data files |
 | `npm run lint` | Runs ESLint |
 | `npm run typecheck` | Runs TypeScript without creating files |
@@ -207,14 +210,15 @@ When you type `npm run dev`, npm looks up and runs the `dev` entry.
 
 ## 7. Understanding the catalog
 
-`data/catalog.json` is the source of truth. A new title only needs three manual
-fields:
+`data/catalog.json` is the source of truth. A new title needs a name and VNDB
+ID. Bangumi and ErogameScape IDs are optional best-effort mappings:
 
 ```json
 {
   "name": "WHITE ALBUM2",
   "vndbId": "v7771",
-  "bangumiId": "22290"
+  "bangumiId": "22290",
+  "egsId": "13255"
 }
 ```
 
@@ -229,6 +233,10 @@ The updater expands it into a stored record similar to this:
   "vndbVotes": 4425,
   "bangumiScore": 91,
   "bangumiVotes": 7100,
+  "egsId": "13255",
+  "egsScore": 89.63,
+  "egsVotes": 2628,
+  "egsMedian": 94,
   "metadata": {
     "altTitle": "WHITE ALBUM2 -closing chapter-",
     "released": "2010-03-26",
@@ -249,7 +257,8 @@ Important details:
 - IDs are strings, even when the Bangumi ID contains only digits.
 - A VNDB ID must look like `v7771`.
 - A Bangumi ID must look like `22290`.
-- Both IDs must be unique across the catalog.
+- An optional EGS ID must look like `13255`.
+- Every supplied source ID must be unique across the catalog.
 - Scores use a 0-to-100 scale inside this project.
 - `null` means a value is unavailable or has not been fetched yet.
 - `lastError` records a source failure without discarding a previously stored
@@ -284,7 +293,7 @@ npm run check
 
 1. Run `npm run dev`.
 2. Open `http://localhost:3000/#manage`.
-3. Enter the name, VNDB ID or URL, and Bangumi ID or URL.
+3. Enter the name, VNDB ID or URL, Bangumi ID or URL, and an optional EGS ID.
 4. Select **Save to draft**.
 5. Select **Download catalog.json**.
 6. Replace the repository's `data/catalog.json` with the downloaded file.
@@ -297,7 +306,7 @@ updater or GitHub Actions does that later.
 ### 8.3 Remove a title
 
 Delete its complete object from `data/catalog.json`, or remove it in the manager
-and download the new catalog. The next updater run recreates the top 50 without
+and download the new catalog. The next updater run recreates the full ranking without
 that title.
 
 ## 9. How the HTTP requests work
@@ -366,7 +375,24 @@ The word `Bearer` tells the server which authentication scheme is being used.
 The token proves that the request is authorized as your Bangumi account. Never
 put this header or token in frontend source code.
 
-### 9.3 Common HTTP status codes
+### 9.3 ErogameScape request
+
+ErogameScape exposes a public SQL form rather than a JSON API. The updater sends
+one URL-encoded `POST` containing all manually mapped EGS IDs to:
+
+```text
+https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/sql_for_erogamer_form.php
+```
+
+The query selects `average`, `median`, and `count` from the daily
+`toukei_temp_table`. The response is an HTML table, which the updater parses
+without a browser or additional package. `average` becomes the 0-to-100 EGS
+score and `count` becomes its vote count. The server ends SQL queries that run
+longer than ten seconds, so the updater makes one small ID-based query rather
+than one request per title. See the official
+[table definition](https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/sql_for_erogamer_tablelist.php#toukei_temp_table).
+
+### 9.4 Common HTTP status codes
 
 | Status | Meaning in this project |
 | --- | --- |
@@ -378,10 +404,9 @@ put this header or token in frontend source code.
 | `429` | Too many requests; slow down and retry later |
 | `500`–`599` | The remote API has a server-side problem |
 
-Every source request has a 15-second timeout in the daily updater. VNDB and
-Bangumi are requested in parallel for each title, and up to six titles are
-processed concurrently. This keeps the run reasonably fast without sending all
-requests at once.
+VNDB and Bangumi requests have a 15-second client timeout and run in parallel,
+with up to six titles processed concurrently. The single ErogameScape batch has
+a 20-second client timeout in addition to its server-side query limit.
 
 ## 10. Daily updater workflow
 
@@ -394,10 +419,13 @@ sequenceDiagram
     participant Catalog as data/catalog.json
     participant VNDB as VNDB API
     participant BGM as Bangumi API
+    participant EGS as ErogameScape SQL form
     participant Output as public/data/rankings.json
 
     Trigger->>Script: npm run update:data
     Script->>Catalog: Read and validate fixed mappings
+    Script->>EGS: POST one query containing all mapped EGS IDs
+    EGS-->>Script: HTML result table
     loop Each catalog title, concurrency 6
         par Fetch both sources
             Script->>VNDB: POST query by VNDB ID
@@ -418,11 +446,12 @@ The major steps in code are:
 1. `loadLocalSecrets()` reads `.dev.vars` only outside CI.
 2. `validateCatalog()` normalizes IDs and rejects invalid entries.
 3. `mapConcurrent()` refreshes titles with a concurrency limit of six.
-4. `Promise.allSettled()` lets one API fail without losing the other API's data.
-5. `mergeMetadata()` prefers new values while preserving useful stored values.
-6. `overallScore()` calculates the vote-weighted average.
-7. The array is sorted descending and `.slice(0, 50)` keeps the top 50.
-8. `JSON.stringify(..., null, 2)` writes readable, indented JSON.
+4. `fetchErogameScape()` makes one batch query for optional EGS mappings.
+5. `Promise.allSettled()` lets one API fail without losing another source's data.
+6. `mergeMetadata()` prefers new values while preserving useful stored values.
+7. `overallScore()` calculates the vote-weighted average.
+8. The complete array is sorted from highest to lowest combined score.
+9. `JSON.stringify(..., null, 2)` writes readable, indented JSON.
 
 If one source fails, the script retains that source's last stored score and
 writes the reason to `lastError`. If every request to every source fails, it
@@ -430,49 +459,59 @@ throws an error before overwriting the existing files.
 
 ## 11. Ranking calculation
 
-VNDB ratings already use a 100-point scale. Bangumi's 10-point score is
-multiplied by 10 when stored, so both ratings share the same scale. The source
-with more votes for a particular title has more influence on its overall score.
+VNDB and ErogameScape ratings use a 100-point scale. Bangumi's 10-point score is
+multiplied by 10 when stored, so every rating shares the same scale. EGS votes
+use a `2x` multiplier to give the Japanese original-work audience more
+influence; VNDB and Bangumi votes use `1x`.
 
 The complete formula is:
 
 ```text
-total votes = VNDB votes + Bangumi votes
+weighted EGS votes = EGS votes x 2
+total weighted votes = VNDB votes + Bangumi votes + weighted EGS votes
 
-overall = (VNDB score x VNDB votes + Bangumi score x Bangumi votes)
-          / total votes
+overall = (VNDB score x VNDB votes
+          + Bangumi score x Bangumi votes
+          + EGS score x weighted EGS votes)
+          / total weighted votes
 ```
 
-The same calculation can be written as two vote shares:
+The same calculation can be written as source vote shares:
 
 ```text
-overall = VNDB score x (VNDB votes / total votes)
-        + Bangumi score x (Bangumi votes / total votes)
+overall = VNDB score x (VNDB votes / total weighted votes)
+        + Bangumi score x (Bangumi votes / total weighted votes)
+        + EGS score x (weighted EGS votes / total weighted votes)
 ```
 
 For WHITE ALBUM2 using example stored values:
 
 ```text
-total votes = 4,425 + 7,100 = 11,525
+weighted EGS votes = 2,628 x 2 = 5,256
+total weighted votes = 4,425 + 7,100 + 5,256 = 16,781
 
-overall = (90.3 x 4,425 + 91.0 x 7,100) / 11,525
-        = 90.73
+overall = (90.3 x 4,425 + 91.0 x 7,100 + 89.63 x 5,256) / 16,781
+        = 90.39
 ```
 
 This remains between 0 and 100. The formula does not give a direct bonus merely
-for having more total votes; vote counts determine how strongly each source's
-rating influences the average. If both vote counts are zero, the score is zero.
-A temporary request failure normally retains its last stored rating and vote
+for having more total votes; weighted vote counts determine how strongly each
+source's rating influences the average. If every vote count is zero, the score
+is zero. A title without an EGS mapping simply uses VNDB and Bangumi. A
+temporary request failure normally retains its last stored rating and vote
 count before the calculation runs.
 
 The generated `public/data/rankings.json` stores `overallScore` for every
 published title and records `vote-weighted-average` as the calculation method.
 
-The formula has two implementations because the Node updater and browser-based
-catalog preview run in different environments:
+The formula has two runtime implementations because the Node updater and
+browser-based catalog preview run in different environments:
 
-- `scripts/update-rankings.mjs` generates the top 50;
+- `scripts/update-rankings.mjs` generates the complete ranking;
 - `src/ranking.ts` calculates the same preview in the catalog manager.
+
+`scripts/validate-data.mjs` independently checks generated scores with the same
+weight so a mismatch fails validation.
 
 If you change the formula, update both places to keep them consistent.
 
@@ -484,32 +523,46 @@ and its current vote counts now directly affect its ranking.
 
 `npm run import:top` is a helper, not the daily workflow. It:
 
-1. requests highly rated VNDB titles with at least 500 votes by default;
+1. requests exactly the configured number of highest-rated VNDB titles with at
+   least 500 votes by default;
 2. searches Bangumi using the VNDB English and Japanese/alternate titles;
 3. normalizes punctuation and character width for comparison;
 4. accepts only an exact normalized title match;
 5. rejects matches whose release years differ by more than five years;
-6. rejects duplicate VNDB or Bangumi IDs;
-7. saves Bangumi search responses in `.cache/` to reduce repeat requests.
+6. leaves Bangumi empty when no confident unique match exists instead of
+   substituting a lower-ranked VNDB title;
+7. preserves existing mappings for titles still in the requested VNDB set;
+8. rewrites the catalog in exact VNDB ranking order;
+9. saves Bangumi search responses in `.cache/` to reduce repeat requests.
 
-Review automatic matches before publishing them. Similar names, adaptations,
-editions, and sequels can still require human judgment.
+The import removes catalog titles outside the requested VNDB set. Commit or
+back up the current catalog first, and review automatic mappings before
+publishing them. Similar names, adaptations, editions, and sequels can still
+require human judgment.
+
+### 12.1 ErogameScape mapper
+
+`npm run map:egs` is another manual maintenance helper. VNDB stores
+ErogameScape links on individual release records, so the mapper requests the
+releases connected to every catalog VN, collects their exact EGS IDs, and asks
+EGS for those candidates in batches of 100. It preserves an existing valid
+manual mapping. Otherwise it prefers an entry whose release date matches the
+VN's original release date, then the candidate with more EGS votes.
+
+The mapper does not use fuzzy title matching. A title with no exact
+VNDB-to-EGS release link, or whose linked record is no longer returned by EGS,
+remains unmapped and is printed for manual review. After mapping, run
+`npm run update:data` to refresh all scores and regenerate the complete ranking.
 
 Optional PowerShell environment variables can change importer behavior:
 
 ```powershell
 $env:TARGET_COUNT = "120"
 $env:VNDB_MIN_VOTES = "1000"
-$env:VNDB_PAGES = "8"
 npm run import:top
 Remove-Item Env:TARGET_COUNT
 Remove-Item Env:VNDB_MIN_VOTES
-Remove-Item Env:VNDB_PAGES
 ```
-
-Other maintenance variables supported by the importer are
-`RESET_TO_VNDB_IDS` and `PRUNE_VNDB_IDS`. They can remove many catalog records,
-so commit your current catalog first and review `git diff` afterward.
 
 ## 13. Frontend workflow
 
@@ -596,14 +649,13 @@ until the Promise settles without freezing the entire program.
 ```js
 const top = titles
   .filter((title) => title.score !== null)
-  .sort((a, b) => b.score - a.score)
-  .slice(0, 50);
+  .sort((a, b) => b.score - a.score);
 ```
 
 - `filter` keeps matching items;
 - `map` converts every item into a new value;
 - `sort` orders the array;
-- `slice` takes part of an array;
+- `slice` takes part of an array when a shorter list is wanted;
 - `reduce` combines an array into one value, such as a weighted total.
 
 ### Optional and missing values
@@ -634,7 +686,7 @@ The workflow then:
 3. confirms that the `BANGUMI_ACCESS_TOKEN` repository secret exists;
 4. installs exact dependencies with `npm ci`;
 5. validates the committed JSON before contacting APIs;
-6. refreshes VNDB and Bangumi data;
+6. refreshes VNDB, Bangumi, and optional ErogameScape data;
 7. on scheduled or manually started runs, commits changed JSON as
    `github-actions[bot]` when `main` has not changed during the refresh;
 8. validates, lints, type-checks, and builds the site;
@@ -838,7 +890,7 @@ using real API tokens in example code or screenshots.
 | Change ranking page text or controls | `src/Rankings.tsx` |
 | Change catalog editor behavior | `src/Manage.tsx` |
 | Change source weights | updater, `src/ranking.ts`, and `src/Manage.tsx` |
-| Change top 50 to another limit | `scripts/update-rankings.mjs` and validator |
+| Change how many catalog titles are displayed | `scripts/update-rankings.mjs` and validator |
 | Change local port | `vite.config.ts` |
 | Change daily time | `.github/workflows/deploy-pages.yml` cron |
 | Add another data source | catalog types, updater, generated JSON, ranking UI |

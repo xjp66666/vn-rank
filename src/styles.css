@@ -335,7 +335,7 @@ a {
 
 .source-scores {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .source-scores > span {
@@ -660,7 +660,7 @@ a {
   border-radius: var(--radius);
   display: grid;
   gap: 14px;
-  grid-template-columns: 1.2fr 1fr 1fr auto;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr auto;
   padding: 20px;
 }
 
@@ -767,7 +767,7 @@ a {
 .catalog-scores {
   align-items: end;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .catalog-scores span {
@@ -1005,7 +1005,7 @@ select:focus-visible {
   }
 
   .catalog-scores {
-    max-width: 260px;
+    max-width: 340px;
   }
 
   .catalog-actions {

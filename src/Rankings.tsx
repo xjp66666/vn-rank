@@ -6,10 +6,11 @@ import {
 } from "./ranking";
 import { loadStaticRankings } from "./data";
 
-const activeSources: SourceKey[] = ["vndb", "bangumi"];
+const activeSources: SourceKey[] = ["vndb", "bangumi", "egs"];
 const sourceLabels: Record<SourceKey, string> = {
   vndb: "VNDB",
   bangumi: "Bangumi",
+  egs: "EGS",
 };
 
 function formatVotes(value: number | null) {
@@ -90,7 +91,7 @@ export function Rankings() {
             <p className="brand">VN Rank</p>
             <h1>Visual novel rankings</h1>
             <p className="intro-copy">
-              A simple combined ranking from VNDB and Bangumi.
+              A simple combined ranking from VNDB, Bangumi, and optional EGS data.
             </p>
           </div>
           <div className="feed-status" aria-live="polite">
@@ -185,8 +186,9 @@ export function Rankings() {
                       <span>{item.genres.join(" / ")}</span>
                     </span>
                     <span className="mobile-scores">
-                      VNDB {item.sources.vndb.score?.toFixed(1) ?? "–"} / Bangumi{" "}
-                      {item.sources.bangumi.score?.toFixed(1) ?? "–"}
+                      {activeSources.map((source) =>
+                        `${sourceLabels[source]} ${item.sources[source].score?.toFixed(1) ?? "–"}`
+                      ).join(" / ")}
                     </span>
                   </span>
                   <span className="source-scores">
@@ -246,7 +248,7 @@ export function Rankings() {
               <p>
                 {rankings.length
                   ? "Try a different search, era, or genre."
-                  : "Add a visual novel and its fixed VNDB and Bangumi links."}
+                  : "Add a visual novel and its fixed source links."}
               </p>
               {rankings.length ? (
                 <button
@@ -271,16 +273,17 @@ export function Rankings() {
         <section className="method-card" aria-labelledby="method-title">
           <div>
             <p className="section-label">How scores work</p>
-            <h2 id="method-title">One score, two communities.</h2>
+            <h2 id="method-title">One score, multiple communities.</h2>
           </div>
           <p>
-            You choose every title and permanently link its VNDB and Bangumi records.
-            GitHub Actions refreshes those exact scores once per day, stores them in
-            the catalog, then averages the two ratings with the vote count from
-            each community determining its influence.
+            You permanently link each available source record. GitHub Actions
+            refreshes those exact scores once per day, stores them in the catalog,
+            then averages the ratings by vote count. Each ErogameScape vote has
+            twice the influence of a VNDB or Bangumi vote.
           </p>
           <div className="weight-list" aria-label="Score formula">
             <span><strong>Rating × votes</strong> for each source</span>
+            <span><strong>EGS votes × 2</strong></span>
             <span><strong>÷ combined votes</strong> overall</span>
           </div>
         </section>
