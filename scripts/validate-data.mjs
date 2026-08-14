@@ -1,6 +1,6 @@
 import { readFile } from "node:fs/promises";
 
-const EGS_VOTE_WEIGHT = 2;
+const EGS_VOTE_WEIGHT = 1.5;
 
 const dataFiles = [
   ["catalog", new URL("../data/catalog.json", import.meta.url)],
@@ -142,7 +142,7 @@ for (const [index, title] of rankings.rankings.entries()) {
     ? (vndbScore * vndbVotes
       + bangumiScore * bangumiVotes
       + egsScore * weightedEgsVotes)
-      / totalVotes
+    / totalVotes
     : 0;
   if (Math.abs(title.overallScore - expectedScore) > 1e-8) {
     throw new Error(`ranking ${index + 1} has an incorrectly calculated overallScore`);
