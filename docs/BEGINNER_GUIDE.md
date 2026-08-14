@@ -253,9 +253,7 @@ The updater expands it into a stored record similar to this:
   "bangumiVotes": 7100,
   "egsScore": 89.63,
   "egsVotes": 2628,
-  "egsMedian": 94,
-  "scoresUpdatedAt": "2026-08-11T19:27:09.661Z",
-  "lastError": null
+  "egsMedian": 94
 }
 ```
 
@@ -268,8 +266,8 @@ Important details:
 - Every supplied source ID must be unique across the catalog.
 - Scores use a 0-to-100 scale inside this project.
 - `null` means a value is unavailable or has not been fetched yet.
-- `lastError` records a source failure without discarding a previously stored
-  score.
+- Per-entry timestamps and transient errors are intentionally omitted so routine
+  refreshes produce smaller, easier-to-review Git diffs.
 - JSON does not allow comments, trailing commas, or Git conflict markers.
 
 The top-level structure must remain:
@@ -461,7 +459,7 @@ The major steps in code are:
 9. `JSON.stringify(..., null, 2)` writes readable, indented JSON.
 
 If one source fails, the script retains that source's last stored score and
-writes the reason to `lastError`. If every request to every source fails, it
+prints the reason in the workflow log. If every request to every source fails, it
 throws an error before overwriting the existing files.
 
 ## 11. Ranking calculation

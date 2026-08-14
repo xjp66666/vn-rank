@@ -73,8 +73,6 @@ export type CatalogTitle = {
   egsVotes?: number | null;
   egsMedian?: number | null;
   overallScore: number;
-  scoresUpdatedAt: string | null;
-  lastError: string | null;
 };
 
 export type CatalogRecord = Omit<CatalogTitle, "overallScore"> & {

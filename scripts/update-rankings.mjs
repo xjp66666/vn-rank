@@ -119,7 +119,6 @@ function chunks(items, size) {
 
 async function fetchVndbCatalog(ids) {
   const records = new Map();
-  const errors = new Map();
   const uniqueIds = [...new Set(ids.map(vndbId).filter(Boolean))];
 
   for (const batch of chunks(uniqueIds, 100)) {
@@ -139,15 +138,12 @@ async function fetchVndbCatalog(ids) {
       for (const record of (await response.json()).results ?? []) {
         records.set(record.id, record);
       }
-      for (const id of batch) {
-        if (!records.has(id)) errors.set(id, new Error(`VNDB ${id} was not found`));
-      }
     } catch (error) {
-      for (const id of batch) errors.set(id, error);
+      console.warn(`VNDB batch refresh failed: ${error.message}`);
     }
   }
 
-  return { records, errors };
+  return records;
 }
 
 let bangumiTokenRejected = false;
@@ -296,20 +292,13 @@ function mergeMetadata(existing, vndb, bangumi) {
   };
 }
 
-async function refreshTitle(title, vndbRecords, vndbErrors, egsRecords, egsFetchError) {
+async function refreshTitle(title, vndbRecords, egsRecords) {
   const [bangumiResult] = title.bangumiId
     ? await Promise.allSettled([fetchBangumi(title.bangumiId)])
     : [];
   const vndb = vndbRecords.get(title.vndbId) ?? null;
-  const vndbError = vndbErrors.get(title.vndbId);
   const bangumi = bangumiResult?.status === "fulfilled" ? bangumiResult.value : null;
   const egs = title.egsId ? egsRecords.get(title.egsId) : null;
-  const errors = [
-    vndbError ? `VNDB: ${vndbError.message ?? "failed"}` : null,
-    bangumiResult?.status === "rejected" ? `Bangumi: ${bangumiResult.reason?.message ?? "failed"}` : null,
-    title.egsId && egsFetchError ? `ErogameScape: ${egsFetchError.message}` : null,
-    title.egsId && !egsFetchError && !egs ? `ErogameScape: ${title.egsId} was not found` : null,
-  ].filter(Boolean);
 
   const metadata = mergeMetadata(title.metadata ?? {}, vndb, bangumi);
   return {
@@ -332,8 +321,6 @@ async function refreshTitle(title, vndbRecords, vndbErrors, egsRecords, egsFetch
         egsVotes: egs?.votes ?? title.egsVotes ?? null,
         egsMedian: egs?.median ?? title.egsMedian ?? null,
       } : {}),
-      scoresUpdatedAt: runAt,
-      lastError: errors.length ? errors.join("; ").slice(0, 500) : null,
     },
     successes: Number(Boolean(vndb)) + Number(Boolean(bangumi)) + Number(Boolean(egs)),
   };
@@ -408,20 +395,19 @@ function toRanking(title) {
 await loadLocalSecrets();
 const catalog = JSON.parse(await readFile(catalogPath, "utf8"));
 validateCatalog(catalog);
-const { records: vndbRecords, errors: vndbErrors } = await fetchVndbCatalog(
+const vndbRecords = await fetchVndbCatalog(
   catalog.titles.map((title) => title.vndbId),
 );
 let egsRecords = new Map();
-let egsFetchError = null;
 try {
   egsRecords = await fetchErogameScape(catalog.titles.map((title) => title.egsId));
 } catch (error) {
-  egsFetchError = error;
+  console.warn(`ErogameScape refresh failed: ${error.message}`);
 }
 const refreshed = await mapConcurrent(
   catalog.titles,
   6,
-  (title) => refreshTitle(title, vndbRecords, vndbErrors, egsRecords, egsFetchError),
+  (title) => refreshTitle(title, vndbRecords, egsRecords),
 );
 if (catalog.titles.length && !refreshed.some((result) => result.successes > 0)) {
   throw new Error("Every source request failed; existing data was left unchanged");

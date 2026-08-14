@@ -44,8 +44,8 @@ Only the name and VNDB ID are required. Bangumi and ErogameScape IDs are
 optional best-effort mappings. IDs or full source URLs are accepted. After the
 updater runs, that same object also contains source scores and votes,
 English, Chinese, and original Japanese titles, bilingual descriptions,
-cover/metadata, last refresh time, and any source error. The IDs never change
-automatically. The page shows the top 100 initially; visitors can acknowledge
+cover metadata, and source scores. The IDs never change automatically, and the
+catalog does not store per-entry refresh timestamps or transient errors. The page shows the top 100 initially; visitors can acknowledge
 an accuracy warning to reveal ranks 101–200.
 
 The website's **Manage database** screen is a convenient editor. Because the
@@ -160,8 +160,8 @@ requests only the repository, Pages, and deployment permissions it needs.
 
 Bangumi's 10-point API score is converted to the same 100-point scale as VNDB.
 The final result is a vote-weighted average on the same 0-to-100 scale.
-If one source temporarily fails, its last stored value is kept and the error is
-written into that title's catalog object.
+If one source temporarily fails, its last stored value is kept. The failure is
+reported in the workflow log instead of being written into every catalog entry.
 
 Official references:
 

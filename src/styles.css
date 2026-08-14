@@ -849,10 +849,6 @@ a {
   font-size: 9px;
 }
 
-.catalog-row .catalog-error {
-  color: #b54b4b;
-}
-
 .catalog-links {
   display: flex;
   flex-wrap: wrap;

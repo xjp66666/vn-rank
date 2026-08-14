@@ -3,16 +3,11 @@ import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
 const projectRoot = fileURLToPath(new URL(".", import.meta.url));
-const repository = process.env.GITHUB_REPOSITORY?.split("/") ?? [];
-const [owner, repo] = repository;
-const projectPageBase =
-  owner && repo && repo.toLowerCase() !== `${owner}.github.io`.toLowerCase()
-    ? `/${repo}/`
-    : "/";
 
 export default defineConfig({
   root: projectRoot,
-  base: process.env.VITE_BASE_PATH || projectPageBase,
+  // Relative assets work on both /vn-ranking/ and a root custom domain.
+  base: process.env.VITE_BASE_PATH || "./",
   plugins: [react()],
   server: {
     host: "127.0.0.1",

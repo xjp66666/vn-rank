@@ -68,8 +68,6 @@ export function Manage() {
         egsVotes: existing?.egsId === egsId ? existing.egsVotes ?? null : null,
         egsMedian: existing?.egsId === egsId ? existing.egsMedian ?? null : null,
       } : {}),
-      scoresUpdatedAt: existing?.scoresUpdatedAt ?? null,
-      lastError: existing?.lastError ?? null,
     };
     setTitles((current) => {
       const found = current.some((title) => title.vndbId === vndbId);
@@ -182,12 +180,6 @@ export function Manage() {
             <article className="catalog-row" key={title.vndbId}>
               <div>
                 <strong>{title.name}</strong>
-                <small>
-                  {title.scoresUpdatedAt
-                    ? `Updated ${new Date(title.scoresUpdatedAt).toLocaleString()}`
-                    : "Not refreshed yet"}
-                </small>
-                {title.lastError ? <small className="catalog-error">{title.lastError}</small> : null}
               </div>
               <div className="catalog-links">
                 <a href={`https://vndb.org/${title.vndbId}`} rel="noreferrer" target="_blank">

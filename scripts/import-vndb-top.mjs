@@ -330,8 +330,6 @@ for (const [index, vndb] of vndbCandidates.entries()) {
       egsVotes: existing.egsVotes ?? null,
       egsMedian: existing.egsMedian ?? null,
     } : {}),
-    scoresUpdatedAt: new Date().toISOString(),
-    lastError: null,
   });
   console.log(
     `${String(index + 1).padStart(3)}. ${vndb.id} ${vndb.title} -> ${bangumiId ? `Bangumi ${bangumiId}` : "Bangumi unmapped"}`,
