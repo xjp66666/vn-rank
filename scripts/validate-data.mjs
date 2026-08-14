@@ -92,12 +92,38 @@ for (const [index, title] of catalog.titles.entries()) {
 const rankedIds = new Set();
 
 for (const [index, title] of rankings.rankings.entries()) {
+  if (title.rank !== index + 1) {
+    throw new Error(`ranking ${index + 1} must have rank ${index + 1}`);
+  }
+
   if (!vndbIds.has(title.id)) {
     throw new Error(`ranking ${index + 1} references unknown VNDB ID: ${title.id}`);
   }
 
   if (rankedIds.has(title.id)) {
     throw new Error(`duplicate VNDB ID in rankings: ${title.id}`);
+  }
+
+  for (const language of ["en", "zh", "ja"]) {
+    if (typeof title.titles?.[language] !== "string" || !title.titles[language].trim()) {
+      throw new Error(`ranking ${index + 1} needs a ${language} title`);
+    }
+  }
+
+  for (const language of ["en", "zh"]) {
+    if (
+      typeof title.descriptions?.[language] !== "string"
+      || !title.descriptions[language].trim()
+    ) {
+      throw new Error(`ranking ${index + 1} needs a ${language} description`);
+    }
+  }
+
+  if (
+    index > 0
+    && rankings.rankings[index - 1].overallScore < title.overallScore
+  ) {
+    throw new Error(`ranking ${index + 1} is out of score order`);
   }
 
   if (!Number.isFinite(title.overallScore) || title.overallScore < 0 || title.overallScore > 100) {

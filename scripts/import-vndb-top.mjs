@@ -4,8 +4,8 @@ import { resolve } from "node:path";
 const root = resolve(import.meta.dirname, "..");
 const catalogPath = resolve(root, "data/catalog.json");
 const cachePath = resolve(root, ".cache/bangumi-search.json");
-const targetCount = Number(process.env.TARGET_COUNT || 100);
-const minimumVotes = Number(process.env.VNDB_MIN_VOTES || 500);
+const targetCount = Number(process.env.TARGET_COUNT || 200);
+const minimumVotes = Number(process.env.VNDB_MIN_VOTES || 300);
 const SITE_AGENT = "VN-Rank/1.0 (curated visual novel ranking)";
 
 async function loadLocalToken() {
@@ -61,7 +61,7 @@ async function fetchVndbCandidates() {
         headers: { "Content-Type": "application/json", "User-Agent": SITE_AGENT },
         body: JSON.stringify({
           filters: ["votecount", ">=", minimumVotes],
-          fields: "title,alttitle,rating,votecount,released",
+          fields: "title,alttitle,titles{lang,title,latin,official,main},description,rating,votecount,released",
           sort: "rating",
           reverse: true,
           results: 100,
@@ -74,6 +74,81 @@ async function fetchVndbCandidates() {
     if (!payload.more) break;
   }
   return candidates.slice(0, targetCount);
+}
+
+function cleanDescription(value) {
+  return String(value ?? "")
+    .replace(/\[url=[^\]]+\]([\s\S]*?)\[\/url\]/gi, "$1")
+    .replace(/\[(?:\/?(?:b|i|u|s|spoiler)|raw|\/raw)\]/gi, "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 1600);
+}
+
+function firstText(...values) {
+  return values.find((value) => typeof value === "string" && value.trim())?.trim() ?? "";
+}
+
+function vndbTitleFor(vndb, language) {
+  return vndb?.titles?.find((item) => item.lang === language)?.title ?? "";
+}
+
+function localizedMetadata(existing, vndb, bangumi) {
+  const previous = existing?.metadata ?? {};
+  const previousTitles = previous.titles ?? {};
+  const previousDescriptions = previous.descriptions ?? {};
+  const japaneseTitle = firstText(
+    vndbTitleFor(vndb, "ja"),
+    vndb?.titles?.find((item) => item.main)?.title,
+    vndb.alttitle,
+    bangumi?.name,
+    previousTitles.ja,
+    previous.altTitle,
+    vndb.title,
+  );
+  const englishTitle = firstText(
+    vndbTitleFor(vndb, "en"),
+    vndb.title,
+    previousTitles.en,
+    japaneseTitle,
+  );
+  const chineseTitle = firstText(
+    bangumi?.name_cn,
+    vndb?.titles?.find((item) => item.lang?.startsWith("zh"))?.title,
+    previousTitles.zh,
+    japaneseTitle,
+  );
+  const englishDescription = firstText(
+    cleanDescription(vndb.description),
+    cleanDescription(previousDescriptions.en),
+  );
+  const chineseDescription = firstText(
+    cleanDescription(bangumi?.summary),
+    cleanDescription(previousDescriptions.zh),
+    cleanDescription(previous.synopsis),
+  );
+  const released = vndb.released || bangumi?.date || previous.released;
+
+  return {
+    titles: {
+      en: englishTitle || japaneseTitle,
+      zh: chineseTitle || japaneseTitle,
+      ja: japaneseTitle || englishTitle || chineseTitle,
+    },
+    descriptions: {
+      en: englishDescription || chineseDescription
+        || "This title is part of the curated visual novel ranking.",
+      zh: chineseDescription || englishDescription
+        || "本作收录于本站的视觉小说排名。",
+    },
+    released,
+    year: Number(released?.slice(0, 4)) || previous.year || 0,
+    image: previous.image || bangumi?.images?.common || bangumi?.images?.large || "",
+    lengthMinutes: previous.lengthMinutes ?? null,
+    genres: previous.genres ?? ["Visual novel"],
+    platforms: previous.platforms ?? ["PC"],
+  };
 }
 
 function normalized(value) {
@@ -235,34 +310,29 @@ for (const [index, vndb] of vndbCandidates.entries()) {
 
   if (bangumiId) usedBangumiIds.add(String(bangumiId));
   const matchedBangumi = match?.item;
+  const metadata = localizedMetadata(existing, vndb, matchedBangumi);
   nextTitles.push({
-      ...existing,
-      name: vndb.title,
-      vndbId: vndb.id,
-      ...(bangumiId ? { bangumiId: String(bangumiId) } : {}),
-      vndbScore: vndb.rating ?? null,
-      vndbVotes: vndb.votecount ?? null,
-      bangumiScore: existing && existing.bangumiId === bangumiId
-        ? existing.bangumiScore ?? null
-        : matchedBangumi?.rating?.score ? matchedBangumi.rating.score * 10 : null,
-      bangumiVotes: existing && existing.bangumiId === bangumiId
-        ? existing.bangumiVotes ?? null
-        : matchedBangumi?.rating?.total ?? null,
-      metadata: {
-        ...existing?.metadata,
-        altTitle: vndb.alttitle || matchedBangumi?.name || existing?.metadata?.altTitle || vndb.title,
-        released: vndb.released || matchedBangumi?.date || existing?.metadata?.released,
-        year: Number((vndb.released || matchedBangumi?.date)?.slice(0, 4))
-          || existing?.metadata?.year || 0,
-        image: existing?.metadata?.image
-          || matchedBangumi?.images?.common || matchedBangumi?.images?.large || "",
-        genres: existing?.metadata?.genres ?? ["Visual novel"],
-        platforms: existing?.metadata?.platforms ?? ["PC"],
-        synopsis: existing?.metadata?.synopsis || matchedBangumi?.summary || "",
-      },
-      scoresUpdatedAt: new Date().toISOString(),
-      lastError: null,
-    });
+    name: metadata.titles.ja || vndb.title,
+    vndbId: vndb.id,
+    ...(bangumiId ? { bangumiId: String(bangumiId) } : {}),
+    ...(existing?.egsId ? { egsId: existing.egsId } : {}),
+    metadata,
+    vndbScore: vndb.rating ?? null,
+    vndbVotes: vndb.votecount ?? null,
+    bangumiScore: existing && existing.bangumiId === bangumiId
+      ? existing.bangumiScore ?? null
+      : matchedBangumi?.rating?.score ? matchedBangumi.rating.score * 10 : null,
+    bangumiVotes: existing && existing.bangumiId === bangumiId
+      ? existing.bangumiVotes ?? null
+      : matchedBangumi?.rating?.total ?? null,
+    ...(existing?.egsId ? {
+      egsScore: existing.egsScore ?? null,
+      egsVotes: existing.egsVotes ?? null,
+      egsMedian: existing.egsMedian ?? null,
+    } : {}),
+    scoresUpdatedAt: new Date().toISOString(),
+    lastError: null,
+  });
   console.log(
     `${String(index + 1).padStart(3)}. ${vndb.id} ${vndb.title} -> ${bangumiId ? `Bangumi ${bangumiId}` : "Bangumi unmapped"}`,
   );

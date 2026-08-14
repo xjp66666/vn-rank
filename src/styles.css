@@ -94,6 +94,37 @@ a {
   padding-bottom: 3px;
 }
 
+.intro-actions {
+  align-items: end;
+  display: grid;
+  gap: 14px;
+  justify-items: end;
+}
+
+.language-switcher {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  display: flex;
+  padding: 3px;
+}
+
+.language-switcher button {
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 650;
+  padding: 6px 9px;
+}
+
+.language-switcher button.active {
+  background: var(--text);
+  color: white;
+}
+
 .feed-status > span {
   align-items: center;
   display: flex;
@@ -488,6 +519,79 @@ a {
   padding: 10px 14px;
 }
 
+.ranking-extension {
+  align-items: center;
+  display: grid;
+  justify-items: center;
+  margin-top: 18px;
+}
+
+.show-rankings-button {
+  background: var(--text);
+  border: 0;
+  border-radius: 9px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 650;
+  padding: 11px 16px;
+}
+
+.show-rankings-button.secondary {
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  color: var(--text);
+}
+
+.accuracy-warning {
+  align-items: center;
+  background: #fffaf0;
+  border: 1px solid #eed9ad;
+  border-radius: var(--radius);
+  display: grid;
+  gap: 24px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  margin-top: 14px;
+  max-width: 760px;
+  padding: 18px 20px;
+  width: 100%;
+}
+
+.accuracy-warning h2 {
+  font-size: 13px;
+  margin: 0 0 5px;
+}
+
+.accuracy-warning p {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.warning-actions {
+  display: flex;
+  gap: 7px;
+}
+
+.warning-actions button {
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 650;
+  padding: 9px 11px;
+  white-space: nowrap;
+}
+
+.warning-actions button.confirm {
+  background: var(--text);
+  border-color: var(--text);
+  color: white;
+}
+
 .method-card {
   align-items: start;
   background: var(--surface);
@@ -872,12 +976,27 @@ select:focus-visible {
     justify-items: start;
   }
 
+  .intro-actions {
+    align-items: start;
+    justify-items: start;
+    width: 100%;
+  }
+
   .feed-status small {
     margin: 0;
   }
 
   .manage-link {
     margin: 0 0 0 auto;
+  }
+
+  .accuracy-warning {
+    align-items: stretch;
+    grid-template-columns: 1fr;
+  }
+
+  .warning-actions {
+    justify-content: end;
   }
 
   .toolbar {

@@ -5,7 +5,7 @@ const root = resolve(import.meta.dirname, "..");
 const catalogPath = resolve(root, "data/catalog.json");
 const rankingsPath = resolve(root, "public/data/rankings.json");
 const SITE_AGENT = "VN-Rank/1.0 (static curated visual novel ranking)";
-const EGS_VOTE_WEIGHT = 2;
+const EGS_VOTE_WEIGHT = 1.5;
 const EGS_SQL_ENDPOINT =
   "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/sql_for_erogamer_form.php";
 const runAt = new Date().toISOString();
@@ -37,7 +37,72 @@ function egsId(value) {
 }
 
 function stripHtml(value) {
-  return value.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+  return String(value ?? "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+}
+
+function cleanDescription(value) {
+  return stripHtml(String(value ?? "")
+    .replace(/\[url=[^\]]+\]([\s\S]*?)\[\/url\]/gi, "$1")
+    .replace(/\[(?:\/?(?:b|i|u|s|spoiler)|raw|\/raw)\]/gi, "")
+    .replace(/\r?\n+/g, " "))
+    .slice(0, 1600);
+}
+
+function firstText(...values) {
+  return values.find((value) => typeof value === "string" && value.trim())?.trim() ?? "";
+}
+
+function vndbTitleFor(vndb, language) {
+  return vndb?.titles?.find((item) => item.lang === language)?.title ?? "";
+}
+
+function localizedCopy(existing, vndb, bangumi) {
+  const existingTitles = existing.titles ?? {};
+  const existingDescriptions = existing.descriptions ?? {};
+  const originalTitle = firstText(
+    vndbTitleFor(vndb, "ja"),
+    vndb?.titles?.find((item) => item.main)?.title,
+    vndb?.alttitle,
+    bangumi?.name,
+    existingTitles.ja,
+    existing.altTitle,
+    vndb?.title,
+  );
+  const englishTitle = firstText(
+    vndbTitleFor(vndb, "en"),
+    vndb?.title,
+    existingTitles.en,
+    originalTitle,
+  );
+  const chineseTitle = firstText(
+    bangumi?.name_cn,
+    vndb?.titles?.find((item) => item.lang?.startsWith("zh"))?.title,
+    existingTitles.zh,
+    originalTitle,
+  );
+  const englishDescription = firstText(
+    cleanDescription(vndb?.description),
+    cleanDescription(existingDescriptions.en),
+  );
+  const chineseDescription = firstText(
+    cleanDescription(bangumi?.summary),
+    cleanDescription(existingDescriptions.zh),
+    cleanDescription(existing.synopsis),
+  );
+
+  return {
+    titles: {
+      en: englishTitle || originalTitle,
+      zh: chineseTitle || originalTitle,
+      ja: originalTitle || englishTitle || chineseTitle,
+    },
+    descriptions: {
+      en: englishDescription || chineseDescription
+        || "This title is part of the curated visual novel ranking.",
+      zh: chineseDescription || englishDescription
+        || "本作收录于本站的视觉小说排名。",
+    },
+  };
 }
 
 function usefulTags(tags) {
@@ -63,7 +128,7 @@ async function fetchVndbCatalog(ids) {
         method: "POST",
         headers: { "Content-Type": "application/json", "User-Agent": SITE_AGENT },
         body: JSON.stringify({
-          fields: "title,alttitle,rating,votecount,released,image.url,length_minutes,platforms",
+          fields: "title,alttitle,titles{lang,title,latin,official,main},description,rating,votecount,released,image.url,length_minutes,platforms",
           filters: ["or", ...batch.map((id) => ["id", "=", id])],
           results: batch.length,
         }),
@@ -218,15 +283,16 @@ function validateCatalog(catalog) {
 function mergeMetadata(existing, vndb, bangumi) {
   const released = vndb?.released || bangumi?.date || existing.released;
   const tags = usefulTags((bangumi?.tags ?? []).map((tag) => tag.name));
+  const localized = localizedCopy(existing, vndb, bangumi);
   return {
-    altTitle: vndb?.alttitle || bangumi?.name || existing.altTitle,
+    titles: localized.titles,
+    descriptions: localized.descriptions,
     released,
     year: Number(released?.slice(0, 4)) || existing.year || 0,
     image: vndb?.image?.url || bangumi?.images?.common || bangumi?.images?.large || existing.image,
     lengthMinutes: vndb?.length_minutes ?? existing.lengthMinutes ?? null,
     genres: tags.length ? tags : existing.genres,
     platforms: vndb?.platforms?.length ? vndb.platforms : existing.platforms,
-    synopsis: bangumi?.summary ? stripHtml(bangumi.summary).slice(0, 500) : existing.synopsis,
   };
 }
 
@@ -245,11 +311,14 @@ async function refreshTitle(title, vndbRecords, vndbErrors, egsRecords, egsFetch
     title.egsId && !egsFetchError && !egs ? `ErogameScape: ${title.egsId} was not found` : null,
   ].filter(Boolean);
 
+  const metadata = mergeMetadata(title.metadata ?? {}, vndb, bangumi);
   return {
     title: {
-      name: title.name,
+      name: metadata.titles.ja || title.name,
       vndbId: title.vndbId,
       ...(title.bangumiId ? { bangumiId: title.bangumiId } : {}),
+      ...(title.egsId ? { egsId: title.egsId } : {}),
+      metadata,
       vndbScore: vndb?.rating ?? title.vndbScore ?? null,
       vndbVotes: vndb?.votecount ?? title.vndbVotes ?? null,
       bangumiScore: title.bangumiId
@@ -259,12 +328,10 @@ async function refreshTitle(title, vndbRecords, vndbErrors, egsRecords, egsFetch
         ? bangumi?.rating?.total ?? title.bangumiVotes ?? null
         : null,
       ...(title.egsId ? {
-        egsId: title.egsId,
         egsScore: egs?.score ?? title.egsScore ?? null,
         egsVotes: egs?.votes ?? title.egsVotes ?? null,
         egsMedian: egs?.median ?? title.egsMedian ?? null,
       } : {}),
-      metadata: mergeMetadata(title.metadata ?? {}, vndb, bangumi),
       scoresUpdatedAt: runAt,
       lastError: errors.length ? errors.join("; ").slice(0, 500) : null,
     },
@@ -308,15 +375,17 @@ function toRanking(title) {
   const metadata = title.metadata ?? {};
   return {
     id: title.vndbId,
-    title: title.name,
-    altTitle: metadata.altTitle || title.name,
+    titles: metadata.titles ?? { en: title.name, zh: title.name, ja: title.name },
+    descriptions: metadata.descriptions ?? {
+      en: metadata.synopsis || "This title is part of the curated visual novel ranking.",
+      zh: metadata.synopsis || "本作收录于本站的视觉小说排名。",
+    },
     year: metadata.year || 0,
     released: metadata.released || "Unknown",
     image: metadata.image || "",
     lengthMinutes: metadata.lengthMinutes ?? null,
     genres: metadata.genres?.length ? metadata.genres : ["Visual novel"],
     platforms: metadata.platforms?.length ? metadata.platforms : ["PC"],
-    synopsis: metadata.synopsis || "This title is part of the manually curated visual novel database.",
     overallScore: overallScore(title),
     sources: {
       vndb: { score: title.vndbScore, votes: title.vndbVotes, href: `https://vndb.org/${title.vndbId}` },
@@ -358,10 +427,12 @@ if (catalog.titles.length && !refreshed.some((result) => result.successes > 0)) 
   throw new Error("Every source request failed; existing data was left unchanged");
 }
 
-catalog.titles = refreshed.map((result) => result.title);
+catalog.titles = refreshed
+  .map((result) => result.title)
+  .sort((a, b) => overallScore(b) - overallScore(a));
 const rankings = catalog.titles
   .map((title) => toRanking(title))
-  .sort((a, b) => b.overallScore - a.overallScore);
+  .map((title, index) => ({ rank: index + 1, ...title }));
 
 await mkdir(resolve(root, "public/data"), { recursive: true });
 await writeFile(catalogPath, `${JSON.stringify(catalog, null, 2)}\n`);

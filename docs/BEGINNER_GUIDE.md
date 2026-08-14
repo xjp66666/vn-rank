@@ -229,24 +229,31 @@ The updater expands it into a stored record similar to this:
   "name": "WHITE ALBUM2",
   "vndbId": "v7771",
   "bangumiId": "22290",
-  "vndbScore": 90.3,
-  "vndbVotes": 4425,
-  "bangumiScore": 91,
-  "bangumiVotes": 7100,
   "egsId": "13255",
-  "egsScore": 89.63,
-  "egsVotes": 2628,
-  "egsMedian": 94,
   "metadata": {
-    "altTitle": "WHITE ALBUM2 -closing chapter-",
+    "titles": {
+      "en": "WHITE ALBUM2",
+      "zh": "白色相簿2",
+      "ja": "WHITE ALBUM2"
+    },
+    "descriptions": {
+      "en": "...",
+      "zh": "..."
+    },
     "released": "2010-03-26",
     "year": 2010,
     "image": "https://example.com/cover.jpg",
     "lengthMinutes": 4800,
     "genres": ["Drama", "Romance"],
-    "platforms": ["win"],
-    "synopsis": "..."
+    "platforms": ["win"]
   },
+  "vndbScore": 90.3,
+  "vndbVotes": 4425,
+  "bangumiScore": 91,
+  "bangumiVotes": 7100,
+  "egsScore": 89.63,
+  "egsVotes": 2628,
+  "egsMedian": 94,
   "scoresUpdatedAt": "2026-08-11T19:27:09.661Z",
   "lastError": null
 }
@@ -515,7 +522,7 @@ weight so a mismatch fails validation.
 
 If you change the formula, update both places to keep them consistent.
 
-The 500-vote requirement applies only when initially importing candidates with
+The 300-vote requirement applies only when initially importing candidates with
 `npm run import:top`. The daily updater refreshes every manually curated title,
 and its current vote counts now directly affect its ranking.
 
@@ -524,7 +531,7 @@ and its current vote counts now directly affect its ranking.
 `npm run import:top` is a helper, not the daily workflow. It:
 
 1. requests exactly the configured number of highest-rated VNDB titles with at
-   least 500 votes by default;
+   least 300 votes by default;
 2. searches Bangumi using the VNDB English and Japanese/alternate titles;
 3. normalizes punctuation and character width for comparison;
 4. accepts only an exact normalized title match;
@@ -567,7 +574,10 @@ Remove-Item Env:VNDB_MIN_VOTES
 ## 13. Frontend workflow
 
 The frontend never reads `data/catalog.json` for its ranking screen. It uses the
-smaller generated `public/data/rankings.json`.
+smaller generated `public/data/rankings.json`. It displays the first 100 ranks
+by default. A visitor must acknowledge the accuracy notice before ranks
+101–200 are rendered. English and Chinese switch instantly from the localized
+fields already stored in that static file.
 
 ```mermaid
 flowchart TD

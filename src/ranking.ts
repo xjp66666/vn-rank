@@ -8,16 +8,23 @@ export type SourceScore = {
 };
 
 export type RankingItem = {
+  rank: number;
   id: string;
-  title: string;
-  altTitle: string;
+  titles: {
+    en: string;
+    zh: string;
+    ja: string;
+  };
+  descriptions: {
+    en: string;
+    zh: string;
+  };
   year: number;
   released: string;
   image: string;
   lengthMinutes: number | null;
   genres: string[];
   platforms: string[];
-  synopsis: string;
   overallScore: number;
   sources: Record<SourceKey, SourceScore>;
 };
@@ -72,14 +79,21 @@ export type CatalogTitle = {
 
 export type CatalogRecord = Omit<CatalogTitle, "overallScore"> & {
   metadata: {
-    altTitle?: string;
+    titles?: {
+      en: string;
+      zh: string;
+      ja: string;
+    };
+    descriptions?: {
+      en: string;
+      zh: string;
+    };
     released?: string;
     year?: number;
     image?: string;
     lengthMinutes?: number | null;
     genres?: string[];
     platforms?: string[];
-    synopsis?: string;
   };
 };
 

@@ -1,6 +1,9 @@
-import { useEffect, useState } from "react";
-import { Manage } from "./Manage";
+import { lazy, Suspense, useEffect, useState } from "react";
 import { Rankings } from "./Rankings";
+
+const Manage = lazy(() =>
+  import("./Manage").then((module) => ({ default: module.Manage })),
+);
 
 function currentScreen() {
   return window.location.hash === "#manage" ? "manage" : "rankings";
@@ -15,5 +18,11 @@ export default function App() {
     return () => window.removeEventListener("hashchange", onHashChange);
   }, []);
 
-  return screen === "manage" ? <Manage /> : <Rankings />;
+  return screen === "manage" ? (
+    <Suspense fallback={<main className="app-shell" />}>
+      <Manage />
+    </Suspense>
+  ) : (
+    <Rankings />
+  );
 }

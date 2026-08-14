@@ -43,8 +43,10 @@ Add each visual novel to `data/catalog.json` using its permanent IDs:
 Only the name and VNDB ID are required. Bangumi and ErogameScape IDs are
 optional best-effort mappings. IDs or full source URLs are accepted. After the
 updater runs, that same object also contains source scores and votes,
+English, Chinese, and original Japanese titles, bilingual descriptions,
 cover/metadata, last refresh time, and any source error. The IDs never change
-automatically.
+automatically. The page shows the top 100 initially; visitors can acknowledge
+an accuracy warning to reveal ranks 101–200.
 
 The website's **Manage database** screen is a convenient editor. Because the
 site is static, it downloads a new `catalog.json`; replace `data/catalog.json`
@@ -88,7 +90,7 @@ Before pushing, run `npm run check` to validate data, lint, type-check, and buil
 the site.
 
 To fill an empty catalog from VNDB's highest-rated titles, run
-`npm run import:top`. The importer requires at least 500 VNDB votes by default,
+`npm run import:top`. The importer targets 200 titles with at least 300 VNDB votes by default,
 keeps exactly the requested number of VNDB results in VNDB order, preserves
 existing mappings for those titles, and attempts normalized exact Bangumi title
 matches. A missing Bangumi result does not replace the VN with a lower-ranked
@@ -154,6 +156,7 @@ requests only the repository, Pages, and deployment permissions it needs.
 - The community with more votes for that title has more influence
 - ErogameScape uses `average` as its score and `count` as its votes
 - Output: every title from the manually curated catalog, sorted by combined score
+- The website initially displays the top 100 and gates ranks 101–200 behind an accuracy notice
 
 Bangumi's 10-point API score is converted to the same 100-point scale as VNDB.
 The final result is a vote-weighted average on the same 0-to-100 scale.
