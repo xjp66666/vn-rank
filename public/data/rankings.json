@@ -48,7 +48,7 @@
       "id": "v7771",
       "titles": {
         "en": "WHITE ALBUM2",
-        "zh": "白色相簿2 终章",
+        "zh": "白色相簿2",
         "ja": "WHITE ALBUM2"
       },
       "descriptions": {
@@ -121,7 +121,7 @@
         "swi",
         "xb3"
       ],
-      "overallScore": 89.81828503397409,
+      "overallScore": 89.81822167592576,
       "sources": {
         "vndb": {
           "score": 90.2,
@@ -130,7 +130,7 @@
         },
         "bangumi": {
           "score": 89,
-          "votes": 8436,
+          "votes": 8438,
           "href": "https://bgm.tv/subject/3154"
         },
         "egs": {
@@ -548,7 +548,7 @@
       "id": "v562",
       "titles": {
         "en": "Sakura no Uta -To Dance Over the Cherry Blossoms-",
-        "zh": "樱之诗 - 在樱花之森上飞舞",
+        "zh": "樱之诗 −于樱之森上飞舞−",
         "ja": "サクラノ詩－櫻の森の上を舞う－"
       },
       "descriptions": {
@@ -689,7 +689,7 @@
       "id": "v3144",
       "titles": {
         "en": "Wonderful Everyday ~Diskontinuierliches Dasein~",
-        "zh": "美好的每一天 ～不连续的存在～",
+        "zh": "美好的每一天～不连续存在～",
         "ja": "素晴らしき日々～不連続存在～"
       },
       "descriptions": {
@@ -1024,7 +1024,7 @@
       "id": "v2045",
       "titles": {
         "en": "Kichikuou Rance",
-        "zh": "鬼畜王兰斯",
+        "zh": "鬼畜王蘭斯",
         "ja": "鬼畜王ランス"
       },
       "descriptions": {
@@ -1535,6 +1535,49 @@
     },
     {
       "rank": 33,
+      "id": "v21069",
+      "titles": {
+        "en": "BLACK SHEEP TOWN",
+        "zh": "黑羊镇",
+        "ja": "BLACK SHEEP TOWN"
+      },
+      "descriptions": {
+        "en": "BLACK SHEEP TOWN is a digital novel set in a fictional city. The setting of this work is \"District Y\". It is a cosmopolitan downtown area where immigrants from all over the world live, and it is full of energy with visitors who enjoy its unique atmosphere, but the other side of the city is a dangerous area where gangs rule and the police have no power. This title features a wide variety of characters with different standpoints and perspectives, including a glittering clan of gangsters who rule the city, a psychic who lives in a corner of the slums, and a person who works for the discriminated mutants. Users will experience the world of the story from the perspective of several of them. [From Steam]",
+        "zh": "『BLACK SHEEP TOWN』は、架空の都市を舞台にしたデジタルノベルです。 ・刺激的な舞台 本作の舞台となるのは『Y地区』。 あちこちの国からやってきた移民が暮らす国際色豊かな繁華街で、その独特の雰囲気を楽しむ来訪者達によって活気に満ち溢れているものの、街の裏側はギャングが支配し、警察の力が及ばない危険な地域となっています。 ・多種多様なキャラクター 本作には街を支配するギャングのきらびやかな一族や、スラムの片隅で暮らす超能力者、差別されるミュータントのために働く者など、様々な立場と考え方を持つキャラクターが登場します。 ユーザーはそのうち何人かの視点を借りて、物語の世界を体験することになります。 ・見たいものから見られるストーリー 本作は次にどのシナリオを読むかを、ユーザーが選択します。 初めのいくつかのシナリオを読み終えると、複数のシナリオが解放され、そのなかから特に興味のあるシナリオを読み進めることが出来ます。 お気に入りのキャラクターや、気になる事件に関連するシナリオを先に読んだり、また後回しにすることも出来ます。 ・手助けとなるシステム 本作には用語解説が搭載されています。 本文中の用語をクリックすることによって、ストーリー中のいつでも人名や用語の意味を確認することが出来ます。 コンフィグ画面を開けば、解説のある用語の色を変えるか変えないかの設定変更が可能です。 また、一度読んだシナリオも、シナリオ選択画面から読み直し、気になるエピソードの再確認が出来ます。 これらの機能によって、数多くの人や事件が登場するこの物語も理解しやすくなるでしょう。"
+      },
+      "year": 2022,
+      "released": "2022-09-15",
+      "image": "https://t.vndb.org/cv/83/79683.jpg",
+      "lengthMinutes": 3050,
+      "genres": [
+        "瀬戸口廉也",
+        "群像",
+        "全年龄"
+      ],
+      "platforms": [
+        "win"
+      ],
+      "overallScore": 84.86686354378818,
+      "sources": {
+        "vndb": {
+          "score": 87.1,
+          "votes": 189,
+          "href": "https://vndb.org/v21069"
+        },
+        "bangumi": {
+          "score": 82,
+          "votes": 445,
+          "href": "https://bgm.tv/subject/212376"
+        },
+        "egs": {
+          "score": 87.32,
+          "votes": 232,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25166"
+        }
+      }
+    },
+    {
+      "rank": 34,
       "id": "v12260",
       "titles": {
         "en": "ChuSinGura 46+1",
@@ -1579,7 +1622,7 @@
       }
     },
     {
-      "rank": 34,
+      "rank": 35,
       "id": "v1377",
       "titles": {
         "en": "YU-NO - The Girl that Chants Love at the Edge of the World",
@@ -1627,7 +1670,7 @@
       }
     },
     {
-      "rank": 35,
+      "rank": 36,
       "id": "v26664",
       "titles": {
         "en": "Sakura no Kumo * Scarlet no Koi",
@@ -1672,7 +1715,7 @@
       }
     },
     {
-      "rank": 36,
+      "rank": 37,
       "id": "v751",
       "titles": {
         "en": "Rewrite",
@@ -1719,7 +1762,7 @@
       }
     },
     {
-      "rank": 37,
+      "rank": 38,
       "id": "v1306",
       "titles": {
         "en": "BALDR SKY Dive1 \"Lost Memory\"",
@@ -1742,7 +1785,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 84.61389266964807,
+      "overallScore": 84.6143134872418,
       "sources": {
         "vndb": {
           "score": 81.5,
@@ -1756,13 +1799,13 @@
         },
         "egs": {
           "score": 87.5,
-          "votes": 2688,
+          "votes": 2689,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=9979"
         }
       }
     },
     {
-      "rank": 38,
+      "rank": 39,
       "id": "v1299",
       "titles": {
         "en": "428: Shibuya Scramble",
@@ -1811,11 +1854,11 @@
       }
     },
     {
-      "rank": 39,
+      "rank": 40,
       "id": "v20431",
       "titles": {
         "en": "Sakura no Toki -Sakura no Mori no Shita o Ayumu-",
-        "zh": "樱之刻 - 于樱花之森下漫步",
+        "zh": "樱之刻－漫步于樱花之森下－",
         "ja": "サクラノ刻－櫻の森の下を歩む－"
       },
       "descriptions": {
@@ -1836,7 +1879,7 @@
         "and",
         "psv"
       ],
-      "overallScore": 84.52586727688787,
+      "overallScore": 84.52276887871852,
       "sources": {
         "vndb": {
           "score": 87,
@@ -1849,14 +1892,14 @@
           "href": "https://bgm.tv/subject/220921"
         },
         "egs": {
-          "score": 89.26,
+          "score": 89.25,
           "votes": 1354,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25169"
         }
       }
     },
     {
-      "rank": 40,
+      "rank": 41,
       "id": "v30925",
       "titles": {
         "en": "Ooe",
@@ -1900,7 +1943,7 @@
       }
     },
     {
-      "rank": 41,
+      "rank": 42,
       "id": "v19035",
       "titles": {
         "en": "Slow Damage",
@@ -1943,7 +1986,7 @@
       }
     },
     {
-      "rank": 42,
+      "rank": 43,
       "id": "v3770",
       "titles": {
         "en": "Aiyoku no Eustia",
@@ -1990,7 +2033,7 @@
       }
     },
     {
-      "rank": 43,
+      "rank": 44,
       "id": "v1141",
       "titles": {
         "en": "Ore-tachi ni Tsubasa wa Nai",
@@ -2035,7 +2078,7 @@
       }
     },
     {
-      "rank": 44,
+      "rank": 45,
       "id": "v17012",
       "titles": {
         "en": "The Shell Part III: Paradiso",
@@ -2078,7 +2121,7 @@
       }
     },
     {
-      "rank": 45,
+      "rank": 46,
       "id": "v6639",
       "titles": {
         "en": "Ace Attorney Investigations 2: Prosecutor's Gambit",
@@ -2127,7 +2170,7 @@
       }
     },
     {
-      "rank": 46,
+      "rank": 47,
       "id": "v22313",
       "titles": {
         "en": "Sakura, Moyu -as the Night's, Reincarnation-",
@@ -2172,7 +2215,7 @@
       }
     },
     {
-      "rank": 47,
+      "rank": 48,
       "id": "v38",
       "titles": {
         "en": "Symphonic Rain",
@@ -2217,7 +2260,7 @@
       }
     },
     {
-      "rank": 48,
+      "rank": 49,
       "id": "v26154",
       "titles": {
         "en": "Jack Jeanne",
@@ -2262,11 +2305,11 @@
       }
     },
     {
-      "rank": 49,
+      "rank": 50,
       "id": "v14018",
       "titles": {
         "en": "CHAOS;CHILD",
-        "zh": "混沌子",
+        "zh": "混沌之子",
         "ja": "CHAOS;CHILD"
       },
       "descriptions": {
@@ -2292,7 +2335,7 @@
         "swi",
         "xbo"
       ],
-      "overallScore": 83.7951540990343,
+      "overallScore": 83.79531436202998,
       "sources": {
         "vndb": {
           "score": 83.6,
@@ -2305,14 +2348,14 @@
           "href": "https://bgm.tv/subject/88765"
         },
         "egs": {
-          "score": 84.77,
+          "score": 84.81,
           "votes": 26,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=21111"
         }
       }
     },
     {
-      "rank": 50,
+      "rank": 51,
       "id": "v23741",
       "titles": {
         "en": "NUKITASHI 2",
@@ -2356,7 +2399,7 @@
       }
     },
     {
-      "rank": 51,
+      "rank": 52,
       "id": "v20424",
       "titles": {
         "en": "Summer Pockets",
@@ -2403,7 +2446,7 @@
       }
     },
     {
-      "rank": 52,
+      "rank": 53,
       "id": "v768",
       "titles": {
         "en": "Ikusa Megami Zero",
@@ -2446,11 +2489,11 @@
       }
     },
     {
-      "rank": 53,
+      "rank": 54,
       "id": "v57",
       "titles": {
         "en": "Sharin no Kuni: The Girl Among the Sunflowers",
-        "zh": "车轮之国、向日葵的少女",
+        "zh": "车轮之国，向日葵的少女",
         "ja": "車輪の国、向日葵の少女"
       },
       "descriptions": {
@@ -2493,11 +2536,11 @@
       }
     },
     {
-      "rank": 54,
+      "rank": 55,
       "id": "v66",
       "titles": {
         "en": "CROSS†CHANNEL",
-        "zh": "交错†频道",
+        "zh": "CROSS†CHANNEL",
         "ja": "CROSS†CHANNEL"
       },
       "descriptions": {
@@ -2549,7 +2592,7 @@
       }
     },
     {
-      "rank": 55,
+      "rank": 56,
       "id": "v17018",
       "titles": {
         "en": "Hashihime of the Old Book Town",
@@ -2594,7 +2637,7 @@
       }
     },
     {
-      "rank": 56,
+      "rank": 57,
       "id": "v22783",
       "titles": {
         "en": "MUSICUS!",
@@ -2640,7 +2683,7 @@
       }
     },
     {
-      "rank": 57,
+      "rank": 58,
       "id": "v17642",
       "titles": {
         "en": "Rance 03 - The Fall of Leazas",
@@ -2684,7 +2727,7 @@
       }
     },
     {
-      "rank": 58,
+      "rank": 59,
       "id": "v2836",
       "titles": {
         "en": "Ikusa Megami Verita",
@@ -2727,7 +2770,7 @@
       }
     },
     {
-      "rank": 59,
+      "rank": 60,
       "id": "v5154",
       "titles": {
         "en": "The Fruit of Grisaia",
@@ -2774,7 +2817,7 @@
       }
     },
     {
-      "rank": 60,
+      "rank": 61,
       "id": "v13802",
       "titles": {
         "en": "Rance IX - The Helmanian Revolution",
@@ -2817,7 +2860,7 @@
       }
     },
     {
-      "rank": 61,
+      "rank": 62,
       "id": "v26987",
       "titles": {
         "en": "Cyanotype Daydream -The Girl Who Dreamed the World-",
@@ -2861,7 +2904,7 @@
       }
     },
     {
-      "rank": 62,
+      "rank": 63,
       "id": "v19273",
       "titles": {
         "en": "SeaBed",
@@ -2905,7 +2948,7 @@
       }
     },
     {
-      "rank": 63,
+      "rank": 64,
       "id": "v45",
       "titles": {
         "en": "Phantom of Inferno",
@@ -2954,11 +2997,11 @@
       }
     },
     {
-      "rank": 64,
+      "rank": 65,
       "id": "v1143",
       "titles": {
         "en": "Majikoi! Love Me Seriously!!",
-        "zh": "认真和我恋爱",
+        "zh": "认真和我谈恋爱！！",
         "ja": "真剣で私に恋しなさい！"
       },
       "descriptions": {
@@ -2998,7 +3041,7 @@
       }
     },
     {
-      "rank": 65,
+      "rank": 66,
       "id": "v24610",
       "titles": {
         "en": "Umineko no Naku Koro ni Musu",
@@ -3041,7 +3084,7 @@
       }
     },
     {
-      "rank": 66,
+      "rank": 67,
       "id": "v18152",
       "titles": {
         "en": "Flowers -Le volume sur automne-",
@@ -3085,7 +3128,7 @@
       }
     },
     {
-      "rank": 67,
+      "rank": 68,
       "id": "v13083",
       "titles": {
         "en": "Funbag Fantasy: Sideboob Story 2",
@@ -3131,7 +3174,7 @@
       }
     },
     {
-      "rank": 68,
+      "rank": 69,
       "id": "v26391",
       "titles": {
         "en": "Our Life: Beginnings & Always",
@@ -3177,7 +3220,7 @@
       }
     },
     {
-      "rank": 69,
+      "rank": 70,
       "id": "v25288",
       "titles": {
         "en": "Being a DIK",
@@ -3223,11 +3266,11 @@
       }
     },
     {
-      "rank": 70,
+      "rank": 71,
       "id": "v7",
       "titles": {
         "en": "Tsukihime",
-        "zh": "月姬",
+        "zh": "月姫",
         "ja": "月姫"
       },
       "descriptions": {
@@ -3276,7 +3319,7 @@
       }
     },
     {
-      "rank": 71,
+      "rank": 72,
       "id": "v7721",
       "titles": {
         "en": "Utawarerumono: Mask of Deception",
@@ -3325,7 +3368,7 @@
       }
     },
     {
-      "rank": 72,
+      "rank": 73,
       "id": "v3112",
       "titles": {
         "en": "999: Nine Hours, Nine Persons, Nine Doors",
@@ -3355,7 +3398,7 @@
         "xxs",
         "web"
       ],
-      "overallScore": 82.17961908459515,
+      "overallScore": 82.17943104861321,
       "sources": {
         "vndb": {
           "score": 82.8,
@@ -3364,7 +3407,7 @@
         },
         "bangumi": {
           "score": 80,
-          "votes": 2408,
+          "votes": 2409,
           "href": "https://bgm.tv/subject/3863"
         },
         "egs": {
@@ -3375,7 +3418,7 @@
       }
     },
     {
-      "rank": 73,
+      "rank": 74,
       "id": "v211",
       "titles": {
         "en": "G-senjou no Maou - The Devil on G-String",
@@ -3420,7 +3463,7 @@
       }
     },
     {
-      "rank": 74,
+      "rank": 75,
       "id": "v60663",
       "titles": {
         "en": "Dimension Totsu Lovers!!",
@@ -3443,7 +3486,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 82.11599807753925,
+      "overallScore": 82.1089863891113,
       "sources": {
         "vndb": {
           "score": 82.8,
@@ -3456,14 +3499,14 @@
           "href": "https://bgm.tv/subject/611546"
         },
         "egs": {
-          "score": 87.29,
-          "votes": 658,
+          "score": 87.26,
+          "votes": 659,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=39837"
         }
       }
     },
     {
-      "rank": 75,
+      "rank": 76,
       "id": "v21852",
       "titles": {
         "en": "Kinkoi: Golden Loveriche",
@@ -3511,7 +3554,7 @@
       }
     },
     {
-      "rank": 76,
+      "rank": 77,
       "id": "v7679",
       "titles": {
         "en": "Danganronpa 2: Goodbye Despair",
@@ -3545,7 +3588,7 @@
         "xxs",
         "web"
       ],
-      "overallScore": 82.06197781935519,
+      "overallScore": 82.06229645093947,
       "sources": {
         "vndb": {
           "score": 80.9,
@@ -3554,7 +3597,7 @@
         },
         "bangumi": {
           "score": 85,
-          "votes": 5005,
+          "votes": 5007,
           "href": "https://bgm.tv/subject/39066"
         },
         "egs": {
@@ -3565,11 +3608,11 @@
       }
     },
     {
-      "rank": 77,
+      "rank": 78,
       "id": "v17046",
       "titles": {
         "en": "Monmusu Quest! Paradox RPG Zenshou",
-        "zh": "勇者大战魔物娘RPG 前章",
+        "zh": "勇者大战魔物娘RPG前章",
         "ja": "もんむす・くえすと！ ぱらどっくすRPG前章"
       },
       "descriptions": {
@@ -3610,11 +3653,11 @@
       }
     },
     {
-      "rank": 78,
+      "rank": 79,
       "id": "v26523",
       "titles": {
         "en": "9-nine-:Episode 4",
-        "zh": "9-nine-雪色雪花雪之痕",
+        "zh": "9-nine-雪色雪花雪余痕",
         "ja": "9-nine-ゆきいろゆきはなゆきのあと"
       },
       "descriptions": {
@@ -3656,7 +3699,7 @@
       }
     },
     {
-      "rank": 79,
+      "rank": 80,
       "id": "v432",
       "titles": {
         "en": "Lamento -BEYOND THE VOID-",
@@ -3699,7 +3742,7 @@
       }
     },
     {
-      "rank": 80,
+      "rank": 81,
       "id": "v15395",
       "titles": {
         "en": "Flowers -Le volume sur ete-",
@@ -3746,7 +3789,7 @@
       }
     },
     {
-      "rank": 81,
+      "rank": 82,
       "id": "v2956",
       "titles": {
         "en": "Tokimeki Memorial Girl's Side: 3rd Story",
@@ -3791,7 +3834,7 @@
       }
     },
     {
-      "rank": 82,
+      "rank": 83,
       "id": "v31813",
       "titles": {
         "en": "Amakano 2+",
@@ -3836,7 +3879,7 @@
       }
     },
     {
-      "rank": 83,
+      "rank": 84,
       "id": "v7809",
       "titles": {
         "en": "Zero Escape: Virtue's Last Reward",
@@ -3884,11 +3927,11 @@
       }
     },
     {
-      "rank": 84,
+      "rank": 85,
       "id": "v11849",
       "titles": {
         "en": "Monster Girl Quest - Part 3",
-        "zh": "勇者大战魔物娘! 终章～输掉就会被妖女硬上～",
+        "zh": "勇者大战魔物娘 终章",
         "ja": "もんむす・くえすと!終章 ～負ければ妖女に犯される～"
       },
       "descriptions": {
@@ -3932,11 +3975,11 @@
       }
     },
     {
-      "rank": 85,
+      "rank": 86,
       "id": "v12246",
       "titles": {
         "en": "Otome Riron to Sono Shuuhen -Ecole de Paris-",
-        "zh": "少女理论及其周边 -巴黎学院篇-",
+        "zh": "少女理论及其周边 -École de Paris-",
         "ja": "乙女理論とその周辺 -Ecole de Paris-"
       },
       "descriptions": {
@@ -3976,7 +4019,7 @@
       }
     },
     {
-      "rank": 86,
+      "rank": 87,
       "id": "v5922",
       "titles": {
         "en": "Kara no Shojo - The Second Episode",
@@ -4022,7 +4065,7 @@
       }
     },
     {
-      "rank": 87,
+      "rank": 88,
       "id": "v16032",
       "titles": {
         "en": "TAISHO x ALICE",
@@ -4067,7 +4110,7 @@
       }
     },
     {
-      "rank": 88,
+      "rank": 89,
       "id": "v711",
       "titles": {
         "en": "Phoenix Wright: Ace Attorney",
@@ -4120,7 +4163,7 @@
       }
     },
     {
-      "rank": 89,
+      "rank": 90,
       "id": "v1564",
       "titles": {
         "en": "Luckydog1",
@@ -4170,7 +4213,54 @@
       }
     },
     {
-      "rank": 90,
+      "rank": 91,
+      "id": "v155",
+      "titles": {
+        "en": "Family Project ~Kazoku Keikaku~",
+        "zh": "家族计划",
+        "ja": "家族計画"
+      },
+      "descriptions": {
+        "en": "Tsukasa, a fiercely independent youth who lost his parents at an early age and now spends his days working at a Chinese restaurant to make ends meet. Reluctant to form interpersonal ties lest they be shattered, Tsukasa is nonetheless unable to abandon the illegal immigrant girl he finds collapsed in the alley behind his workplace one day. Confronted by her utter helplessness he takes her in, an encounter that opens the door to a new life - one where he faces the challenge and wonder of being no longer alone. Tsukasa soon finds himself at the unwilling nexus of even more lives, attracting a band of misfits and social outcasts around him that swell beyond the confines of his small apartment. They find shelter in an abandoned house, where despite Tsukasa's lingering doubts a pact is formed: the \"family project\", an alliance of mutual convenience and utilitarian support that despite the mistrust and antagonism among its members soon comes to mean much more. [From G-Collections]",
+        "zh": "Tsukasa, a fiercely independent youth who lost his parents at an early age and now spends his days working at a Chinese restaurant to make ends meet. Reluctant to form interpersonal ties lest they be shattered, Tsukasa is nonetheless unable to abandon the illegal immigrant girl he finds collapsed in the alley behind his workplace one day. Confronted by her utter helplessness he takes her in, an encounter that opens the door to a new life - one where he faces the challenge and wonder of being no longer alone. Tsukasa soon finds himself at the unwilling nexus of even more lives, attracting a band of misfits and social outcasts around him that swell beyond the confines of his small apartment. They find shelter in an abandoned house, where despite Tsukasa's lingering doubts a pact is formed: the \"family project\", an alliance of mutual convenience and utilitarian support that despite the mistrust and antagonism among its members soon comes to mean much more. [From G-Collections]"
+      },
+      "year": 2001,
+      "released": "2001-11-02",
+      "image": "https://t.vndb.org/cv/49/101349.jpg",
+      "lengthMinutes": 1812,
+      "genres": [
+        "Visual novel"
+      ],
+      "platforms": [
+        "win",
+        "and",
+        "dvd",
+        "psp",
+        "ps2",
+        "ps3",
+        "psv"
+      ],
+      "overallScore": 81.39052164261932,
+      "sources": {
+        "vndb": {
+          "score": 74.3,
+          "votes": 1703,
+          "href": "https://vndb.org/v155"
+        },
+        "bangumi": {
+          "score": null,
+          "votes": null,
+          "href": "https://bgm.tv/subject/4347"
+        },
+        "egs": {
+          "score": 85.7,
+          "votes": 1868,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=1714"
+        }
+      }
+    },
+    {
+      "rank": 92,
       "id": "v29383",
       "titles": {
         "en": "Lupercalia of the Silent Accord",
@@ -4215,11 +4305,11 @@
       }
     },
     {
-      "rank": 91,
+      "rank": 93,
       "id": "v16212",
       "titles": {
         "en": "A Clockwork Ley-Line: Flowers Falling in the Morning Mist",
-        "zh": "时钟机关的Ley-line-朝雾中飘零之花-",
+        "zh": "时钟机关的Ley-line -朝雾中飘零之花-",
         "ja": "時計仕掛けのレイライン －朝霧に散る花－"
       },
       "descriptions": {
@@ -4260,7 +4350,7 @@
       }
     },
     {
-      "rank": 92,
+      "rank": 94,
       "id": "v6245",
       "titles": {
         "en": "Maji de Watashi ni Koishinasai! S",
@@ -4303,7 +4393,7 @@
       }
     },
     {
-      "rank": 93,
+      "rank": 95,
       "id": "v12849",
       "titles": {
         "en": "Aokana - Four Rhythms Across the Blue",
@@ -4352,11 +4442,11 @@
       }
     },
     {
-      "rank": 94,
+      "rank": 96,
       "id": "v5652",
       "titles": {
         "en": "Kamidori Alchemy Meister",
-        "zh": "神采炼金大师",
+        "zh": "神采炼金名匠",
         "ja": "神採りアルケミーマイスター"
       },
       "descriptions": {
@@ -4395,7 +4485,49 @@
       }
     },
     {
-      "rank": 95,
+      "rank": 97,
+      "id": "v1278",
+      "titles": {
+        "en": "Saihate no Ima",
+        "zh": "最果てのイマ",
+        "ja": "最果てのイマ"
+      },
+      "descriptions": {
+        "en": "This game tells the story of seven long-time friends. How they grew closer or further apart as they got older. The story is presented using a blog-like interface. The protagonist, Atemiya Shinobu, who was raised at a certain facility since a young age, had no one around him that could be called a \"friend\". Being that way, the first thing he started doing after leaving the facility with his sister - Chidori - was to find and make friends. Benio Azusa, a tomboyish girl who lived nearby. Hondou Sayaka, a quiet yet sharp-tongued girl who was in charge of raising the pets at school just like him. Tsukamoto Youko and Itsuki, a pair of siblings who belonged to a prestigious family around the area. Higuchi Shouji, a boy he knew by being attracted to the similarities they both share. Izuki Fueko, a girl he met by chance. Together with Shinobu, they were a group of seven. Just like that, each and every one of them, who had never experienced the joy of having friends, was able to meet each other and become companions. The story begins in a quiet town colored by dusk. Around the seven friends, there were understanding, empathy, conflict, and what's more, the fleeting love of adolescence. It was a friendship that could last forever. Such a simple happiness should have... lasted forever. That was until the \"enemy\" appeared. The \"enemy\" had disturbed the peaceful relationship of the seven people. Shinobu could not forgive that. He could not forgive the one that injures his companions, nor could he forgive the one that hurts another one's hearts. And when he realized all that, the world th",
+        "zh": "This game tells the story of seven long-time friends. How they grew closer or further apart as they got older. The story is presented using a blog-like interface. The protagonist, Atemiya Shinobu, who was raised at a certain facility since a young age, had no one around him that could be called a \"friend\". Being that way, the first thing he started doing after leaving the facility with his sister - Chidori - was to find and make friends. Benio Azusa, a tomboyish girl who lived nearby. Hondou Sayaka, a quiet yet sharp-tongued girl who was in charge of raising the pets at school just like him. Tsukamoto Youko and Itsuki, a pair of siblings who belonged to a prestigious family around the area. Higuchi Shouji, a boy he knew by being attracted to the similarities they both share. Izuki Fueko, a girl he met by chance. Together with Shinobu, they were a group of seven. Just like that, each and every one of them, who had never experienced the joy of having friends, was able to meet each other and become companions. The story begins in a quiet town colored by dusk. Around the seven friends, there were understanding, empathy, conflict, and what's more, the fleeting love of adolescence. It was a friendship that could last forever. Such a simple happiness should have... lasted forever. That was until the \"enemy\" appeared. The \"enemy\" had disturbed the peaceful relationship of the seven people. Shinobu could not forgive that. He could not forgive the one that injures his companions, nor could he forgive the one that hurts another one's hearts. And when he realized all that, the world th"
+      },
+      "year": 2005,
+      "released": "2005-08-12",
+      "image": "https://t.vndb.org/cv/16/95716.jpg",
+      "lengthMinutes": 2700,
+      "genres": [
+        "Visual novel"
+      ],
+      "platforms": [
+        "win",
+        "psp"
+      ],
+      "overallScore": 81.22708154506438,
+      "sources": {
+        "vndb": {
+          "score": 84.9,
+          "votes": 267,
+          "href": "https://vndb.org/v1278"
+        },
+        "bangumi": {
+          "score": null,
+          "votes": null,
+          "href": "https://bgm.tv/subject/7978"
+        },
+        "egs": {
+          "score": 80.36,
+          "votes": 754,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=4883"
+        }
+      }
+    },
+    {
+      "rank": 98,
       "id": "v50",
       "titles": {
         "en": "Fate/hollow ataraxia",
@@ -4443,7 +4575,7 @@
       }
     },
     {
-      "rank": 96,
+      "rank": 99,
       "id": "v20032",
       "titles": {
         "en": "The Silver Case",
@@ -4491,7 +4623,7 @@
       }
     },
     {
-      "rank": 97,
+      "rank": 100,
       "id": "v12369",
       "titles": {
         "en": "Fate/EXTRA CCC",
@@ -4534,7 +4666,59 @@
       }
     },
     {
-      "rank": 98,
+      "rank": 101,
+      "id": "v36",
+      "titles": {
+        "en": "AIR",
+        "zh": "AIR",
+        "ja": "AIR"
+      },
+      "descriptions": {
+        "en": "Summer had come to that town. A young man is performing with a puppet in front of a seaside bus stop. Only two children are watching his show. However, they soon lose interest and run off. The young man is a traveler. He has two companions on his travels. A decrepit doll that moves without strings, and a powerful oath made a long time ago. Just when he began to feel despair, a young girl comes to talk to him. She has a friendly, innocent smile. Following this meeting with her, the young man begins to live in that town. Spending gentle days enveloped in the scenes of summer. Encounters with girls in the sunlight. Summer stretches on endlessly. Beneath the vast blue sky. Beneath the air in which she awaits. [From Steam]",
+        "zh": "Summer had come to that town. A young man is performing with a puppet in front of a seaside bus stop. Only two children are watching his show. However, they soon lose interest and run off. The young man is a traveler. He has two companions on his travels. A decrepit doll that moves without strings, and a powerful oath made a long time ago. Just when he began to feel despair, a young girl comes to talk to him. She has a friendly, innocent smile. Following this meeting with her, the young man begins to live in that town. Spending gentle days enveloped in the scenes of summer. Encounters with girls in the sunlight. Summer stretches on endlessly. Beneath the vast blue sky. Beneath the air in which she awaits. [From Steam]"
+      },
+      "year": 2000,
+      "released": "2000-09-08",
+      "image": "https://t.vndb.org/cv/04/103904.jpg",
+      "lengthMinutes": 1800,
+      "genres": [
+        "Visual novel"
+      ],
+      "platforms": [
+        "win",
+        "lin",
+        "ios",
+        "and",
+        "gba",
+        "gbc",
+        "psp",
+        "ps2",
+        "psv",
+        "drc",
+        "swi",
+        "mob"
+      ],
+      "overallScore": 81.04243243243242,
+      "sources": {
+        "vndb": {
+          "score": 77.8,
+          "votes": 2860,
+          "href": "https://vndb.org/v36"
+        },
+        "bangumi": {
+          "score": null,
+          "votes": null,
+          "href": "https://bgm.tv/subject/232"
+        },
+        "egs": {
+          "score": 82.96,
+          "votes": 3224,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=84"
+        }
+      }
+    },
+    {
+      "rank": 102,
       "id": "v9678",
       "titles": {
         "en": "Rose Guns Days",
@@ -4579,7 +4763,7 @@
       }
     },
     {
-      "rank": 99,
+      "rank": 103,
       "id": "v18495",
       "titles": {
         "en": "Akeiro Kaikitan",
@@ -4622,7 +4806,7 @@
       }
     },
     {
-      "rank": 100,
+      "rank": 104,
       "id": "v25931",
       "titles": {
         "en": "Your Turn To Die -Death Game By Majority-",
@@ -4666,11 +4850,11 @@
       }
     },
     {
-      "rank": 101,
+      "rank": 105,
       "id": "v37",
       "titles": {
         "en": "The Rotting Princess ~Euthanasia~",
-        "zh": "腐姬",
+        "zh": "腐姫 ～euthanasia～",
         "ja": "腐り姫 ～euthanasia～"
       },
       "descriptions": {
@@ -4710,7 +4894,7 @@
       }
     },
     {
-      "rank": 102,
+      "rank": 106,
       "id": "v21289",
       "titles": {
         "en": "Raging Loop",
@@ -4741,7 +4925,7 @@
         "xbo",
         "xxs"
       ],
-      "overallScore": 80.9703476839237,
+      "overallScore": 80.97045989537925,
       "sources": {
         "vndb": {
           "score": 79.3,
@@ -4750,7 +4934,7 @@
         },
         "bangumi": {
           "score": 82,
-          "votes": 5465,
+          "votes": 5466,
           "href": "https://bgm.tv/subject/215470"
         },
         "egs": {
@@ -4761,11 +4945,11 @@
       }
     },
     {
-      "rank": 103,
+      "rank": 107,
       "id": "v20860",
       "titles": {
         "en": "Hikari no Umi no Apeiria",
-        "zh": "流景之海的艾佩理雅",
+        "zh": "景之海的艾佩莉娅",
         "ja": "景の海のアペイリア"
       },
       "descriptions": {
@@ -4804,7 +4988,7 @@
       }
     },
     {
-      "rank": 104,
+      "rank": 108,
       "id": "v2133",
       "titles": {
         "en": "Ar tonelico II: Melody of Metafalica",
@@ -4845,7 +5029,7 @@
       }
     },
     {
-      "rank": 105,
+      "rank": 109,
       "id": "v12392",
       "titles": {
         "en": "Monobeno -Happy End-",
@@ -4888,7 +5072,7 @@
       }
     },
     {
-      "rank": 106,
+      "rank": 110,
       "id": "v7723",
       "titles": {
         "en": "The Labyrinth of Grisaia",
@@ -4935,7 +5119,7 @@
       }
     },
     {
-      "rank": 107,
+      "rank": 111,
       "id": "v8095",
       "titles": {
         "en": "Black Wolves Saga -Bloody Nightmare-",
@@ -4977,7 +5161,7 @@
       }
     },
     {
-      "rank": 108,
+      "rank": 112,
       "id": "v7724",
       "titles": {
         "en": "The Eden of Grisaia",
@@ -5022,7 +5206,7 @@
       }
     },
     {
-      "rank": 109,
+      "rank": 113,
       "id": "v10028",
       "titles": {
         "en": "The Colorful Light -The Eternal Chapter In World's End Tale-",
@@ -5066,11 +5250,11 @@
       }
     },
     {
-      "rank": 110,
+      "rank": 114,
       "id": "v11093",
       "titles": {
         "en": "A Clockwork Ley-Line: Daybreak of Remnants Shadow",
-        "zh": "时钟机关的Ley-line-残影之夜将明时-",
+        "zh": "时钟机关的Ley-line -残影之夜将明时-",
         "ja": "時計仕掛けのレイライン －残影の夜が明ける時－"
       },
       "descriptions": {
@@ -5111,7 +5295,7 @@
       }
     },
     {
-      "rank": 111,
+      "rank": 115,
       "id": "v20602",
       "titles": {
         "en": "Maji de Watashi ni Koishinasai! A-5",
@@ -5154,11 +5338,66 @@
       }
     },
     {
-      "rank": 112,
+      "rank": 116,
+      "id": "v1153",
+      "titles": {
+        "en": "Memories Off 2nd",
+        "zh": "秋之回忆2",
+        "ja": "メモリーズオフ セカンド"
+      },
+      "descriptions": {
+        "en": "The protagonist is a 17-year-old student, Ken Inami, a soccer loving dude who aspires to go to film school. His girlfriend Hotaru Shirakawa also has high aspirations; having played piano ever since she was a child, she aims to go to music school. Ken and Hotaru have been dating for a spell and are at a rocky juncture in their relationship. This is where the game gets interesting. You can either make decisions to salvage Ken's relationship with Hotaru or chase after another girl. [Edited from RPGFan]",
+        "zh": "一切由误会开始…… 这故事发生在第一集前代“澄空町”邻近的“樱峰町”内，主角伊波健是一名平凡的高三学生，由于其父亲去年五月开始已一直忙于工作，所以留下了主角一人住在公寓“朝风庄”内。他有一位可爱的女友叫“白河萤”，由圣诞开始交往，两人一直相处融洽。可是暑假的一天，却发生了一些小误会，已令他们二人的恋情起了变化 ……"
+      },
+      "year": 2001,
+      "released": "2001-09-27",
+      "image": "https://t.vndb.org/cv/66/75866.jpg",
+      "lengthMinutes": 1838,
+      "genres": [
+        "秋之回忆",
+        "KID",
+        "白河萤"
+      ],
+      "platforms": [
+        "win",
+        "lin",
+        "mac",
+        "ios",
+        "and",
+        "psp",
+        "ps1",
+        "ps2",
+        "ps4",
+        "drc",
+        "swi",
+        "web",
+        "mob"
+      ],
+      "overallScore": 80.44665213600697,
+      "sources": {
+        "vndb": {
+          "score": 78.5,
+          "votes": 221,
+          "href": "https://vndb.org/v1153"
+        },
+        "bangumi": {
+          "score": 81,
+          "votes": 1899,
+          "href": "https://bgm.tv/subject/1733"
+        },
+        "egs": {
+          "score": 76.88,
+          "votes": 116,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=5366"
+        }
+      }
+    },
+    {
+      "rank": 117,
       "id": "v2047",
       "titles": {
         "en": "Rance VI - Collapse of Zeth",
-        "zh": "兰斯6 - 赛斯崩坏 -",
+        "zh": "兰斯6 -赛斯崩坏-",
         "ja": "RanceVI -ゼス崩壊-"
       },
       "descriptions": {
@@ -5198,7 +5437,7 @@
       }
     },
     {
-      "rank": 113,
+      "rank": 118,
       "id": "v548",
       "titles": {
         "en": "Dies irae ~Acta est Fabula~",
@@ -5245,7 +5484,7 @@
       }
     },
     {
-      "rank": 114,
+      "rank": 119,
       "id": "v17102",
       "titles": {
         "en": "STEINS;GATE 0",
@@ -5293,7 +5532,7 @@
       }
     },
     {
-      "rank": 115,
+      "rank": 120,
       "id": "v38429",
       "titles": {
         "en": "Hira Hira Hihiru",
@@ -5336,7 +5575,7 @@
       }
     },
     {
-      "rank": 116,
+      "rank": 121,
       "id": "v27057",
       "titles": {
         "en": "Bishoujo Mangekyou -Kotowari to Meikyuu no Shoujo-",
@@ -5377,7 +5616,7 @@
       }
     },
     {
-      "rank": 117,
+      "rank": 122,
       "id": "v5844",
       "titles": {
         "en": "Kajiri Kamui Kagura",
@@ -5421,7 +5660,7 @@
       }
     },
     {
-      "rank": 118,
+      "rank": 123,
       "id": "v18685",
       "titles": {
         "en": "Dies irae ~Interview with Kaziklu Bey~",
@@ -5464,7 +5703,7 @@
       }
     },
     {
-      "rank": 119,
+      "rank": 124,
       "id": "v1281",
       "titles": {
         "en": "Amagami",
@@ -5509,7 +5748,96 @@
       }
     },
     {
-      "rank": 120,
+      "rank": 125,
+      "id": "v914",
+      "titles": {
+        "en": "SWAN SONG",
+        "zh": "SWAN SONG",
+        "ja": "SWAN SONG"
+      },
+      "descriptions": {
+        "en": "It is a snowing Christmas Eve… Everything seems so peaceful when a huge earthquake occurs. The earthquake causes the city to be in ruin, and the surviving people need to find ways to stay alive. Some go crazy and rob others, some cling onto God, some gather to live together. The six main characters meet at a church while they were trying to find shelter from the snow. What will they see and experience in this extreme situation…? [From Yandere Translations]",
+        "zh": "It is a snowing Christmas Eve… Everything seems so peaceful when a huge earthquake occurs. The earthquake causes the city to be in ruin, and the surviving people need to find ways to stay alive. Some go crazy and rob others, some cling onto God, some gather to live together. The six main characters meet at a church while they were trying to find shelter from the snow. What will they see and experience in this extreme situation…? [From Yandere Translations]"
+      },
+      "year": 2005,
+      "released": "2005-07-29",
+      "image": "https://t.vndb.org/cv/63/88963.jpg",
+      "lengthMinutes": 1175,
+      "genres": [
+        "Visual novel"
+      ],
+      "platforms": [
+        "win",
+        "and"
+      ],
+      "overallScore": 80.12599654004181,
+      "sources": {
+        "vndb": {
+          "score": 76.1,
+          "votes": 3584,
+          "href": "https://vndb.org/v914"
+        },
+        "bangumi": {
+          "score": null,
+          "votes": null,
+          "href": "https://bgm.tv/subject/2722"
+        },
+        "egs": {
+          "score": 84.43,
+          "votes": 2235,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=5924"
+        }
+      }
+    },
+    {
+      "rank": 126,
+      "id": "v414",
+      "titles": {
+        "en": "Kira Kira",
+        "zh": "KIRA☆KIRA 煌煌舞台",
+        "ja": "キラ☆キラ"
+      },
+      "descriptions": {
+        "en": "Shikanosuke Maejima is a student at the Missionary school, Oubi Academy. He doesn't attend his club, he doesn't put much effort in his studies, all he does is show up at his part time job; in short, his life could be better. One day, he meets a strange girl, Kirari Shiino, at work and before he knows it, they've formed a punk band. The band consists of Shikanosuke, Kirari, his childhood friend Chie Isurugi, and a rich but weak young lady by the name of Sarina Kashiwara. The four of them are members of the Second Literature Club, which has hardly any active members and is already scheduled to be disbanded. This band is their chance to stand out and give one final farewell at the Culture Festival. The challenge was foolhardy, but after eccentric training they managed to succeed and rock out the peaceful Oubi Academy with their debut performance. That should have been it. They were satisfied. They should have returned to their normal lives. However, their final performance at a local Live House became a hit on the Internet and requests for their performance start flying in from far and wide. One problem: exams are coming up and their parents are opposed to the band! Who cares! The four of them embark on their final adventure, a long tour of Japan, armed with their dreams and their instruments, all aboard a rickety van that could fall apart at any moment. \"First stop, Nagoya!\" [From Mangagamer]",
+        "zh": "Shikanosuke Maejima is a student at the Missionary school, Oubi Academy. He doesn't attend his club, he doesn't put much effort in his studies, all he does is show up at his part time job; in short, his life could be better. One day, he meets a strange girl, Kirari Shiino, at work and before he knows it, they've formed a punk band. The band consists of Shikanosuke, Kirari, his childhood friend Chie Isurugi, and a rich but weak young lady by the name of Sarina Kashiwara. The four of them are members of the Second Literature Club, which has hardly any active members and is already scheduled to be disbanded. This band is their chance to stand out and give one final farewell at the Culture Festival. The challenge was foolhardy, but after eccentric training they managed to succeed and rock out the peaceful Oubi Academy with their debut performance. That should have been it. They were satisfied. They should have returned to their normal lives. However, their final performance at a local Live House became a hit on the Internet and requests for their performance start flying in from far and wide. One problem: exams are coming up and their parents are opposed to the band! Who cares! The four of them embark on their final adventure, a long tour of Japan, armed with their dreams and their instruments, all aboard a rickety van that could fall apart at any moment. \"First stop, Nagoya!\" [From Mangagamer]"
+      },
+      "year": 2007,
+      "released": "2007-11-22",
+      "image": "https://t.vndb.org/cv/97/89097.jpg",
+      "lengthMinutes": 1791,
+      "genres": [
+        "Visual novel"
+      ],
+      "platforms": [
+        "win",
+        "ios",
+        "and",
+        "bdp",
+        "ps2",
+        "vnd",
+        "web"
+      ],
+      "overallScore": 80.07744014732965,
+      "sources": {
+        "vndb": {
+          "score": 75.8,
+          "votes": 3117,
+          "href": "https://vndb.org/v414"
+        },
+        "bangumi": {
+          "score": null,
+          "votes": null,
+          "href": "https://bgm.tv/subject/2723"
+        },
+        "egs": {
+          "score": 84,
+          "votes": 2266,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=9716"
+        }
+      }
+    },
+    {
+      "rank": 127,
       "id": "v20598",
       "titles": {
         "en": "Maji de Watashi ni Koishinasai! A-1",
@@ -5552,7 +5880,7 @@
       }
     },
     {
-      "rank": 121,
+      "rank": 128,
       "id": "v14265",
       "titles": {
         "en": "Hoshi Ori Yume Mirai",
@@ -5597,7 +5925,7 @@
       }
     },
     {
-      "rank": 122,
+      "rank": 129,
       "id": "v23393",
       "titles": {
         "en": "UuultraC",
@@ -5640,7 +5968,7 @@
       }
     },
     {
-      "rank": 123,
+      "rank": 130,
       "id": "v13188",
       "titles": {
         "en": "Sengoku † Koihime ~Otome Kenran ☆ Sengoku Emaki~",
@@ -5686,7 +6014,7 @@
       }
     },
     {
-      "rank": 124,
+      "rank": 131,
       "id": "v4617",
       "titles": {
         "en": "Last Window: The Secret of Cape West",
@@ -5729,7 +6057,7 @@
       }
     },
     {
-      "rank": 125,
+      "rank": 132,
       "id": "v470",
       "titles": {
         "en": "Scent of Seductive Flesh",
@@ -5772,7 +6100,7 @@
       }
     },
     {
-      "rank": 126,
+      "rank": 133,
       "id": "v18872",
       "titles": {
         "en": "VA-11 HALL-A",
@@ -5819,11 +6147,11 @@
       }
     },
     {
-      "rank": 127,
+      "rank": 134,
       "id": "v7853",
       "titles": {
         "en": "Monster Girl Quest - Part 2",
-        "zh": "勇者大战魔物娘! 中章～输掉就会被妖女硬上～",
+        "zh": "勇者大战魔物娘 中章",
         "ja": "もんむす・くえすと!中章 ～負ければ妖女に犯される～"
       },
       "descriptions": {
@@ -5867,7 +6195,7 @@
       }
     },
     {
-      "rank": 128,
+      "rank": 135,
       "id": "v18160",
       "titles": {
         "en": "Collar x Malice",
@@ -5914,7 +6242,57 @@
       }
     },
     {
-      "rank": 129,
+      "rank": 136,
+      "id": "v70",
+      "titles": {
+        "en": "narcissu -SIDE 2nd-",
+        "zh": "水仙2",
+        "ja": "narcissu -SIDE 2nd-"
+      },
+      "descriptions": {
+        "en": "Narcissu: Side 2nd's plot revolves around Setsumi, the heroine from the original visual novel, and the people and circumstances that formed her into the character presented in the first game. She will share the limelight with new characters, including Himeko, Yuka and Chihiro. [From Wikipedia]",
+        "zh": "病院で日々を送っていたセツミ。 「7階」に入ることになった姫子。 1999年 夏、入院してから3年目になるセツミは、7階の患者の明るいお姉さん（姫子）と出会う。セツミは姫子と年の離れた友達となり、7階へ通うようになる。 そんな、セツミと姫子の夏が始まるのだった。 2ndはnarcissuの6年前、ヒロイン「セツミ」と彼女を取り囲む人たちとの過去を描いたアナザーストーリーとなる。"
+      },
+      "year": 2007,
+      "released": "2007-05-15",
+      "image": "https://t.vndb.org/cv/94/76394.jpg",
+      "lengthMinutes": 278,
+      "genres": [
+        "片岡とも",
+        "水仙",
+        "催泪"
+      ],
+      "platforms": [
+        "win",
+        "lin",
+        "mac",
+        "and",
+        "nds",
+        "psp",
+        "vnd",
+        "web"
+      ],
+      "overallScore": 79.57678223607324,
+      "sources": {
+        "vndb": {
+          "score": 75.4,
+          "votes": 2794,
+          "href": "https://vndb.org/v70"
+        },
+        "bangumi": {
+          "score": 82,
+          "votes": 3527,
+          "href": "https://bgm.tv/subject/1168"
+        },
+        "egs": {
+          "score": 81.84,
+          "votes": 920,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=7334"
+        }
+      }
+    },
+    {
+      "rank": 137,
       "id": "v37651",
       "titles": {
         "en": "Mashiroiro Symphony HD -Sana Edition-",
@@ -5957,7 +6335,7 @@
       }
     },
     {
-      "rank": 130,
+      "rank": 138,
       "id": "v12455",
       "titles": {
         "en": "Soushuu Senshinkan Gakuen: Hachimyoujin",
@@ -6001,7 +6379,7 @@
       }
     },
     {
-      "rank": 131,
+      "rank": 139,
       "id": "v19841",
       "titles": {
         "en": "The Princess, the Stray Cat, and Matters of the Heart 2",
@@ -6048,7 +6426,59 @@
       }
     },
     {
-      "rank": 132,
+      "rank": 140,
+      "id": "v10",
+      "titles": {
+        "en": "narcissu",
+        "zh": "水仙",
+        "ja": "narcissu"
+      },
+      "descriptions": {
+        "en": "The anonymous protagonist is diagnosed with a terminal illness shortly after his twentieth birthday, and is admitted to a hospital in Mito, Ibaraki. There he meets Setsumi, a woman a few years older, who is also terminally ill. Finding that they both reject to die either in hospital or at home, they steal a car and run away together. [Edited from Wikipedia]",
+        "zh": "1996年 6月、病院に入院してからあらゆる出来事に無関心となっているセツミ。 2005年 1月、病院のホスピスとなっている「7階」に入ることになった主人公。 2005年 冬、7階へやって来た主人公は談話室で、7階の患者セツミと出会う。主人公は、セツミと会話ともつかないやり取りを繰り返す毎日を送っていた。 そんなある日、主人公は、父の車のキーを持ちだし、セツミと共に病院を抜け出し、あてもなく車を走らせるのだった。"
+      },
+      "year": 2005,
+      "released": "2005-08-02",
+      "image": "https://t.vndb.org/cv/13/93313.jpg",
+      "lengthMinutes": 168,
+      "genres": [
+        "水仙",
+        "片岡とも",
+        "催泪"
+      ],
+      "platforms": [
+        "win",
+        "lin",
+        "mac",
+        "ios",
+        "and",
+        "gba",
+        "nds",
+        "psp",
+        "vnd",
+        "web"
+      ],
+      "overallScore": 79.44364537090651,
+      "sources": {
+        "vndb": {
+          "score": 75.1,
+          "votes": 6962,
+          "href": "https://vndb.org/v10"
+        },
+        "bangumi": {
+          "score": 84,
+          "votes": 6487,
+          "href": "https://bgm.tv/subject/1167"
+        },
+        "egs": {
+          "score": 79.77,
+          "votes": 1396,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=4682"
+        }
+      }
+    },
+    {
+      "rank": 141,
       "id": "v10680",
       "titles": {
         "en": "Tsuki ni Yorisou Otome no Sahou",
@@ -6095,7 +6525,7 @@
       }
     },
     {
-      "rank": 133,
+      "rank": 142,
       "id": "v14908",
       "titles": {
         "en": "Code: Realize ~Guardian of Rebirth~",
@@ -6143,7 +6573,7 @@
       }
     },
     {
-      "rank": 134,
+      "rank": 143,
       "id": "v776",
       "titles": {
         "en": "Rui wa Tomo o Yobu",
@@ -6188,7 +6618,7 @@
       }
     },
     {
-      "rank": 135,
+      "rank": 144,
       "id": "v810",
       "titles": {
         "en": "Kara no Shojo",
@@ -6234,7 +6664,90 @@
       }
     },
     {
-      "rank": 136,
+      "rank": 145,
+      "id": "v428",
+      "titles": {
+        "en": "Zoku Satsuriku no Django -Jigoku no Shoukinkubi-",
+        "zh": "续杀戮姜戈--地狱通缉犯",
+        "ja": "続・殺戮のジャンゴ ─地獄の賞金首─"
+      },
+      "descriptions": {
+        "en": "The planet Sweetwater is a wasteland of burning desert sands, an abandoned utopia of thieves where the usage of galactic technology is strictly forbidden by advanced bio-mechanical lifeforms known as Protozoans who watch over the planet from the skies above. Here, a single legend is uttered with equal reverence betwixt the ranks of the corrupt nobility, the downtrodden farming peasants, and the bloodthirsty rogues who make Sweetwater their nest - this is the legend of Black Franco, a gunslinger-cum-revolutionary who managed to amass a hidden fortune, incite a revolution, and earn a 500000 dollar price on his head before vanishing ten years ago. Recently, however, there have been new rumors of a gunslinger appearing with Franco's trademark gun, the Black Hawk, in hand... Lily Salvatana, a particularly sagacious headhunter, takes it upon herself to claim the massive bounty set on Franco's head. However, Lily soon encounters a mysterious gunslinger who refuses to speak her name who seems to have the same idea - exactly who will end up claiming the bounty? And in the first place, who exactly is Franco? [Adapted from the official website]",
+        "zh": "The planet Sweetwater is a wasteland of burning desert sands, an abandoned utopia of thieves where the usage of galactic technology is strictly forbidden by advanced bio-mechanical lifeforms known as Protozoans who watch over the planet from the skies above. Here, a single legend is uttered with equal reverence betwixt the ranks of the corrupt nobility, the downtrodden farming peasants, and the bloodthirsty rogues who make Sweetwater their nest - this is the legend of Black Franco, a gunslinger-cum-revolutionary who managed to amass a hidden fortune, incite a revolution, and earn a 500000 dollar price on his head before vanishing ten years ago. Recently, however, there have been new rumors of a gunslinger appearing with Franco's trademark gun, the Black Hawk, in hand... Lily Salvatana, a particularly sagacious headhunter, takes it upon herself to claim the massive bounty set on Franco's head. However, Lily soon encounters a mysterious gunslinger who refuses to speak her name who seems to have the same idea - exactly who will end up claiming the bounty? And in the first place, who exactly is Franco? [Adapted from the official website]"
+      },
+      "year": 2007,
+      "released": "2007-07-27",
+      "image": "https://t.vndb.org/cv/62/93362.jpg",
+      "lengthMinutes": 780,
+      "genres": [
+        "Visual novel"
+      ],
+      "platforms": [
+        "win"
+      ],
+      "overallScore": 79.30212278876171,
+      "sources": {
+        "vndb": {
+          "score": 77.2,
+          "votes": 267,
+          "href": "https://vndb.org/v428"
+        },
+        "bangumi": {
+          "score": null,
+          "votes": null,
+          "href": "https://bgm.tv/subject/20714"
+        },
+        "egs": {
+          "score": 79.78,
+          "votes": 783,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=9138"
+        }
+      }
+    },
+    {
+      "rank": 146,
+      "id": "v599",
+      "titles": {
+        "en": "Forest",
+        "zh": "Forest",
+        "ja": "Forest"
+      },
+      "descriptions": {
+        "en": "\"I am Alice. Do let me hear a story.\" Here and there - in the space between buildings, in back alleys, perhaps even in the underground - the Forest bleeds into our world. The Forest is a forbidden place where the rules of our world do not apply. Our heroes must struggle against the Forest, without so much as the hope of assistance or understanding from the outside world. They do battle against the \"riddles\" the Forest imposes upon them with the aid of superhuman abilities known as \"gifts.\" And should they know defeat in their battle against the Forest, they will face that which they fear most - expulsion from Shinjuku. [Translated from Getchu]",
+        "zh": "\"I am Alice. Do let me hear a story.\" Here and there - in the space between buildings, in back alleys, perhaps even in the underground - the Forest bleeds into our world. The Forest is a forbidden place where the rules of our world do not apply. Our heroes must struggle against the Forest, without so much as the hope of assistance or understanding from the outside world. They do battle against the \"riddles\" the Forest imposes upon them with the aid of superhuman abilities known as \"gifts.\" And should they know defeat in their battle against the Forest, they will face that which they fear most - expulsion from Shinjuku. [Translated from Getchu]"
+      },
+      "year": 2004,
+      "released": "2004-02-13",
+      "image": "https://t.vndb.org/cv/94/94894.jpg",
+      "lengthMinutes": 910,
+      "genres": [
+        "Visual novel"
+      ],
+      "platforms": [
+        "win",
+        "web"
+      ],
+      "overallScore": 79.26071312048474,
+      "sources": {
+        "vndb": {
+          "score": 75,
+          "votes": 752,
+          "href": "https://vndb.org/v599"
+        },
+        "bangumi": {
+          "score": null,
+          "votes": null,
+          "href": "https://bgm.tv/subject/5395"
+        },
+        "egs": {
+          "score": 81.56,
+          "votes": 929,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=3294"
+        }
+      }
+    },
+    {
+      "rank": 147,
       "id": "v4936",
       "titles": {
         "en": "Sona-Nyl of the Violet Shadows ~What Beautiful Memories~",
@@ -6279,7 +6792,7 @@
       }
     },
     {
-      "rank": 137,
+      "rank": 148,
       "id": "v15871",
       "titles": {
         "en": "Kami no Ue no Mahoutsukai",
@@ -6324,7 +6837,7 @@
       }
     },
     {
-      "rank": 138,
+      "rank": 149,
       "id": "v17915",
       "titles": {
         "en": "Mystic Messenger",
@@ -6368,7 +6881,7 @@
       }
     },
     {
-      "rank": 139,
+      "rank": 150,
       "id": "v29443",
       "titles": {
         "en": "Stella of The End",
@@ -6415,7 +6928,7 @@
       }
     },
     {
-      "rank": 140,
+      "rank": 151,
       "id": "v20599",
       "titles": {
         "en": "Maji de Watashi ni Koishinasai! A-2",
@@ -6458,7 +6971,7 @@
       }
     },
     {
-      "rank": 141,
+      "rank": 152,
       "id": "v10557",
       "titles": {
         "en": "HimaNatsu: Of Churches, Sunflowers, and Long Summers",
@@ -6503,7 +7016,7 @@
       }
     },
     {
-      "rank": 142,
+      "rank": 153,
       "id": "v1715",
       "titles": {
         "en": "Hakuoki ~Demon of the Fleeting Blossom~",
@@ -6556,7 +7069,7 @@
       }
     },
     {
-      "rank": 143,
+      "rank": 154,
       "id": "v13871",
       "titles": {
         "en": "Bernd and the Mystery of Unteralterbach",
@@ -6602,7 +7115,7 @@
       }
     },
     {
-      "rank": 144,
+      "rank": 155,
       "id": "v15125",
       "titles": {
         "en": "The Great Ace Attorney: Adventures",
@@ -6648,7 +7161,7 @@
       }
     },
     {
-      "rank": 145,
+      "rank": 156,
       "id": "v7302",
       "titles": {
         "en": "Hatsuyuki Sakura: White Graduation",
@@ -6696,7 +7209,7 @@
       }
     },
     {
-      "rank": 146,
+      "rank": 157,
       "id": "v945",
       "titles": {
         "en": "Katawa Shoujo",
@@ -6745,7 +7258,7 @@
       }
     },
     {
-      "rank": 147,
+      "rank": 158,
       "id": "v5127",
       "titles": {
         "en": "Butterfly's Poison; Blood Chains",
@@ -6794,7 +7307,51 @@
       }
     },
     {
-      "rank": 148,
+      "rank": 159,
+      "id": "v96",
+      "titles": {
+        "en": "I/O",
+        "zh": "I/O",
+        "ja": "I/O"
+      },
+      "descriptions": {
+        "en": "April 26th, 2032 A.D. - Megalopolis Tokyo - 00:12 in the morning A total lunar eclipse occurs for the first time in 3 years. Even though it's supposed to be a simple astronomical phenomenon, it soon sets off a series of unexpected events. Unexplainable mysteries, terrorist incidents, and network crime surge as if in unison. The truth mixes with lies, as if the world is awake but still sleeping. Something has begun. Somewhere no one can see. Something no one knows about. This is a story of the chance meeting and tragic parting of the young men and women living in this world. Players get to play the game from 4 different points of view: Route A - Hinata, a youth who has lost his sister and himself. Route B - Ishtar, a freelance programmer and leader of a hacker team. Route C - Ishtar, but seems a bit different from the Ishtar in Route B.... Route D - He, a man completely shrouded in mystery. And thus.. \"The beginning is the end, and the end is the beginning\"",
+        "zh": "本作是GNsoftware brand的第一个原创新作。 制作方面，都是由在各领域有很高评价的实力派菁英担纲开发，希望能够超越以往的作品，受到广大游戏迷喜爱。 公元2032年4月26日星期一凌晨0点12分 巨型都市：东京 观测到了大约三年不见的月全食。 这原本只是一个普通的天文现象，却引发了完全无法预测的[某种古怪现象] 不知为何，就像与之相呼应一般 蹊跷的案件，恐怖活动和网络犯罪频繁发生…… 实与虚错综的混杂在一起。 就好像生活在梦境中一般。 有什么开始失控了。 谁也看不见的地方，谁都知道的某些东西。 这是，在那样的世界生活的少男少女们的，邂逅和离别的故事。 然后…… 开始代表着终结，而终结又是新的开始。 你在找寻着，我的双瞳和身姿 我在找寻着，你的身姿和双瞳 最先开始寻求对方的，究竟是。。。谁呢？ 这是一个找寻的故事。"
+      },
+      "year": 2006,
+      "released": "2006-01-26",
+      "image": "https://t.vndb.org/cv/45/7745.jpg",
+      "lengthMinutes": 2628,
+      "genres": [
+        "中泽工",
+        "田中ロミオ",
+        "悬疑"
+      ],
+      "platforms": [
+        "win",
+        "ps2"
+      ],
+      "overallScore": 78.58627134953092,
+      "sources": {
+        "vndb": {
+          "score": 76.1,
+          "votes": 935,
+          "href": "https://vndb.org/v96"
+        },
+        "bangumi": {
+          "score": 81,
+          "votes": 1007,
+          "href": "https://bgm.tv/subject/1079"
+        },
+        "egs": {
+          "score": 77.81,
+          "votes": 91,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=6331"
+        }
+      }
+    },
+    {
+      "rank": 160,
       "id": "v3938",
       "titles": {
         "en": "Tasogare no Sinsemilla",
@@ -6839,7 +7396,7 @@
       }
     },
     {
-      "rank": 149,
+      "rank": 161,
       "id": "v24717",
       "titles": {
         "en": "Kinkoi: Golden Time",
@@ -6884,7 +7441,7 @@
       }
     },
     {
-      "rank": 150,
+      "rank": 162,
       "id": "v28576",
       "titles": {
         "en": "MAMIYA - A Shared Illusion of the World's End",
@@ -6927,7 +7484,7 @@
       }
     },
     {
-      "rank": 151,
+      "rank": 163,
       "id": "v88",
       "titles": {
         "en": "ef - a fairy tale of the two.",
@@ -6972,7 +7529,7 @@
       }
     },
     {
-      "rank": 152,
+      "rank": 164,
       "id": "v16166",
       "titles": {
         "en": "PURE×CONNECT",
@@ -6995,7 +7552,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 78.53866431095406,
+      "overallScore": 78.53496733180293,
       "sources": {
         "vndb": {
           "score": 79.3,
@@ -7008,14 +7565,14 @@
           "href": "https://bgm.tv/subject/115976"
         },
         "egs": {
-          "score": 80.89,
-          "votes": 932,
+          "score": 80.88,
+          "votes": 933,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=21164"
         }
       }
     },
     {
-      "rank": 153,
+      "rank": 165,
       "id": "v18778",
       "titles": {
         "en": "Gin'iro, Haruka",
@@ -7058,11 +7615,11 @@
       }
     },
     {
-      "rank": 154,
+      "rank": 166,
       "id": "v33175",
       "titles": {
         "en": "Jewelry Hearts Academia -We will wing wonder world-",
-        "zh": "宝石心学园",
+        "zh": "宝石心学院",
         "ja": "ジュエリー・ハーツ・アカデミア -We will wing wonder world-"
       },
       "descriptions": {
@@ -7103,7 +7660,7 @@
       }
     },
     {
-      "rank": 155,
+      "rank": 167,
       "id": "v38511",
       "titles": {
         "en": "Motto! Haramase! Honoo no Oppai Isekai Oppai Maid Gakuen!",
@@ -7146,7 +7703,7 @@
       }
     },
     {
-      "rank": 156,
+      "rank": 168,
       "id": "v16493",
       "titles": {
         "en": "WHITE ALBUM2 Mini After Story",
@@ -7191,7 +7748,7 @@
       }
     },
     {
-      "rank": 157,
+      "rank": 169,
       "id": "v14759",
       "titles": {
         "en": "Ayakashi Gohan",
@@ -7236,7 +7793,7 @@
       }
     },
     {
-      "rank": 158,
+      "rank": 170,
       "id": "v29057",
       "titles": {
         "en": "Waga Himegimi ni Eikan o",
@@ -7279,11 +7836,11 @@
       }
     },
     {
-      "rank": 159,
+      "rank": 171,
       "id": "v8508",
       "titles": {
         "en": "Kindred Spirits on the Roof",
-        "zh": "屋上的百合灵",
+        "zh": "天台上的百合灵",
         "ja": "屋上の百合霊さん"
       },
       "descriptions": {
@@ -7327,7 +7884,7 @@
       }
     },
     {
-      "rank": 160,
+      "rank": 172,
       "id": "v17843",
       "titles": {
         "en": "Amakano ~Second Season~",
@@ -7374,7 +7931,7 @@
       }
     },
     {
-      "rank": 161,
+      "rank": 173,
       "id": "v28731",
       "titles": {
         "en": "Mama×Holic ~Miwaku no Mama to Ama Ama Kankei~",
@@ -7418,7 +7975,7 @@
       }
     },
     {
-      "rank": 162,
+      "rank": 174,
       "id": "v51437",
       "titles": {
         "en": "Homicipher",
@@ -7463,7 +8020,7 @@
       }
     },
     {
-      "rank": 163,
+      "rank": 175,
       "id": "v27519",
       "titles": {
         "en": "Dohna Dohna ~ Let's Do Bad Things Together",
@@ -7506,7 +8063,7 @@
       }
     },
     {
-      "rank": 164,
+      "rank": 176,
       "id": "v4463",
       "titles": {
         "en": "Muv-Luv Unlimited: THE DAY AFTER",
@@ -7548,7 +8105,7 @@
       }
     },
     {
-      "rank": 165,
+      "rank": 177,
       "id": "v58641",
       "titles": {
         "en": "Z.A.T.O. // I Love the World and Everything In It",
@@ -7575,7 +8132,7 @@
         "and",
         "psv"
       ],
-      "overallScore": 77.9041549766199,
+      "overallScore": 77.90330736701536,
       "sources": {
         "vndb": {
           "score": 80.2,
@@ -7584,7 +8141,7 @@
         },
         "bangumi": {
           "score": 76,
-          "votes": 1190,
+          "votes": 1191,
           "href": "https://bgm.tv/subject/604105"
         },
         "egs": {
@@ -7595,7 +8152,7 @@
       }
     },
     {
-      "rank": 166,
+      "rank": 178,
       "id": "v7738",
       "titles": {
         "en": "YOU and ME and HER: A Love Story",
@@ -7641,7 +8198,7 @@
       }
     },
     {
-      "rank": 167,
+      "rank": 179,
       "id": "v57252",
       "titles": {
         "en": "NICE TO MEET YOU, AGAIN",
@@ -7684,7 +8241,7 @@
       }
     },
     {
-      "rank": 168,
+      "rank": 180,
       "id": "v13774",
       "titles": {
         "en": "Angel Beats! -1st beat-",
@@ -7725,7 +8282,7 @@
       }
     },
     {
-      "rank": 169,
+      "rank": 181,
       "id": "v5834",
       "titles": {
         "en": "Irotoridori No Sekai - The Colorful World",
@@ -7769,7 +8326,7 @@
       }
     },
     {
-      "rank": 170,
+      "rank": 182,
       "id": "v18643",
       "titles": {
         "en": "Psychedelica of the Ashen Hawk",
@@ -7813,7 +8370,7 @@
       }
     },
     {
-      "rank": 171,
+      "rank": 183,
       "id": "v24803",
       "titles": {
         "en": "Tsuki no Kanata de Aimashou",
@@ -7858,7 +8415,7 @@
       }
     },
     {
-      "rank": 172,
+      "rank": 184,
       "id": "v1483",
       "titles": {
         "en": "Kitto, Sumiwataru Asairo Yori mo,",
@@ -7902,7 +8459,7 @@
       }
     },
     {
-      "rank": 173,
+      "rank": 185,
       "id": "v32555",
       "titles": {
         "en": "even if TEMPEST",
@@ -7945,7 +8502,7 @@
       }
     },
     {
-      "rank": 174,
+      "rank": 186,
       "id": "v44101",
       "titles": {
         "en": "Winter Memories",
@@ -7989,7 +8546,7 @@
       }
     },
     {
-      "rank": 175,
+      "rank": 187,
       "id": "v8158",
       "titles": {
         "en": "Daitoshokan no Hitsujikai",
@@ -8036,7 +8593,7 @@
       }
     },
     {
-      "rank": 176,
+      "rank": 188,
       "id": "v13999",
       "titles": {
         "en": "Tenbin no La DEA. ~Ikusa Megami Memoria~",
@@ -8079,7 +8636,7 @@
       }
     },
     {
-      "rank": 177,
+      "rank": 189,
       "id": "v20464",
       "titles": {
         "en": "Youkoso! Sukebe Elf no Mori e",
@@ -8123,7 +8680,48 @@
       }
     },
     {
-      "rank": 178,
+      "rank": 190,
+      "id": "v3184",
+      "titles": {
+        "en": "Kazoku Keikaku ~Soshite Mata Kazoku Keikaku o~",
+        "zh": "家族計画 〜そしてまた家族計画を〜",
+        "ja": "家族計画 〜そしてまた家族計画を〜"
+      },
+      "descriptions": {
+        "en": "Continuation of the Matsuri end of Kazoku Keikaku.",
+        "zh": "Continuation of the Matsuri end of Kazoku Keikaku."
+      },
+      "year": 2004,
+      "released": "2004-07-30",
+      "image": "https://t.vndb.org/cv/44/3844.jpg",
+      "lengthMinutes": 125,
+      "genres": [
+        "Visual novel"
+      ],
+      "platforms": [
+        "win"
+      ],
+      "overallScore": 76.83872997032641,
+      "sources": {
+        "vndb": {
+          "score": 79.1,
+          "votes": 173,
+          "href": "https://vndb.org/v3184"
+        },
+        "bangumi": {
+          "score": null,
+          "votes": null,
+          "href": "https://bgm.tv/subject/101434"
+        },
+        "egs": {
+          "score": 76.58,
+          "votes": 1008,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=3789"
+        }
+      }
+    },
+    {
+      "rank": 191,
       "id": "v29909",
       "titles": {
         "en": "OPPAI Succubus Academy Sucky and Busty, Demonic and Lusty!",
@@ -8166,7 +8764,7 @@
       }
     },
     {
-      "rank": 179,
+      "rank": 192,
       "id": "v26307",
       "titles": {
         "en": "Amakano 2",
@@ -8212,7 +8810,7 @@
       }
     },
     {
-      "rank": 180,
+      "rank": 193,
       "id": "v25912",
       "titles": {
         "en": "Cupid Parasite",
@@ -8255,7 +8853,7 @@
       }
     },
     {
-      "rank": 181,
+      "rank": 194,
       "id": "v15679",
       "titles": {
         "en": "Amakano",
@@ -8302,7 +8900,7 @@
       }
     },
     {
-      "rank": 182,
+      "rank": 195,
       "id": "v33036",
       "titles": {
         "en": "AMBITIOUS MISSION",
@@ -8347,11 +8945,11 @@
       }
     },
     {
-      "rank": 183,
+      "rank": 196,
       "id": "v18486",
       "titles": {
         "en": "Tsumamigui 3",
-        "zh": "妻中蜜3",
+        "zh": "妻中蜜 3",
         "ja": "妻みぐい3"
       },
       "descriptions": {
@@ -8391,7 +8989,7 @@
       }
     },
     {
-      "rank": 184,
+      "rank": 197,
       "id": "v28297",
       "titles": {
         "en": "Hoshizora Tetsudou to Shiro no Tabi",
@@ -8435,7 +9033,7 @@
       }
     },
     {
-      "rank": 185,
+      "rank": 198,
       "id": "v11620",
       "titles": {
         "en": "Madou Koukaku ~Yami no Tsuki Megami wa Doukoku de Utau~",
@@ -8478,7 +9076,7 @@
       }
     },
     {
-      "rank": 186,
+      "rank": 199,
       "id": "v6985",
       "titles": {
         "en": "Rance Quest",
@@ -8522,7 +9120,7 @@
       }
     },
     {
-      "rank": 187,
+      "rank": 200,
       "id": "v50283",
       "titles": {
         "en": "Magical Girl Witch Trials",
@@ -8567,7 +9165,7 @@
       }
     },
     {
-      "rank": 188,
+      "rank": 201,
       "id": "v26530",
       "titles": {
         "en": "Mamagoto ~Mama to Naisho no Ecchi Shimasho~",
@@ -8611,7 +9209,7 @@
       }
     },
     {
-      "rank": 189,
+      "rank": 202,
       "id": "v3271",
       "titles": {
         "en": "Guardians of Daybreak: Twilight Judgement",
@@ -8656,7 +9254,7 @@
       }
     },
     {
-      "rank": 190,
+      "rank": 203,
       "id": "v29661",
       "titles": {
         "en": "Virche Evermore: -ErroR:salvation-",
@@ -8702,7 +9300,7 @@
       }
     },
     {
-      "rank": 191,
+      "rank": 204,
       "id": "v26206",
       "titles": {
         "en": "Kazoku ~Haha to Shimai no Kyousei~",
@@ -8745,11 +9343,11 @@
       }
     },
     {
-      "rank": 192,
+      "rank": 205,
       "id": "v56650",
       "titles": {
         "en": "LimeLight Lemonade Jam",
-        "zh": "橘光柠水随想曲",
+        "zh": "聚光灯下的青柠恋曲",
         "ja": "ライムライト・レモネードジャム"
       },
       "descriptions": {
@@ -8789,7 +9387,7 @@
       }
     },
     {
-      "rank": 193,
+      "rank": 206,
       "id": "v12984",
       "titles": {
         "en": "AstralAir no Shiroki Towa",
@@ -8833,7 +9431,7 @@
       }
     },
     {
-      "rank": 194,
+      "rank": 207,
       "id": "v8424",
       "titles": {
         "en": "Soukoku no Arterial",
@@ -8876,7 +9474,7 @@
       }
     },
     {
-      "rank": 195,
+      "rank": 208,
       "id": "v50215",
       "titles": {
         "en": "Amakano 3",
@@ -8920,7 +9518,7 @@
       }
     },
     {
-      "rank": 196,
+      "rank": 209,
       "id": "v25635",
       "titles": {
         "en": "Maitetsu - Last Run!!",
@@ -8965,7 +9563,7 @@
       }
     },
     {
-      "rank": 197,
+      "rank": 210,
       "id": "v30771",
       "titles": {
         "en": "Role player: Okayu Shimai no Nenmaku Portrait - Gurigucha LIVE!",
@@ -9009,7 +9607,7 @@
       }
     },
     {
-      "rank": 198,
+      "rank": 211,
       "id": "v54897",
       "titles": {
         "en": "The Hundred Line -Last Defense Academy-",
@@ -9053,7 +9651,7 @@
       }
     },
     {
-      "rank": 199,
+      "rank": 212,
       "id": "v19545",
       "titles": {
         "en": "Flowers -Le volume sur hiver-",
@@ -9099,11 +9697,11 @@
       }
     },
     {
-      "rank": 200,
+      "rank": 213,
       "id": "v17147",
       "titles": {
         "en": "Akai Hitomi ni Utsuru Sekai",
-        "zh": "你朱眸里的五彩世界",
+        "zh": "映入红瞳的世界",
         "ja": "紅い瞳に映るセカイ"
       },
       "descriptions": {
@@ -9142,9 +9740,9 @@
       }
     }
   ],
-  "updatedAt": "2026-08-14T02:39:16.847Z",
+  "updatedAt": "2026-08-14T04:01:56.913Z",
   "source": "github-actions-static",
-  "catalogSize": 200,
+  "catalogSize": 213,
   "calculation": {
     "method": "vote-weighted-average",
     "formula": "sum(sourceScore * sourceVotes * sourceWeight) / sum(sourceVotes * sourceWeight)",
