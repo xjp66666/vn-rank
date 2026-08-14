@@ -3,6 +3,7 @@ import { scoreFor, type RankingItem, type SourceKey } from "./ranking";
 import { loadStaticRankings } from "./data";
 
 type Language = "en" | "zh";
+type SortMode = "overall" | SourceKey;
 
 const activeSources: SourceKey[] = ["vndb", "bangumi", "egs"];
 const sourceLabels: Record<SourceKey, string> = {
@@ -24,6 +25,8 @@ const copy = {
     searchPlaceholder: "English, Chinese, or Japanese title",
     era: "Era",
     genre: "Genre",
+    sortBy: "Sort by",
+    combined: "Combined score",
     allYears: "All years",
     allGenres: "All genres",
     title: "Title",
@@ -73,6 +76,8 @@ const copy = {
     searchPlaceholder: "英文、中文或日文标题",
     era: "年代",
     genre: "类型",
+    sortBy: "排序方式",
+    combined: "综合评分",
     allYears: "全部年份",
     allGenres: "全部类型",
     title: "标题",
@@ -140,6 +145,7 @@ export function Rankings() {
   const [query, setQuery] = useState("");
   const [era, setEra] = useState("all");
   const [genre, setGenre] = useState("all");
+  const [sortMode, setSortMode] = useState<SortMode>("overall");
   const [expanded, setExpanded] = useState<string | null>(null);
   const [showAll, setShowAll] = useState(false);
   const [showAccuracyWarning, setShowAccuracyWarning] = useState(false);
@@ -169,9 +175,35 @@ export function Rankings() {
     return () => controller.abort();
   }, []);
 
+  const sortedRankings = useMemo(() => {
+    const sorted = [...rankings];
+
+    if (sortMode === "overall") {
+      return sorted.sort((left, right) => left.rank - right.rank);
+    }
+
+    return sorted.sort((left, right) => {
+      const leftScore = left.sources[sortMode].score;
+      const rightScore = right.sources[sortMode].score;
+
+      if (leftScore === null && rightScore !== null) return 1;
+      if (leftScore !== null && rightScore === null) return -1;
+      if (leftScore !== rightScore) return (rightScore ?? 0) - (leftScore ?? 0);
+
+      const voteDifference = (right.sources[sortMode].votes ?? 0)
+        - (left.sources[sortMode].votes ?? 0);
+      return voteDifference || left.rank - right.rank;
+    });
+  }, [rankings, sortMode]);
+
+  const displayRankById = useMemo(
+    () => new Map(sortedRankings.map((item, index) => [item.id, index + 1])),
+    [sortedRankings],
+  );
+
   const availableRankings = useMemo(
-    () => (showAll ? rankings : rankings.slice(0, 100)),
-    [rankings, showAll],
+    () => (showAll ? sortedRankings : sortedRankings.slice(0, 100)),
+    [showAll, sortedRankings],
   );
 
   const genres = useMemo(
@@ -284,6 +316,21 @@ export function Rankings() {
               ))}
             </select>
           </label>
+          <label className="select-control">
+            <span>{text.sortBy}</span>
+            <select
+              value={sortMode}
+              onChange={(event) => {
+                setSortMode(event.target.value as SortMode);
+                setExpanded(null);
+              }}
+            >
+              <option value="overall">{text.combined}</option>
+              {activeSources.map((source) => (
+                <option key={source} value={source}>{sourceLabels[source]}</option>
+              ))}
+            </select>
+          </label>
         </div>
 
         <div className="ranking-nav">
@@ -310,7 +357,9 @@ export function Rankings() {
                   onClick={() => setExpanded(isExpanded ? null : item.id)}
                   type="button"
                 >
-                  <span className="rank-number">{item.rank}</span>
+                  <span className="rank-number">
+                    {displayRankById.get(item.id) ?? item.rank}
+                  </span>
                   <span className="cover">
                     {item.image ? (
                       <img
