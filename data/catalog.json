@@ -29,15 +29,15 @@
           "win"
         ]
       },
-      "vndbScore": 90,
+      "vndbScore": 90.2,
       "vndbVotes": 1157,
       "bangumiScore": 93,
       "bangumiVotes": 3608,
       "egsScore": 93.46,
       "egsVotes": 1149,
       "egsMedian": 99,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "WHITE ALBUM2",
@@ -47,7 +47,7 @@
       "metadata": {
         "titles": {
           "en": "WHITE ALBUM2",
-          "zh": "白色相簿2",
+          "zh": "白色相簿2 终章",
           "ja": "WHITE ALBUM2"
         },
         "descriptions": {
@@ -71,14 +71,14 @@
         ]
       },
       "vndbScore": 90.3,
-      "vndbVotes": 4430,
+      "vndbVotes": 4432,
       "bangumiScore": 91,
       "bangumiVotes": 7104,
       "egsScore": 89.63,
       "egsVotes": 2630,
       "egsMedian": 94,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "STEINS;GATE",
@@ -117,14 +117,14 @@
         ]
       },
       "vndbScore": 90.2,
-      "vndbVotes": 16638,
+      "vndbVotes": 16642,
       "bangumiScore": 89,
-      "bangumiVotes": 8438,
+      "bangumiVotes": 8439,
       "egsScore": 90.55,
       "egsVotes": 503,
       "egsMedian": 93,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "マブラヴ　オルタネイティヴ",
@@ -161,14 +161,14 @@
         ]
       },
       "vndbScore": 89.9,
-      "vndbVotes": 11227,
+      "vndbVotes": 11231,
       "bangumiScore": 88,
       "bangumiVotes": 4027,
       "egsScore": 89.42,
       "egsVotes": 3670,
       "egsMedian": 94,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "うみねこのなく頃に散",
@@ -207,14 +207,14 @@
         ]
       },
       "vndbScore": 89.9,
-      "vndbVotes": 10852,
+      "vndbVotes": 10856,
       "bangumiScore": 86,
       "bangumiVotes": 1475,
       "egsScore": 73.5,
       "egsVotes": 204,
       "egsMedian": 75,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "装甲悪鬼村正",
@@ -245,14 +245,14 @@
         ]
       },
       "vndbScore": 90.1,
-      "vndbVotes": 5903,
+      "vndbVotes": 5911,
       "bangumiScore": 86,
       "bangumiVotes": 4383,
       "egsScore": 88.84,
       "egsVotes": 3004,
       "egsMedian": 90,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Ever17 -the out of infinity-",
@@ -293,14 +293,14 @@
         ]
       },
       "vndbScore": 84.5,
-      "vndbVotes": 8683,
+      "vndbVotes": 8685,
       "bangumiScore": 91,
-      "bangumiVotes": 9766,
+      "bangumiVotes": 9767,
       "egsScore": 89.4,
       "egsVotes": 479,
       "egsMedian": 91,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "BALDR SKY Dive2 \"RECORDARE\"",
@@ -331,14 +331,14 @@
         ]
       },
       "vndbScore": 86.7,
-      "vndbVotes": 2671,
+      "vndbVotes": 2673,
       "bangumiScore": 88,
       "bangumiVotes": 3215,
       "egsScore": 88.87,
       "egsVotes": 2366,
       "egsMedian": 90,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "CLANNAD",
@@ -380,14 +380,14 @@
         ]
       },
       "vndbScore": 87.2,
-      "vndbVotes": 11304,
+      "vndbVotes": 11305,
       "bangumiScore": 89,
-      "bangumiVotes": 6416,
+      "bangumiVotes": 6417,
       "egsScore": 87.25,
       "egsVotes": 3292,
       "egsMedian": 90,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ひぐらしのなく頃に解",
@@ -429,14 +429,14 @@
         ]
       },
       "vndbScore": 88.4,
-      "vndbVotes": 7840,
+      "vndbVotes": 7843,
       "bangumiScore": 84,
       "bangumiVotes": 860,
       "egsScore": 83.5,
       "egsVotes": 385,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "うみねこのなく頃に",
@@ -480,14 +480,14 @@
         ]
       },
       "vndbScore": 88.7,
-      "vndbVotes": 13668,
+      "vndbVotes": 13674,
       "bangumiScore": 84,
       "bangumiVotes": 2493,
       "egsScore": 76.11,
       "egsVotes": 361,
       "egsMedian": 78,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "サクラノ詩－櫻の森の上を舞う－",
@@ -497,7 +497,7 @@
       "metadata": {
         "titles": {
           "en": "Sakura no Uta -To Dance Over the Cherry Blossoms-",
-          "zh": "樱之诗 −于樱之森上飞舞−",
+          "zh": "樱之诗 - 在樱花之森上飞舞",
           "ja": "サクラノ詩－櫻の森の上を舞う－"
         },
         "descriptions": {
@@ -519,14 +519,14 @@
         ]
       },
       "vndbScore": 87.4,
-      "vndbVotes": 2488,
+      "vndbVotes": 2489,
       "bangumiScore": 87,
       "bangumiVotes": 6658,
       "egsScore": 88.51,
       "egsVotes": 2657,
       "egsMedian": 90,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "大逆転裁判2 -成歩堂龍ノ介の覺悟-",
@@ -561,15 +561,15 @@
           "n3d"
         ]
       },
-      "vndbScore": 87.3,
-      "vndbVotes": 1652,
+      "vndbScore": 87.4,
+      "vndbVotes": 1653,
       "bangumiScore": 87,
       "bangumiVotes": 1684,
       "egsScore": 86.92,
       "egsVotes": 38,
       "egsMedian": 88,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "うたわれるもの 二人の白皇",
@@ -605,15 +605,15 @@
           "swi"
         ]
       },
-      "vndbScore": 89.3,
-      "vndbVotes": 2909,
+      "vndbScore": 89.2,
+      "vndbVotes": 2911,
       "bangumiScore": 82,
-      "bangumiVotes": 1540,
+      "bangumiVotes": 1541,
       "egsScore": 89.42,
       "egsVotes": 326,
       "egsMedian": 90,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "素晴らしき日々～不連続存在～",
@@ -623,7 +623,7 @@
       "metadata": {
         "titles": {
           "en": "Wonderful Everyday ~Diskontinuierliches Dasein~",
-          "zh": "美好的每一天～不连续存在～",
+          "zh": "美好的每一天 ～不连续的存在～",
           "ja": "素晴らしき日々～不連続存在～"
         },
         "descriptions": {
@@ -646,14 +646,14 @@
         ]
       },
       "vndbScore": 86.8,
-      "vndbVotes": 11734,
+      "vndbVotes": 11741,
       "bangumiScore": 87,
-      "bangumiVotes": 8494,
+      "bangumiVotes": 8495,
       "egsScore": 86.58,
       "egsVotes": 3286,
       "egsMedian": 90,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ファタモルガーナの館",
@@ -690,14 +690,14 @@
         ]
       },
       "vndbScore": 87.9,
-      "vndbVotes": 7482,
+      "vndbVotes": 7485,
       "bangumiScore": 84,
       "bangumiVotes": 3025,
       "egsScore": 86.63,
       "egsVotes": 467,
       "egsMedian": 89,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ヘンタイ・プリズン",
@@ -728,15 +728,15 @@
           "and"
         ]
       },
-      "vndbScore": 86.6,
-      "vndbVotes": 1819,
+      "vndbScore": 86.7,
+      "vndbVotes": 1820,
       "bangumiScore": 86,
-      "bangumiVotes": 3742,
+      "bangumiVotes": 3743,
       "egsScore": 88.61,
       "egsVotes": 1020,
       "egsMedian": 90,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "逆転裁判3",
@@ -776,14 +776,14 @@
         ]
       },
       "vndbScore": 85.6,
-      "vndbVotes": 6483,
+      "vndbVotes": 6486,
       "bangumiScore": 88,
-      "bangumiVotes": 4288,
+      "bangumiVotes": 4289,
       "egsScore": 84.45,
       "egsVotes": 62,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Remember11 -the age of infinity-",
@@ -820,12 +820,12 @@
       "vndbScore": 82.4,
       "vndbVotes": 3217,
       "bangumiScore": 89,
-      "bangumiVotes": 4566,
+      "bangumiVotes": 4567,
       "egsScore": 79.98,
       "egsVotes": 255,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Fate/stay night",
@@ -867,14 +867,14 @@
         ]
       },
       "vndbScore": 86.3,
-      "vndbVotes": 19050,
+      "vndbVotes": 19052,
       "bangumiScore": 83,
-      "bangumiVotes": 5508,
+      "bangumiVotes": 5510,
       "egsScore": 86.86,
       "egsVotes": 4858,
       "egsMedian": 90,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "月姫 -A piece of blue glass moon-",
@@ -906,14 +906,14 @@
         ]
       },
       "vndbScore": 88.3,
-      "vndbVotes": 2858,
+      "vndbVotes": 2860,
       "bangumiScore": 82,
       "bangumiVotes": 1923,
       "egsScore": 86.71,
       "egsVotes": 315,
       "egsMedian": 87,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "鬼畜王ランス",
@@ -923,7 +923,7 @@
       "metadata": {
         "titles": {
           "en": "Kichikuou Rance",
-          "zh": "鬼畜王蘭斯",
+          "zh": "鬼畜王兰斯",
           "ja": "鬼畜王ランス"
         },
         "descriptions": {
@@ -946,14 +946,14 @@
         ]
       },
       "vndbScore": 83.4,
-      "vndbVotes": 1063,
+      "vndbVotes": 1064,
       "bangumiScore": 84,
-      "bangumiVotes": 481,
+      "bangumiVotes": 482,
       "egsScore": 87.28,
       "egsVotes": 1558,
       "egsMedian": 90,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "魔法使いの夜",
@@ -986,14 +986,14 @@
         ]
       },
       "vndbScore": 86.3,
-      "vndbVotes": 5321,
+      "vndbVotes": 5327,
       "bangumiScore": 86,
       "bangumiVotes": 7066,
       "egsScore": 82.05,
       "egsVotes": 1075,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ひぐらしのなく頃に",
@@ -1037,14 +1037,14 @@
         ]
       },
       "vndbScore": 86.2,
-      "vndbVotes": 11064,
+      "vndbVotes": 11065,
       "bangumiScore": 83,
       "bangumiVotes": 1232,
       "egsScore": 83.99,
       "egsVotes": 1150,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "蒼の彼方のフォーリズム EXTRA2",
@@ -1079,14 +1079,14 @@
         ]
       },
       "vndbScore": 87.2,
-      "vndbVotes": 1842,
+      "vndbVotes": 1843,
       "bangumiScore": 83,
       "bangumiVotes": 2048,
       "egsScore": 87.3,
       "egsVotes": 619,
       "egsMedian": 88,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "リトルバスターズ！",
@@ -1123,14 +1123,14 @@
         ]
       },
       "vndbScore": 86.3,
-      "vndbVotes": 9190,
+      "vndbVotes": 9192,
       "bangumiScore": 84,
       "bangumiVotes": 1007,
       "egsScore": 82.97,
       "egsVotes": 1773,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ファタモルガーナの館 -Another Episodes-",
@@ -1165,52 +1165,14 @@
         ]
       },
       "vndbScore": 85.7,
-      "vndbVotes": 2614,
+      "vndbVotes": 2616,
       "bangumiScore": 85,
       "bangumiVotes": 1384,
       "egsScore": 82.97,
       "egsVotes": 143,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
-    },
-    {
-      "name": "もんむす・くえすと！　ぱらどっくすRPG中章",
-      "vndbId": "v21267",
-      "bangumiId": "222896",
-      "egsId": "25414",
-      "metadata": {
-        "titles": {
-          "en": "Monmusu Quest! Paradox RPG Chuushou",
-          "zh": "勇者大战魔物娘RPG 中章",
-          "ja": "もんむす・くえすと！　ぱらどっくすRPG中章"
-        },
-        "descriptions": {
-          "en": "Lose and be ravished by the vamps! Battles sexy enchantresses, where failure ends in reverse rape! Party members are also monster girls who wildly fuck the hero! There's never a scene where the hero's in charge... Monmusu Quest! Is! Back! An adventuring role-playing game in a fantasy world! The protagonist is a beginner hero. Following in the footsteps of his hero father, he sets off for glory! Where will the adventure take him? When at last his journey ends, will he have achieved his dream? Over 200 enemy monsters in Part Two alone! All reverse-rape youjo (vixens)! Battle all kinds of reverse-rape youjo (vixens) and recruit them to your party! And, all it takes is a little pestering to get their libidos thrumming--- [From English DLsite]",
-          "zh": "負けたら妖女に犯される本格RPG! 戦闘で敗北すれば、魅惑的な妖女モンスターに逆レイプ! 仲間にしたモンスター娘にも、おねだりすれば逆レイプ! 男性側が女性側を性的に責めるシーンは一切なし! ・ファンタジー世界を冒険する本格ロールプレイングゲーム! 勇者ルカの冒険は、ついに佳境を迎える! 果たして彼の運命は? 長い旅の果てに、目的を叶えることはできるのか? ・中章の総モンスター数は200体以上! 全員に敗北後逆レイプシーンが存在! 敵モンスターとの戦いで、敗北してしまえば―― 主人公はなすすべもなく逆レイプされ、あえなく妖女の餌食にされてしまうのだ。 生殖奴隷にされたり、性のオモチャにされたり、死ぬまで精液を搾り取られたり―― 全モンスターに敗北後逆レイプが存在し、様々な逆陵辱の末路が用意されている。 ・敵モンスターを仲間に! 味方にした妖女からも逆レイプ! 戦ったモンスターを仲間にする事が可能、一緒に冒険できる! また、仲間にHなおねだりをすれば逆レイプも―― ※アップデートを行う場合、ファイル一式を差し替えます。 そのため、ダウンロードサイトに会員登録をした上での購入をお勧めします。 ※前章のセーブデータを引き継ぎ可能 また、中章のみでもプレイ可能です"
-        },
-        "released": "2017-06-23",
-        "year": 2017,
-        "image": "https://t.vndb.org/cv/73/79673.jpg",
-        "lengthMinutes": 2742,
-        "genres": [
-          "RPG",
-          "魔物娘",
-          "同人"
-        ],
-        "platforms": [
-          "win"
-        ]
-      },
-      "vndbScore": 86.1,
-      "vndbVotes": 405,
-      "bangumiScore": 80,
-      "bangumiVotes": 91,
-      "egsScore": 86.56,
-      "egsVotes": 94,
-      "egsMedian": 88,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "神学校-Noli me tangere-",
@@ -1248,8 +1210,46 @@
       "egsScore": 83.99,
       "egsVotes": 67,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "もんむす・くえすと！　ぱらどっくすRPG中章",
+      "vndbId": "v21267",
+      "bangumiId": "222896",
+      "egsId": "25414",
+      "metadata": {
+        "titles": {
+          "en": "Monmusu Quest! Paradox RPG Chuushou",
+          "zh": "勇者大战魔物娘RPG 中章",
+          "ja": "もんむす・くえすと！　ぱらどっくすRPG中章"
+        },
+        "descriptions": {
+          "en": "Lose and be ravished by the vamps! Battles sexy enchantresses, where failure ends in reverse rape! Party members are also monster girls who wildly fuck the hero! There's never a scene where the hero's in charge... Monmusu Quest! Is! Back! An adventuring role-playing game in a fantasy world! The protagonist is a beginner hero. Following in the footsteps of his hero father, he sets off for glory! Where will the adventure take him? When at last his journey ends, will he have achieved his dream? Over 200 enemy monsters in Part Two alone! All reverse-rape youjo (vixens)! Battle all kinds of reverse-rape youjo (vixens) and recruit them to your party! And, all it takes is a little pestering to get their libidos thrumming--- [From English DLsite]",
+          "zh": "負けたら妖女に犯される本格RPG! 戦闘で敗北すれば、魅惑的な妖女モンスターに逆レイプ! 仲間にしたモンスター娘にも、おねだりすれば逆レイプ! 男性側が女性側を性的に責めるシーンは一切なし! ・ファンタジー世界を冒険する本格ロールプレイングゲーム! 勇者ルカの冒険は、ついに佳境を迎える! 果たして彼の運命は? 長い旅の果てに、目的を叶えることはできるのか? ・中章の総モンスター数は200体以上! 全員に敗北後逆レイプシーンが存在! 敵モンスターとの戦いで、敗北してしまえば―― 主人公はなすすべもなく逆レイプされ、あえなく妖女の餌食にされてしまうのだ。 生殖奴隷にされたり、性のオモチャにされたり、死ぬまで精液を搾り取られたり―― 全モンスターに敗北後逆レイプが存在し、様々な逆陵辱の末路が用意されている。 ・敵モンスターを仲間に! 味方にした妖女からも逆レイプ! 戦ったモンスターを仲間にする事が可能、一緒に冒険できる! また、仲間にHなおねだりをすれば逆レイプも―― ※アップデートを行う場合、ファイル一式を差し替えます。 そのため、ダウンロードサイトに会員登録をした上での購入をお勧めします。 ※前章のセーブデータを引き継ぎ可能 また、中章のみでもプレイ可能です"
+        },
+        "released": "2017-06-23",
+        "year": 2017,
+        "image": "https://t.vndb.org/cv/73/79673.jpg",
+        "lengthMinutes": 2742,
+        "genres": [
+          "RPG",
+          "魔物娘",
+          "同人"
+        ],
+        "platforms": [
+          "win"
+        ]
+      },
+      "vndbScore": 86,
+      "vndbVotes": 407,
+      "bangumiScore": 80,
+      "bangumiVotes": 91,
+      "egsScore": 86.56,
+      "egsVotes": 94,
+      "egsMedian": 88,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Eternum",
@@ -1284,9 +1284,9 @@
       "vndbScore": 86.9,
       "vndbVotes": 692,
       "bangumiScore": 83,
-      "bangumiVotes": 511,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "bangumiVotes": 512,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": null
     },
     {
       "name": "戦国ランス",
@@ -1318,14 +1318,14 @@
         ]
       },
       "vndbScore": 83.6,
-      "vndbVotes": 5938,
+      "vndbVotes": 5940,
       "bangumiScore": 83,
       "bangumiVotes": 2788,
       "egsScore": 88.21,
       "egsVotes": 3167,
       "egsMedian": 90,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "シルバー事件25区",
@@ -1359,11 +1359,11 @@
           "mob"
         ]
       },
-      "vndbScore": 85.3,
-      "vndbVotes": 517,
+      "vndbScore": 85.4,
+      "vndbVotes": 518,
       "bangumiScore": 78,
       "bangumiVotes": 26,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
       "lastError": null
     },
     {
@@ -1394,15 +1394,15 @@
           "win"
         ]
       },
-      "vndbScore": 87.1,
-      "vndbVotes": 189,
+      "vndbScore": 87.2,
+      "vndbVotes": 190,
       "bangumiScore": 82,
       "bangumiVotes": 445,
       "egsScore": 87.32,
       "egsVotes": 232,
       "egsMedian": 88,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ChuSinGura 46+1",
@@ -1434,15 +1434,15 @@
           "psv"
         ]
       },
-      "vndbScore": 82.2,
+      "vndbScore": 82.3,
       "vndbVotes": 681,
       "bangumiScore": 81,
       "bangumiVotes": 489,
       "egsScore": 86.22,
       "egsVotes": 1756,
       "egsMedian": 88,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "この世の果てで恋を唄う少女YU-NO",
@@ -1484,8 +1484,8 @@
       "egsScore": 89.6,
       "egsVotes": 1221,
       "egsMedian": 93,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "さくらの雲＊スカアレットの恋",
@@ -1524,8 +1524,8 @@
       "egsScore": 85.94,
       "egsVotes": 1556,
       "egsMedian": 87,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Rewrite",
@@ -1560,14 +1560,53 @@
         ]
       },
       "vndbScore": 85.3,
-      "vndbVotes": 8374,
+      "vndbVotes": 8378,
       "bangumiScore": 86,
       "bangumiVotes": 5249,
       "egsScore": 80.2,
       "egsVotes": 1856,
       "egsMedian": 82,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "大穢",
+      "vndbId": "v30925",
+      "bangumiId": "522285",
+      "egsId": "38321",
+      "metadata": {
+        "titles": {
+          "en": "Ooe",
+          "zh": "大秽-完全版-",
+          "ja": "大穢"
+        },
+        "descriptions": {
+          "en": "A commemoration for the second anniversary of an actress’s death is being held on Ooejima, a remote island beyond Hachijoujima, south of Tokyo. Oosaki, a detective, receives a request to attend the ceremony on someone’s behalf. However, the ship meant to bring them back fails to show up at the appointed hour, no one has heard a thing from the coordinator of the event, and there seems to be an inexplicable fear and hatred between all of the attendees. Stranded on an ominous island, ten people try to unravel the mystery of the threads weaving their past and the death of the actress named An Ooe. An unconventional mystery set in the Showa era with a Japanese twist on the classic closed circle literary device. It is the year 1955, mid-showa period. An era characterised by chaotic sentiments, with traces of war still visible. The attendees, accompanied by doubts and their devotion to An Ooe, come to the memorial service in an abandoned village. They manage to overcome the barriers of status and spend their time in harmony. However, the situation changes when the servant who helped them until then is found dead. Driven by extreme suspicion, they start to search for the murderer, but this is followed by a second and third crime... Attendees = All Criminals = Love Interests. All nine attendees can be pursued, including the servant, who’s the first to meet an unnatural death. In each route, the focus lies on solving the mystery and romance. The number of attendees who can be pursued increases as you pass through the prologue, and more options and profiles are added each time you cle",
+          "zh": "東京は八丈島より先の離島 大江島で行われる ある女優の三回忌。 探偵社に勤める大崎は なりすましての代理参列という奇妙な依頼を受ける。 しかし、 誰も見たことがないという施主 定刻を過ぎても迎えに来ない船頭 なぜか恐れ、憎しみあう参列者たち 不吉な島に取り残された十人は、 参列者に共通する過去と 女優「大江杏」の死の謎を紐解いていく。 古典クローズド・サークルを日本色にアレンジした昭和ホラーミステリー"
+        },
+        "released": "2025-04-19",
+        "year": 2025,
+        "image": "https://t.vndb.org/cv/59/107659.jpg",
+        "lengthMinutes": 2700,
+        "genres": [
+          "BL",
+          "くろさわ凛子",
+          "ADELTA"
+        ],
+        "platforms": [
+          "win",
+          "web"
+        ]
+      },
+      "vndbScore": 88.5,
+      "vndbVotes": 370,
+      "bangumiScore": 63,
+      "bangumiVotes": 70,
+      "egsScore": 85.63,
+      "egsVotes": 56,
+      "egsMedian": 87,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "BALDR SKY Dive1 \"Lost Memory\"",
@@ -1598,14 +1637,14 @@
         ]
       },
       "vndbScore": 81.5,
-      "vndbVotes": 3119,
+      "vndbVotes": 3122,
       "bangumiScore": 84,
       "bangumiVotes": 3135,
       "egsScore": 87.5,
       "egsVotes": 2689,
       "egsMedian": 90,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "428 〜封鎖された渋谷で〜",
@@ -1641,15 +1680,15 @@
           "wii"
         ]
       },
-      "vndbScore": 83.8,
-      "vndbVotes": 1684,
+      "vndbScore": 83.7,
+      "vndbVotes": 1685,
       "bangumiScore": 85,
       "bangumiVotes": 3139,
       "egsScore": 83.91,
       "egsVotes": 23,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "サクラノ刻－櫻の森の下を歩む－",
@@ -1659,7 +1698,7 @@
       "metadata": {
         "titles": {
           "en": "Sakura no Toki -Sakura no Mori no Shita o Ayumu-",
-          "zh": "樱之刻－漫步于樱花之森下－",
+          "zh": "樱之刻 - 于樱花之森下漫步",
           "ja": "サクラノ刻－櫻の森の下を歩む－"
         },
         "descriptions": {
@@ -1682,53 +1721,14 @@
         ]
       },
       "vndbScore": 87,
-      "vndbVotes": 1056,
+      "vndbVotes": 1058,
       "bangumiScore": 81,
-      "bangumiVotes": 3468,
+      "bangumiVotes": 3469,
       "egsScore": 89.25,
       "egsVotes": 1354,
       "egsMedian": 92,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
-    },
-    {
-      "name": "大穢",
-      "vndbId": "v30925",
-      "bangumiId": "522285",
-      "egsId": "38321",
-      "metadata": {
-        "titles": {
-          "en": "Ooe",
-          "zh": "大秽-完全版-",
-          "ja": "大穢"
-        },
-        "descriptions": {
-          "en": "A commemoration for the second anniversary of an actress’s death is being held on Ooejima, a remote island beyond Hachijoujima, south of Tokyo. Oosaki, a detective, receives a request to attend the ceremony on someone’s behalf. However, the ship meant to bring them back fails to show up at the appointed hour, no one has heard a thing from the coordinator of the event, and there seems to be an inexplicable fear and hatred between all of the attendees. Stranded on an ominous island, ten people try to unravel the mystery of the threads weaving their past and the death of the actress named An Ooe. An unconventional mystery set in the Showa era with a Japanese twist on the classic closed circle literary device. It is the year 1955, mid-showa period. An era characterised by chaotic sentiments, with traces of war still visible. The attendees, accompanied by doubts and their devotion to An Ooe, come to the memorial service in an abandoned village. They manage to overcome the barriers of status and spend their time in harmony. However, the situation changes when the servant who helped them until then is found dead. Driven by extreme suspicion, they start to search for the murderer, but this is followed by a second and third crime... Attendees = All Criminals = Love Interests. All nine attendees can be pursued, including the servant, who’s the first to meet an unnatural death. In each route, the focus lies on solving the mystery and romance. The number of attendees who can be pursued increases as you pass through the prologue, and more options and profiles are added each time you cle",
-          "zh": "東京は八丈島より先の離島 大江島で行われる ある女優の三回忌。 探偵社に勤める大崎は なりすましての代理参列という奇妙な依頼を受ける。 しかし、 誰も見たことがないという施主 定刻を過ぎても迎えに来ない船頭 なぜか恐れ、憎しみあう参列者たち 不吉な島に取り残された十人は、 参列者に共通する過去と 女優「大江杏」の死の謎を紐解いていく。 古典クローズド・サークルを日本色にアレンジした昭和ホラーミステリー"
-        },
-        "released": "2025-04-19",
-        "year": 2025,
-        "image": "https://t.vndb.org/cv/59/107659.jpg",
-        "lengthMinutes": 2700,
-        "genres": [
-          "BL",
-          "くろさわ凛子",
-          "ADELTA"
-        ],
-        "platforms": [
-          "win",
-          "web"
-        ]
-      },
-      "vndbScore": 88.3,
-      "vndbVotes": 370,
-      "bangumiScore": 63,
-      "bangumiVotes": 70,
-      "egsScore": 85.63,
-      "egsVotes": 56,
-      "egsMedian": 87,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "スロウ・ダメージ",
@@ -1765,8 +1765,8 @@
       "egsScore": 82.58,
       "egsVotes": 43,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "穢翼のユースティア",
@@ -1801,14 +1801,14 @@
         ]
       },
       "vndbScore": 84.6,
-      "vndbVotes": 3047,
+      "vndbVotes": 3048,
       "bangumiScore": 83,
-      "bangumiVotes": 7994,
+      "bangumiVotes": 7996,
       "egsScore": 86.35,
       "egsVotes": 3632,
       "egsMedian": 88,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "俺たちに翼はない",
@@ -1841,14 +1841,14 @@
         ]
       },
       "vndbScore": 86.3,
-      "vndbVotes": 615,
+      "vndbVotes": 616,
       "bangumiScore": 83,
       "bangumiVotes": 1009,
       "egsScore": 84.22,
       "egsVotes": 2887,
       "egsMedian": 86,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "天ノ少女",
@@ -1879,14 +1879,14 @@
         ]
       },
       "vndbScore": 84.4,
-      "vndbVotes": 1546,
+      "vndbVotes": 1547,
       "bangumiScore": 81,
       "bangumiVotes": 1846,
       "egsScore": 89.01,
       "egsVotes": 680,
       "egsMedian": 90,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "逆転検事2",
@@ -1923,14 +1923,14 @@
         ]
       },
       "vndbScore": 85,
-      "vndbVotes": 1905,
+      "vndbVotes": 1907,
       "bangumiScore": 82,
       "bangumiVotes": 1011,
       "egsScore": 85.11,
       "egsVotes": 28,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "さくら、もゆ。-as the Night's, Reincarnation-",
@@ -1962,15 +1962,15 @@
           "swi"
         ]
       },
-      "vndbScore": 85.2,
-      "vndbVotes": 848,
+      "vndbScore": 85.3,
+      "vndbVotes": 847,
       "bangumiScore": 82,
       "bangumiVotes": 2674,
       "egsScore": 86.29,
       "egsVotes": 1147,
       "egsMedian": 90,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "シンフォニック＝レイン",
@@ -2009,8 +2009,8 @@
       "egsScore": 86.72,
       "egsVotes": 666,
       "egsMedian": 89,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ジャックジャンヌ",
@@ -2043,14 +2043,14 @@
         ]
       },
       "vndbScore": 87.1,
-      "vndbVotes": 506,
+      "vndbVotes": 507,
       "bangumiScore": 79,
       "bangumiVotes": 321,
       "egsScore": 79.14,
       "egsVotes": 14,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "CHAOS;CHILD",
@@ -2060,7 +2060,7 @@
       "metadata": {
         "titles": {
           "en": "CHAOS;CHILD",
-          "zh": "混沌之子",
+          "zh": "混沌子",
           "ja": "CHAOS;CHILD"
         },
         "descriptions": {
@@ -2088,14 +2088,14 @@
         ]
       },
       "vndbScore": 83.6,
-      "vndbVotes": 5060,
+      "vndbVotes": 5063,
       "bangumiScore": 84,
-      "bangumiVotes": 4635,
+      "bangumiVotes": 4636,
       "egsScore": 84.81,
       "egsVotes": 26,
       "egsMedian": 89,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "抜きゲーみたいな島に住んでる貧乳はどうすりゃいいですか？ 2",
@@ -2129,12 +2129,12 @@
       "vndbScore": 83.3,
       "vndbVotes": 1546,
       "bangumiScore": 81,
-      "bangumiVotes": 2702,
+      "bangumiVotes": 2703,
       "egsScore": 87.65,
       "egsVotes": 1414,
       "egsMedian": 89,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Summer Pockets",
@@ -2169,14 +2169,14 @@
         ]
       },
       "vndbScore": 84.6,
-      "vndbVotes": 4686,
+      "vndbVotes": 4687,
       "bangumiScore": 82,
-      "bangumiVotes": 5772,
+      "bangumiVotes": 5773,
       "egsScore": 85.89,
       "egsVotes": 1267,
       "egsMedian": 87,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "戦女神ZERO",
@@ -2213,8 +2213,8 @@
       "egsScore": 84.26,
       "egsVotes": 1024,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "車輪の国、向日葵の少女",
@@ -2224,7 +2224,7 @@
       "metadata": {
         "titles": {
           "en": "Sharin no Kuni: The Girl Among the Sunflowers",
-          "zh": "车轮之国，向日葵的少女",
+          "zh": "车轮之国、向日葵的少女",
           "ja": "車輪の国、向日葵の少女"
         },
         "descriptions": {
@@ -2249,14 +2249,14 @@
         ]
       },
       "vndbScore": 81.4,
-      "vndbVotes": 6841,
+      "vndbVotes": 6843,
       "bangumiScore": 81,
-      "bangumiVotes": 3323,
+      "bangumiVotes": 3324,
       "egsScore": 85.93,
       "egsVotes": 5755,
       "egsMedian": 88,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "CROSS†CHANNEL",
@@ -2266,7 +2266,7 @@
       "metadata": {
         "titles": {
           "en": "CROSS†CHANNEL",
-          "zh": "CROSS†CHANNEL",
+          "zh": "交错†频道",
           "ja": "CROSS†CHANNEL"
         },
         "descriptions": {
@@ -2300,14 +2300,14 @@
         ]
       },
       "vndbScore": 78.8,
-      "vndbVotes": 4814,
+      "vndbVotes": 4815,
       "bangumiScore": 85,
-      "bangumiVotes": 4223,
+      "bangumiVotes": 4224,
       "egsScore": 85.5,
       "egsVotes": 4593,
       "egsMedian": 90,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "古書店街の橋姫",
@@ -2340,14 +2340,14 @@
         ]
       },
       "vndbScore": 84.4,
-      "vndbVotes": 1109,
+      "vndbVotes": 1110,
       "bangumiScore": 79,
       "bangumiVotes": 222,
       "egsScore": 79.63,
       "egsVotes": 52,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "MUSICUS!",
@@ -2383,12 +2383,12 @@
       "vndbScore": 80.2,
       "vndbVotes": 889,
       "bangumiScore": 85,
-      "bangumiVotes": 715,
+      "bangumiVotes": 716,
       "egsScore": 84.74,
       "egsVotes": 607,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ランス03 リーザス陥落",
@@ -2419,15 +2419,15 @@
           "web"
         ]
       },
-      "vndbScore": 84.6,
-      "vndbVotes": 1770,
+      "vndbScore": 84.7,
+      "vndbVotes": 1776,
       "bangumiScore": 82,
       "bangumiVotes": 3070,
       "egsScore": 83.58,
       "egsVotes": 998,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "戦女神VERITA",
@@ -2464,8 +2464,8 @@
       "egsScore": 85.02,
       "egsVotes": 805,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "グリザイアの果実 -LE FRUIT DE LA GRISAIA-",
@@ -2506,8 +2506,8 @@
       "egsScore": 83.2,
       "egsVotes": 3261,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ランスIX－ヘルマン革命－",
@@ -2537,15 +2537,15 @@
           "win"
         ]
       },
-      "vndbScore": 83.1,
+      "vndbScore": 83.2,
       "vndbVotes": 1408,
       "bangumiScore": 82,
       "bangumiVotes": 2220,
       "egsScore": 83.81,
       "egsVotes": 1141,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "白昼夢の青写真",
@@ -2579,12 +2579,12 @@
       "vndbScore": 85,
       "vndbVotes": 2198,
       "bangumiScore": 74,
-      "bangumiVotes": 1832,
+      "bangumiVotes": 1833,
       "egsScore": 87.93,
       "egsVotes": 1447,
       "egsMedian": 90,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "SeaBed",
@@ -2622,8 +2622,8 @@
       "egsScore": 80.02,
       "egsVotes": 91,
       "egsMedian": 81,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Phantom -PHANTOM OF INFERNO-",
@@ -2666,8 +2666,8 @@
       "egsScore": 85.19,
       "egsVotes": 1245,
       "egsMedian": 87,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "真剣で私に恋しなさい！",
@@ -2677,7 +2677,7 @@
       "metadata": {
         "titles": {
           "en": "Majikoi! Love Me Seriously!!",
-          "zh": "认真和我谈恋爱！！",
+          "zh": "认真和我恋爱",
           "ja": "真剣で私に恋しなさい！"
         },
         "descriptions": {
@@ -2699,14 +2699,52 @@
         ]
       },
       "vndbScore": 83.3,
-      "vndbVotes": 9326,
+      "vndbVotes": 9328,
       "bangumiScore": 79,
       "bangumiVotes": 635,
       "egsScore": 81.72,
       "egsVotes": 2864,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "FLOWERS -Le volume sur automne-",
+      "vndbId": "v18152",
+      "egsId": "22702",
+      "metadata": {
+        "titles": {
+          "en": "Flowers -Le volume sur automne-",
+          "zh": "FLOWERS -Le volume sur automne-",
+          "ja": "FLOWERS -Le volume sur automne-"
+        },
+        "descriptions": {
+          "en": "Yatsushiro Yuzuriha, president of the school's Council of Nicaea, knows the truth hidden within the school. The silver-haired beauty seeks to prevent Suou from reaching it by giving her what seems like an impossible task—take over the role of president and she'll hand over the key to what she desires. However, Yuzuriha is harboring her own secret, buried deep within herself... As the leaves turn and strange incidents continue to plague the isolated Saint Angraecum Academy, interweaving threads of emotion tangle together in an intricate story of love and truth. This is the third game in the Flowers visual novel series from Innocent Grey, renowned for its beautiful artwork, engaging stories, and complex characters. [Taken from Steam]",
+          "zh": "Yatsushiro Yuzuriha, president of the school's Council of Nicaea, knows the truth hidden within the school. The silver-haired beauty seeks to prevent Suou from reaching it by giving her what seems like an impossible task—take over the role of president and she'll hand over the key to what she desires. However, Yuzuriha is harboring her own secret, buried deep within herself... As the leaves turn and strange incidents continue to plague the isolated Saint Angraecum Academy, interweaving threads of emotion tangle together in an intricate story of love and truth. This is the third game in the Flowers visual novel series from Innocent Grey, renowned for its beautiful artwork, engaging stories, and complex characters. [Taken from Steam]"
+        },
+        "released": "2016-05-27",
+        "year": 2016,
+        "image": "https://t.vndb.org/cv/13/77913.jpg",
+        "lengthMinutes": 937,
+        "genres": [
+          "Visual novel"
+        ],
+        "platforms": [
+          "win",
+          "ps4",
+          "psv",
+          "swi"
+        ]
+      },
+      "vndbScore": 82.7,
+      "vndbVotes": 819,
+      "bangumiScore": null,
+      "bangumiVotes": null,
+      "egsScore": 82.32,
+      "egsVotes": 168,
+      "egsMedian": 82,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Umineko no Naku Koro ni Musu",
@@ -2739,45 +2777,7 @@
       "vndbVotes": 319,
       "bangumiScore": 70,
       "bangumiVotes": 1,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
-    },
-    {
-      "name": "FLOWERS -Le volume sur automne-",
-      "vndbId": "v18152",
-      "egsId": "22702",
-      "metadata": {
-        "titles": {
-          "en": "Flowers -Le volume sur automne-",
-          "zh": "FLOWERS -Le volume sur automne-",
-          "ja": "FLOWERS -Le volume sur automne-"
-        },
-        "descriptions": {
-          "en": "Yatsushiro Yuzuriha, president of the school's Council of Nicaea, knows the truth hidden within the school. The silver-haired beauty seeks to prevent Suou from reaching it by giving her what seems like an impossible task—take over the role of president and she'll hand over the key to what she desires. However, Yuzuriha is harboring her own secret, buried deep within herself... As the leaves turn and strange incidents continue to plague the isolated Saint Angraecum Academy, interweaving threads of emotion tangle together in an intricate story of love and truth. This is the third game in the Flowers visual novel series from Innocent Grey, renowned for its beautiful artwork, engaging stories, and complex characters. [Taken from Steam]",
-          "zh": "Yatsushiro Yuzuriha, president of the school's Council of Nicaea, knows the truth hidden within the school. The silver-haired beauty seeks to prevent Suou from reaching it by giving her what seems like an impossible task—take over the role of president and she'll hand over the key to what she desires. However, Yuzuriha is harboring her own secret, buried deep within herself... As the leaves turn and strange incidents continue to plague the isolated Saint Angraecum Academy, interweaving threads of emotion tangle together in an intricate story of love and truth. This is the third game in the Flowers visual novel series from Innocent Grey, renowned for its beautiful artwork, engaging stories, and complex characters. [Taken from Steam]"
-        },
-        "released": "2016-05-27",
-        "year": 2016,
-        "image": "https://t.vndb.org/cv/13/77913.jpg",
-        "lengthMinutes": 937,
-        "genres": [
-          "Visual novel"
-        ],
-        "platforms": [
-          "win",
-          "ps4",
-          "psv",
-          "swi"
-        ]
-      },
-      "vndbScore": 82.6,
-      "vndbVotes": 818,
-      "bangumiScore": null,
-      "bangumiVotes": null,
-      "egsScore": 82.32,
-      "egsVotes": 168,
-      "egsMedian": 82,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
       "lastError": null
     },
     {
@@ -2818,8 +2818,8 @@
       "egsScore": 82.52,
       "egsVotes": 322,
       "egsMedian": 83,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Our Life: Beginnings & Always",
@@ -2855,7 +2855,7 @@
       "vndbVotes": 708,
       "bangumiScore": 75,
       "bangumiVotes": 21,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
       "lastError": null
     },
     {
@@ -2892,8 +2892,8 @@
       "vndbVotes": 685,
       "bangumiScore": 81,
       "bangumiVotes": 28,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": null
     },
     {
       "name": "月姫",
@@ -2903,7 +2903,7 @@
       "metadata": {
         "titles": {
           "en": "Tsukihime",
-          "zh": "月姫",
+          "zh": "月姬",
           "ja": "月姫"
         },
         "descriptions": {
@@ -2934,14 +2934,14 @@
         ]
       },
       "vndbScore": 81.8,
-      "vndbVotes": 11386,
+      "vndbVotes": 11390,
       "bangumiScore": 82,
       "bangumiVotes": 2559,
       "egsScore": 83.69,
       "egsVotes": 2369,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "うたわれるもの 偽りの仮面",
@@ -2984,8 +2984,8 @@
       "egsScore": 82.88,
       "egsVotes": 251,
       "egsMedian": 83,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "極限脱出 9時間9人9の扉",
@@ -3023,14 +3023,14 @@
         ]
       },
       "vndbScore": 82.8,
-      "vndbVotes": 8995,
+      "vndbVotes": 8999,
       "bangumiScore": 80,
-      "bangumiVotes": 2409,
+      "bangumiVotes": 2411,
       "egsScore": 80.41,
       "egsVotes": 125,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "G線上の魔王",
@@ -3063,14 +3063,53 @@
         ]
       },
       "vndbScore": 82.1,
-      "vndbVotes": 12046,
+      "vndbVotes": 12048,
       "bangumiScore": 78,
       "bangumiVotes": 4549,
       "egsScore": 84.66,
       "egsVotes": 5277,
       "egsMedian": 86,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "最果てのイマ",
+      "vndbId": "v1278",
+      "bangumiId": "7978",
+      "egsId": "4883",
+      "metadata": {
+        "titles": {
+          "en": "Saihate no Ima",
+          "zh": "最后的现在",
+          "ja": "最果てのイマ"
+        },
+        "descriptions": {
+          "en": "This game tells the story of seven long-time friends. How they grew closer or further apart as they got older. The story is presented using a blog-like interface. The protagonist, Atemiya Shinobu, who was raised at a certain facility since a young age, had no one around him that could be called a \"friend\". Being that way, the first thing he started doing after leaving the facility with his sister - Chidori - was to find and make friends. Benio Azusa, a tomboyish girl who lived nearby. Hondou Sayaka, a quiet yet sharp-tongued girl who was in charge of raising the pets at school just like him. Tsukamoto Youko and Itsuki, a pair of siblings who belonged to a prestigious family around the area. Higuchi Shouji, a boy he knew by being attracted to the similarities they both share. Izuki Fueko, a girl he met by chance. Together with Shinobu, they were a group of seven. Just like that, each and every one of them, who had never experienced the joy of having friends, was able to meet each other and become companions. The story begins in a quiet town colored by dusk. Around the seven friends, there were understanding, empathy, conflict, and what's more, the fleeting love of adolescence. It was a friendship that could last forever. Such a simple happiness should have... lasted forever. That was until the \"enemy\" appeared. The \"enemy\" had disturbed the peaceful relationship of the seven people. Shinobu could not forgive that. He could not forgive the one that injures his companions, nor could he forgive the one that hurts another one's hearts. And when he realized all that, the world th",
+          "zh": "他们，向来是七个人—— 主角「贵宫忍」自幼在孤儿院长大，不曾有过朋友。因此，当他与姐姐「千鸟」一同离开那里时，最先想做的便是结交伙伴。 于是，他的身边聚齐了这样一群人： 有些男孩子气的邻家少女「红绪梓」； 同为饲养委员、寡言少语但言辞犀利的「本堂沙也加」； 当地名门「塚本」家的兄妹，「塚本斋」与「塚本叶子」； 因志同道合而相识的「樋口章二」； 以及，因一次偶然的邂逅而走近的「伊月笛子」。 连同忍在内，一共七人。 这群同样缺少朋友的人，从相识到成为伙伴，不知不觉已过数年。 故事的序幕，就在这座染上暮色的静谧小城中缓缓拉开。 七人之间，有理解与共鸣，亦有排斥与冲突。其间交织着青春期朦胧的爱恋，以及仿佛能持续到永远的友情。他们本以为，能永远沉浸在这微醺般的幸福之中。 ——直到「敌人」现身的那一刻。 「敌人」的出现，搅乱了七人的羁绊。 忍，绝不容忍。他绝不容忍伤害伙伴之物，更不愿容忍践踏心灵之物。 当这份决心萌生之时，环绕着忍他们的世界亦随之改变。一个本应存在于此的崭新世界……「圣域」……就此开启。 这，便是这样一个描绘“心”的故事。 一个描绘“心”之尽头究竟为何物的，故事—— 彼らはいつも七人だった――― 幼い頃、とある施設で育った主人公「貴宮忍」には、友達と呼べるものはいなかった。そんな忍が、姉の「千鳥」と共に施設を出て最初にしたことは、友達を作ること。近所に住むボーイッシュな少女「紅緒あずさ」。同じ飼育委員となった、寡黙であり辛辣でもある「本堂沙也加」。地域でも有名な一族に属している兄妹「塚本斎」と「葉子」。似た者同士といった感じで惹かれ合った「樋口章二」。そして、偶然の出会いから近付いた「伊月笛子」。 彼らと忍、合わせて７人。 共に友人に恵まれなかった面々が、知り合い、仲間となり、早数年。 物語は、黄昏に彩られた静かな街で幕を開けた。７人の間で繰り広げられる理解と共感、反発と衝突。そして、思春期の淡い恋愛感情。永遠に続く友情。そんなまどろみのような幸せの中に、ずっといられる―――はずだった。 ―――『敵』がその姿を現すまでは。 ７人の輪を掻き乱す『敵』。忍は、それを許さない。仲間を傷つけるものを許さない。心を傷つけるモノを許したくない。それに気付いたとき、忍たちを取り巻く世界が変わる。そこにあるべき新たな世界……聖域……に辿り着く。これは、そんな。心を描く物語。心の果てにあるものを描く、物語―――"
+        },
+        "released": "2005-08-12",
+        "year": 2005,
+        "image": "https://t.vndb.org/cv/16/95716.jpg",
+        "lengthMinutes": 2700,
+        "genres": [
+          "田中ロミオ",
+          "哲学",
+          "求汉化"
+        ],
+        "platforms": [
+          "win",
+          "psp"
+        ]
+      },
+      "vndbScore": 84.9,
+      "vndbVotes": 267,
+      "bangumiScore": 85,
+      "bangumiVotes": 453,
+      "egsScore": 80.36,
+      "egsVotes": 754,
+      "egsMedian": 82,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ディメンション凸ラバース！！",
@@ -3101,14 +3140,14 @@
         ]
       },
       "vndbScore": 82.8,
-      "vndbVotes": 406,
+      "vndbVotes": 410,
       "bangumiScore": 79,
-      "bangumiVotes": 1728,
+      "bangumiVotes": 1729,
       "egsScore": 87.26,
       "egsVotes": 659,
       "egsMedian": 89,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "金色ラブリッチェ",
@@ -3144,14 +3183,14 @@
         ]
       },
       "vndbScore": 81.6,
-      "vndbVotes": 3777,
+      "vndbVotes": 3779,
       "bangumiScore": 80,
       "bangumiVotes": 3,
       "egsScore": 82.68,
       "egsVotes": 1901,
       "egsMedian": 84,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "スーパーダンガンロンパ2 さよなら絶望学園",
@@ -3193,14 +3232,14 @@
         ]
       },
       "vndbScore": 80.9,
-      "vndbVotes": 13019,
+      "vndbVotes": 13020,
       "bangumiScore": 85,
       "bangumiVotes": 5007,
       "egsScore": 83.08,
       "egsVotes": 277,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "もんむす・くえすと！ ぱらどっくすRPG前章",
@@ -3210,7 +3249,7 @@
       "metadata": {
         "titles": {
           "en": "Monmusu Quest! Paradox RPG Zenshou",
-          "zh": "勇者大战魔物娘RPG前章",
+          "zh": "勇者大战魔物娘RPG 前章",
           "ja": "もんむす・くえすと！ ぱらどっくすRPG前章"
         },
         "descriptions": {
@@ -3239,8 +3278,8 @@
       "egsScore": 84.92,
       "egsVotes": 125,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "9-nine-ゆきいろゆきはなゆきのあと",
@@ -3250,7 +3289,7 @@
       "metadata": {
         "titles": {
           "en": "9-nine-:Episode 4",
-          "zh": "9-nine-雪色雪花雪余痕",
+          "zh": "9-nine-雪色雪花雪之痕",
           "ja": "9-nine-ゆきいろゆきはなゆきのあと"
         },
         "descriptions": {
@@ -3274,14 +3313,52 @@
         ]
       },
       "vndbScore": 85.4,
-      "vndbVotes": 3558,
+      "vndbVotes": 3559,
       "bangumiScore": 77,
       "bangumiVotes": 4248,
       "egsScore": 85.69,
       "egsVotes": 1692,
       "egsMedian": 86,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "家族計画 〜そしてまた家族計画を〜",
+      "vndbId": "v3184",
+      "bangumiId": "101434",
+      "egsId": "3789",
+      "metadata": {
+        "titles": {
+          "en": "Kazoku Keikaku ~Soshite Mata Kazoku Keikaku o~",
+          "zh": "家族计划~再开~",
+          "ja": "家族計画 〜そしてまた家族計画を〜"
+        },
+        "descriptions": {
+          "en": "Continuation of the Matsuri end of Kazoku Keikaku.",
+          "zh": "~そしてまた家族計画を~ シナリオはもちろん、山田一が担当。今回は「家族計画」の後日談を心温まる描き下ろしシナリオで紹介。同梱特典は、A4サイズの128ページのMOOK！内容はシナリオの山田一、原画の福永ユミのインタビューや、原画集座談会などファン必見の企画を満載！さらに、その他にも家族計画特製「しおりセット」＆家族計画特製「下敷き」と豪華セットが付き！ 「家族計画」の秀逸でテンポの良いシナリオをもう一度味わいたい、「家族計画」のキャラクター達にまた会いたい……物語りを語るには欠かせない舞台裏を満載したMOOKを特典としてつけることにより魅力的な世界観を完全網羅。あの高屋敷一家にもう一度逢える！"
+        },
+        "released": "2004-07-30",
+        "year": 2004,
+        "image": "https://t.vndb.org/cv/44/3844.jpg",
+        "lengthMinutes": 125,
+        "genres": [
+          "田中ロミオ",
+          "田中罗密欧",
+          "FD"
+        ],
+        "platforms": [
+          "win"
+        ]
+      },
+      "vndbScore": 79.1,
+      "vndbVotes": 173,
+      "bangumiScore": 87,
+      "bangumiVotes": 1715,
+      "egsScore": 76.58,
+      "egsVotes": 1008,
+      "egsMedian": 80,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Lamento -BEYOND THE VOID-",
@@ -3318,8 +3395,8 @@
       "egsScore": 71.77,
       "egsVotes": 48,
       "egsMedian": 75,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "FLOWERS -Le volume sur été-",
@@ -3360,8 +3437,52 @@
       "egsScore": 81.8,
       "egsVotes": 205,
       "egsMedian": 82,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "家族計画",
+      "vndbId": "v155",
+      "bangumiId": "4347",
+      "egsId": "1714",
+      "metadata": {
+        "titles": {
+          "en": "Family Project ~Kazoku Keikaku~",
+          "zh": "家族计划",
+          "ja": "家族計画"
+        },
+        "descriptions": {
+          "en": "Tsukasa, a fiercely independent youth who lost his parents at an early age and now spends his days working at a Chinese restaurant to make ends meet. Reluctant to form interpersonal ties lest they be shattered, Tsukasa is nonetheless unable to abandon the illegal immigrant girl he finds collapsed in the alley behind his workplace one day. Confronted by her utter helplessness he takes her in, an encounter that opens the door to a new life - one where he faces the challenge and wonder of being no longer alone. Tsukasa soon finds himself at the unwilling nexus of even more lives, attracting a band of misfits and social outcasts around him that swell beyond the confines of his small apartment. They find shelter in an abandoned house, where despite Tsukasa's lingering doubts a pact is formed: the \"family project\", an alliance of mutual convenience and utilitarian support that despite the mistrust and antagonism among its members soon comes to mean much more. [From G-Collections]",
+          "zh": "主角泽村司是个挺孤僻的人。 他从小没感受过家人的温暖，一直独自面对社会的冷酷，所以性格变得有点排外。 有一天，司在小巷子里捡到了一个昏倒的少女。 对方是个中国人。 两人语言不通。 按司平时的为人准则，这种人是他“最不该招惹”的类型。 但阴差阳错之下，司还是不得不和这个叫春花的女孩开始了同居生活。 以此为契机，司的身边开始聚集起一群看起来就很麻烦的人。 他们的共同点是……都缺失了家庭。 不久，这群人被迫开始了共同生活。 家族计划—— 这是一群陌生人为了生存而联手的“互助计划”。 他们的道德观、想法、喜好各不相同，就像完全咬合不上的齿轮。 这样的他们，未来真的能获得幸福吗？ 主人公・沢村司はわりと孤高。 家族の温もりも知らぬまま世間の冷たい風に当たってきたせいで、少しばかり排他的な人間に。 そんな司がある日、路地裏で一人の行き倒れの少女を拾った。 チャイニーズ。 言葉も通じない。 司の提唱するところの「最も関わり合いになってはならない」タイプ。 だが司は、その少女……春花と同居生活をする羽目になってしまう。 それをきっかけに、司の周囲に集まる問題ありげな人々。 彼らの共通点は……家族の欠落。 やがてこの集団は余儀なく共同生活を強いられていく。 家族計画――― それは赤の他人同士が生きるために結束する、互助計画。 モラルも考えも嗜好も異なる、噛み合わない歯車のような彼らの行く末に、果たして幸福はあるのだろうか？"
+        },
+        "released": "2001-11-02",
+        "year": 2001,
+        "image": "https://t.vndb.org/cv/49/101349.jpg",
+        "lengthMinutes": 1812,
+        "genres": [
+          "田中ロミオ",
+          "家族计画",
+          "田中罗密欧"
+        ],
+        "platforms": [
+          "win",
+          "and",
+          "dvd",
+          "psp",
+          "ps2",
+          "ps3",
+          "psv"
+        ]
+      },
+      "vndbScore": 74.3,
+      "vndbVotes": 1703,
+      "bangumiScore": 83,
+      "bangumiVotes": 2251,
+      "egsScore": 85.7,
+      "egsVotes": 1868,
+      "egsMedian": 88,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ときめきメモリアル Girl's Side 3rd Story",
@@ -3400,8 +3521,8 @@
       "egsScore": 65.43,
       "egsVotes": 7,
       "egsMedian": 70,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "アマカノ２＋",
@@ -3440,8 +3561,51 @@
       "egsScore": 85.63,
       "egsVotes": 311,
       "egsMedian": 87,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "もんむす・くえすと!終章 ～負ければ妖女に犯される～",
+      "vndbId": "v11849",
+      "bangumiId": "75507",
+      "egsId": "19132",
+      "metadata": {
+        "titles": {
+          "en": "Monster Girl Quest - Part 3",
+          "zh": "勇者大战魔物娘! 终章～输掉就会被妖女硬上～",
+          "ja": "もんむす・くえすと!終章 ～負ければ妖女に犯される～"
+        },
+        "descriptions": {
+          "en": "Toro Toro Resistance presents the 3rd act of the massive fantasy RPG adventure! Epilogue to Monmusu Quest! Origins. The story of being reverse-molested by sexy inhuman vixens! Sweet monster girls seduce and pleasure you! Lose and you will be r*ped! Not one scene of boys violating girls. Masochists rejoice! You are the hero, a young boy. Battle sexually with diverse characters in a world of humans and creatures. All the creatures are sexy girls of some species or another! Find them all! It's an epic quest. Will your dirty dreams come true?",
+          "zh": "ファンタジー世界を冒険する疑似RPGアドベンチャーゲーム！ 主人公は、勇者見習いの少年。 人間と魔物が共存できる世界を実現するため、人々を苦しめる魔王退治の旅に。 果たして彼の運命は？ 長い旅の果てに、目的を叶えることはできるのか？ 人外娘に犯されたい願望を叶えるゲーム！ 戦闘で敗北すれば、魅惑的な妖女モンスターに逆レイプ！ 男性側が女性側を性的に責めるシーンは一切なし！ 逆転なしの、安心徹底M仕様を約束します！ ※このゲームは、「もんむす・くえすと!中章」の続きとなります。"
+        },
+        "released": "2013-06-01",
+        "year": 2013,
+        "image": "https://t.vndb.org/cv/43/104743.jpg",
+        "lengthMinutes": 1338,
+        "genres": [
+          "魔物娘",
+          "RPG",
+          "同人"
+        ],
+        "platforms": [
+          "win",
+          "lin",
+          "mac",
+          "ios",
+          "and",
+          "swi"
+        ]
+      },
+      "vndbScore": 82.1,
+      "vndbVotes": 2848,
+      "bangumiScore": 78,
+      "bangumiVotes": 509,
+      "egsScore": 83.92,
+      "egsVotes": 198,
+      "egsMedian": 85,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "極限脱出ADV 善人シボウデス",
@@ -3476,58 +3640,15 @@
           "xxs"
         ]
       },
-      "vndbScore": 82.1,
-      "vndbVotes": 5940,
+      "vndbScore": 82,
+      "vndbVotes": 5943,
       "bangumiScore": 80,
       "bangumiVotes": 1214,
       "egsScore": 82.45,
       "egsVotes": 55,
       "egsMedian": 83,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
-    },
-    {
-      "name": "もんむす・くえすと!終章 ～負ければ妖女に犯される～",
-      "vndbId": "v11849",
-      "bangumiId": "75507",
-      "egsId": "19132",
-      "metadata": {
-        "titles": {
-          "en": "Monster Girl Quest - Part 3",
-          "zh": "勇者大战魔物娘 终章",
-          "ja": "もんむす・くえすと!終章 ～負ければ妖女に犯される～"
-        },
-        "descriptions": {
-          "en": "Toro Toro Resistance presents the 3rd act of the massive fantasy RPG adventure! Epilogue to Monmusu Quest! Origins. The story of being reverse-molested by sexy inhuman vixens! Sweet monster girls seduce and pleasure you! Lose and you will be r*ped! Not one scene of boys violating girls. Masochists rejoice! You are the hero, a young boy. Battle sexually with diverse characters in a world of humans and creatures. All the creatures are sexy girls of some species or another! Find them all! It's an epic quest. Will your dirty dreams come true?",
-          "zh": "ファンタジー世界を冒険する疑似RPGアドベンチャーゲーム！ 主人公は、勇者見習いの少年。 人間と魔物が共存できる世界を実現するため、人々を苦しめる魔王退治の旅に。 果たして彼の運命は？ 長い旅の果てに、目的を叶えることはできるのか？ 人外娘に犯されたい願望を叶えるゲーム！ 戦闘で敗北すれば、魅惑的な妖女モンスターに逆レイプ！ 男性側が女性側を性的に責めるシーンは一切なし！ 逆転なしの、安心徹底M仕様を約束します！ ※このゲームは、「もんむす・くえすと!中章」の続きとなります。"
-        },
-        "released": "2013-06-01",
-        "year": 2013,
-        "image": "https://t.vndb.org/cv/43/104743.jpg",
-        "lengthMinutes": 1338,
-        "genres": [
-          "魔物娘",
-          "RPG",
-          "同人"
-        ],
-        "platforms": [
-          "win",
-          "lin",
-          "mac",
-          "ios",
-          "and",
-          "swi"
-        ]
-      },
-      "vndbScore": 82.1,
-      "vndbVotes": 2848,
-      "bangumiScore": 78,
-      "bangumiVotes": 509,
-      "egsScore": 83.92,
-      "egsVotes": 198,
-      "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "乙女理論とその周辺 -Ecole de Paris-",
@@ -3537,7 +3658,7 @@
       "metadata": {
         "titles": {
           "en": "Otome Riron to Sono Shuuhen -Ecole de Paris-",
-          "zh": "少女理论及其周边 -École de Paris-",
+          "zh": "少女理论及其周边 -巴黎学院篇-",
           "ja": "乙女理論とその周辺 -Ecole de Paris-"
         },
         "descriptions": {
@@ -3565,8 +3686,8 @@
       "egsScore": 84.84,
       "egsVotes": 1737,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "虚ノ少女",
@@ -3600,54 +3721,63 @@
         ]
       },
       "vndbScore": 84.9,
-      "vndbVotes": 3704,
+      "vndbVotes": 3706,
       "bangumiScore": 74,
-      "bangumiVotes": 2191,
+      "bangumiVotes": 2192,
       "egsScore": 85.35,
       "egsVotes": 789,
       "egsMedian": 86,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
-      "name": "大正×対称アリス",
-      "vndbId": "v16032",
-      "bangumiId": "175431",
-      "egsId": "21622",
+      "name": "AIR",
+      "vndbId": "v36",
+      "bangumiId": "232",
+      "egsId": "84",
       "metadata": {
         "titles": {
-          "en": "TAISHO x ALICE",
-          "zh": "大正×对称爱丽丝 all in one",
-          "ja": "大正×対称アリス"
+          "en": "AIR",
+          "zh": "AIR",
+          "ja": "AIR"
         },
         "descriptions": {
-          "en": "Once upon a time, in a topsy-turvy world... In the beginning, you find yourself lost within a world of utter darkness. Your memories are gone; even your name is a mystery. But just when the bitter loneliness threatens to break your spirit, you meet Alice—a blond-haired, blue-eyed young man who promptly christens you \"Arisu.\" Like you, Alice cannot remember anything beyond his own name. Ignoring his protests, you drag him along with you through the darkness... until you happen upon a massive mirror made of crystal. You stumble through the glass and into the Looking-Glass World, an antiquated fairytale dreamscape that feels oddly familiar... There, amid a colorful cast of gender-swapped fairytale characters, you take on the role of the heroine and join them in their twisted tales. How will the story end? It's up to you!",
-          "zh": "これは王子様を救うおとぎ話 女性向けコンテンツ品牌「Primula」よりPC用软件として発売された夢見るおとぎ話冒险游戏「大正×対称アリス」全4巻が、ワンパッケージになってPS Vitaに登場！ 物語の舞台は、全てがあべこべな鏡の国。「シンデレラ」や「赤ずきん」などの童話をモチーフに、性別が逆転した童話の角色達と紡ぐちょっぴり不思議で歪な物語。 プレイヤーは各童話のヒロインとなり、ヒーロー（攻略角色達）が抱える心の傷を癒やし、歪んだ世界を正常に導いていく。 PS Vita版では、PS Vitaのホーム画面に設定できる「壁紙集」や、集めたボイスの再生順を自由に変更してプレイヤーだけのボイスドラマを作れる「ボイスコレクション」を搭載。 「大正×対称アリス all in one」がNintendo Switchに登場！ 描き下ろしイベントスチルとビジュアルノベルを追加！ これまで汎用の立ち絵と背景で展開していたシーンをイベントスチル化。攻略キャラクター全員に描き下ろされます。 また、PS Vita版の初回生産分特典ドラマCD「鏡の国一のドMは誰だ大会！」をビジュアルノベル化して収録。 シンデレラ、グレーテル、魔法使い、アリス、猟師の織り成す本編では見ることのできないエピソードをお楽しみいただけます。"
+          "en": "Summer had come to that town. A young man is performing with a puppet in front of a seaside bus stop. Only two children are watching his show. However, they soon lose interest and run off. The young man is a traveler. He has two companions on his travels. A decrepit doll that moves without strings, and a powerful oath made a long time ago. Just when he began to feel despair, a young girl comes to talk to him. She has a friendly, innocent smile. Following this meeting with her, the young man begins to live in that town. Spending gentle days enveloped in the scenes of summer. Encounters with girls in the sunlight. Summer stretches on endlessly. Beneath the vast blue sky. Beneath the air in which she awaits. [From Steam]",
+          "zh": "夏。海に近いちっぽけな町。青年は旅の途中だった。 彼の道連れは、母親が残したちっぽけな人形。 彼は手を触れずにその人形を動かすことができた。 母親から受け継いだ『法術』と呼ばれる力。 彼はそれを見世物にしてこれまで旅を続けていた。 そして、この海辺の町で、青年はひとりの少女に出会った・・・。 ----------------------------------------------------------------------------------------------- 《AIR》，是日本游戏制作公司Key继《Kanon》后，所出品的第二款恋爱游戏。因为故事感人度极高，在日本也有人称为“泣きゲー”（赚人热泪的游戏）。起初推出时是一只含有H成分的18X电脑游戏，后来推出了“全年龄向”（即适合一般玩家的，通常指没有H或暴力的游戏）的电脑游戏、Dreamcast、PlayStation 2以及PSP版本。亦被改编成为电视动画版和剧场版。"
         },
-        "released": "2015-02-20",
-        "year": 2015,
-        "image": "https://t.vndb.org/cv/96/87196.jpg",
-        "lengthMinutes": 2550,
+        "released": "2000-09-08",
+        "year": 2000,
+        "image": "https://t.vndb.org/cv/04/103904.jpg",
+        "lengthMinutes": 1800,
         "genres": [
-          "乙女向",
-          "乙女ゲーム",
-          "藤文"
+          "key",
+          "麻枝准",
+          "air"
         ],
         "platforms": [
           "win",
+          "lin",
+          "ios",
+          "and",
+          "gba",
+          "gbc",
+          "psp",
+          "ps2",
           "psv",
-          "swi"
+          "drc",
+          "swi",
+          "mob"
         ]
       },
-      "vndbScore": 82.7,
-      "vndbVotes": 789,
-      "bangumiScore": 76,
-      "bangumiVotes": 95,
-      "egsScore": 71.17,
-      "egsVotes": 24,
-      "egsMedian": 70,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "vndbScore": 77.8,
+      "vndbVotes": 2863,
+      "bangumiScore": 83,
+      "bangumiVotes": 2664,
+      "egsScore": 82.96,
+      "egsVotes": 3224,
+      "egsMedian": 85,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "逆転裁判",
@@ -3688,14 +3818,54 @@
         ]
       },
       "vndbScore": 80.8,
-      "vndbVotes": 9333,
+      "vndbVotes": 9339,
       "bangumiScore": 83,
       "bangumiVotes": 4512,
       "egsScore": 80.92,
       "egsVotes": 83,
       "egsMedian": 81,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "大正×対称アリス",
+      "vndbId": "v16032",
+      "bangumiId": "175431",
+      "egsId": "21622",
+      "metadata": {
+        "titles": {
+          "en": "TAISHO x ALICE",
+          "zh": "大正×对称爱丽丝 all in one",
+          "ja": "大正×対称アリス"
+        },
+        "descriptions": {
+          "en": "Once upon a time, in a topsy-turvy world... In the beginning, you find yourself lost within a world of utter darkness. Your memories are gone; even your name is a mystery. But just when the bitter loneliness threatens to break your spirit, you meet Alice—a blond-haired, blue-eyed young man who promptly christens you \"Arisu.\" Like you, Alice cannot remember anything beyond his own name. Ignoring his protests, you drag him along with you through the darkness... until you happen upon a massive mirror made of crystal. You stumble through the glass and into the Looking-Glass World, an antiquated fairytale dreamscape that feels oddly familiar... There, amid a colorful cast of gender-swapped fairytale characters, you take on the role of the heroine and join them in their twisted tales. How will the story end? It's up to you!",
+          "zh": "これは王子様を救うおとぎ話 女性向けコンテンツ品牌「Primula」よりPC用软件として発売された夢見るおとぎ話冒险游戏「大正×対称アリス」全4巻が、ワンパッケージになってPS Vitaに登場！ 物語の舞台は、全てがあべこべな鏡の国。「シンデレラ」や「赤ずきん」などの童話をモチーフに、性別が逆転した童話の角色達と紡ぐちょっぴり不思議で歪な物語。 プレイヤーは各童話のヒロインとなり、ヒーロー（攻略角色達）が抱える心の傷を癒やし、歪んだ世界を正常に導いていく。 PS Vita版では、PS Vitaのホーム画面に設定できる「壁紙集」や、集めたボイスの再生順を自由に変更してプレイヤーだけのボイスドラマを作れる「ボイスコレクション」を搭載。 「大正×対称アリス all in one」がNintendo Switchに登場！ 描き下ろしイベントスチルとビジュアルノベルを追加！ これまで汎用の立ち絵と背景で展開していたシーンをイベントスチル化。攻略キャラクター全員に描き下ろされます。 また、PS Vita版の初回生産分特典ドラマCD「鏡の国一のドMは誰だ大会！」をビジュアルノベル化して収録。 シンデレラ、グレーテル、魔法使い、アリス、猟師の織り成す本編では見ることのできないエピソードをお楽しみいただけます。"
+        },
+        "released": "2015-02-20",
+        "year": 2015,
+        "image": "https://t.vndb.org/cv/96/87196.jpg",
+        "lengthMinutes": 2550,
+        "genres": [
+          "乙女向",
+          "乙女ゲーム",
+          "藤文"
+        ],
+        "platforms": [
+          "win",
+          "psv",
+          "swi"
+        ]
+      },
+      "vndbScore": 82.6,
+      "vndbVotes": 788,
+      "bangumiScore": 76,
+      "bangumiVotes": 95,
+      "egsScore": 71.17,
+      "egsVotes": 24,
+      "egsMedian": 70,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ラッキードッグ１",
@@ -3739,47 +3909,8 @@
       "egsScore": 82.36,
       "egsVotes": 77,
       "egsMedian": 83,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
-    },
-    {
-      "name": "家族計画",
-      "vndbId": "v155",
-      "bangumiId": "4347",
-      "egsId": "1714",
-      "metadata": {
-        "titles": {
-          "en": "Family Project ~Kazoku Keikaku~",
-          "zh": "家族计划",
-          "ja": "家族計画"
-        },
-        "descriptions": {
-          "en": "Tsukasa, a fiercely independent youth who lost his parents at an early age and now spends his days working at a Chinese restaurant to make ends meet. Reluctant to form interpersonal ties lest they be shattered, Tsukasa is nonetheless unable to abandon the illegal immigrant girl he finds collapsed in the alley behind his workplace one day. Confronted by her utter helplessness he takes her in, an encounter that opens the door to a new life - one where he faces the challenge and wonder of being no longer alone. Tsukasa soon finds himself at the unwilling nexus of even more lives, attracting a band of misfits and social outcasts around him that swell beyond the confines of his small apartment. They find shelter in an abandoned house, where despite Tsukasa's lingering doubts a pact is formed: the \"family project\", an alliance of mutual convenience and utilitarian support that despite the mistrust and antagonism among its members soon comes to mean much more. [From G-Collections]",
-          "zh": "Tsukasa, a fiercely independent youth who lost his parents at an early age and now spends his days working at a Chinese restaurant to make ends meet. Reluctant to form interpersonal ties lest they be shattered, Tsukasa is nonetheless unable to abandon the illegal immigrant girl he finds collapsed in the alley behind his workplace one day. Confronted by her utter helplessness he takes her in, an encounter that opens the door to a new life - one where he faces the challenge and wonder of being no longer alone. Tsukasa soon finds himself at the unwilling nexus of even more lives, attracting a band of misfits and social outcasts around him that swell beyond the confines of his small apartment. They find shelter in an abandoned house, where despite Tsukasa's lingering doubts a pact is formed: the \"family project\", an alliance of mutual convenience and utilitarian support that despite the mistrust and antagonism among its members soon comes to mean much more. [From G-Collections]"
-        },
-        "released": "2001-11-02",
-        "year": 2001,
-        "image": "https://t.vndb.org/cv/49/101349.jpg",
-        "lengthMinutes": 1812,
-        "platforms": [
-          "win",
-          "and",
-          "dvd",
-          "psp",
-          "ps2",
-          "ps3",
-          "psv"
-        ]
-      },
-      "vndbScore": 74.3,
-      "vndbVotes": 1703,
-      "bangumiScore": null,
-      "bangumiVotes": null,
-      "egsScore": 85.7,
-      "egsVotes": 1868,
-      "egsMedian": 88,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "冥契のルペルカリア",
@@ -3818,8 +3949,8 @@
       "egsScore": 81.66,
       "egsVotes": 601,
       "egsMedian": 83,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "時計仕掛けのレイライン －朝霧に散る花－",
@@ -3829,7 +3960,7 @@
       "metadata": {
         "titles": {
           "en": "A Clockwork Ley-Line: Flowers Falling in the Morning Mist",
-          "zh": "时钟机关的Ley-line -朝雾中飘零之花-",
+          "zh": "时钟机关的Ley-line-朝雾中飘零之花-",
           "ja": "時計仕掛けのレイライン －朝霧に散る花－"
         },
         "descriptions": {
@@ -3852,14 +3983,14 @@
         ]
       },
       "vndbScore": 81.6,
-      "vndbVotes": 964,
+      "vndbVotes": 963,
       "bangumiScore": 78,
       "bangumiVotes": 1496,
       "egsScore": 83.68,
       "egsVotes": 1334,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "真剣で私に恋しなさい！S",
@@ -3896,8 +4027,8 @@
       "egsScore": 79.85,
       "egsVotes": 1286,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "蒼の彼方のフォーリズム",
@@ -3934,14 +4065,14 @@
         ]
       },
       "vndbScore": 82.6,
-      "vndbVotes": 6534,
+      "vndbVotes": 6536,
       "bangumiScore": 78,
       "bangumiVotes": 4390,
       "egsScore": 83.26,
       "egsVotes": 1775,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "神採りアルケミーマイスター",
@@ -3951,7 +4082,7 @@
       "metadata": {
         "titles": {
           "en": "Kamidori Alchemy Meister",
-          "zh": "神采炼金名匠",
+          "zh": "神采炼金大师",
           "ja": "神採りアルケミーマイスター"
         },
         "descriptions": {
@@ -3972,48 +4103,14 @@
         ]
       },
       "vndbScore": 81.1,
-      "vndbVotes": 5159,
+      "vndbVotes": 5160,
       "bangumiScore": 74,
       "bangumiVotes": 599,
       "egsScore": 83.7,
       "egsVotes": 1368,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
-    },
-    {
-      "name": "最果てのイマ",
-      "vndbId": "v1278",
-      "bangumiId": "7978",
-      "egsId": "4883",
-      "metadata": {
-        "titles": {
-          "en": "Saihate no Ima",
-          "zh": "最果てのイマ",
-          "ja": "最果てのイマ"
-        },
-        "descriptions": {
-          "en": "This game tells the story of seven long-time friends. How they grew closer or further apart as they got older. The story is presented using a blog-like interface. The protagonist, Atemiya Shinobu, who was raised at a certain facility since a young age, had no one around him that could be called a \"friend\". Being that way, the first thing he started doing after leaving the facility with his sister - Chidori - was to find and make friends. Benio Azusa, a tomboyish girl who lived nearby. Hondou Sayaka, a quiet yet sharp-tongued girl who was in charge of raising the pets at school just like him. Tsukamoto Youko and Itsuki, a pair of siblings who belonged to a prestigious family around the area. Higuchi Shouji, a boy he knew by being attracted to the similarities they both share. Izuki Fueko, a girl he met by chance. Together with Shinobu, they were a group of seven. Just like that, each and every one of them, who had never experienced the joy of having friends, was able to meet each other and become companions. The story begins in a quiet town colored by dusk. Around the seven friends, there were understanding, empathy, conflict, and what's more, the fleeting love of adolescence. It was a friendship that could last forever. Such a simple happiness should have... lasted forever. That was until the \"enemy\" appeared. The \"enemy\" had disturbed the peaceful relationship of the seven people. Shinobu could not forgive that. He could not forgive the one that injures his companions, nor could he forgive the one that hurts another one's hearts. And when he realized all that, the world th",
-          "zh": "This game tells the story of seven long-time friends. How they grew closer or further apart as they got older. The story is presented using a blog-like interface. The protagonist, Atemiya Shinobu, who was raised at a certain facility since a young age, had no one around him that could be called a \"friend\". Being that way, the first thing he started doing after leaving the facility with his sister - Chidori - was to find and make friends. Benio Azusa, a tomboyish girl who lived nearby. Hondou Sayaka, a quiet yet sharp-tongued girl who was in charge of raising the pets at school just like him. Tsukamoto Youko and Itsuki, a pair of siblings who belonged to a prestigious family around the area. Higuchi Shouji, a boy he knew by being attracted to the similarities they both share. Izuki Fueko, a girl he met by chance. Together with Shinobu, they were a group of seven. Just like that, each and every one of them, who had never experienced the joy of having friends, was able to meet each other and become companions. The story begins in a quiet town colored by dusk. Around the seven friends, there were understanding, empathy, conflict, and what's more, the fleeting love of adolescence. It was a friendship that could last forever. Such a simple happiness should have... lasted forever. That was until the \"enemy\" appeared. The \"enemy\" had disturbed the peaceful relationship of the seven people. Shinobu could not forgive that. He could not forgive the one that injures his companions, nor could he forgive the one that hurts another one's hearts. And when he realized all that, the world th"
-        },
-        "released": "2005-08-12",
-        "year": 2005,
-        "image": "https://t.vndb.org/cv/16/95716.jpg",
-        "lengthMinutes": 2700,
-        "platforms": [
-          "win",
-          "psp"
-        ]
-      },
-      "vndbScore": 84.9,
-      "vndbVotes": 267,
-      "bangumiScore": null,
-      "bangumiVotes": null,
-      "egsScore": 80.36,
-      "egsVotes": 754,
-      "egsMedian": 82,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Fate/hollow ataraxia",
@@ -4049,14 +4146,14 @@
         ]
       },
       "vndbScore": 81.4,
-      "vndbVotes": 5793,
+      "vndbVotes": 5795,
       "bangumiScore": 78,
-      "bangumiVotes": 1715,
+      "bangumiVotes": 1716,
       "egsScore": 82.35,
       "egsVotes": 2632,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "シルバー事件",
@@ -4091,11 +4188,94 @@
         ]
       },
       "vndbScore": 81.4,
-      "vndbVotes": 958,
+      "vndbVotes": 959,
       "bangumiScore": 79,
       "bangumiVotes": 92,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
       "lastError": null
+    },
+    {
+      "name": "Forest",
+      "vndbId": "v599",
+      "bangumiId": "5395",
+      "egsId": "3294",
+      "metadata": {
+        "titles": {
+          "en": "Forest",
+          "zh": "Forest",
+          "ja": "Forest"
+        },
+        "descriptions": {
+          "en": "\"I am Alice. Do let me hear a story.\" Here and there - in the space between buildings, in back alleys, perhaps even in the underground - the Forest bleeds into our world. The Forest is a forbidden place where the rules of our world do not apply. Our heroes must struggle against the Forest, without so much as the hope of assistance or understanding from the outside world. They do battle against the \"riddles\" the Forest imposes upon them with the aid of superhuman abilities known as \"gifts.\" And should they know defeat in their battle against the Forest, they will face that which they fear most - expulsion from Shinjuku. [Translated from Getchu]",
+          "zh": "故事的舞台发生在新宿，这里突然变成了森林，里面穿梭着童话故事里的角色。五位男女主角被卷进了被称为“Riddle”的竞赛中，这种竞赛没有固定的规矩和形态，而他们的对手，就是森林本身。他们每个人都有一种名叫“Gift”的特殊能力，这些“Gift”在一定条件下可以改变和更换……"
+        },
+        "released": "2004-02-13",
+        "year": 2004,
+        "image": "https://t.vndb.org/cv/94/94894.jpg",
+        "lengthMinutes": 910,
+        "genres": [
+          "星空めてお",
+          "Liar-soft",
+          "哲学"
+        ],
+        "platforms": [
+          "win",
+          "web"
+        ]
+      },
+      "vndbScore": 75,
+      "vndbVotes": 752,
+      "bangumiScore": 85,
+      "bangumiVotes": 1080,
+      "egsScore": 81.56,
+      "egsVotes": 929,
+      "egsMedian": 85,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "キラ☆キラ",
+      "vndbId": "v414",
+      "bangumiId": "2723",
+      "egsId": "9716",
+      "metadata": {
+        "titles": {
+          "en": "Kira Kira",
+          "zh": "KIRA☆KIRA 煌煌舞台",
+          "ja": "キラ☆キラ"
+        },
+        "descriptions": {
+          "en": "Shikanosuke Maejima is a student at the Missionary school, Oubi Academy. He doesn't attend his club, he doesn't put much effort in his studies, all he does is show up at his part time job; in short, his life could be better. One day, he meets a strange girl, Kirari Shiino, at work and before he knows it, they've formed a punk band. The band consists of Shikanosuke, Kirari, his childhood friend Chie Isurugi, and a rich but weak young lady by the name of Sarina Kashiwara. The four of them are members of the Second Literature Club, which has hardly any active members and is already scheduled to be disbanded. This band is their chance to stand out and give one final farewell at the Culture Festival. The challenge was foolhardy, but after eccentric training they managed to succeed and rock out the peaceful Oubi Academy with their debut performance. That should have been it. They were satisfied. They should have returned to their normal lives. However, their final performance at a local Live House became a hit on the Internet and requests for their performance start flying in from far and wide. One problem: exams are coming up and their parents are opposed to the band! Who cares! The four of them embark on their final adventure, a long tour of Japan, armed with their dreams and their instruments, all aboard a rickety van that could fall apart at any moment. \"First stop, Nagoya!\" [From Mangagamer]",
+          "zh": "前岛鹿之助是就读于教会制学校“欧美学园”的学生。过着既不参加社团活动也不投身考试复习，而只是拼命打工的惨淡生活。 在这样的打工时光中，鹿之助遇到了一个十分古怪的女孩子，椎野绮良里，而且意外地和其组成了朋克乐队，于是，鹿之助的故事就这样开始了。"
+        },
+        "released": "2007-11-22",
+        "year": 2007,
+        "image": "https://t.vndb.org/cv/97/89097.jpg",
+        "lengthMinutes": 1791,
+        "genres": [
+          "瀬戸口廉也",
+          "OVERDRIVE",
+          "死生観"
+        ],
+        "platforms": [
+          "win",
+          "ios",
+          "and",
+          "bdp",
+          "ps2",
+          "vnd",
+          "web"
+        ]
+      },
+      "vndbScore": 75.8,
+      "vndbVotes": 3117,
+      "bangumiScore": 84,
+      "bangumiVotes": 2497,
+      "egsScore": 84,
+      "egsVotes": 2266,
+      "egsMedian": 85,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Fate/EXTRA CCC",
@@ -4126,58 +4306,14 @@
         ]
       },
       "vndbScore": 82.5,
-      "vndbVotes": 773,
+      "vndbVotes": 774,
       "bangumiScore": 77,
-      "bangumiVotes": 295,
+      "bangumiVotes": 297,
       "egsScore": 82.28,
       "egsVotes": 92,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
-    },
-    {
-      "name": "AIR",
-      "vndbId": "v36",
-      "bangumiId": "232",
-      "egsId": "84",
-      "metadata": {
-        "titles": {
-          "en": "AIR",
-          "zh": "AIR",
-          "ja": "AIR"
-        },
-        "descriptions": {
-          "en": "Summer had come to that town. A young man is performing with a puppet in front of a seaside bus stop. Only two children are watching his show. However, they soon lose interest and run off. The young man is a traveler. He has two companions on his travels. A decrepit doll that moves without strings, and a powerful oath made a long time ago. Just when he began to feel despair, a young girl comes to talk to him. She has a friendly, innocent smile. Following this meeting with her, the young man begins to live in that town. Spending gentle days enveloped in the scenes of summer. Encounters with girls in the sunlight. Summer stretches on endlessly. Beneath the vast blue sky. Beneath the air in which she awaits. [From Steam]",
-          "zh": "Summer had come to that town. A young man is performing with a puppet in front of a seaside bus stop. Only two children are watching his show. However, they soon lose interest and run off. The young man is a traveler. He has two companions on his travels. A decrepit doll that moves without strings, and a powerful oath made a long time ago. Just when he began to feel despair, a young girl comes to talk to him. She has a friendly, innocent smile. Following this meeting with her, the young man begins to live in that town. Spending gentle days enveloped in the scenes of summer. Encounters with girls in the sunlight. Summer stretches on endlessly. Beneath the vast blue sky. Beneath the air in which she awaits. [From Steam]"
-        },
-        "released": "2000-09-08",
-        "year": 2000,
-        "image": "https://t.vndb.org/cv/04/103904.jpg",
-        "lengthMinutes": 1800,
-        "platforms": [
-          "win",
-          "lin",
-          "ios",
-          "and",
-          "gba",
-          "gbc",
-          "psp",
-          "ps2",
-          "psv",
-          "drc",
-          "swi",
-          "mob"
-        ]
-      },
-      "vndbScore": 77.8,
-      "vndbVotes": 2860,
-      "bangumiScore": null,
-      "bangumiVotes": null,
-      "egsScore": 82.96,
-      "egsVotes": 3224,
-      "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ローズガンズデイズ",
@@ -4215,8 +4351,8 @@
       "egsScore": 76.12,
       "egsVotes": 42,
       "egsMedian": 78,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "あけいろ怪奇譚",
@@ -4253,8 +4389,8 @@
       "egsScore": 82.02,
       "egsVotes": 805,
       "egsMedian": 83,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "キミガシネ　―多数決デスゲーム―",
@@ -4292,8 +4428,8 @@
       "egsScore": 47.5,
       "egsVotes": 4,
       "egsMedian": 45,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "腐り姫 ～euthanasia～",
@@ -4303,7 +4439,7 @@
       "metadata": {
         "titles": {
           "en": "The Rotting Princess ~Euthanasia~",
-          "zh": "腐姫 ～euthanasia～",
+          "zh": "腐姬",
           "ja": "腐り姫 ～euthanasia～"
         },
         "descriptions": {
@@ -4325,14 +4461,14 @@
         ]
       },
       "vndbScore": 79.2,
-      "vndbVotes": 526,
+      "vndbVotes": 528,
       "bangumiScore": 82,
       "bangumiVotes": 2368,
       "egsScore": 80.31,
       "egsVotes": 1403,
       "egsMedian": 81,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "レイジングループ",
@@ -4371,14 +4507,14 @@
         ]
       },
       "vndbScore": 79.3,
-      "vndbVotes": 3572,
+      "vndbVotes": 3574,
       "bangumiScore": 82,
-      "bangumiVotes": 5466,
+      "bangumiVotes": 5468,
       "egsScore": 83.43,
       "egsVotes": 92,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "景の海のアペイリア",
@@ -4388,7 +4524,7 @@
       "metadata": {
         "titles": {
           "en": "Hikari no Umi no Apeiria",
-          "zh": "景之海的艾佩莉娅",
+          "zh": "流景之海的艾佩理雅",
           "ja": "景の海のアペイリア"
         },
         "descriptions": {
@@ -4415,8 +4551,45 @@
       "egsScore": 83.68,
       "egsVotes": 1395,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "ものべの -happy end-",
+      "vndbId": "v12392",
+      "egsId": "18799",
+      "metadata": {
+        "titles": {
+          "en": "Monobeno -Happy End-",
+          "zh": "茂伸奇谈-Happy End-",
+          "ja": "ものべの -happy end-"
+        },
+        "descriptions": {
+          "en": "After six years, Tooru returned with his younger sister Natsuha to the remote village of Monobeno deep in the mountains of Kochi prefecture. They reunited with the Akashaguma (child-like Yamori Youkai) Sumi, the Kasayou Hishakaku, and his childhood friend and self-proclaimed fiancée Alice. They played in the mountains, visited the shrine, and were visited by the Ushi Oni Tooko just like in the past. Just as they were getting used to living in Monobeno, it was time for the Shichi Seisai summer festival dedicated to the local deity Himemiya-sama. The festival was lively, concluding with the masked dance. While watching the dancing, Natsuha suddenly started shaking, complaining that her body felt cold. Tooru quickly took her to Naotake — the doctor and Alice's father, but nothing seemed wrong with her. They went to play in the nearby stream the next day. Hearing the waterfall caused Natsuha to panic and run in fear, but they couldn't find a reason for her peculiar actions. That night, she appeared in front of them very much an adult, and she bled in her nether regions for the first time. Unable to figure out what caused these inexplicable changes, they could only calm her down and watch over her. Another shock awaited them in the morning when they found Natsuha had returned to her normal size but without any memories of the day before. They decided to head back to the city for a proper examination. Unfortunately, a major landslide blocked off the only entrance to the village. Natsuha wished to leave badly, saying something scary was approaching her. What was causing Natsuha's",
+          "zh": "After six years, Tooru returned with his younger sister Natsuha to the remote village of Monobeno deep in the mountains of Kochi prefecture. They reunited with the Akashaguma (child-like Yamori Youkai) Sumi, the Kasayou Hishakaku, and his childhood friend and self-proclaimed fiancée Alice. They played in the mountains, visited the shrine, and were visited by the Ushi Oni Tooko just like in the past. Just as they were getting used to living in Monobeno, it was time for the Shichi Seisai summer festival dedicated to the local deity Himemiya-sama. The festival was lively, concluding with the masked dance. While watching the dancing, Natsuha suddenly started shaking, complaining that her body felt cold. Tooru quickly took her to Naotake — the doctor and Alice's father, but nothing seemed wrong with her. They went to play in the nearby stream the next day. Hearing the waterfall caused Natsuha to panic and run in fear, but they couldn't find a reason for her peculiar actions. That night, she appeared in front of them very much an adult, and she bled in her nether regions for the first time. Unable to figure out what caused these inexplicable changes, they could only calm her down and watch over her. Another shock awaited them in the morning when they found Natsuha had returned to her normal size but without any memories of the day before. They decided to head back to the city for a proper examination. Unfortunately, a major landslide blocked off the only entrance to the village. Natsuha wished to leave badly, saying something scary was approaching her. What was causing Natsuha's"
+        },
+        "released": "2013-10-25",
+        "year": 2013,
+        "image": "https://t.vndb.org/cv/19/111619.jpg",
+        "lengthMinutes": 4303,
+        "genres": [
+          "Visual novel"
+        ],
+        "platforms": [
+          "win",
+          "psv",
+          "web"
+        ]
+      },
+      "vndbScore": 82.6,
+      "vndbVotes": 370,
+      "bangumiScore": null,
+      "bangumiVotes": null,
+      "egsScore": 79.75,
+      "egsVotes": 353,
+      "egsMedian": 80,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "アルトネリコ２　世界に響く少女たちの創造詩（メタファリカ）",
@@ -4450,45 +4623,8 @@
       "egsScore": 78.99,
       "egsVotes": 71,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
-    },
-    {
-      "name": "ものべの -happy end-",
-      "vndbId": "v12392",
-      "egsId": "18799",
-      "metadata": {
-        "titles": {
-          "en": "Monobeno -Happy End-",
-          "zh": "茂伸奇谈-Happy End-",
-          "ja": "ものべの -happy end-"
-        },
-        "descriptions": {
-          "en": "After six years, Tooru returned with his younger sister Natsuha to the remote village of Monobeno deep in the mountains of Kochi prefecture. They reunited with the Akashaguma (child-like Yamori Youkai) Sumi, the Kasayou Hishakaku, and his childhood friend and self-proclaimed fiancée Alice. They played in the mountains, visited the shrine, and were visited by the Ushi Oni Tooko just like in the past. Just as they were getting used to living in Monobeno, it was time for the Shichi Seisai summer festival dedicated to the local deity Himemiya-sama. The festival was lively, concluding with the masked dance. While watching the dancing, Natsuha suddenly started shaking, complaining that her body felt cold. Tooru quickly took her to Naotake — the doctor and Alice's father, but nothing seemed wrong with her. They went to play in the nearby stream the next day. Hearing the waterfall caused Natsuha to panic and run in fear, but they couldn't find a reason for her peculiar actions. That night, she appeared in front of them very much an adult, and she bled in her nether regions for the first time. Unable to figure out what caused these inexplicable changes, they could only calm her down and watch over her. Another shock awaited them in the morning when they found Natsuha had returned to her normal size but without any memories of the day before. They decided to head back to the city for a proper examination. Unfortunately, a major landslide blocked off the only entrance to the village. Natsuha wished to leave badly, saying something scary was approaching her. What was causing Natsuha's",
-          "zh": "After six years, Tooru returned with his younger sister Natsuha to the remote village of Monobeno deep in the mountains of Kochi prefecture. They reunited with the Akashaguma (child-like Yamori Youkai) Sumi, the Kasayou Hishakaku, and his childhood friend and self-proclaimed fiancée Alice. They played in the mountains, visited the shrine, and were visited by the Ushi Oni Tooko just like in the past. Just as they were getting used to living in Monobeno, it was time for the Shichi Seisai summer festival dedicated to the local deity Himemiya-sama. The festival was lively, concluding with the masked dance. While watching the dancing, Natsuha suddenly started shaking, complaining that her body felt cold. Tooru quickly took her to Naotake — the doctor and Alice's father, but nothing seemed wrong with her. They went to play in the nearby stream the next day. Hearing the waterfall caused Natsuha to panic and run in fear, but they couldn't find a reason for her peculiar actions. That night, she appeared in front of them very much an adult, and she bled in her nether regions for the first time. Unable to figure out what caused these inexplicable changes, they could only calm her down and watch over her. Another shock awaited them in the morning when they found Natsuha had returned to her normal size but without any memories of the day before. They decided to head back to the city for a proper examination. Unfortunately, a major landslide blocked off the only entrance to the village. Natsuha wished to leave badly, saying something scary was approaching her. What was causing Natsuha's"
-        },
-        "released": "2013-10-25",
-        "year": 2013,
-        "image": "https://t.vndb.org/cv/19/111619.jpg",
-        "lengthMinutes": 4303,
-        "genres": [
-          "Visual novel"
-        ],
-        "platforms": [
-          "win",
-          "psv",
-          "web"
-        ]
-      },
-      "vndbScore": 82.5,
-      "vndbVotes": 367,
-      "bangumiScore": null,
-      "bangumiVotes": null,
-      "egsScore": 79.75,
-      "egsVotes": 353,
-      "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "グリザイアの迷宮 -LE LABYRINTHE DE LA GRISAIA-",
@@ -4529,8 +4665,8 @@
       "egsScore": 82.93,
       "egsVotes": 2293,
       "egsMedian": 84,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ブラック ウルヴス サーガ -ブラッディーナイトメア-",
@@ -4565,8 +4701,8 @@
       "egsScore": 74.23,
       "egsVotes": 13,
       "egsMedian": 74,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "グリザイアの楽園 -LE EDEN DE LA GRISAIA-",
@@ -4598,14 +4734,14 @@
         ]
       },
       "vndbScore": 80.5,
-      "vndbVotes": 3838,
+      "vndbVotes": 3839,
       "bangumiScore": null,
       "bangumiVotes": null,
       "egsScore": 80.55,
       "egsVotes": 1977,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "いろとりどりのヒカリ",
@@ -4636,15 +4772,15 @@
           "psv"
         ]
       },
-      "vndbScore": 84.3,
-      "vndbVotes": 623,
+      "vndbScore": 84.4,
+      "vndbVotes": 622,
       "bangumiScore": 77,
       "bangumiVotes": 1770,
       "egsScore": 83.02,
       "egsVotes": 1012,
       "egsMedian": 84,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "時計仕掛けのレイライン －残影の夜が明ける時－",
@@ -4654,7 +4790,7 @@
       "metadata": {
         "titles": {
           "en": "A Clockwork Ley-Line: Daybreak of Remnants Shadow",
-          "zh": "时钟机关的Ley-line -残影之夜将明时-",
+          "zh": "时钟机关的Ley-line-残影之夜将明时-",
           "ja": "時計仕掛けのレイライン －残影の夜が明ける時－"
         },
         "descriptions": {
@@ -4677,14 +4813,14 @@
         ]
       },
       "vndbScore": 79.6,
-      "vndbVotes": 1117,
+      "vndbVotes": 1118,
       "bangumiScore": 78,
       "bangumiVotes": 1462,
       "egsScore": 82.69,
       "egsVotes": 1371,
       "egsMedian": 83,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "真剣で私に恋しなさい！A-5",
@@ -4721,8 +4857,8 @@
       "egsScore": 78.5,
       "egsVotes": 218,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "メモリーズオフ セカンド",
@@ -4767,12 +4903,89 @@
       "vndbScore": 78.5,
       "vndbVotes": 221,
       "bangumiScore": 81,
-      "bangumiVotes": 1899,
+      "bangumiVotes": 1900,
       "egsScore": 76.88,
       "egsVotes": 116,
       "egsMedian": 78,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "続・殺戮のジャンゴ ─地獄の賞金首─",
+      "vndbId": "v428",
+      "bangumiId": "20714",
+      "egsId": "9138",
+      "metadata": {
+        "titles": {
+          "en": "Zoku Satsuriku no Django -Jigoku no Shoukinkubi-",
+          "zh": "续·杀戮之姜戈—地狱通缉犯—",
+          "ja": "続・殺戮のジャンゴ ─地獄の賞金首─"
+        },
+        "descriptions": {
+          "en": "The planet Sweetwater is a wasteland of burning desert sands, an abandoned utopia of thieves where the usage of galactic technology is strictly forbidden by advanced bio-mechanical lifeforms known as Protozoans who watch over the planet from the skies above. Here, a single legend is uttered with equal reverence betwixt the ranks of the corrupt nobility, the downtrodden farming peasants, and the bloodthirsty rogues who make Sweetwater their nest - this is the legend of Black Franco, a gunslinger-cum-revolutionary who managed to amass a hidden fortune, incite a revolution, and earn a 500000 dollar price on his head before vanishing ten years ago. Recently, however, there have been new rumors of a gunslinger appearing with Franco's trademark gun, the Black Hawk, in hand... Lily Salvatana, a particularly sagacious headhunter, takes it upon herself to claim the massive bounty set on Franco's head. However, Lily soon encounters a mysterious gunslinger who refuses to speak her name who seems to have the same idea - exactly who will end up claiming the bounty? And in the first place, who exactly is Franco? [Adapted from the official website]",
+          "zh": "──凄い奴らが帰ってきた!! 街道筋を荒らしまくる名うての賞金首「黒のフランコ」の前に、 凄腕賞金稼ぎのリリィが現れた。標的はもちろん「黒のフランコ」 の首に賭けられた50万ドル。 冷酷非情な手段でフランコ一味を追い つめていくリリィだが、そんな彼女の前に、別の賞金稼ぎ――決し て名前を名乗らない金髪の女ガンマンが立ちはだかる。 フランコを仕留めて賞金を手にするのは誰か？ 二人の賞金稼ぎの熾烈な闘争 に、反撃に出たフランコ一味の郎党も加わって、街には三つ巴の大 檄斗が吹き荒れる。"
+        },
+        "released": "2007-07-27",
+        "year": 2007,
+        "image": "https://t.vndb.org/cv/62/93362.jpg",
+        "lengthMinutes": 780,
+        "genres": [
+          "Nitro+",
+          "虚渊玄",
+          "西部"
+        ],
+        "platforms": [
+          "win"
+        ]
+      },
+      "vndbScore": 77.2,
+      "vndbVotes": 267,
+      "bangumiScore": 82,
+      "bangumiVotes": 1052,
+      "egsScore": 79.78,
+      "egsVotes": 783,
+      "egsMedian": 80,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "SWAN SONG",
+      "vndbId": "v914",
+      "bangumiId": "2722",
+      "egsId": "5924",
+      "metadata": {
+        "titles": {
+          "en": "SWAN SONG",
+          "zh": "天鹅之歌",
+          "ja": "SWAN SONG"
+        },
+        "descriptions": {
+          "en": "It is a snowing Christmas Eve… Everything seems so peaceful when a huge earthquake occurs. The earthquake causes the city to be in ruin, and the surviving people need to find ways to stay alive. Some go crazy and rob others, some cling onto God, some gather to live together. The six main characters meet at a church while they were trying to find shelter from the snow. What will they see and experience in this extreme situation…? [From Yandere Translations]",
+          "zh": "——那时候，人们经历了绝望的试炼。 那个夜晚。 到那时为止还毫无瓜葛的我们，突然被投进一只名为命运的沸腾大锅。 标志着一年即将结束的12月24日，降诞祭前夕。 飞舞的雪花覆盖了这座深山包围下的都市，白色圣诞节—— 祝福喜庆气氛洋溢的街道。 渐渐地，日落西山，夜深人静，不久连餐厅和车站装饰的彩灯也开始沉睡。 本应沉浸在幸福之中进入梦乡的大地，却突如其来地剧烈呻吟，于是平和的世界一改其貌。 地面开裂，建筑物倒塌，黑暗中无数痛苦的悲鸣响彻云际。 平稳的住宅街瞬间成为地狱绘景。 一直以来过着单身生活的大学生尼子司，在这场混乱中奇迹般地生还。 彷徨在化作废墟的街道中时与患有自闭症的少女八坂あろえ相遇，为寻找避难所两人结伴而行。 行走在狂风肆虐，暴雪纷飞的街道，伴随踏足瓦砾的声响前进。 司二人终于找到一处能抵挡风雪的建筑物。 那是一所古旧的教会，司决定在这里暂时休息。 和司同样在地震中失去家园的年轻人们，也因为同样的理由，集聚此地。 于是，在这所风雪包围的教会，他们相遇了。"
+        },
+        "released": "2005-07-29",
+        "year": 2005,
+        "image": "https://t.vndb.org/cv/63/88963.jpg",
+        "lengthMinutes": 1175,
+        "genres": [
+          "瀬戸口廉也",
+          "人性",
+          "灾难"
+        ],
+        "platforms": [
+          "win",
+          "and"
+        ]
+      },
+      "vndbScore": 76.1,
+      "vndbVotes": 3585,
+      "bangumiScore": 81,
+      "bangumiVotes": 2221,
+      "egsScore": 84.43,
+      "egsVotes": 2235,
+      "egsMedian": 85,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "RanceVI -ゼス崩壊-",
@@ -4782,7 +4995,7 @@
       "metadata": {
         "titles": {
           "en": "Rance VI - Collapse of Zeth",
-          "zh": "兰斯6 -赛斯崩坏-",
+          "zh": "兰斯6 - 赛斯崩坏 -",
           "ja": "RanceVI -ゼス崩壊-"
         },
         "descriptions": {
@@ -4804,14 +5017,14 @@
         ]
       },
       "vndbScore": 79,
-      "vndbVotes": 2161,
+      "vndbVotes": 2163,
       "bangumiScore": 75,
       "bangumiVotes": 1816,
       "egsScore": 84.51,
       "egsVotes": 1960,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Dies irae ~Acta est Fabula~",
@@ -4846,14 +5059,14 @@
         ]
       },
       "vndbScore": 81.3,
-      "vndbVotes": 3815,
+      "vndbVotes": 3816,
       "bangumiScore": 79,
       "bangumiVotes": 239,
       "egsScore": 70.15,
       "egsVotes": 244,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "STEINS;GATE 0",
@@ -4889,14 +5102,14 @@
         ]
       },
       "vndbScore": 80.8,
-      "vndbVotes": 7554,
+      "vndbVotes": 7557,
       "bangumiScore": 79,
       "bangumiVotes": 3212,
       "egsScore": 79.47,
       "egsVotes": 136,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ヒラヒラヒヒル",
@@ -4933,8 +5146,8 @@
       "egsScore": 84.17,
       "egsVotes": 313,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "美少女万華鏡 -理と迷宮の少女-",
@@ -4968,8 +5181,8 @@
       "egsScore": 81.16,
       "egsVotes": 347,
       "egsMedian": 81,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "神咒神威神楽",
@@ -5007,8 +5220,8 @@
       "egsScore": 79.05,
       "egsVotes": 538,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Dies irae ~Interview with Kaziklu Bey~",
@@ -5045,8 +5258,8 @@
       "egsScore": 81.9,
       "egsVotes": 205,
       "egsMedian": 81,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "アマガミ",
@@ -5079,87 +5292,14 @@
         ]
       },
       "vndbScore": 80.8,
-      "vndbVotes": 766,
+      "vndbVotes": 767,
       "bangumiScore": 79,
       "bangumiVotes": 660,
       "egsScore": 80.94,
       "egsVotes": 212,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
-    },
-    {
-      "name": "SWAN SONG",
-      "vndbId": "v914",
-      "bangumiId": "2722",
-      "egsId": "5924",
-      "metadata": {
-        "titles": {
-          "en": "SWAN SONG",
-          "zh": "SWAN SONG",
-          "ja": "SWAN SONG"
-        },
-        "descriptions": {
-          "en": "It is a snowing Christmas Eve… Everything seems so peaceful when a huge earthquake occurs. The earthquake causes the city to be in ruin, and the surviving people need to find ways to stay alive. Some go crazy and rob others, some cling onto God, some gather to live together. The six main characters meet at a church while they were trying to find shelter from the snow. What will they see and experience in this extreme situation…? [From Yandere Translations]",
-          "zh": "It is a snowing Christmas Eve… Everything seems so peaceful when a huge earthquake occurs. The earthquake causes the city to be in ruin, and the surviving people need to find ways to stay alive. Some go crazy and rob others, some cling onto God, some gather to live together. The six main characters meet at a church while they were trying to find shelter from the snow. What will they see and experience in this extreme situation…? [From Yandere Translations]"
-        },
-        "released": "2005-07-29",
-        "year": 2005,
-        "image": "https://t.vndb.org/cv/63/88963.jpg",
-        "lengthMinutes": 1175,
-        "platforms": [
-          "win",
-          "and"
-        ]
-      },
-      "vndbScore": 76.1,
-      "vndbVotes": 3584,
-      "bangumiScore": null,
-      "bangumiVotes": null,
-      "egsScore": 84.43,
-      "egsVotes": 2235,
-      "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
-    },
-    {
-      "name": "キラ☆キラ",
-      "vndbId": "v414",
-      "bangumiId": "2723",
-      "egsId": "9716",
-      "metadata": {
-        "titles": {
-          "en": "Kira Kira",
-          "zh": "KIRA☆KIRA 煌煌舞台",
-          "ja": "キラ☆キラ"
-        },
-        "descriptions": {
-          "en": "Shikanosuke Maejima is a student at the Missionary school, Oubi Academy. He doesn't attend his club, he doesn't put much effort in his studies, all he does is show up at his part time job; in short, his life could be better. One day, he meets a strange girl, Kirari Shiino, at work and before he knows it, they've formed a punk band. The band consists of Shikanosuke, Kirari, his childhood friend Chie Isurugi, and a rich but weak young lady by the name of Sarina Kashiwara. The four of them are members of the Second Literature Club, which has hardly any active members and is already scheduled to be disbanded. This band is their chance to stand out and give one final farewell at the Culture Festival. The challenge was foolhardy, but after eccentric training they managed to succeed and rock out the peaceful Oubi Academy with their debut performance. That should have been it. They were satisfied. They should have returned to their normal lives. However, their final performance at a local Live House became a hit on the Internet and requests for their performance start flying in from far and wide. One problem: exams are coming up and their parents are opposed to the band! Who cares! The four of them embark on their final adventure, a long tour of Japan, armed with their dreams and their instruments, all aboard a rickety van that could fall apart at any moment. \"First stop, Nagoya!\" [From Mangagamer]",
-          "zh": "Shikanosuke Maejima is a student at the Missionary school, Oubi Academy. He doesn't attend his club, he doesn't put much effort in his studies, all he does is show up at his part time job; in short, his life could be better. One day, he meets a strange girl, Kirari Shiino, at work and before he knows it, they've formed a punk band. The band consists of Shikanosuke, Kirari, his childhood friend Chie Isurugi, and a rich but weak young lady by the name of Sarina Kashiwara. The four of them are members of the Second Literature Club, which has hardly any active members and is already scheduled to be disbanded. This band is their chance to stand out and give one final farewell at the Culture Festival. The challenge was foolhardy, but after eccentric training they managed to succeed and rock out the peaceful Oubi Academy with their debut performance. That should have been it. They were satisfied. They should have returned to their normal lives. However, their final performance at a local Live House became a hit on the Internet and requests for their performance start flying in from far and wide. One problem: exams are coming up and their parents are opposed to the band! Who cares! The four of them embark on their final adventure, a long tour of Japan, armed with their dreams and their instruments, all aboard a rickety van that could fall apart at any moment. \"First stop, Nagoya!\" [From Mangagamer]"
-        },
-        "released": "2007-11-22",
-        "year": 2007,
-        "image": "https://t.vndb.org/cv/97/89097.jpg",
-        "lengthMinutes": 1791,
-        "platforms": [
-          "win",
-          "ios",
-          "and",
-          "bdp",
-          "ps2",
-          "vnd",
-          "web"
-        ]
-      },
-      "vndbScore": 75.8,
-      "vndbVotes": 3117,
-      "bangumiScore": null,
-      "bangumiVotes": null,
-      "egsScore": 84,
-      "egsVotes": 2266,
-      "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "真剣で私に恋しなさい！A-1",
@@ -5196,8 +5336,46 @@
       "egsScore": 79.36,
       "egsVotes": 480,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "ウウウルトラC",
+      "vndbId": "v23393",
+      "bangumiId": "277373",
+      "egsId": "30070",
+      "metadata": {
+        "titles": {
+          "en": "UuultraC",
+          "zh": "ウウウルトラC",
+          "ja": "ウウウルトラC"
+        },
+        "descriptions": {
+          "en": "A golden era of artists, actors, and heroes is shaken to its core when kaiju straight out of black & white cinema attack Japan! One couple falls victim to the attacks and must face the reality of the kaiju's infectious nature turning others into more kaiju and join the fight for acceptance. One couple must deal with the strain and stress of fighting the kaiju and defending the people as the superhero team, Icarus Rangers. And one couple must struggle with their complex relationships with both sides of the kaiju versus hero battles. With kaiju, heroes, robots, and more abound, you won't want to miss this homage to classic tokusatsu and its deep exploration of identity and one's place in the world! [From Official Website]",
+          "zh": "昭和45年3月。 東京は祖師谷に住む正太郎は恋人・狐塚君と二人暮らし。 世間では人の怪獣化が感染症として認知され、 受け入れを促す一方で不穏な空気が漂っていた。 正太郎は正義に憧れるその一人。 しかし、感染者の血を浴びたことにより日常は変容する。 怪獣、 ヒーロー、 巨大ロボット、 3人の主人公たち。 昭和の遺物を巡るアバンギャルドな特撮ドラマ。 どなたもどうかお入りください。"
+        },
+        "released": "2020-09-18",
+        "year": 2020,
+        "image": "https://t.vndb.org/cv/88/77788.jpg",
+        "lengthMinutes": 840,
+        "genres": [
+          "BL",
+          "くろさわ凛子",
+          "ADELTA"
+        ],
+        "platforms": [
+          "win"
+        ]
+      },
+      "vndbScore": 80.6,
+      "vndbVotes": 498,
+      "bangumiScore": 75,
+      "bangumiVotes": 95,
+      "egsScore": 82.36,
+      "egsVotes": 39,
+      "egsMedian": 80,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "星織ユメミライ",
@@ -5230,52 +5408,14 @@
         ]
       },
       "vndbScore": 80.5,
-      "vndbVotes": 2718,
+      "vndbVotes": 2719,
       "bangumiScore": 74,
       "bangumiVotes": 311,
       "egsScore": 80.23,
       "egsVotes": 757,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
-    },
-    {
-      "name": "ウウウルトラC",
-      "vndbId": "v23393",
-      "bangumiId": "277373",
-      "egsId": "30070",
-      "metadata": {
-        "titles": {
-          "en": "UuultraC",
-          "zh": "ウウウルトラC",
-          "ja": "ウウウルトラC"
-        },
-        "descriptions": {
-          "en": "A golden era of artists, actors, and heroes is shaken to its core when kaiju straight out of black & white cinema attack Japan! One couple falls victim to the attacks and must face the reality of the kaiju's infectious nature turning others into more kaiju and join the fight for acceptance. One couple must deal with the strain and stress of fighting the kaiju and defending the people as the superhero team, Icarus Rangers. And one couple must struggle with their complex relationships with both sides of the kaiju versus hero battles. With kaiju, heroes, robots, and more abound, you won't want to miss this homage to classic tokusatsu and its deep exploration of identity and one's place in the world! [From Official Website]",
-          "zh": "昭和45年3月。 東京は祖師谷に住む正太郎は恋人・狐塚君と二人暮らし。 世間では人の怪獣化が感染症として認知され、 受け入れを促す一方で不穏な空気が漂っていた。 正太郎は正義に憧れるその一人。 しかし、感染者の血を浴びたことにより日常は変容する。 怪獣、 ヒーロー、 巨大ロボット、 3人の主人公たち。 昭和の遺物を巡るアバンギャルドな特撮ドラマ。 どなたもどうかお入りください。"
-        },
-        "released": "2020-09-18",
-        "year": 2020,
-        "image": "https://t.vndb.org/cv/88/77788.jpg",
-        "lengthMinutes": 840,
-        "genres": [
-          "BL",
-          "くろさわ凛子",
-          "ADELTA"
-        ],
-        "platforms": [
-          "win"
-        ]
-      },
-      "vndbScore": 80.6,
-      "vndbVotes": 497,
-      "bangumiScore": 75,
-      "bangumiVotes": 95,
-      "egsScore": 82.36,
-      "egsVotes": 39,
-      "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "戦国†恋姫～乙女絢爛☆戦国絵巻～",
@@ -5315,8 +5455,8 @@
       "egsScore": 71.07,
       "egsVotes": 105,
       "egsMedian": 75,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ラストウィンドウ 真夜中の約束",
@@ -5349,7 +5489,7 @@
       "vndbVotes": 471,
       "bangumiScore": 81,
       "bangumiVotes": 93,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
       "lastError": null
     },
     {
@@ -5387,8 +5527,8 @@
       "egsScore": 81.47,
       "egsVotes": 1000,
       "egsMedian": 82,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "VA-11 HALL-A",
@@ -5422,14 +5562,14 @@
         ]
       },
       "vndbScore": 79.7,
-      "vndbVotes": 5033,
+      "vndbVotes": 5034,
       "bangumiScore": null,
       "bangumiVotes": null,
       "egsScore": 75.68,
       "egsVotes": 34,
       "egsMedian": 75,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "もんむす・くえすと!中章 ～負ければ妖女に犯される～",
@@ -5439,7 +5579,7 @@
       "metadata": {
         "titles": {
           "en": "Monster Girl Quest - Part 2",
-          "zh": "勇者大战魔物娘 中章",
+          "zh": "勇者大战魔物娘! 中章～输掉就会被妖女硬上～",
           "ja": "もんむす・くえすと!中章 ～負ければ妖女に犯される～"
         },
         "descriptions": {
@@ -5471,8 +5611,8 @@
       "egsScore": 81.03,
       "egsVotes": 209,
       "egsMedian": 81,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Collar x Malice",
@@ -5513,8 +5653,8 @@
       "egsScore": 76.15,
       "egsVotes": 26,
       "egsMedian": 77,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "narcissu -SIDE 2nd-",
@@ -5552,52 +5692,14 @@
         ]
       },
       "vndbScore": 75.4,
-      "vndbVotes": 2794,
+      "vndbVotes": 2796,
       "bangumiScore": 82,
       "bangumiVotes": 3527,
       "egsScore": 81.84,
       "egsVotes": 920,
       "egsMedian": 82,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
-    },
-    {
-      "name": "ましろ色シンフォニー SANA EDITION",
-      "vndbId": "v37651",
-      "bangumiId": "417463",
-      "egsId": "33110",
-      "metadata": {
-        "titles": {
-          "en": "Mashiroiro Symphony HD -Sana Edition-",
-          "zh": "纯白交响曲 SANA EDITION",
-          "ja": "ましろ色シンフォニー SANA EDITION"
-        },
-        "descriptions": {
-          "en": "Inui Sana is a young lady who can’t admit her feelings. Luckily, she doesn’t have to at Yuihime Girls Private Academy, the place where she spends fun-filled days with her precious friends and the senior she loves. Or at least, that’s how things have always been... Now, her comfy and prestigious school is being merged with the boys’ school from the upstart side of town! Shoved into a combined class to trial the new system, she finds her world changing faster than she can keep up—and one of her new classmates makes her heart beat faster too. Quicker and quicker, the changes pile up, altering the landscape of her life like a sudden snowfall... A new love story is about to begin. [From Steam] The standalone game of Inui Sana's route that was first included in the console edition of the Mashiro-iro Symphony. In addition, newly written scenes, new CGs, as well as H scenes are also added.",
-          "zh": "自分の気持ちに素直になれない少女「乾 紗凪」 「私立結姫女子学園」大好きな先輩や大切な友達と楽しく過ごす場所 ——— だったのだが 紗凪は学園統合のテスト生として 「私立各務台学園」の生徒たちと同じクラスになり 周りの環境が一気に変わってしまう そこで出逢った一人の生徒 彼の存在が紗凪の心を揺るがした まるで降り積もる雪が街を変えていくように これは、もう一つの恋の物語"
-        },
-        "released": "2023-06-23",
-        "year": 2023,
-        "image": "https://t.vndb.org/cv/16/90216.jpg",
-        "lengthMinutes": 858,
-        "genres": [
-          "和泉つばす",
-          "调色板",
-          "ぱれっと"
-        ],
-        "platforms": [
-          "win"
-        ]
-      },
-      "vndbScore": 82.7,
-      "vndbVotes": 752,
-      "bangumiScore": 76,
-      "bangumiVotes": 1020,
-      "egsScore": 81.78,
-      "egsVotes": 340,
-      "egsMedian": 81,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "相州戦神館學園 八命陣",
@@ -5635,8 +5737,8 @@
       "egsScore": 79.6,
       "egsVotes": 594,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ノラと皇女と野良猫ハート2",
@@ -5677,8 +5779,46 @@
       "egsScore": 81.9,
       "egsVotes": 1127,
       "egsMedian": 83,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "ましろ色シンフォニー SANA EDITION",
+      "vndbId": "v37651",
+      "bangumiId": "417463",
+      "egsId": "33110",
+      "metadata": {
+        "titles": {
+          "en": "Mashiroiro Symphony HD -Sana Edition-",
+          "zh": "纯白交响曲 SANA EDITION",
+          "ja": "ましろ色シンフォニー SANA EDITION"
+        },
+        "descriptions": {
+          "en": "Inui Sana is a young lady who can’t admit her feelings. Luckily, she doesn’t have to at Yuihime Girls Private Academy, the place where she spends fun-filled days with her precious friends and the senior she loves. Or at least, that’s how things have always been... Now, her comfy and prestigious school is being merged with the boys’ school from the upstart side of town! Shoved into a combined class to trial the new system, she finds her world changing faster than she can keep up—and one of her new classmates makes her heart beat faster too. Quicker and quicker, the changes pile up, altering the landscape of her life like a sudden snowfall... A new love story is about to begin. [From Steam] The standalone game of Inui Sana's route that was first included in the console edition of the Mashiro-iro Symphony. In addition, newly written scenes, new CGs, as well as H scenes are also added.",
+          "zh": "自分の気持ちに素直になれない少女「乾 紗凪」 「私立結姫女子学園」大好きな先輩や大切な友達と楽しく過ごす場所 ——— だったのだが 紗凪は学園統合のテスト生として 「私立各務台学園」の生徒たちと同じクラスになり 周りの環境が一気に変わってしまう そこで出逢った一人の生徒 彼の存在が紗凪の心を揺るがした まるで降り積もる雪が街を変えていくように これは、もう一つの恋の物語"
+        },
+        "released": "2023-06-23",
+        "year": 2023,
+        "image": "https://t.vndb.org/cv/16/90216.jpg",
+        "lengthMinutes": 858,
+        "genres": [
+          "和泉つばす",
+          "调色板",
+          "ぱれっと"
+        ],
+        "platforms": [
+          "win"
+        ]
+      },
+      "vndbScore": 82.6,
+      "vndbVotes": 754,
+      "bangumiScore": 76,
+      "bangumiVotes": 1020,
+      "egsScore": 81.78,
+      "egsVotes": 340,
+      "egsMedian": 81,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "narcissu",
@@ -5718,14 +5858,14 @@
         ]
       },
       "vndbScore": 75.1,
-      "vndbVotes": 6962,
+      "vndbVotes": 6964,
       "bangumiScore": 84,
-      "bangumiVotes": 6487,
+      "bangumiVotes": 6488,
       "egsScore": 79.77,
       "egsVotes": 1396,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "月に寄りそう乙女の作法",
@@ -5760,14 +5900,14 @@
         ]
       },
       "vndbScore": 79.6,
-      "vndbVotes": 1097,
+      "vndbVotes": 1098,
       "bangumiScore": 76,
       "bangumiVotes": 5235,
       "egsScore": 84.12,
       "egsVotes": 2522,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Code:Realize ～創世の姫君～",
@@ -5803,14 +5943,14 @@
         ]
       },
       "vndbScore": 80.8,
-      "vndbVotes": 1234,
+      "vndbVotes": 1235,
       "bangumiScore": 72,
       "bangumiVotes": 231,
       "egsScore": 76.12,
       "egsVotes": 17,
       "egsMedian": 77,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "るいは智を呼ぶ",
@@ -5849,8 +5989,8 @@
       "egsScore": 79.81,
       "egsVotes": 1785,
       "egsMedian": 82,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "殻ノ少女",
@@ -5884,81 +6024,14 @@
         ]
       },
       "vndbScore": 80.3,
-      "vndbVotes": 7797,
+      "vndbVotes": 7803,
       "bangumiScore": 76,
       "bangumiVotes": 3658,
       "egsScore": 81.48,
       "egsVotes": 1319,
       "egsMedian": 83,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
-    },
-    {
-      "name": "続・殺戮のジャンゴ ─地獄の賞金首─",
-      "vndbId": "v428",
-      "bangumiId": "20714",
-      "egsId": "9138",
-      "metadata": {
-        "titles": {
-          "en": "Zoku Satsuriku no Django -Jigoku no Shoukinkubi-",
-          "zh": "续杀戮姜戈--地狱通缉犯",
-          "ja": "続・殺戮のジャンゴ ─地獄の賞金首─"
-        },
-        "descriptions": {
-          "en": "The planet Sweetwater is a wasteland of burning desert sands, an abandoned utopia of thieves where the usage of galactic technology is strictly forbidden by advanced bio-mechanical lifeforms known as Protozoans who watch over the planet from the skies above. Here, a single legend is uttered with equal reverence betwixt the ranks of the corrupt nobility, the downtrodden farming peasants, and the bloodthirsty rogues who make Sweetwater their nest - this is the legend of Black Franco, a gunslinger-cum-revolutionary who managed to amass a hidden fortune, incite a revolution, and earn a 500000 dollar price on his head before vanishing ten years ago. Recently, however, there have been new rumors of a gunslinger appearing with Franco's trademark gun, the Black Hawk, in hand... Lily Salvatana, a particularly sagacious headhunter, takes it upon herself to claim the massive bounty set on Franco's head. However, Lily soon encounters a mysterious gunslinger who refuses to speak her name who seems to have the same idea - exactly who will end up claiming the bounty? And in the first place, who exactly is Franco? [Adapted from the official website]",
-          "zh": "The planet Sweetwater is a wasteland of burning desert sands, an abandoned utopia of thieves where the usage of galactic technology is strictly forbidden by advanced bio-mechanical lifeforms known as Protozoans who watch over the planet from the skies above. Here, a single legend is uttered with equal reverence betwixt the ranks of the corrupt nobility, the downtrodden farming peasants, and the bloodthirsty rogues who make Sweetwater their nest - this is the legend of Black Franco, a gunslinger-cum-revolutionary who managed to amass a hidden fortune, incite a revolution, and earn a 500000 dollar price on his head before vanishing ten years ago. Recently, however, there have been new rumors of a gunslinger appearing with Franco's trademark gun, the Black Hawk, in hand... Lily Salvatana, a particularly sagacious headhunter, takes it upon herself to claim the massive bounty set on Franco's head. However, Lily soon encounters a mysterious gunslinger who refuses to speak her name who seems to have the same idea - exactly who will end up claiming the bounty? And in the first place, who exactly is Franco? [Adapted from the official website]"
-        },
-        "released": "2007-07-27",
-        "year": 2007,
-        "image": "https://t.vndb.org/cv/62/93362.jpg",
-        "lengthMinutes": 780,
-        "platforms": [
-          "win"
-        ]
-      },
-      "vndbScore": 77.2,
-      "vndbVotes": 267,
-      "bangumiScore": null,
-      "bangumiVotes": null,
-      "egsScore": 79.78,
-      "egsVotes": 783,
-      "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
-    },
-    {
-      "name": "Forest",
-      "vndbId": "v599",
-      "bangumiId": "5395",
-      "egsId": "3294",
-      "metadata": {
-        "titles": {
-          "en": "Forest",
-          "zh": "Forest",
-          "ja": "Forest"
-        },
-        "descriptions": {
-          "en": "\"I am Alice. Do let me hear a story.\" Here and there - in the space between buildings, in back alleys, perhaps even in the underground - the Forest bleeds into our world. The Forest is a forbidden place where the rules of our world do not apply. Our heroes must struggle against the Forest, without so much as the hope of assistance or understanding from the outside world. They do battle against the \"riddles\" the Forest imposes upon them with the aid of superhuman abilities known as \"gifts.\" And should they know defeat in their battle against the Forest, they will face that which they fear most - expulsion from Shinjuku. [Translated from Getchu]",
-          "zh": "\"I am Alice. Do let me hear a story.\" Here and there - in the space between buildings, in back alleys, perhaps even in the underground - the Forest bleeds into our world. The Forest is a forbidden place where the rules of our world do not apply. Our heroes must struggle against the Forest, without so much as the hope of assistance or understanding from the outside world. They do battle against the \"riddles\" the Forest imposes upon them with the aid of superhuman abilities known as \"gifts.\" And should they know defeat in their battle against the Forest, they will face that which they fear most - expulsion from Shinjuku. [Translated from Getchu]"
-        },
-        "released": "2004-02-13",
-        "year": 2004,
-        "image": "https://t.vndb.org/cv/94/94894.jpg",
-        "lengthMinutes": 910,
-        "platforms": [
-          "win",
-          "web"
-        ]
-      },
-      "vndbScore": 75,
-      "vndbVotes": 752,
-      "bangumiScore": null,
-      "bangumiVotes": null,
-      "egsScore": 81.56,
-      "egsVotes": 929,
-      "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "紫影のソナーニル　～What a beautiful memories～",
@@ -5997,8 +6070,8 @@
       "egsScore": 79.44,
       "egsVotes": 375,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "紙の上の魔法使い",
@@ -6031,49 +6104,14 @@
         ]
       },
       "vndbScore": 81.9,
-      "vndbVotes": 684,
+      "vndbVotes": 683,
       "bangumiScore": 78,
       "bangumiVotes": 4437,
       "egsScore": 81.15,
       "egsVotes": 1163,
       "egsMedian": 83,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
-    },
-    {
-      "name": "수상한메신저",
-      "vndbId": "v17915",
-      "bangumiId": "198696",
-      "metadata": {
-        "titles": {
-          "en": "Mystic Messenger",
-          "zh": "Mystic Messenger 神秘信使",
-          "ja": "수상한메신저"
-        },
-        "descriptions": {
-          "en": "You were looking for a game app just to kill some time and stumbled upon an app called \"Mystic Messenger\". It sounded interesting so you downloaded it. Once you opened it up, you found yourself chatting with someone nicknamed \"Unknown\". \"Unknown\" persuaded you to go to some studio apartment. As soon as you walked in the apartment, your app suddenly connected to a mystic group chat with attractive guys!? After a long chat, they ask you to join their secret party planning association called R.F.A... [From Official Site]",
-          "zh": "Mystic Messenger (Hangul: 수상한메신저; RR: Susanghan Mesinjeo, lit. \"Mysterious Messenger\") is a South Korean female oriented visual novel game developed by Cheritz. It was released on July 8, 2016 for Android and August 18, 2016 for iOS. The game is described as \"storytelling messenger game\" and is available in Korean, English and Chinese. In 2017, Mystic Messenger was awarded Best Indie Game at the 2017 Korea Game Awards. 《Mystic Messenger》为韩国开发商Cheritz Co., Ltd旗下女性向游戏，至今获得英文版与韩文版全球破百万玩家肯定，更获得2017年韩国最佳独立游戏大赏！繁中版本即将与你近距离接触！ 你无意间下载了一个App 忽然收到来自陌生人的讯息 ! 在毫无头绪的情况下被引导至某间的神祕公寓里... 进入公寓后，App突然自动将你连接到某个聊天室「R.F.A.」! 在一阵慌乱对话后发现... 聊天室存在的目的，竟然是为了讨论举办慈善派对事宜 ? 随着生动有趣的聊天对话，你将展开为期11天的浪漫冒险.."
-        },
-        "released": "2016-07-08",
-        "year": 2016,
-        "image": "https://t.vndb.org/cv/57/85257.jpg",
-        "lengthMinutes": 1980,
-        "genres": [
-          "乙女向",
-          "手游",
-          "韩国"
-        ],
-        "platforms": [
-          "ios",
-          "and"
-        ]
-      },
-      "vndbScore": 79.4,
-      "vndbVotes": 1288,
-      "bangumiScore": 76,
-      "bangumiVotes": 102,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "終のステラ",
@@ -6108,14 +6146,14 @@
         ]
       },
       "vndbScore": 81.3,
-      "vndbVotes": 1751,
+      "vndbVotes": 1753,
       "bangumiScore": 75,
-      "bangumiVotes": 3117,
+      "bangumiVotes": 3119,
       "egsScore": 85.17,
       "egsVotes": 997,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "真剣で私に恋しなさい！A-2",
@@ -6152,8 +6190,43 @@
       "egsScore": 78.03,
       "egsVotes": 374,
       "egsMedian": 79,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "수상한메신저",
+      "vndbId": "v17915",
+      "bangumiId": "198696",
+      "metadata": {
+        "titles": {
+          "en": "Mystic Messenger",
+          "zh": "Mystic Messenger 神秘信使",
+          "ja": "수상한메신저"
+        },
+        "descriptions": {
+          "en": "You were looking for a game app just to kill some time and stumbled upon an app called \"Mystic Messenger\". It sounded interesting so you downloaded it. Once you opened it up, you found yourself chatting with someone nicknamed \"Unknown\". \"Unknown\" persuaded you to go to some studio apartment. As soon as you walked in the apartment, your app suddenly connected to a mystic group chat with attractive guys!? After a long chat, they ask you to join their secret party planning association called R.F.A... [From Official Site]",
+          "zh": "Mystic Messenger (Hangul: 수상한메신저; RR: Susanghan Mesinjeo, lit. \"Mysterious Messenger\") is a South Korean female oriented visual novel game developed by Cheritz. It was released on July 8, 2016 for Android and August 18, 2016 for iOS. The game is described as \"storytelling messenger game\" and is available in Korean, English and Chinese. In 2017, Mystic Messenger was awarded Best Indie Game at the 2017 Korea Game Awards. 《Mystic Messenger》为韩国开发商Cheritz Co., Ltd旗下女性向游戏，至今获得英文版与韩文版全球破百万玩家肯定，更获得2017年韩国最佳独立游戏大赏！繁中版本即将与你近距离接触！ 你无意间下载了一个App 忽然收到来自陌生人的讯息 ! 在毫无头绪的情况下被引导至某间的神祕公寓里... 进入公寓后，App突然自动将你连接到某个聊天室「R.F.A.」! 在一阵慌乱对话后发现... 聊天室存在的目的，竟然是为了讨论举办慈善派对事宜 ? 随着生动有趣的聊天对话，你将展开为期11天的浪漫冒险.."
+        },
+        "released": "2016-07-08",
+        "year": 2016,
+        "image": "https://t.vndb.org/cv/57/85257.jpg",
+        "lengthMinutes": 1980,
+        "genres": [
+          "乙女向",
+          "手游",
+          "韩国"
+        ],
+        "platforms": [
+          "ios",
+          "and"
+        ]
+      },
+      "vndbScore": 79.3,
+      "vndbVotes": 1289,
+      "bangumiScore": 76,
+      "bangumiVotes": 102,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": null
     },
     {
       "name": "向日葵の教会と長い夏休み",
@@ -6192,8 +6265,8 @@
       "egsScore": 81.25,
       "egsVotes": 1166,
       "egsMedian": 82,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "薄桜鬼 新選組奇譚",
@@ -6234,14 +6307,14 @@
         ]
       },
       "vndbScore": 79.5,
-      "vndbVotes": 1373,
+      "vndbVotes": 1374,
       "bangumiScore": 73,
       "bangumiVotes": 85,
       "egsScore": 66.15,
       "egsVotes": 13,
       "egsMedian": 70,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Bernd und das Rätsel um Unteralterbach",
@@ -6277,8 +6350,8 @@
       "vndbVotes": 729,
       "bangumiScore": 10,
       "bangumiVotes": 1,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": null
     },
     {
       "name": "大逆転裁判 ‐成歩堂龍ノ介の冒険‐",
@@ -6311,14 +6384,14 @@
         ]
       },
       "vndbScore": 78.9,
-      "vndbVotes": 2015,
+      "vndbVotes": 2016,
       "bangumiScore": null,
       "bangumiVotes": null,
       "egsScore": 77.25,
       "egsVotes": 36,
       "egsMedian": 78,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "はつゆきさくら",
@@ -6354,14 +6427,14 @@
         ]
       },
       "vndbScore": 80.3,
-      "vndbVotes": 1643,
+      "vndbVotes": 1644,
       "bangumiScore": 74,
       "bangumiVotes": 3164,
       "egsScore": 81.63,
       "egsVotes": 3110,
       "egsMedian": 83,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "かたわ少女",
@@ -6397,14 +6470,14 @@
         ]
       },
       "vndbScore": 78.8,
-      "vndbVotes": 18392,
+      "vndbVotes": 18400,
       "bangumiScore": null,
       "bangumiVotes": null,
       "egsScore": 72.31,
       "egsVotes": 88,
       "egsMedian": 75,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "蝶の毒 華の鎖",
@@ -6441,14 +6514,14 @@
         ]
       },
       "vndbScore": 79.6,
-      "vndbVotes": 463,
+      "vndbVotes": 464,
       "bangumiScore": 78,
       "bangumiVotes": 805,
       "egsScore": 79.35,
       "egsVotes": 63,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "I/O",
@@ -6486,8 +6559,8 @@
       "egsScore": 77.81,
       "egsVotes": 91,
       "egsMedian": 79,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "黄昏のシンセミア",
@@ -6526,8 +6599,8 @@
       "egsScore": 81.14,
       "egsVotes": 1811,
       "egsMedian": 81,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "金色ラブリッチェ-Golden Time-",
@@ -6560,14 +6633,14 @@
         ]
       },
       "vndbScore": 80.7,
-      "vndbVotes": 1904,
+      "vndbVotes": 1905,
       "bangumiScore": 75,
-      "bangumiVotes": 2046,
+      "bangumiVotes": 2047,
       "egsScore": 80.67,
       "egsVotes": 1005,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "世界滅亡共有幻想マミヤ",
@@ -6603,8 +6676,8 @@
       "egsScore": 67,
       "egsVotes": 7,
       "egsMedian": 70,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ef - a fairy tale of the two.",
@@ -6623,7 +6696,7 @@
         },
         "released": "2006-12-22",
         "year": 2006,
-        "image": "https://t.vndb.org/cv/16/77716.jpg",
+        "image": "https://t.vndb.org/cv/61/91561.jpg",
         "lengthMinutes": 2100,
         "genres": [
           "minori",
@@ -6637,14 +6710,14 @@
         ]
       },
       "vndbScore": 80.7,
-      "vndbVotes": 2859,
+      "vndbVotes": 2860,
       "bangumiScore": 81,
       "bangumiVotes": 497,
       "egsScore": 75.41,
       "egsVotes": 1563,
       "egsMedian": 77,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ピュア×コネクト",
@@ -6681,8 +6754,8 @@
       "egsScore": 80.88,
       "egsVotes": 933,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "銀色、遥か",
@@ -6719,8 +6792,8 @@
       "egsScore": 80.99,
       "egsVotes": 622,
       "egsMedian": 81,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ジュエリー・ハーツ・アカデミア -We will wing wonder world-",
@@ -6730,7 +6803,7 @@
       "metadata": {
         "titles": {
           "en": "Jewelry Hearts Academia -We will wing wonder world-",
-          "zh": "宝石心学院",
+          "zh": "宝石心学园",
           "ja": "ジュエリー・ハーツ・アカデミア -We will wing wonder world-"
         },
         "descriptions": {
@@ -6759,8 +6832,8 @@
       "egsScore": 82.27,
       "egsVotes": 982,
       "egsMedian": 83,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "もっと！孕ませ！炎のおっぱい異世界おっぱいメイド学園！",
@@ -6797,8 +6870,8 @@
       "egsScore": 80.97,
       "egsVotes": 116,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "WHITE ALBUM2 ミニアフターストーリー",
@@ -6837,8 +6910,8 @@
       "egsScore": 91.25,
       "egsVotes": 126,
       "egsMedian": 95,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "あやかしごはん",
@@ -6877,8 +6950,8 @@
       "egsScore": 62.4,
       "egsVotes": 10,
       "egsMedian": 68,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "我が姫君に栄冠を",
@@ -6915,8 +6988,8 @@
       "egsScore": 79.99,
       "egsVotes": 337,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "屋上の百合霊さん",
@@ -6926,7 +6999,7 @@
       "metadata": {
         "titles": {
           "en": "Kindred Spirits on the Roof",
-          "zh": "天台上的百合灵",
+          "zh": "屋上的百合灵",
           "ja": "屋上の百合霊さん"
         },
         "descriptions": {
@@ -6952,14 +7025,14 @@
         ]
       },
       "vndbScore": 79.3,
-      "vndbVotes": 1530,
+      "vndbVotes": 1531,
       "bangumiScore": 74,
       "bangumiVotes": 427,
       "egsScore": 78.95,
       "egsVotes": 335,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "アマカノ～Second Season～",
@@ -7000,8 +7073,8 @@
       "egsScore": 79.39,
       "egsVotes": 422,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Mama×Holic ～魅惑のママと甘々カンケイ～",
@@ -7032,15 +7105,15 @@
           "dvd"
         ]
       },
-      "vndbScore": 84.4,
-      "vndbVotes": 510,
+      "vndbScore": 84.3,
+      "vndbVotes": 511,
       "bangumiScore": 71,
       "bangumiVotes": 399,
       "egsScore": 75.92,
       "egsVotes": 98,
       "egsMedian": 76,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "文字化化",
@@ -7079,8 +7152,8 @@
       "egsScore": 72,
       "egsVotes": 5,
       "egsMedian": 65,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ドーナドーナ いっしょにわるいことをしよう",
@@ -7111,14 +7184,14 @@
         ]
       },
       "vndbScore": 79.8,
-      "vndbVotes": 2575,
+      "vndbVotes": 2581,
       "bangumiScore": 74,
       "bangumiVotes": 3189,
       "egsScore": 83.96,
       "egsVotes": 873,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "マブラヴ アンリミテッド ザ・デイアフター",
@@ -7153,8 +7226,8 @@
       "egsScore": 73.19,
       "egsVotes": 399,
       "egsMedian": 75,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Z.A.T.O. // I Love the World and Everything In It",
@@ -7189,14 +7262,14 @@
         ]
       },
       "vndbScore": 80.2,
-      "vndbVotes": 1027,
+      "vndbVotes": 1029,
       "bangumiScore": 76,
-      "bangumiVotes": 1191,
+      "bangumiVotes": 1193,
       "egsScore": 74.68,
       "egsVotes": 19,
       "egsMedian": 75,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "君と彼女と彼女の恋。",
@@ -7230,14 +7303,14 @@
         ]
       },
       "vndbScore": 79.4,
-      "vndbVotes": 8069,
+      "vndbVotes": 8072,
       "bangumiScore": 74,
       "bangumiVotes": 3797,
       "egsScore": 79,
       "egsVotes": 1112,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "何度目かのはじめまして",
@@ -7268,14 +7341,14 @@
         ]
       },
       "vndbScore": 79.5,
-      "vndbVotes": 520,
+      "vndbVotes": 521,
       "bangumiScore": 76,
-      "bangumiVotes": 1415,
+      "bangumiVotes": 1420,
       "egsScore": 80.42,
       "egsVotes": 391,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Angel Beats! -1st beat-",
@@ -7303,14 +7376,14 @@
         ]
       },
       "vndbScore": 78.9,
-      "vndbVotes": 1469,
+      "vndbVotes": 1470,
       "bangumiScore": null,
       "bangumiVotes": null,
       "egsScore": 74.17,
       "egsVotes": 352,
       "egsMedian": 77,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "いろとりどりのセカイ",
@@ -7342,14 +7415,14 @@
         ]
       },
       "vndbScore": 80.8,
-      "vndbVotes": 1394,
+      "vndbVotes": 1395,
       "bangumiScore": 74,
       "bangumiVotes": 2498,
       "egsScore": 79.51,
       "egsVotes": 1677,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "灰鷹のサイケデリカ",
@@ -7387,8 +7460,8 @@
       "egsScore": 77.33,
       "egsVotes": 12,
       "egsMedian": 76,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "月の彼方で逢いましょう",
@@ -7427,8 +7500,8 @@
       "egsScore": 80.78,
       "egsVotes": 593,
       "egsMedian": 82,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "きっと、澄みわたる朝色よりも、",
@@ -7466,8 +7539,8 @@
       "egsScore": 77.54,
       "egsVotes": 1317,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "even if TEMPEST 宵闇にかく語りき魔女",
@@ -7504,8 +7577,8 @@
       "egsScore": 72.07,
       "egsVotes": 14,
       "egsMedian": 77,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "あまえんぼ冬",
@@ -7537,14 +7610,14 @@
         ]
       },
       "vndbScore": 81.5,
-      "vndbVotes": 384,
+      "vndbVotes": 383,
       "bangumiScore": 75,
       "bangumiVotes": 584,
       "egsScore": 78.24,
       "egsVotes": 29,
       "egsMedian": 78,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "大図書館の羊飼い",
@@ -7581,12 +7654,12 @@
       "vndbScore": 79.2,
       "vndbVotes": 2250,
       "bangumiScore": 74,
-      "bangumiVotes": 2425,
+      "bangumiVotes": 2426,
       "egsScore": 78.9,
       "egsVotes": 1741,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "天秤のLa DEA。 ～戦女神MEMORIA～",
@@ -7623,8 +7696,8 @@
       "egsScore": 78.52,
       "egsVotes": 464,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ようこそ！ スケベエルフの森へ",
@@ -7662,41 +7735,8 @@
       "egsScore": 76.07,
       "egsVotes": 94,
       "egsMedian": 77,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
-    },
-    {
-      "name": "家族計画 〜そしてまた家族計画を〜",
-      "vndbId": "v3184",
-      "bangumiId": "101434",
-      "egsId": "3789",
-      "metadata": {
-        "titles": {
-          "en": "Kazoku Keikaku ~Soshite Mata Kazoku Keikaku o~",
-          "zh": "家族計画 〜そしてまた家族計画を〜",
-          "ja": "家族計画 〜そしてまた家族計画を〜"
-        },
-        "descriptions": {
-          "en": "Continuation of the Matsuri end of Kazoku Keikaku.",
-          "zh": "Continuation of the Matsuri end of Kazoku Keikaku."
-        },
-        "released": "2004-07-30",
-        "year": 2004,
-        "image": "https://t.vndb.org/cv/44/3844.jpg",
-        "lengthMinutes": 125,
-        "platforms": [
-          "win"
-        ]
-      },
-      "vndbScore": 79.1,
-      "vndbVotes": 173,
-      "bangumiScore": null,
-      "bangumiVotes": null,
-      "egsScore": 76.58,
-      "egsVotes": 1008,
-      "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "もっと！孕ませ！炎のおっぱい異世界超エロ♥サキュバス学園！",
@@ -7727,14 +7767,14 @@
         ]
       },
       "vndbScore": 81.2,
-      "vndbVotes": 537,
+      "vndbVotes": 536,
       "bangumiScore": 72,
       "bangumiVotes": 532,
       "egsScore": 77.59,
       "egsVotes": 132,
       "egsMedian": 78,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "アマカノ２",
@@ -7774,46 +7814,8 @@
       "egsScore": 81.78,
       "egsVotes": 419,
       "egsMedian": 82,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
-    },
-    {
-      "name": "キューピット・パラサイト",
-      "vndbId": "v25912",
-      "bangumiId": "283693",
-      "egsId": "29008",
-      "metadata": {
-        "titles": {
-          "en": "Cupid Parasite",
-          "zh": "共生邱比特",
-          "ja": "キューピット・パラサイト"
-        },
-        "descriptions": {
-          "en": "In the heart of Los York, a glitzy, trendsetting metropolis that sits on the cutting edge of culture and couture, one daring marriage agency stands apart from the rest in success rate and in style. The Cupid Corporation. As Cupid Corp's top bridal advisor, our heroine consults the city's most in-vogue singles to make their wildest romantic dreams come true. But she has one secret which she can never share. Her true identity is Cupid, a descendant from Celestia sent here on a heavenly mission. Only this time, our heroine has been tasked with her biggest challenge yet: handling the matchmaking, and thus the fates, of the infamous Parasite 5. After a series of unimpressive interviews and workshops, they concoct the perfect plan. Parasite House, a shared home created for reality TV centered around the lives of the Parasite 5 and their romantic exploits. Leading these hopeless men to marital bliss proves to be a Herculean task even for great Cupid herself! Can she live up to her name and keep her identity secret at the same time?! Find out in the most divinely unpredictable romantic comedy of the millennium! ♥ [Edited from the Official Website]",
-          "zh": "在名為洛杉約克的時髦大街上， 有一所大型婚介公司——《Cupid Corporation》。 身為首席婚禮顧問的女主角， 致力於幫助嚮往幸福婚姻的洛杉約克的人們締結良緣。 然而她卻有個無法說出口的重大祕密── 那個祕密就是……她的真實身份，其實是因人間諸事與父親起了爭執而降臨離家出走 至人間的──真正的邱比特！ ──某天早上5點的社長辦公室。 「讓這5個人結婚吧。成功的話，你就能晉升。 身為我們公司的首席婚禮顧問…… 你，應該辦得到吧？」 社長所說的， 是引導公司內人盡皆知的5位問題會員【Parasite5】成功結婚。 在反復進行面談、研討會及給予建議的過程中， 竟然決定了要讓女主角在可以推廣公司品牌的婚前聯誼共享租屋TV節目【Parasite House】中登場 ， 並展開和他們的同居生活──！？ 女主角身為真正的邱比特，該拿被當作燙手山芋的這5個人怎麼辦？ 多災多難又超乎想像、女神X婚前聯誼的浪漫喜劇，即將開始── ♥"
-        },
-        "released": "2020-08-20",
-        "year": 2020,
-        "image": "https://t.vndb.org/cv/55/46155.jpg",
-        "lengthMinutes": 3300,
-        "genres": [
-          "乙女向",
-          "乙女ゲーム",
-          "Otomate"
-        ],
-        "platforms": [
-          "swi"
-        ]
-      },
-      "vndbScore": 80,
-      "vndbVotes": 721,
-      "bangumiScore": 65,
-      "bangumiVotes": 216,
-      "egsScore": 77.38,
-      "egsVotes": 8,
-      "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "アマカノ",
@@ -7854,8 +7856,46 @@
       "egsScore": 76.92,
       "egsVotes": 504,
       "egsMedian": 78,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "キューピット・パラサイト",
+      "vndbId": "v25912",
+      "bangumiId": "283693",
+      "egsId": "29008",
+      "metadata": {
+        "titles": {
+          "en": "Cupid Parasite",
+          "zh": "共生邱比特",
+          "ja": "キューピット・パラサイト"
+        },
+        "descriptions": {
+          "en": "In the heart of Los York, a glitzy, trendsetting metropolis that sits on the cutting edge of culture and couture, one daring marriage agency stands apart from the rest in success rate and in style. The Cupid Corporation. As Cupid Corp's top bridal advisor, our heroine consults the city's most in-vogue singles to make their wildest romantic dreams come true. But she has one secret which she can never share. Her true identity is Cupid, a descendant from Celestia sent here on a heavenly mission. Only this time, our heroine has been tasked with her biggest challenge yet: handling the matchmaking, and thus the fates, of the infamous Parasite 5. After a series of unimpressive interviews and workshops, they concoct the perfect plan. Parasite House, a shared home created for reality TV centered around the lives of the Parasite 5 and their romantic exploits. Leading these hopeless men to marital bliss proves to be a Herculean task even for great Cupid herself! Can she live up to her name and keep her identity secret at the same time?! Find out in the most divinely unpredictable romantic comedy of the millennium! ♥ [Edited from the Official Website]",
+          "zh": "在名為洛杉約克的時髦大街上， 有一所大型婚介公司——《Cupid Corporation》。 身為首席婚禮顧問的女主角， 致力於幫助嚮往幸福婚姻的洛杉約克的人們締結良緣。 然而她卻有個無法說出口的重大祕密── 那個祕密就是……她的真實身份，其實是因人間諸事與父親起了爭執而降臨離家出走 至人間的──真正的邱比特！ ──某天早上5點的社長辦公室。 「讓這5個人結婚吧。成功的話，你就能晉升。 身為我們公司的首席婚禮顧問…… 你，應該辦得到吧？」 社長所說的， 是引導公司內人盡皆知的5位問題會員【Parasite5】成功結婚。 在反復進行面談、研討會及給予建議的過程中， 竟然決定了要讓女主角在可以推廣公司品牌的婚前聯誼共享租屋TV節目【Parasite House】中登場 ， 並展開和他們的同居生活──！？ 女主角身為真正的邱比特，該拿被當作燙手山芋的這5個人怎麼辦？ 多災多難又超乎想像、女神X婚前聯誼的浪漫喜劇，即將開始── ♥"
+        },
+        "released": "2020-08-20",
+        "year": 2020,
+        "image": "https://t.vndb.org/cv/55/46155.jpg",
+        "lengthMinutes": 3300,
+        "genres": [
+          "乙女向",
+          "乙女ゲーム",
+          "Otomate"
+        ],
+        "platforms": [
+          "swi"
+        ]
+      },
+      "vndbScore": 80,
+      "vndbVotes": 721,
+      "bangumiScore": 65,
+      "bangumiVotes": 217,
+      "egsScore": 77.38,
+      "egsVotes": 8,
+      "egsMedian": 80,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "AMBITIOUS MISSION",
@@ -7894,8 +7934,8 @@
       "egsScore": 78.45,
       "egsVotes": 652,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "妻みぐい3",
@@ -7905,7 +7945,7 @@
       "metadata": {
         "titles": {
           "en": "Tsumamigui 3",
-          "zh": "妻中蜜 3",
+          "zh": "妻中蜜3",
           "ja": "妻みぐい3"
         },
         "descriptions": {
@@ -7933,8 +7973,8 @@
       "egsScore": 76.26,
       "egsVotes": 187,
       "egsMedian": 77,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "星空鉄道とシロの旅",
@@ -7966,14 +8006,53 @@
         ]
       },
       "vndbScore": 80.3,
-      "vndbVotes": 463,
+      "vndbVotes": 464,
       "bangumiScore": 75,
-      "bangumiVotes": 3499,
+      "bangumiVotes": 3501,
       "egsScore": 82.16,
       "egsVotes": 297,
       "egsMedian": 82,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "ランス・クエスト",
+      "vndbId": "v6985",
+      "bangumiId": "19750",
+      "egsId": "14858",
+      "metadata": {
+        "titles": {
+          "en": "Rance Quest",
+          "zh": "兰斯8",
+          "ja": "ランス・クエスト"
+        },
+        "descriptions": {
+          "en": "Returning from his grand adventure of unifying Nippon, Rance is back home and planning to take it easy for a while. Being Rance, though, he's barely into his vacation before he's getting into trouble and he's struck with a debilitating curse! Under the curse, Rance is unable to have sex with any woman under level 35, and if he goes without a woman for too long, he just might find himself turned off from them forever (if he can even hold out that long). Seems there's no time for a vacation after all! Rance sets off on another grand (though not always grave) adventure across the Continent: to find and fuck all the girls over level 35 he can get his hands on. Chasing his (ig)noble goal, you will challenge hundreds of quests and recruit dozens of characters. There's a huge variety of adventures, dungeons, missions (both weighty and wacky), and sexy things all waiting for you! Meet new faces and return to old companions' beds while you do whatever and whoever it takes to break Rance's curse. [From MangaGamer]",
+          "zh": "アリスソフト引以自豪的看板游戏『ランス』系列又升上了新的舞台！ 引入从未出现过的quest攻略型的系统，能让你不去注意故事的展开也能享受游戏♪ 就像是MMORPG一样尽情玩乐！ 尽管故事是紧接着系列作前作『戦国ランス』，但本作的设计非常好玩，所以第一次接触『ランス』的玩家也无需担心。 为了夺取传闻中的美女“香姫”，ランス远渡大陆东端的岛国・JAPAN。 在旅途中他遇上了弱国・尾張的武将・織田信長，并代他指挥军队，踏上了征服JAPAN的全土与美女之道。 ランス接二连三地将上杉、武田、今川等强豪武将打倒，慢慢将JAPAN全土收归掌中，然而却在战斗的终盘失去了最重要的人…… 然后…… 回到大陆的ランス，现在自由都市地帯的コパ帝国。 与旅程中（伴随着以H为目的）偶然救下的学生・サチコ一起，过着每一天都东奔西走而去达成追求财宝的赏金猎人冒险生活！ 「シィル？ 嘎哈哈哈！ 那东西等日后再说！」 ランス与平时毫无变化（？）一直追着美女H。 就这样以H为目的去了某个カラー的村落的时候，他居然中了一个不能与女性H的诅咒！ 超高速兵器被封掉了的ランス的人生将会是怎样呢？ 但只要女性很强的话H是OK的！ 追求很强的美女与财宝的、ランス与美少女团队的冒险开始了！"
+        },
+        "released": "2011-08-26",
+        "year": 2011,
+        "image": "https://t.vndb.org/cv/90/88390.jpg",
+        "lengthMinutes": 4494,
+        "genres": [
+          "alicesoft",
+          "兰斯",
+          "RPG"
+        ],
+        "platforms": [
+          "win",
+          "web"
+        ]
+      },
+      "vndbScore": 79.7,
+      "vndbVotes": 1607,
+      "bangumiScore": 74,
+      "bangumiVotes": 1700,
+      "egsScore": 74.98,
+      "egsVotes": 1054,
+      "egsMedian": 78,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "魔導巧殻 ～闇の月女神は導国で詠う～",
@@ -8010,47 +8089,8 @@
       "egsScore": 76.65,
       "egsVotes": 590,
       "egsMedian": 79,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
-    },
-    {
-      "name": "ランス・クエスト",
-      "vndbId": "v6985",
-      "bangumiId": "19750",
-      "egsId": "14858",
-      "metadata": {
-        "titles": {
-          "en": "Rance Quest",
-          "zh": "兰斯8",
-          "ja": "ランス・クエスト"
-        },
-        "descriptions": {
-          "en": "Returning from his grand adventure of unifying Nippon, Rance is back home and planning to take it easy for a while. Being Rance, though, he's barely into his vacation before he's getting into trouble and he's struck with a debilitating curse! Under the curse, Rance is unable to have sex with any woman under level 35, and if he goes without a woman for too long, he just might find himself turned off from them forever (if he can even hold out that long). Seems there's no time for a vacation after all! Rance sets off on another grand (though not always grave) adventure across the Continent: to find and fuck all the girls over level 35 he can get his hands on. Chasing his (ig)noble goal, you will challenge hundreds of quests and recruit dozens of characters. There's a huge variety of adventures, dungeons, missions (both weighty and wacky), and sexy things all waiting for you! Meet new faces and return to old companions' beds while you do whatever and whoever it takes to break Rance's curse. [From MangaGamer]",
-          "zh": "アリスソフト引以自豪的看板游戏『ランス』系列又升上了新的舞台！ 引入从未出现过的quest攻略型的系统，能让你不去注意故事的展开也能享受游戏♪ 就像是MMORPG一样尽情玩乐！ 尽管故事是紧接着系列作前作『戦国ランス』，但本作的设计非常好玩，所以第一次接触『ランス』的玩家也无需担心。 为了夺取传闻中的美女“香姫”，ランス远渡大陆东端的岛国・JAPAN。 在旅途中他遇上了弱国・尾張的武将・織田信長，并代他指挥军队，踏上了征服JAPAN的全土与美女之道。 ランス接二连三地将上杉、武田、今川等强豪武将打倒，慢慢将JAPAN全土收归掌中，然而却在战斗的终盘失去了最重要的人…… 然后…… 回到大陆的ランス，现在自由都市地帯的コパ帝国。 与旅程中（伴随着以H为目的）偶然救下的学生・サチコ一起，过着每一天都东奔西走而去达成追求财宝的赏金猎人冒险生活！ 「シィル？ 嘎哈哈哈！ 那东西等日后再说！」 ランス与平时毫无变化（？）一直追着美女H。 就这样以H为目的去了某个カラー的村落的时候，他居然中了一个不能与女性H的诅咒！ 超高速兵器被封掉了的ランス的人生将会是怎样呢？ 但只要女性很强的话H是OK的！ 追求很强的美女与财宝的、ランス与美少女团队的冒险开始了！"
-        },
-        "released": "2011-08-26",
-        "year": 2011,
-        "image": "https://t.vndb.org/cv/90/88390.jpg",
-        "lengthMinutes": 4494,
-        "genres": [
-          "alicesoft",
-          "兰斯",
-          "RPG"
-        ],
-        "platforms": [
-          "win",
-          "web"
-        ]
-      },
-      "vndbScore": 79.6,
-      "vndbVotes": 1606,
-      "bangumiScore": 74,
-      "bangumiVotes": 1700,
-      "egsScore": 74.98,
-      "egsVotes": 1054,
-      "egsMedian": 78,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "魔法少女ノ魔女裁判",
@@ -8083,14 +8123,14 @@
         ]
       },
       "vndbScore": 82.9,
-      "vndbVotes": 1098,
+      "vndbVotes": 1100,
       "bangumiScore": 73,
-      "bangumiVotes": 4469,
+      "bangumiVotes": 4470,
       "egsScore": 83.64,
       "egsVotes": 463,
       "egsMedian": 85,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "ままごと ～ママとないしょのエッチしましょ～",
@@ -8128,8 +8168,8 @@
       "egsScore": 75.21,
       "egsVotes": 95,
       "egsMedian": 75,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "暁の護衛 ～罪深き終末論～",
@@ -8168,8 +8208,8 @@
       "egsScore": 76.53,
       "egsVotes": 2003,
       "egsMedian": 79,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "終遠のヴィルシュ -ErroR:salvation-",
@@ -8209,8 +8249,8 @@
       "egsScore": 84.73,
       "egsVotes": 37,
       "egsMedian": 82,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "家属～母と姉妹の嬌声～",
@@ -8247,47 +8287,8 @@
       "egsScore": 77.12,
       "egsVotes": 57,
       "egsMedian": 79,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
-    },
-    {
-      "name": "ライムライト・レモネードジャム",
-      "vndbId": "v56650",
-      "bangumiId": "561526",
-      "egsId": "38794",
-      "metadata": {
-        "titles": {
-          "en": "LimeLight Lemonade Jam",
-          "zh": "聚光灯下的青柠恋曲",
-          "ja": "ライムライト・レモネードジャム"
-        },
-        "descriptions": {
-          "en": "Music, friends, and love. From the day he met her, the world began to shine— Okinami Yukitaka was skilled at bass but had never belonged to a specific band. He had no goals, yet nothing else he wanted to do. Amidst his aimless musical pursuits, he stumbled upon a street performance that would completely transform his monotonous daily life. There stood a girl, Harumi Ena, challenging herself with a solo performance of singing and guitar playing, with her complete amateur skill. The moment Yukitaka witnessed her street performance, his ordinary world began to sparkle once again. [Translated from official website]",
-          "zh": "音乐、伙伴，还有恋爱。 从遇见她的那天起，世界开始闪闪发光—— 【冲浪雪鹰】的贝斯技术高超，却从未加入过任何固定的乐队。 他没有明确的目标，也找不到其他想做的事。 就在这种漫无目的的音乐生活中，一场街头演出， 彻底改变了【冲浪雪鹰】一成不变的日常。 那是一个独自挑战弹唱的少女——【阳见惠凪】。 她的吉他技术，几乎还是个新手。 然而，从看到她演出的那一刻起， 【冲浪雪鹰】的世界，再度绽放出了光芒。 音楽、仲間、そして恋。 彼女と出逢った日から世界は輝く—— ベースは上手いが、特定のバンドに所属することのなかった【沖浪雪鷹】。 目標がない、けれど他にやりたいこともない。 漫然と音楽活動を続ける中で見かけた路上ライブが、 変わり映えしなかった【沖浪雪鷹】の日常を一変させる。 素人同然のギターで、たった一人で弾き語りに挑戦する少女【陽見恵凪】。 彼女の路上ライブ見かけた瞬間から【沖浪雪鷹】の日常が、再びキラメキ始める。"
-        },
-        "released": "2025-09-26",
-        "year": 2025,
-        "image": "https://t.vndb.org/cv/06/109906.jpg",
-        "lengthMinutes": 2675,
-        "genres": [
-          "柚子社",
-          "废萌",
-          "Yuzusoft"
-        ],
-        "platforms": [
-          "win",
-          "web"
-        ]
-      },
-      "vndbScore": 81,
-      "vndbVotes": 625,
-      "bangumiScore": 69,
-      "bangumiVotes": 1768,
-      "egsScore": 83.05,
-      "egsVotes": 728,
-      "egsMedian": 84,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "アストラエアの白き永遠",
@@ -8325,8 +8326,47 @@
       "egsScore": 77.8,
       "egsVotes": 729,
       "egsMedian": 80,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
+    },
+    {
+      "name": "ライムライト・レモネードジャム",
+      "vndbId": "v56650",
+      "bangumiId": "561526",
+      "egsId": "38794",
+      "metadata": {
+        "titles": {
+          "en": "LimeLight Lemonade Jam",
+          "zh": "橘光柠水随想曲",
+          "ja": "ライムライト・レモネードジャム"
+        },
+        "descriptions": {
+          "en": "Music, friends, and love. From the day he met her, the world began to shine— Okinami Yukitaka was skilled at bass but had never belonged to a specific band. He had no goals, yet nothing else he wanted to do. Amidst his aimless musical pursuits, he stumbled upon a street performance that would completely transform his monotonous daily life. There stood a girl, Harumi Ena, challenging herself with a solo performance of singing and guitar playing, with her complete amateur skill. The moment Yukitaka witnessed her street performance, his ordinary world began to sparkle once again. [Translated from official website]",
+          "zh": "音乐、伙伴，还有恋爱。 从遇见她的那天起，世界开始闪闪发光—— 【冲浪雪鹰】的贝斯技术高超，却从未加入过任何固定的乐队。 他没有明确的目标，也找不到其他想做的事。 就在这种漫无目的的音乐生活中，一场街头演出， 彻底改变了【冲浪雪鹰】一成不变的日常。 那是一个独自挑战弹唱的少女——【阳见惠凪】。 她的吉他技术，几乎还是个新手。 然而，从看到她演出的那一刻起， 【冲浪雪鹰】的世界，再度绽放出了光芒。 音楽、仲間、そして恋。 彼女と出逢った日から世界は輝く—— ベースは上手いが、特定のバンドに所属することのなかった【沖浪雪鷹】。 目標がない、けれど他にやりたいこともない。 漫然と音楽活動を続ける中で見かけた路上ライブが、 変わり映えしなかった【沖浪雪鷹】の日常を一変させる。 素人同然のギターで、たった一人で弾き語りに挑戦する少女【陽見恵凪】。 彼女の路上ライブ見かけた瞬間から【沖浪雪鷹】の日常が、再びキラメキ始める。"
+        },
+        "released": "2025-09-26",
+        "year": 2025,
+        "image": "https://t.vndb.org/cv/06/109906.jpg",
+        "lengthMinutes": 2675,
+        "genres": [
+          "柚子社",
+          "废萌",
+          "Yuzusoft"
+        ],
+        "platforms": [
+          "win",
+          "web"
+        ]
+      },
+      "vndbScore": 80.9,
+      "vndbVotes": 627,
+      "bangumiScore": 69,
+      "bangumiVotes": 1768,
+      "egsScore": 83.05,
+      "egsVotes": 728,
+      "egsMedian": 84,
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "創刻のアテリアル",
@@ -8363,8 +8403,8 @@
       "egsScore": 75.22,
       "egsVotes": 767,
       "egsMedian": 77,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "アマカノ３",
@@ -8402,8 +8442,8 @@
       "egsScore": 82,
       "egsVotes": 247,
       "egsMedian": 82,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "まいてつ Last Run!!",
@@ -8442,8 +8482,8 @@
       "egsScore": 76,
       "egsVotes": 4,
       "egsMedian": 78,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "Role player：小粥姉妹の粘膜ポトレ ぐりぐちゃLIVE！",
@@ -8481,8 +8521,8 @@
       "egsScore": 81.83,
       "egsVotes": 299,
       "egsMedian": 81,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "HUNDRED LINE -最終防衛学園-",
@@ -8513,15 +8553,15 @@
           "swi"
         ]
       },
-      "vndbScore": 79.4,
+      "vndbScore": 79.3,
       "vndbVotes": 1078,
       "bangumiScore": 65,
       "bangumiVotes": 603,
       "egsScore": 74.36,
       "egsVotes": 14,
       "egsMedian": 76,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "FLOWERS -Le volume sur hiver-",
@@ -8561,8 +8601,8 @@
       "egsScore": 81.24,
       "egsVotes": 138,
       "egsMedian": 82,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": null
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     },
     {
       "name": "紅い瞳に映るセカイ",
@@ -8572,7 +8612,7 @@
       "metadata": {
         "titles": {
           "en": "Akai Hitomi ni Utsuru Sekai",
-          "zh": "映入红瞳的世界",
+          "zh": "你朱眸里的五彩世界",
           "ja": "紅い瞳に映るセカイ"
         },
         "descriptions": {
@@ -8599,8 +8639,8 @@
       "egsScore": 77.73,
       "egsVotes": 450,
       "egsMedian": 78,
-      "scoresUpdatedAt": "2026-08-14T04:01:56.913Z",
-      "lastError": "Bangumi: Bangumi returned 404"
+      "scoresUpdatedAt": "2026-08-14T09:19:59.883Z",
+      "lastError": "ErogameScape: fetch failed"
     }
   ]
 }
