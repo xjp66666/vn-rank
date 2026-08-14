@@ -325,6 +325,42 @@
       "egsMedian": 90
     },
     {
+      "name": "死月妖花～四月八日～",
+      "vndbId": "v27916",
+      "bangumiId": "280440",
+      "egsId": "30125",
+      "metadata": {
+        "titles": {
+          "en": "Shigatsu Youka",
+          "zh": "死月妖花～四月八日～",
+          "ja": "死月妖花～四月八日～"
+        },
+        "descriptions": {
+          "en": "April. Comes the season where cherry blossoms dance and waft along the wind—— In one city, a crimson red corpse was discovered. It was in an outright horrendous state of sheer atrocity. Whether it be television, or the Internet and social media, discussions surrounding it blew up, and it had became a trending matter. As for what prompted such heated attention? It was due to the fact that numerous cases of similar circumstances have already occured several times in the past. What should have been just an unrelated matter through screens and media, is what they had presumed, seemed to have started transpiring around these few girls, and a certain \"something\" was wriggling in the dark right by them. [Translated from Freem!]",
+          "zh": "请见证她们幸福的结局。长篇恐怖小说 2020年四月，樱花飘落的季节——。 在某个小镇上，发现了一具惨不忍睹、鲜血淋漓的尸体。 电视、网络和社交媒体都在讨论这一话题。 原因是，这种事件在过去曾多次发生过。 本该只是媒体报道中的事件，却在她们身边悄然蠕动着“某种”东西。"
+        },
+        "released": "2017-03-03",
+        "year": 2017,
+        "image": "https://t.vndb.org/cv/79/129779.jpg",
+        "lengthMinutes": 5779,
+        "genres": [
+          "悬疑",
+          "同人",
+          "AVG"
+        ],
+        "platforms": [
+          "win"
+        ]
+      },
+      "vndbScore": 88.5,
+      "vndbVotes": 159,
+      "bangumiScore": 88,
+      "bangumiVotes": 1024,
+      "egsScore": 84.69,
+      "egsVotes": 54,
+      "egsMedian": 89
+    },
+    {
       "name": "CLANNAD",
       "vndbId": "v4",
       "bangumiId": "13",
@@ -999,6 +1035,48 @@
       "egsMedian": 85
     },
     {
+      "name": "リトルバスターズ！",
+      "vndbId": "v5",
+      "bangumiId": "845",
+      "egsId": "7062",
+      "metadata": {
+        "titles": {
+          "en": "Little Busters!",
+          "zh": "Little Busters! EX",
+          "ja": "リトルバスターズ！"
+        },
+        "descriptions": {
+          "en": "Riki was a child when his parents died, leaving him hopeless and depressed. What saved him was a group of four kids calling themselves the Little Busters. They took Riki out and played with him during his time of need. He really enjoyed being together with them, and his grief gradually faded away. Now in his second year of high school they still hang out, fight and live together, and enjoy their school life. Little Busters! contains several mini-games, including a baseball practice game and a duel battle system.",
+          "zh": "那些，最痛苦的日子 闷闷不乐的每一天 在那样的我的面前，四名少年出现了，向我伸出了手 「强敌出现了！需要你的力量！」 他们这样说着，问了我的名字 「…直枝理树」 「好，走了，理树！」 抓着我的手，拉着我般跑了出去 「喂，你们是！？」 一边为了不跌倒拼尽全力地跟着，一边这样问 「我们吗？ 制裁罪恶的正义伙伴 被人称为…LittleBusters」 会心笑着，报上了名字 敌人，是邻居家屋檐下建成的，大型的蜂巢 确实是个强敌 无数次被击败 受挫的我们，块头最大的男子突然脱掉了上衣（为的是什么到现在也不知道），将佯攻用的蜂蜜涂满了皮肤，说道 「之后就拜托了」 说着，竖起了大拇指，勇敢地冲入了敌阵 理所当然的无数蜜蜂聚了过来接着剩下的其中一人用杀虫剂的喷口朝向那群蜜蜂，另一人在喷出口的正下方点燃了打火机 「直人，不会忘记你的牺牲的！」 同声音一起，从喷口射出了火焰，大个头孩子的身体嘭！的一声燃烧了起来，化做了火柱 「哇啊啊啊——！我没拜托这种事啊啊啊——！！！」 一边燃烧着一边冲出来的身影至今仍无法忘却 紧接着，刚刚在后面没有事做的孩子一脚将燃烧着的男孩子踢倒在地 并为了让他在地面上滚动而继续踢着的画面也很难忘（结果多亏了那个孩子火熄灭了，他因此获救了） 这之后，消防车和救护车驶来变成了大骚动 在学校被叫到了校长室叱责 我因此得知了他们的名字 也记得得知踢倒真人的是位女孩子时的惊诧 这就是我们的相遇，同时也是那些祭典般喧闹的每一天的开始 一直，和他们一起这样生活，我心中的伤痛、寂寞也在不知不觉间消失了 只有快乐… 这样的时间如果能一直下去就好了 只祈求如此"
+        },
+        "released": "2007-07-27",
+        "year": 2007,
+        "image": "https://t.vndb.org/cv/12/75612.jpg",
+        "lengthMinutes": 4995,
+        "genres": [
+          "key",
+          "麻枝准",
+          "友情"
+        ],
+        "platforms": [
+          "win",
+          "and",
+          "psp",
+          "ps2",
+          "ps3",
+          "psv",
+          "swi"
+        ]
+      },
+      "vndbScore": 86.3,
+      "vndbVotes": 9192,
+      "bangumiScore": 85,
+      "bangumiVotes": 2816,
+      "egsScore": 82.97,
+      "egsVotes": 1773,
+      "egsMedian": 85
+    },
+    {
       "name": "蒼の彼方のフォーリズム EXTRA2",
       "vndbId": "v21438",
       "bangumiId": "308808",
@@ -1037,48 +1115,6 @@
       "egsScore": 87.3,
       "egsVotes": 619,
       "egsMedian": 88
-    },
-    {
-      "name": "リトルバスターズ！",
-      "vndbId": "v5",
-      "bangumiId": "845",
-      "egsId": "7062",
-      "metadata": {
-        "titles": {
-          "en": "Little Busters!",
-          "zh": "Little Busters!",
-          "ja": "リトルバスターズ！"
-        },
-        "descriptions": {
-          "en": "Riki was a child when his parents died, leaving him hopeless and depressed. What saved him was a group of four kids calling themselves the Little Busters. They took Riki out and played with him during his time of need. He really enjoyed being together with them, and his grief gradually faded away. Now in his second year of high school they still hang out, fight and live together, and enjoy their school life. Little Busters! contains several mini-games, including a baseball practice game and a duel battle system.",
-          "zh": "あの一番辛かった日々。 毎日ふさぎ込んでいた日々。 そんな僕の前に、四人の男の子が現れて、僕に手を差しのばしてくれたんだ。 「強敵があらわれたんだ！きみの力がひつようなんだ！」 そう彼らは訴え、僕の名を訊いた。 「･･･なおえ、りき」 「よし、いくぞ、りき！」 一方的に手を掴んで、僕を引きずるように走り出す。 「ね、きみたちは！？」 転ばないように必死についていきながら、そう訊く。 「おれたちか？ 悪をせいばいする正義の味方。 ひとよんで･･･リトルバスターズさ」 歯をにやりと見せ、そう名乗った。 敵は、近所の家の軒下にできた、大きな蜂の巣だった。 まさしく強敵だった。 何度も返り討ちにあった。 挫けかけた僕たちだったが、一番大柄な男の子が突然上着を脱ぎ捨て（なぜかは今もわからない）、 陽動用のハチミツを素肌にべったりと塗ると、 「後は、頼んだぜ」 そう言って、仲間たちに親指を突き上げて見せた後、果敢に敵陣へと突っ込んでいった。 当然のように無数の鉢に群がられた。 それへ残るひとりが殺虫スプレーの先を向け、もうひとりが噴出口の真下にライターを添えた。 「まさと、おまえのぎせいは忘れん！」 声と同時にスプレーから火が放たれ、大柄な子の体がぼぅ！と燃え上がり、火柱と化す。 「うおおぉぉおおぉぉ――っ！んなこと頼むかあぁぁぁ――――――っ！！！」 燃えながらツッコミを入れるあの姿は今でも目に焼きついて離れない。 直後、後ろでつまらなさそうにしていた子が、燃え上がる男の子を一蹴りで卒倒させ、 さらに地面を転がるように蹴り続けていた絵も忘れられない（結局そのおかげで鎮火し、彼は助かったのだが）。 その後、消防車と救急車が駆けつける大騒ぎになった。 学校では校長室に呼び出され、叱られたりもした。 そこで僕は、彼らの名前を知った。 真人を蹴っていた鈴が女の子だと聞いて驚いたことも覚えている。 それが、僕らの出会いで、そしてそんなお祭り騒ぎのような日々の始まりでもあった。 ずっと、そうして彼らと生きていたら、僕はいつの間にか心の痛みも寂しさも忘れていた。 ただただ、楽しくて･･･ いつまでもこんな時間が続けばいい。 それだけを願うようになった。"
-        },
-        "released": "2007-07-27",
-        "year": 2007,
-        "image": "https://t.vndb.org/cv/12/75612.jpg",
-        "lengthMinutes": 4995,
-        "genres": [
-          "key",
-          "麻枝准",
-          "友情"
-        ],
-        "platforms": [
-          "win",
-          "and",
-          "psp",
-          "ps2",
-          "ps3",
-          "psv",
-          "swi"
-        ]
-      },
-      "vndbScore": 86.3,
-      "vndbVotes": 9192,
-      "bangumiScore": 84,
-      "bangumiVotes": 1008,
-      "egsScore": 82.97,
-      "egsVotes": 1773,
-      "egsMedian": 85
     },
     {
       "name": "ファタモルガーナの館 -Another Episodes-",
@@ -1381,44 +1417,6 @@
       "egsMedian": 93
     },
     {
-      "name": "さくらの雲＊スカアレットの恋",
-      "vndbId": "v26664",
-      "bangumiId": "292024",
-      "egsId": "28762",
-      "metadata": {
-        "titles": {
-          "en": "Sakura no Kumo * Scarlet no Koi",
-          "zh": "樱色之云绯色之恋",
-          "ja": "さくらの雲＊スカアレットの恋"
-        },
-        "descriptions": {
-          "en": "\"1920 ...?\" Tsukasa Kazami, a young man who lives in 2020, sees himself travel back in time 100 years ago after sitting under a cherry tree. -- Tokyo, the Imperial Capital. Full of hopes for the future, it's a brilliant romantic city where the flowers of culture are in full bloom. \"Elementary, Tsukasa. The last thing left is always the truth.\" A mysterious British woman who runs a detective agency alone in the imperial capital. Under her lack of money, Tsukasa is involved in numerous incidents ...? \"--Now, let's find out the answer\". Which era will awaken his true potential, Reiwa or Taisho? The curtain of this retro mystery among cherry blossoms lifts!",
-          "zh": "2020年に生きる青年・風見司は、桜の木の下から100年前へタイムスリップを遂げてしまった。 ――帝都・東京。 そこは新時代への希望に満ち、文化の華が咲き乱れた、輝かしき浪漫の都。 そんな帝都でひとり探偵事務所を営む謎の英国女性・所長。 日々金欠にあえぐ彼女のもとで、司は数々の事件に巻き込まれていき……？ 枝分かれする彼の運命がたどり着くのは、果たして令和か大正か。"
-        },
-        "released": "2020-09-25",
-        "year": 2020,
-        "image": "https://t.vndb.org/cv/78/90878.jpg",
-        "lengthMinutes": 2147,
-        "genres": [
-          "きゃべつそふと",
-          "全年龄",
-          "CabbageSoft"
-        ],
-        "platforms": [
-          "win",
-          "ps4",
-          "swi"
-        ]
-      },
-      "vndbScore": 80.8,
-      "vndbVotes": 536,
-      "bangumiScore": 72,
-      "bangumiVotes": 50,
-      "egsScore": 85.95,
-      "egsVotes": 1557,
-      "egsMedian": 87
-    },
-    {
       "name": "Rewrite",
       "vndbId": "v751",
       "bangumiId": "4022",
@@ -1682,7 +1680,7 @@
       "vndbScore": 84.6,
       "vndbVotes": 3048,
       "bangumiScore": 83,
-      "bangumiVotes": 7997,
+      "bangumiVotes": 7998,
       "egsScore": 86.35,
       "egsVotes": 3632,
       "egsMedian": 88
@@ -2542,43 +2540,6 @@
       "egsMedian": 85
     },
     {
-      "name": "FLOWERS -Le volume sur automne-",
-      "vndbId": "v18152",
-      "egsId": "22702",
-      "bangumiId": "167531",
-      "metadata": {
-        "titles": {
-          "en": "Flowers -Le volume sur automne-",
-          "zh": "FLOWERS -Le volume sur automne-",
-          "ja": "FLOWERS -Le volume sur automne-"
-        },
-        "descriptions": {
-          "en": "Yatsushiro Yuzuriha, president of the school's Council of Nicaea, knows the truth hidden within the school. The silver-haired beauty seeks to prevent Suou from reaching it by giving her what seems like an impossible task—take over the role of president and she'll hand over the key to what she desires. However, Yuzuriha is harboring her own secret, buried deep within herself... As the leaves turn and strange incidents continue to plague the isolated Saint Angraecum Academy, interweaving threads of emotion tangle together in an intricate story of love and truth. This is the third game in the Flowers visual novel series from Innocent Grey, renowned for its beautiful artwork, engaging stories, and complex characters. [Taken from Steam]",
-          "zh": "Yatsushiro Yuzuriha, president of the school's Council of Nicaea, knows the truth hidden within the school. The silver-haired beauty seeks to prevent Suou from reaching it by giving her what seems like an impossible task—take over the role of president and she'll hand over the key to what she desires. However, Yuzuriha is harboring her own secret, buried deep within herself... As the leaves turn and strange incidents continue to plague the isolated Saint Angraecum Academy, interweaving threads of emotion tangle together in an intricate story of love and truth. This is the third game in the Flowers visual novel series from Innocent Grey, renowned for its beautiful artwork, engaging stories, and complex characters. [Taken from Steam]"
-        },
-        "released": "2016-05-27",
-        "year": 2016,
-        "image": "https://t.vndb.org/cv/13/77913.jpg",
-        "lengthMinutes": 937,
-        "genres": [
-          "Visual novel"
-        ],
-        "platforms": [
-          "win",
-          "ps4",
-          "psv",
-          "swi"
-        ]
-      },
-      "vndbScore": 82.7,
-      "vndbVotes": 819,
-      "bangumiScore": null,
-      "bangumiVotes": null,
-      "egsScore": 82.32,
-      "egsVotes": 168,
-      "egsMedian": 82
-    },
-    {
       "name": "巨乳ファンタジー外伝2",
       "vndbId": "v13083",
       "bangumiId": "83275",
@@ -2907,47 +2868,6 @@
       "egsMedian": 85
     },
     {
-      "name": "金色ラブリッチェ",
-      "vndbId": "v21852",
-      "bangumiId": "225784",
-      "egsId": "25861",
-      "metadata": {
-        "titles": {
-          "en": "Kinkoi: Golden Loveriche",
-          "zh": "金辉恋曲四重奏",
-          "ja": "金色ラブリッチェ"
-        },
-        "descriptions": {
-          "en": "Noble Private Academy: it is where the ladies and gentlemen of the future are raised. At this boarding school, students not only learn basic education, but are also taught how to be dignified. This year is especially unique since royalty from the small Scandinavian country of Sortilège were invited to the school. Ouro caught the eye of the princess Sylvia after a certain incident, which led to him being beaten up at the school and ultimately placed into a vacant room in the girls’ dormitory. [From Hau~ Omochikaeri!]",
-          "zh": "私立ノーブル学園。 そこは未来の紳士淑女を作る場所。 教養だけでなく、品格を学ぶための全寮制の学園である。 とくに今年は、さる北欧の小国より王族を招いたとかで、学園は例年にない緊迫感を帯びていた。 主人公、市松央路が思いがけないことからお姫様に気に入られ、 学園に叩きこまれたのはそんなとき。 寮の空き部屋の関係で、 女子寮の端に押し込まれたのはそんなときだった……。"
-        },
-        "released": "2017-12-22",
-        "year": 2017,
-        "image": "https://t.vndb.org/cv/41/93841.jpg",
-        "lengthMinutes": 2760,
-        "genres": [
-          "全年龄",
-          "ADV",
-          "森部"
-        ],
-        "platforms": [
-          "win",
-          "ios",
-          "and",
-          "ps4",
-          "psv",
-          "swi"
-        ]
-      },
-      "vndbScore": 81.6,
-      "vndbVotes": 3779,
-      "bangumiScore": 80,
-      "bangumiVotes": 3,
-      "egsScore": 82.68,
-      "egsVotes": 1902,
-      "egsMedian": 84
-    },
-    {
       "name": "もんむす・くえすと！ ぱらどっくすRPG前章",
       "vndbId": "v17046",
       "bangumiId": "131500",
@@ -3217,6 +3137,45 @@
       "egsMedian": 70
     },
     {
+      "name": "FLOWERS -Le volume sur automne-",
+      "vndbId": "v18152",
+      "bangumiId": "167531",
+      "egsId": "22702",
+      "metadata": {
+        "titles": {
+          "en": "Flowers -Le volume sur automne-",
+          "zh": "FLOWERS 秋篇",
+          "ja": "FLOWERS -Le volume sur automne-"
+        },
+        "descriptions": {
+          "en": "Yatsushiro Yuzuriha, president of the school's Council of Nicaea, knows the truth hidden within the school. The silver-haired beauty seeks to prevent Suou from reaching it by giving her what seems like an impossible task—take over the role of president and she'll hand over the key to what she desires. However, Yuzuriha is harboring her own secret, buried deep within herself... As the leaves turn and strange incidents continue to plague the isolated Saint Angraecum Academy, interweaving threads of emotion tangle together in an intricate story of love and truth. This is the third game in the Flowers visual novel series from Innocent Grey, renowned for its beautiful artwork, engaging stories, and complex characters. [Taken from Steam]",
+          "zh": "尼西亚会的会长——八代让叶知晓学院背后的内幕。她提出近乎不可能的要求，希望以此逼迫苏芳放弃调查。 “如果你能成为尼西亚会的会长，我就将打开真相大门的钥匙交给你。” 苏芳为了真相东奔西走，然而，守望着她的八代让叶内心深处也怀着不可告人的秘密—— 秋风吹红了叶尖，圣彗星兰学院依然发生了数起不可思议的事件。恋爱的红线错综复杂，故事在恋心与真相交织之中徐徐展开……"
+        },
+        "released": "2016-05-27",
+        "year": 2016,
+        "image": "https://t.vndb.org/cv/13/77913.jpg",
+        "lengthMinutes": 937,
+        "genres": [
+          "百合",
+          "InnocentGrey",
+          "杉菜水姫"
+        ],
+        "platforms": [
+          "win",
+          "ps4",
+          "psv",
+          "swi"
+        ]
+      },
+      "vndbScore": 82.7,
+      "vndbVotes": 819,
+      "bangumiScore": 81,
+      "bangumiVotes": 1022,
+      "egsScore": 82.32,
+      "egsVotes": 168,
+      "egsMedian": 82
+    },
+    {
       "name": "アマカノ２＋",
       "vndbId": "v31813",
       "bangumiId": "345691",
@@ -3249,7 +3208,7 @@
       "vndbScore": 86.5,
       "vndbVotes": 386,
       "bangumiScore": 79,
-      "bangumiVotes": 1283,
+      "bangumiVotes": 1284,
       "egsScore": 85.63,
       "egsVotes": 311,
       "egsMedian": 87
@@ -3500,7 +3459,7 @@
       "vndbScore": 80.8,
       "vndbVotes": 9339,
       "bangumiScore": 83,
-      "bangumiVotes": 4512,
+      "bangumiVotes": 4513,
       "egsScore": 80.92,
       "egsVotes": 83,
       "egsMedian": 81
@@ -4115,6 +4074,44 @@
       "egsScore": 80.31,
       "egsVotes": 1403,
       "egsMedian": 81
+    },
+    {
+      "name": "さくらの雲＊スカアレットの恋",
+      "vndbId": "v26664",
+      "bangumiId": "292024",
+      "egsId": "28762",
+      "metadata": {
+        "titles": {
+          "en": "Sakura no Kumo * Scarlet no Koi",
+          "zh": "樱色之云*绯色之恋",
+          "ja": "さくらの雲＊スカアレットの恋"
+        },
+        "descriptions": {
+          "en": "\"1920 ...?\" Tsukasa Kazami, a young man who lives in 2020, sees himself travel back in time 100 years ago after sitting under a cherry tree. -- Tokyo, the Imperial Capital. Full of hopes for the future, it's a brilliant romantic city where the flowers of culture are in full bloom. \"Elementary, Tsukasa. The last thing left is always the truth.\" A mysterious British woman who runs a detective agency alone in the imperial capital. Under her lack of money, Tsukasa is involved in numerous incidents ...? \"--Now, let's find out the answer\". Which era will awaken his true potential, Reiwa or Taisho? The curtain of this retro mystery among cherry blossoms lifts!",
+          "zh": "2020年に生きる青年・風見司は、桜の木の下から100年前へタイムスリップを遂げてしまった。 ――帝都・東京。 そこは新時代への希望に満ち、文化の華が咲き乱れた、輝かしき浪漫の都。 「初歩だよ、司。最後に残ったものが真実なんだ」 そんな帝都でひとり探偵事務所を営む謎の英国女性・所長。 日々金欠にあえぐ彼女のもとで、司は数々の事件に巻き込まれていき……？ 「ーさぁ、解決編を始めようか」 枝分かれする彼の運命がたどり着くのは、果たして令和か大正か。 100年の時を超えー 今ここに、桜舞うレトロ・ミステリィの幕が開ける！"
+        },
+        "released": "2020-09-25",
+        "year": 2020,
+        "image": "https://t.vndb.org/cv/78/90878.jpg",
+        "lengthMinutes": 2147,
+        "genres": [
+          "冬茜トム",
+          "梱枝りこ",
+          "推理"
+        ],
+        "platforms": [
+          "win",
+          "ps4",
+          "swi"
+        ]
+      },
+      "vndbScore": 80.8,
+      "vndbVotes": 536,
+      "bangumiScore": 76,
+      "bangumiVotes": 2316,
+      "egsScore": 85.95,
+      "egsVotes": 1557,
+      "egsMedian": 87
     },
     {
       "name": "レイジングループ",
@@ -4904,6 +4901,47 @@
       "egsScore": 80.94,
       "egsVotes": 212,
       "egsMedian": 80
+    },
+    {
+      "name": "金色ラブリッチェ",
+      "vndbId": "v21852",
+      "bangumiId": "225784",
+      "egsId": "25861",
+      "metadata": {
+        "titles": {
+          "en": "Kinkoi: Golden Loveriche",
+          "zh": "金辉恋曲四重奏",
+          "ja": "金色ラブリッチェ"
+        },
+        "descriptions": {
+          "en": "Noble Private Academy: it is where the ladies and gentlemen of the future are raised. At this boarding school, students not only learn basic education, but are also taught how to be dignified. This year is especially unique since royalty from the small Scandinavian country of Sortilège were invited to the school. Ouro caught the eye of the princess Sylvia after a certain incident, which led to him being beaten up at the school and ultimately placed into a vacant room in the girls’ dormitory. [From Hau~ Omochikaeri!]",
+          "zh": "私立ノーブル学園。 そこは未来の紳士淑女を作る場所。 教養だけでなく、品格を学ぶための全寮制の学園である。 とくに今年は、さる北欧の小国より王族を招いたとかで、学園は例年にない緊迫感を帯びていた。 主人公、市松央路が思いがけないことからお姫様に気に入られ、 学園に叩きこまれたのはそんなとき。 寮の空き部屋の関係で、 女子寮の端に押し込まれたのはそんなときだった……。"
+        },
+        "released": "2017-12-22",
+        "year": 2017,
+        "image": "https://t.vndb.org/cv/41/93841.jpg",
+        "lengthMinutes": 2760,
+        "genres": [
+          "SAGA",
+          "さかき傘",
+          "金发"
+        ],
+        "platforms": [
+          "win",
+          "ios",
+          "and",
+          "ps4",
+          "psv",
+          "swi"
+        ]
+      },
+      "vndbScore": 81.6,
+      "vndbVotes": 3779,
+      "bangumiScore": 76,
+      "bangumiVotes": 3293,
+      "egsScore": 82.68,
+      "egsVotes": 1902,
+      "egsMedian": 84
     },
     {
       "name": "真剣で私に恋しなさい！A-1",
@@ -5871,45 +5909,6 @@
       "egsMedian": 70
     },
     {
-      "name": "大逆転裁判 ‐成歩堂龍ノ介の冒険‐",
-      "vndbId": "v15125",
-      "bangumiId": "102690",
-      "egsId": "23626",
-      "metadata": {
-        "titles": {
-          "en": "The Great Ace Attorney: Adventures",
-          "zh": "大逆转裁判 －成步堂龙之介的冒险－",
-          "ja": "大逆転裁判 ‐成歩堂龍ノ介の冒険‐"
-        },
-        "descriptions": {
-          "en": "The Great Ace Attorney: Adventures is an an Ace Attorney prequel game. Unlike previous canonical games in the series, which are set in the near future and feature somewhat futuristic technology, this game is set near the end of Japan's Meiji period, when the profession of \"defense attorney\" was still a fairly new concept in Japanese society. The game stars Phoenix Wright's ancestor, Ryunosuke Naruhodo, as well as a judicial assistant named Susato Mikotoba. Although the game initially takes place in Japan, the two later travel to the United Kingdom and work cases alongside the renowned detective Herlock Sholmes. [From Ace Attorney Wiki]",
-          "zh": "The Great Ace Attorney: Adventures is an an Ace Attorney prequel game. Unlike previous canonical games in the series, which are set in the near future and feature somewhat futuristic technology, this game is set near the end of Japan's Meiji period, when the profession of \"defense attorney\" was still a fairly new concept in Japanese society. The game stars Phoenix Wright's ancestor, Ryunosuke Naruhodo, as well as a judicial assistant named Susato Mikotoba. Although the game initially takes place in Japan, the two later travel to the United Kingdom and work cases alongside the renowned detective Herlock Sholmes. [From Ace Attorney Wiki]"
-        },
-        "released": "2015-07-09",
-        "year": 2015,
-        "image": "https://t.vndb.org/cv/78/85978.jpg",
-        "lengthMinutes": 1980,
-        "genres": [
-          "Visual novel"
-        ],
-        "platforms": [
-          "win",
-          "ios",
-          "and",
-          "ps4",
-          "swi",
-          "n3d"
-        ]
-      },
-      "vndbScore": 78.9,
-      "vndbVotes": 2016,
-      "bangumiScore": null,
-      "bangumiVotes": null,
-      "egsScore": 77.25,
-      "egsVotes": 36,
-      "egsMedian": 78
-    },
-    {
       "name": "はつゆきさくら",
       "vndbId": "v7302",
       "bangumiId": "19002",
@@ -5963,14 +5962,16 @@
         },
         "descriptions": {
           "en": "Hisao Nakai is a normal high school student, currently in his final year of high school. One day Hisao finds an anonymous letter in his math textbook, directing him to meet the sender at a given location. The sender turns out to be his crush, however, as she confesses to him, he suddenly collapses. He awakes in a hospital bed, and is told by the doctors that the reason he collapsed is due to arrhythmia, a rare heart condition that causes his heartbeat to sometimes become irregular. Due to this, his parents have enrolled him in Yamaku, a school for (physically) disabled students.",
-          "zh": "Hisao Nakai is a normal high school student, currently in his final year of high school. One day Hisao finds an anonymous letter in his math textbook, directing him to meet the sender at a given location. The sender turns out to be his crush, however, as she confesses to him, he suddenly collapses. He awakes in a hospital bed, and is told by the doctors that the reason he collapsed is due to arrhythmia, a rare heart condition that causes his heartbeat to sometimes become irregular. Due to this, his parents have enrolled him in Yamaku, a school for (physically) disabled students."
+          "zh": "时间为2007年--中井久夫，原本是一个拥有着正常生活的普通男高中生，却因为一次先天性心肌缺损引发的意外而进行了长期住院。 之后为了健康上的考虑，不得不离开了昔日的学校和同伴，转到了一所位于现代日本某处，专门为残疾人士而开办的高中，山久高校。 虽然同时背负了身体上和心理上的障碍，他还是鼓起勇气告别了自己的过去，交上了新的朋友。如果他能够做出正确的选择，甚至还能拥有爱情...... 游戏中绝大部分故事情节发生在位于现代日本的山久高校。这所虚构的高中设立的目的是为具身心障碍的儿童服务。原本过着正常生活的普通男高中生中井久夫（Hisao Nakai）半年前因先天性心肌缺损意外引发了心律不整。经过长期的住院治疗，家长出于健康的考量，让久夫离开原本的学校，转往山久高校就读。尽管身体上和心理上存在着多重障碍，中井被迫改变自己过去的生活，于新学校展开生活。在这过程中，尽管遭遇了许多波折，中井也结识了5名拥有不同残疾的少女，随着时间的过去，彼此之间也渐渐发展出爱情关系。"
         },
         "released": "2009-04-29",
         "year": 2009,
         "image": "https://t.vndb.org/cv/88/88188.jpg",
         "lengthMinutes": 2025,
         "genres": [
-          "Visual novel"
+          "同人",
+          "治愈",
+          "老美的Gal"
         ],
         "platforms": [
           "win",
@@ -5986,8 +5987,8 @@
       },
       "vndbScore": 78.8,
       "vndbVotes": 18400,
-      "bangumiScore": null,
-      "bangumiVotes": null,
+      "bangumiScore": 73,
+      "bangumiVotes": 242,
       "egsScore": 72.31,
       "egsVotes": 88,
       "egsMedian": 75
@@ -6747,40 +6748,6 @@
       "egsMedian": 80
     },
     {
-      "name": "Angel Beats! -1st beat-",
-      "vndbId": "v13774",
-      "bangumiId": "84520",
-      "egsId": "19670",
-      "metadata": {
-        "titles": {
-          "en": "Angel Beats! -1st beat-",
-          "zh": "Angel Beats! -1st beat-",
-          "ja": "Angel Beats! -1st beat-"
-        },
-        "descriptions": {
-          "en": "Angel Beats! is a collaboration project of Key, Dengeki G's, and Aniplex. The story of the visual novel is to be based on the Angel Beats! anime series. The player takes on the role of Otonashi, a newcomer to the Afterlife who finds himself in the middle of a struggle between a group of students who call themselves the Shinda Sekai Sensen (\"Afterlife Battlefront\"), or SSS for short, and a mysterious girl who is known under the alias of Tenshi (Angel). The story will undergo changes from the original anime and will include story routes with each of the characters. It also stated that Otonashi will be very different than his original personality in the anime, and will change according to the choices made by the player. [Edited from Angel Beats! wiki] Rumors of a game release existed since 2010, but a formal game announcement was made in 2013. The first volume was released on June 26, 2015. Only the first volume had been released while the other five planned volumes have been abandoned with no announcement. The Angel Beats! collaborations in Key x Wright Flyer Studios gacha game HEAVEN BURNS RED contain content that would've been in 2nd beat and beyond.",
-          "zh": "Angel Beats! is a collaboration project of Key, Dengeki G's, and Aniplex. The story of the visual novel is to be based on the Angel Beats! anime series. The player takes on the role of Otonashi, a newcomer to the Afterlife who finds himself in the middle of a struggle between a group of students who call themselves the Shinda Sekai Sensen (\"Afterlife Battlefront\"), or SSS for short, and a mysterious girl who is known under the alias of Tenshi (Angel). The story will undergo changes from the original anime and will include story routes with each of the characters. It also stated that Otonashi will be very different than his original personality in the anime, and will change according to the choices made by the player. [Edited from Angel Beats! wiki] Rumors of a game release existed since 2010, but a formal game announcement was made in 2013. The first volume was released on June 26, 2015. Only the first volume had been released while the other five planned volumes have been abandoned with no announcement. The Angel Beats! collaborations in Key x Wright Flyer Studios gacha game HEAVEN BURNS RED contain content that would've been in 2nd beat and beyond."
-        },
-        "released": "2015-06-26",
-        "year": 2015,
-        "image": "https://t.vndb.org/cv/70/121870.jpg",
-        "lengthMinutes": 1656,
-        "genres": [
-          "Visual novel"
-        ],
-        "platforms": [
-          "win"
-        ]
-      },
-      "vndbScore": 78.9,
-      "vndbVotes": 1470,
-      "bangumiScore": null,
-      "bangumiVotes": null,
-      "egsScore": 74.17,
-      "egsVotes": 352,
-      "egsMedian": 77
-    },
-    {
       "name": "月の彼方で逢いましょう",
       "vndbId": "v24803",
       "bangumiId": "253621",
@@ -7037,7 +7004,7 @@
       "vndbScore": 79.2,
       "vndbVotes": 2250,
       "bangumiScore": 74,
-      "bangumiVotes": 2426,
+      "bangumiVotes": 2427,
       "egsScore": 78.91,
       "egsVotes": 1740,
       "egsMedian": 80
@@ -7305,6 +7272,42 @@
       "egsMedian": 80
     },
     {
+      "name": "Angel Beats! -1st beat-",
+      "vndbId": "v13774",
+      "bangumiId": "84520",
+      "egsId": "19670",
+      "metadata": {
+        "titles": {
+          "en": "Angel Beats! -1st beat-",
+          "zh": "Angel Beats! -1st beat-",
+          "ja": "Angel Beats! -1st beat-"
+        },
+        "descriptions": {
+          "en": "Angel Beats! is a collaboration project of Key, Dengeki G's, and Aniplex. The story of the visual novel is to be based on the Angel Beats! anime series. The player takes on the role of Otonashi, a newcomer to the Afterlife who finds himself in the middle of a struggle between a group of students who call themselves the Shinda Sekai Sensen (\"Afterlife Battlefront\"), or SSS for short, and a mysterious girl who is known under the alias of Tenshi (Angel). The story will undergo changes from the original anime and will include story routes with each of the characters. It also stated that Otonashi will be very different than his original personality in the anime, and will change according to the choices made by the player. [Edited from Angel Beats! wiki] Rumors of a game release existed since 2010, but a formal game announcement was made in 2013. The first volume was released on June 26, 2015. Only the first volume had been released while the other five planned volumes have been abandoned with no announcement. The Angel Beats! collaborations in Key x Wright Flyer Studios gacha game HEAVEN BURNS RED contain content that would've been in 2nd beat and beyond.",
+          "zh": "†『Angel Beats！ 1st beat』ストーリー† 舞台は死後の世界。運命に立ち向かう少年少女達の物語。 何らかの理由で最期を遂げた少年・音無は死後の世界の学校で、ゆりと名乗る少女と出会う。彼女は理不尽な人生を強いた神に反逆する“死んだ世界戦線”のリーダーで、日夜激戦を繰り広げていた。 彼女たちに立ちはだかるのは、神の使い“天使”と呼ばれる1人の可憐な少女だった。生前の記憶がなく、この死後の世界で何が起きているのかもわからず戸惑う音無。彼はゆりたちとともに戦う道を選ぶことにしたのだが……。"
+        },
+        "released": "2015-06-26",
+        "year": 2015,
+        "image": "https://t.vndb.org/cv/70/121870.jpg",
+        "lengthMinutes": 1656,
+        "genres": [
+          "key",
+          "麻枝准",
+          "有生之年"
+        ],
+        "platforms": [
+          "win"
+        ]
+      },
+      "vndbScore": 78.9,
+      "vndbVotes": 1470,
+      "bangumiScore": 72,
+      "bangumiVotes": 570,
+      "egsScore": 74.17,
+      "egsVotes": 352,
+      "egsMedian": 77
+    },
+    {
       "name": "妻みぐい3",
       "vndbId": "v18486",
       "bangumiId": "149220",
@@ -7450,6 +7453,47 @@
       "egsScore": 76.65,
       "egsVotes": 590,
       "egsMedian": 79
+    },
+    {
+      "name": "大逆転裁判 ‐成歩堂龍ノ介の冒険‐",
+      "vndbId": "v15125",
+      "bangumiId": "102690",
+      "egsId": "23626",
+      "metadata": {
+        "titles": {
+          "en": "The Great Ace Attorney: Adventures",
+          "zh": "大逆转裁判 成步堂龙之介的冒险",
+          "ja": "大逆転裁判 ‐成歩堂龍ノ介の冒険‐"
+        },
+        "descriptions": {
+          "en": "The Great Ace Attorney: Adventures is an an Ace Attorney prequel game. Unlike previous canonical games in the series, which are set in the near future and feature somewhat futuristic technology, this game is set near the end of Japan's Meiji period, when the profession of \"defense attorney\" was still a fairly new concept in Japanese society. The game stars Phoenix Wright's ancestor, Ryunosuke Naruhodo, as well as a judicial assistant named Susato Mikotoba. Although the game initially takes place in Japan, the two later travel to the United Kingdom and work cases alongside the renowned detective Herlock Sholmes. [From Ace Attorney Wiki]",
+          "zh": "たな物語の幕が上がる… 『逆転裁判』の新プロジェクトである『大逆転裁判』の舞台は19世紀末の日本と倫敦(ロンドン)。 帝都有盟大学の学生である成歩堂 龍ノ介(なるほどう りゅうのすけ)は、 ある事件をキッカケに弁護士を目指す法務助士である御琴羽 寿沙都(みことば すさと)とともに、最新の司法制度を学ぶため、 日本から大英帝国の首都であるロンドンへ旅立つ! そこで、世紀の名探偵シャーロック・ホームズとその相棒アイリス・ワトソンと奇跡の邂逅を果たすのだった。 倫敦に到着して早々、弁護を依頼され、大英帝国の法廷に立つこととなる龍ノ介。 日本の法廷では、検事や証人と闘うのみだったが、英国の法廷では、倫敦市民から無作為に選ばれた6人の陪審員が加わる。 いったい龍ノ介は、異国の地で行われる法廷で、どのようにして無罪を勝ち取るのか? 陪審員という存在が加わることで、日本の法廷とは一味違った法廷バトルが楽しめそうだ。"
+        },
+        "released": "2015-07-09",
+        "year": 2015,
+        "image": "https://t.vndb.org/cv/78/85978.jpg",
+        "lengthMinutes": 1980,
+        "genres": [
+          "逆转裁判",
+          "巧舟",
+          "3DS"
+        ],
+        "platforms": [
+          "win",
+          "ios",
+          "and",
+          "ps4",
+          "swi",
+          "n3d"
+        ]
+      },
+      "vndbScore": 78.9,
+      "vndbVotes": 2016,
+      "bangumiScore": 72,
+      "bangumiVotes": 1425,
+      "egsScore": 77.25,
+      "egsVotes": 36,
+      "egsMedian": 78
     },
     {
       "name": "魔法少女ノ魔女裁判",
@@ -7972,12 +8016,6 @@
       "egsScore": 77.73,
       "egsVotes": 450,
       "egsMedian": 78
-    },
-    {
-      "name": "死月妖花～四月八日～",
-      "vndbId": "v27916",
-      "bangumiId": "280440",
-      "egsId": "30125"
     }
   ]
 }
