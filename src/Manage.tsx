@@ -152,7 +152,7 @@ export function Manage() {
             />
           </label>
           <label>
-            <span>Bangumi ID or URL (optional)</span>
+            <span>Bangumi ID or URL</span>
             <input
               onChange={(event) => setForm({ ...form, bangumiId: event.target.value })}
               placeholder="54898"
@@ -160,7 +160,7 @@ export function Manage() {
             />
           </label>
           <label>
-            <span>EGS ID or URL (optional)</span>
+            <span>EGS ID or URL</span>
             <input
               onChange={(event) => setForm({ ...form, egsId: event.target.value })}
               placeholder="13255"

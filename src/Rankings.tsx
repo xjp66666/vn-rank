@@ -14,7 +14,7 @@ const sourceLabels: Record<SourceKey, string> = {
 const copy = {
   en: {
     heading: "Visual novel rankings",
-    intro: "A simple combined ranking from VNDB, Bangumi, and optional EGS data.",
+    intro: "A simple combined ranking from VNDB, Bangumi, and EGS data.",
     updating: "Updating",
     live: "Static data",
     unavailable: "Data unavailable",
@@ -54,16 +54,16 @@ const copy = {
     cancel: "Keep top 100",
     how: "How scores work",
     methodTitle: "One score, multiple communities.",
-    method: "Each available source record is linked permanently. GitHub Actions refreshes those exact scores once per day and averages the ratings by vote count. Each ErogameScape vote has twice the influence of a VNDB or Bangumi vote.",
-    formulaOne: "Rating × votes for each source",
-    formulaTwo: "EGS votes × 2",
+    method: "Each available source record is linked permanently. GitHub Actions refreshes those exact scores once per day and averages the ratings by vote count. Each ErogameScape vote has 1.5 times the influence of a VNDB or Bangumi vote.",
+    formulaOne: "Rating x votes for each source",
+    formulaTwo: "EGS votes x 1.5",
     formulaThree: "÷ combined votes overall",
     note: "Independent ranking. Scores and cover images belong to their respective sources.",
     yearUnknown: "Year unknown",
   },
   zh: {
     heading: "视觉小说排名",
-    intro: "综合 VNDB、Bangumi 与可选 EGS 数据的简洁排名。",
+    intro: "综合 VNDB、Bangumi 与 EroGameScape 数据的简洁排名",
     updating: "正在更新",
     live: "静态数据",
     unavailable: "数据不可用",
@@ -102,10 +102,10 @@ const copy = {
     continue: "显示其余排名",
     cancel: "保留前 100 名",
     how: "评分方式",
-    methodTitle: "一个分数，多个社区。",
-    method: "每部作品会永久链接到对应的来源记录。GitHub Actions 每天更新一次评分，并按投票数计算加权平均分。每一张 ErogameScape 投票的影响力是 VNDB 或 Bangumi 投票的两倍。",
-    formulaOne: "各来源评分 × 投票数",
-    formulaTwo: "EGS 投票数 × 2",
+    methodTitle: "多社区综合排名",
+    method: "每部作品会永久链接到对应的来源记录。GitHub Actions 每天更新一次评分，并按投票数计算加权平均分。每一张 ErogameScape 投票的影响力是 VNDB 或 Bangumi 投票的1.5倍。",
+    formulaOne: "各来源评分 x 投票数",
+    formulaTwo: "EGS 投票数 x 1.5",
     formulaThree: "÷ 总加权投票数",
     note: "本站为独立排名；评分与封面图片归各数据来源所有。",
     yearUnknown: "年份未知",
@@ -200,10 +200,10 @@ export function Rankings() {
 
   const lastUpdated = updatedAt
     ? new Date(updatedAt).toLocaleDateString(language === "zh" ? "zh-CN" : "en", {
-        month: "short",
-        day: "numeric",
-        year: "numeric",
-      })
+      month: "short",
+      day: "numeric",
+      year: "numeric",
+    })
     : text.notUpdated;
 
   const countText = text.showCount

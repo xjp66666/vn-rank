@@ -1041,7 +1041,7 @@
     {
       "name": "リトルバスターズ！",
       "vndbId": "v5",
-      "bangumiId": "125131",
+      "bangumiId": "845",
       "egsId": "7062",
       "metadata": {
         "titles": {
@@ -1266,43 +1266,6 @@
       "egsMedian": 90
     },
     {
-      "name": "シルバー事件25区",
-      "vndbId": "v22728",
-      "bangumiId": "332969",
-      "metadata": {
-        "titles": {
-          "en": "The 25th Ward: The Silver Case",
-          "zh": "银色事件25区",
-          "ja": "シルバー事件25区"
-        },
-        "descriptions": {
-          "en": "It is five years since the events of 1999’s “The Silver Case,” set in the new 25th Ward that arose in the bayside area of Kanto. In a room of the “Bayside Tower Land” apartment complex, a woman is found murdered under mysterious circumstances. This sets off a series of seemingly random events throwing together multiple protagonists including The Silver Case’s Tokio Morishima. With all viewpoints assembled, a truly shocking pattern emerges… Available for the first time outside Japan, The 25th Ward: The Silver Case is presented with new HD assets and additional content not found in the original version. A SUDA51 Trip – Set in the “Kill the Past” universe, the series continues its bleak look into a semi-futuristic world on the edge of collapse and the misfits and antiheroes that inhabit it. Brave New World – The return of the signature “Film Window” system is brought to The 25th Ward for the first time! New visuals, sounds and controls capture the game in a fresh perspective. One Story, Many Sides – Includes all three of the original arcs released for the title, “Correctness”, “Placebo”, and “Matchmaker”. [From Steam] This visual novel is a sequel to the adventure game \"Flower, Sun, and Rain\".",
-          "zh": "1999年に発売されたプレイステーション® 用ソフト『シルバー事件』の続編となる携帯電話用コンテンツ。2018年3月14日にはPC向けのHDリマスター版がSteamで配信開始。 『シルバー事件』同様、テキストを読み進めていくことがメインとなっているが、数字入力による謎解きなども含む。 凶悪犯罪課編の「Correctness」、地域調整課編の「Match Maker」、モリシマトキオ編の「Placebo」の3つのシナリオが、それぞれ5話ずつという構成。 尚、「Correctness」の4話目は、前作のキャラクターが登場するスペシャルストーリー「Transmitter digital man」となっている。 『シルバー事件』で描かれた1999年から5年。カントウの湾岸地区に新たに誕生した\"25区\"を舞台とした物語。"
-        },
-        "released": "2005-10-03",
-        "year": 2005,
-        "image": "https://t.vndb.org/cv/40/78340.jpg",
-        "lengthMinutes": 1260,
-        "genres": [
-          "AVG",
-          "2005",
-          "ADV"
-        ],
-        "platforms": [
-          "win",
-          "lin",
-          "mac",
-          "ps4",
-          "swi",
-          "mob"
-        ]
-      },
-      "vndbScore": 85.4,
-      "vndbVotes": 518,
-      "bangumiScore": 78,
-      "bangumiVotes": 26
-    },
-    {
       "name": "BLACK SHEEP TOWN",
       "vndbId": "v21069",
       "bangumiId": "212376",
@@ -1420,7 +1383,7 @@
     {
       "name": "さくらの雲＊スカアレットの恋",
       "vndbId": "v26664",
-      "bangumiId": "491515",
+      "bangumiId": "292024",
       "egsId": "28762",
       "metadata": {
         "titles": {
@@ -2582,6 +2545,7 @@
       "name": "FLOWERS -Le volume sur automne-",
       "vndbId": "v18152",
       "egsId": "22702",
+      "bangumiId": "119895",
       "metadata": {
         "titles": {
           "en": "Flowers -Le volume sur automne-",
@@ -2613,38 +2577,6 @@
       "egsScore": 82.32,
       "egsVotes": 168,
       "egsMedian": 82
-    },
-    {
-      "name": "Umineko no Naku Koro ni Musu",
-      "vndbId": "v24610",
-      "bangumiId": "364956",
-      "metadata": {
-        "titles": {
-          "en": "Umineko no Naku Koro ni Musu",
-          "zh": "海猫鸣泣之时 蒸",
-          "ja": "Umineko no Naku Koro ni Musu"
-        },
-        "descriptions": {
-          "en": "Umineko no Naku Koro ni Musu takes place in the year 1996 during a short period of time on April 14th in Skinner's home within a residential neighborhood. The principal of Springfield Elementary School named Seymour Skinner, who lives on and owns his own home in the aforementioned peaceful neighbourhood, has invited Superintendent Chalmers to his home, to enjoy a home-cooked meal of his making. After Superintendent Chalmers arrives, something goes amiss, and things don't go according to plan. Will Seymour be able to salvage this meal as well as Chalmers's perception of him?",
-          "zh": "Umineko no Naku Koro ni Musu takes place in the year 1996 during a short period of time on April 14th in Skinner's home within a residential neighborhood. The principal of Springfield Elementary School named Seymour Skinner, who lives on and owns his own home in the aforementioned peaceful neighbourhood, has invited Superintendent Chalmers to his home, to enjoy a home-cooked meal of his making. After Superintendent Chalmers arrives, something goes amiss, and things don't go according to plan. Will Seymour be able to salvage this meal as well as Chalmers's perception of him?"
-        },
-        "released": "2018-10-31",
-        "year": 2018,
-        "image": "https://t.vndb.org/cv/37/37137.jpg",
-        "lengthMinutes": 25,
-        "genres": [
-          "同人",
-          "ADV",
-          "全年龄"
-        ],
-        "platforms": [
-          "win"
-        ]
-      },
-      "vndbScore": 82.6,
-      "vndbVotes": 319,
-      "bangumiScore": 70,
-      "bangumiVotes": 1
     },
     {
       "name": "巨乳ファンタジー外伝2",
@@ -2684,76 +2616,6 @@
       "egsScore": 82.52,
       "egsVotes": 322,
       "egsMedian": 83
-    },
-    {
-      "name": "Our Life: Beginnings & Always",
-      "vndbId": "v26391",
-      "bangumiId": "368297",
-      "metadata": {
-        "titles": {
-          "en": "Our Life: Beginnings & Always",
-          "zh": "我们的生活：起点与永远",
-          "ja": "Our Life: Beginnings & Always"
-        },
-        "descriptions": {
-          "en": "Jamie Last (name can be changed) has spent the last couple weeks on a summertime high. At eight-years-old nothing is better than what feels like endless days of school-less adventures, especially when you live walking distance from the beach. While coming home under a scorching sunset one fine evening, Jamie is approached by a stranger. The man is looking for a kid who can do him a favor, and he’s even offering to pay for it. He wants Jamie to please be friends with his only child. The person is Mr. Holden, Jamie’s new neighbor as well as the father of the odd, and oddly named, boy Cove. Whether Jamie wants to play along or not, Cove isn’t going anywhere. He's present in Jamie's life for far longer than they ever would've guessed. And somehow the long days of vacation finally come to an end. Summer may not be able to last forever, but Jamie can take comfort in knowing it will come back again someday… [From itch.io]",
-          "zh": "Jamie Last (changeable name) has spent the last couple weeks on a summertime high. At eight-years-old, nothing is better than what feels like endless days of school-less adventures, especially when you live walking distance from the beach. While coming home under a scorching sunset one fine evening, Jamie is approached by a stranger. The man is looking for a kid who can do him a favor, and he’s even offering to pay for it. He wants Jamie to please be friends with his only child. The person is Mr. Holden, Jamie’s new neighbor, as well as the father of the odd, and oddly named boy, Cove. Whether Jamie wants to play along or not, Cove isn’t going anywhere. He's present in Jamie's life for far longer than they ever would've guessed. And then the long days of vacation finally come to an end. Summer may not be able to last forever, but Jamie can take comfort in knowing it will come back again someday…"
-        },
-        "released": "2020-11-16",
-        "year": 2020,
-        "image": "https://t.vndb.org/cv/25/51025.jpg",
-        "lengthMinutes": 1575,
-        "genres": [
-          "AVG",
-          "STEAM",
-          "ADV"
-        ],
-        "platforms": [
-          "win",
-          "lin",
-          "mac",
-          "and"
-        ]
-      },
-      "vndbScore": 82.6,
-      "vndbVotes": 708,
-      "bangumiScore": 75,
-      "bangumiVotes": 21
-    },
-    {
-      "name": "Being a DIK",
-      "vndbId": "v25288",
-      "bangumiId": "442342",
-      "metadata": {
-        "titles": {
-          "en": "Being a DIK",
-          "zh": "我的大学生活",
-          "ja": "Being a DIK"
-        },
-        "descriptions": {
-          "en": "A young man, from a low-income family, moves away from his widowed father and his summer love to attend college at Burgmeister & Royce. As he is cast into freshman life and persuaded to join the up-and-coming fraternity Delta Iota Kappa, he'll be exposed to a new world filled with conflicts, alcohol, drugs and sex. [From Patreon]",
-          "zh": "A young man from a low-income family moves away from his widowed father and his summer love to attend college at Burgmeister & Royce. As he is cast into freshman life and persuaded to join the up-and-coming fraternity Delta Iota Kappa, he'll be exposed to a new world filled with conflicts, alcohol, drugs and sex."
-        },
-        "released": "2020-01-10",
-        "year": 2020,
-        "image": "https://t.vndb.org/cv/40/76340.jpg",
-        "lengthMinutes": null,
-        "genres": [
-          "欧美",
-          "ADV",
-          "SLG"
-        ],
-        "platforms": [
-          "win",
-          "lin",
-          "mac",
-          "and"
-        ]
-      },
-      "vndbScore": 82.3,
-      "vndbVotes": 685,
-      "bangumiScore": 81,
-      "bangumiVotes": 28
     },
     {
       "name": "月姫",
@@ -3047,7 +2909,7 @@
     {
       "name": "金色ラブリッチェ",
       "vndbId": "v21852",
-      "bangumiId": "540123",
+      "bangumiId": "225784",
       "egsId": "25861",
       "metadata": {
         "titles": {
@@ -6009,43 +5871,9 @@
       "egsMedian": 70
     },
     {
-      "name": "Bernd und das Rätsel um Unteralterbach",
-      "vndbId": "v13871",
-      "bangumiId": "304587",
-      "metadata": {
-        "titles": {
-          "en": "Bernd and the Mystery of Unteralterbach",
-          "zh": "Bernd und das Rätsel um Unteralterbach",
-          "ja": "Bernd und das Rätsel um Unteralterbach"
-        },
-        "descriptions": {
-          "en": "The story takes place in present-day Bavaria. Socially awkward 24-year-old NEET Bernd Lauert starts a new life in the small mountain town of Unteralterbach. He is forced to take a job at a local police station to help with the investigation of a gang of sex offenders. But of course nothing is as it seems, and Bernd soon finds himself in a deep, supernatural mess. [From Ren'Py]",
-          "zh": "The story takes place in present-day Bavaria. Socially awkward 24-year-old NEET Bernd Lauert starts a new life in the small mountain town of Unteralterbach. He is forced to take a job at a local police station to help with the investigation of a gang of sex offenders. But of course nothing is as it seems, and Bernd soon finds himself in a deep, supernatural mess."
-        },
-        "released": "2013-10-27",
-        "year": 2013,
-        "image": "https://t.vndb.org/cv/75/18275.jpg",
-        "lengthMinutes": 820,
-        "genres": [
-          "拔作",
-          "萝莉"
-        ],
-        "platforms": [
-          "win",
-          "lin",
-          "mac",
-          "ios",
-          "and"
-        ]
-      },
-      "vndbScore": 79,
-      "vndbVotes": 729,
-      "bangumiScore": 10,
-      "bangumiVotes": 1
-    },
-    {
       "name": "大逆転裁判 ‐成歩堂龍ノ介の冒険‐",
       "vndbId": "v15125",
+      "bangumiId": "102690",
       "egsId": "23626",
       "metadata": {
         "titles": {
@@ -6125,6 +5953,7 @@
     {
       "name": "かたわ少女",
       "vndbId": "v945",
+      "bangumiId": "28710",
       "egsId": "17154",
       "metadata": {
         "titles": {
@@ -6279,41 +6108,6 @@
       "egsScore": 81.14,
       "egsVotes": 1811,
       "egsMedian": 81
-    },
-    {
-      "name": "世界滅亡共有幻想マミヤ",
-      "vndbId": "v28576",
-      "egsId": "25094",
-      "metadata": {
-        "titles": {
-          "en": "MAMIYA - A Shared Illusion of the World's End",
-          "zh": "世界灭亡共有幻想MAMIYA",
-          "ja": "世界滅亡共有幻想マミヤ"
-        },
-        "descriptions": {
-          "en": "MAMIYA - A Shared Illusion of the World's End - is a captivating, dark visual novel in which a group of young men struggle against existential dread before the end of the world. Story Tokyo, during the year in which the world was prophesied to end. As we clung to reality, too spineless to throw our lives away together, we met Mamiya. At a friend's funeral, the entire crowd was weeping and mourning, while we thought to ourselves that the death of a single person had no meaningful impact on the world at large. We slept, woke up, and went through the same daily grind as ever. At least, that's how it was supposed to be. Then Mamiya appeared... Before we even knew it, the mysterious child named Mamiya had wormed their way into our daily lives. They slowly, but surely, became something of an emotional support. They'd brought us down a new path. A path that would surely lead us to our deaths... [From Fruitbat Factory]",
-          "zh": "MAMIYA - A Shared Illusion of the World's End - is a captivating, dark visual novel in which a group of young men struggle against existential dread before the end of the world. Story Tokyo, during the year in which the world was prophesied to end. As we clung to reality, too spineless to throw our lives away together, we met Mamiya. At a friend's funeral, the entire crowd was weeping and mourning, while we thought to ourselves that the death of a single person had no meaningful impact on the world at large. We slept, woke up, and went through the same daily grind as ever. At least, that's how it was supposed to be. Then Mamiya appeared... Before we even knew it, the mysterious child named Mamiya had wormed their way into our daily lives. They slowly, but surely, became something of an emotional support. They'd brought us down a new path. A path that would surely lead us to our deaths... [From Fruitbat Factory]"
-        },
-        "released": "2016-12-29",
-        "year": 2016,
-        "image": "https://t.vndb.org/cv/56/79656.jpg",
-        "lengthMinutes": 1154,
-        "genres": [
-          "Visual novel"
-        ],
-        "platforms": [
-          "win",
-          "mac",
-          "swi"
-        ]
-      },
-      "vndbScore": 78.9,
-      "vndbVotes": 351,
-      "bangumiScore": null,
-      "bangumiVotes": null,
-      "egsScore": 67,
-      "egsVotes": 7,
-      "egsMedian": 70
     },
     {
       "name": "ef - a fairy tale of the two.",
@@ -6768,44 +6562,6 @@
       "egsMedian": 76
     },
     {
-      "name": "文字化化",
-      "vndbId": "v51437",
-      "bangumiId": "404387",
-      "egsId": "37480",
-      "metadata": {
-        "titles": {
-          "en": "Homicipher",
-          "zh": "文字化化",
-          "ja": "文字化化"
-        },
-        "descriptions": {
-          "en": "Homicipher is an adventure horror game where you’ll decipher a language, fall in love and escape. Players will face various horrifying men in this strange world. Your aim is to decipher their language and eventually find a way to escape. Meanwhile, a peculiar feeling also starts to bloom.",
-          "zh": "『文字化化(Homicipher)』は、謎の言語を話す“ホラー男子”たちと対峙しながら、 脱出を目指す言語解読型ホラーADVです。 プレイヤーは異界に迷い込んだ主人公として、不穏な世界を探索しながら、 相手の言葉を観察・推測・解読し、少しずつ真実に近づいていきます。 また、登場するキャラクターたちは人間とは異なる価値観を持つ個性派ぞろい。 恐ろしくも魅力的な存在たちとの“言葉を超えた交流”が体験できます。 ◆あらすじ--------------------------- 目が覚めると、そこは現実とは異なる“異界”――。 そこでは、人間の言葉は一切通じない。 主人公は、意味不明な言語を話す異形の存在たちと出会い、 彼らの言葉を理解することで、脱出への道を探ることになります。"
-        },
-        "released": "2024-11-01",
-        "year": 2024,
-        "image": "https://t.vndb.org/cv/51/121451.jpg",
-        "lengthMinutes": 507,
-        "genres": [
-          "乙女向",
-          "解谜",
-          "AVG"
-        ],
-        "platforms": [
-          "win",
-          "and",
-          "swi"
-        ]
-      },
-      "vndbScore": 80.3,
-      "vndbVotes": 397,
-      "bangumiScore": 66,
-      "bangumiVotes": 72,
-      "egsScore": 72,
-      "egsVotes": 5,
-      "egsMedian": 65
-    },
-    {
       "name": "ドーナドーナ いっしょにわるいことをしよう",
       "vndbId": "v27519",
       "bangumiId": "297734",
@@ -6993,6 +6749,7 @@
     {
       "name": "Angel Beats! -1st beat-",
       "vndbId": "v13774",
+      "bangumiId": "84520",
       "egsId": "19670",
       "metadata": {
         "titles": {
@@ -8215,6 +7972,12 @@
       "egsScore": 77.73,
       "egsVotes": 450,
       "egsMedian": 78
+    },
+    {
+      "name": "死月妖花～四月八日～",
+      "vndbId": "v27916",
+      "bangumiId": "280440",
+      "egsId": "30125"
     }
   ]
 }
