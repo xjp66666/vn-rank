@@ -36,12 +36,14 @@ jobs:
             exit 1
           fi
       - run: npm ci
-      - name: Validate committed data
+      - name: Validate committed files
         run: npm run validate:data
       - name: Fetch source scores and rebuild static data
         run: npm run update:data
         env:
           BANGUMI_ACCESS_TOKEN: ${{ secrets.BANGUMI_ACCESS_TOKEN }}
+      - name: Validate refreshed rankings
+        run: npm run validate:synced-data
       - name: Commit refreshed scores
         if: github.event_name != 'push'
         run: |

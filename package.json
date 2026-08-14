@@ -16,7 +16,8 @@
     "import:top": "node scripts/import-vndb-top.mjs",
     "map:egs": "node scripts/map-egs-ids.mjs --write",
     "update:data": "node scripts/update-rankings.mjs",
-    "validate:data": "node scripts/validate-data.mjs"
+    "validate:data": "node scripts/validate-data.mjs",
+    "validate:synced-data": "node scripts/validate-data.mjs --require-synced"
   },
   "dependencies": {
     "react": "19.2.8",

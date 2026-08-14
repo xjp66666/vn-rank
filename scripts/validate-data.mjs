@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 
 const EGS_VOTE_WEIGHT = 1.5;
+const requireSyncedData = process.argv.includes("--require-synced");
 
 const dataFiles = [
   ["catalog", new URL("../data/catalog.json", import.meta.url)],
@@ -35,7 +36,10 @@ if (!Array.isArray(rankings.rankings)) {
   throw new Error("public/data/rankings.json must contain a rankings array");
 }
 
-if (rankings.rankings.length !== catalog.titles.length) {
+if (
+  requireSyncedData
+  && rankings.rankings.length !== catalog.titles.length
+) {
   throw new Error(
     "public/data/rankings.json must contain every title from data/catalog.json",
   );
@@ -96,7 +100,11 @@ for (const [index, title] of rankings.rankings.entries()) {
     throw new Error(`ranking ${index + 1} must have rank ${index + 1}`);
   }
 
-  if (!vndbIds.has(title.id)) {
+  if (typeof title.id !== "string" || !/^v\d+$/.test(title.id)) {
+    throw new Error(`ranking ${index + 1} has an invalid VNDB ID: ${title.id}`);
+  }
+
+  if (requireSyncedData && !vndbIds.has(title.id)) {
     throw new Error(`ranking ${index + 1} references unknown VNDB ID: ${title.id}`);
   }
 
@@ -152,5 +160,5 @@ for (const [index, title] of rankings.rankings.entries()) {
 }
 
 console.log(
-  `Validated ${catalog.titles.length} catalog titles and ${rankings.rankings.length} rankings.`,
+  `Validated ${catalog.titles.length} catalog titles and ${rankings.rankings.length} rankings${requireSyncedData ? " in sync" : ""}.`,
 );

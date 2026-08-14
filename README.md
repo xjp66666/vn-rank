@@ -24,11 +24,10 @@ Then run:
 
 ```powershell
 npm install
-npm run update:data
 npm run check
 ```
 
-Review the generated changes, commit them, and open a pull request. Never commit `.dev.vars`, access tokens, `node_modules/`, or `dist/`.
+Commit your catalog change and open a pull request. You do not need to fetch scores or regenerate the rankings; GitHub Actions does that after the change is merged. Never commit `.dev.vars`, access tokens, `node_modules/`, or `dist/`.
 
 ## Run locally
 
