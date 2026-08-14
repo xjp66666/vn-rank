@@ -32,7 +32,7 @@
       "vndbScore": 90.2,
       "vndbVotes": 1157,
       "bangumiScore": 93,
-      "bangumiVotes": 3608,
+      "bangumiVotes": 3609,
       "egsScore": 93.47,
       "egsVotes": 1150,
       "egsMedian": 99
@@ -71,7 +71,7 @@
       "vndbScore": 90.3,
       "vndbVotes": 4432,
       "bangumiScore": 91,
-      "bangumiVotes": 7104,
+      "bangumiVotes": 7105,
       "egsScore": 89.63,
       "egsVotes": 2630,
       "egsMedian": 94
@@ -283,7 +283,7 @@
       "vndbScore": 84.5,
       "vndbVotes": 8685,
       "bangumiScore": 91,
-      "bangumiVotes": 9767,
+      "bangumiVotes": 9768,
       "egsScore": 89.4,
       "egsVotes": 479,
       "egsMedian": 91
@@ -1411,7 +1411,7 @@
       "vndbScore": 80.7,
       "vndbVotes": 2224,
       "bangumiScore": 85,
-      "bangumiVotes": 1296,
+      "bangumiVotes": 1303,
       "egsScore": 89.6,
       "egsVotes": 1221,
       "egsMedian": 93
@@ -1680,7 +1680,7 @@
       "vndbScore": 84.6,
       "vndbVotes": 3048,
       "bangumiScore": 83,
-      "bangumiVotes": 7998,
+      "bangumiVotes": 7999,
       "egsScore": 86.35,
       "egsVotes": 3632,
       "egsMedian": 88
@@ -1718,7 +1718,7 @@
       "vndbScore": 86.3,
       "vndbVotes": 616,
       "bangumiScore": 83,
-      "bangumiVotes": 1010,
+      "bangumiVotes": 1011,
       "egsScore": 84.22,
       "egsVotes": 2888,
       "egsMedian": 86
@@ -2345,7 +2345,7 @@
       "vndbScore": 83.5,
       "vndbVotes": 12821,
       "bangumiScore": 77,
-      "bangumiVotes": 1486,
+      "bangumiVotes": 1489,
       "egsScore": 83.2,
       "egsVotes": 3261,
       "egsMedian": 85
@@ -2455,7 +2455,7 @@
       "vndbScore": 81.2,
       "vndbVotes": 970,
       "bangumiScore": 84,
-      "bangumiVotes": 1316,
+      "bangumiVotes": 1318,
       "egsScore": 80.02,
       "egsVotes": 91,
       "egsMedian": 81
@@ -2619,7 +2619,7 @@
       "vndbScore": 81.8,
       "vndbVotes": 11390,
       "bangumiScore": 82,
-      "bangumiVotes": 2559,
+      "bangumiVotes": 2560,
       "egsScore": 83.69,
       "egsVotes": 2369,
       "egsMedian": 85
@@ -2939,7 +2939,7 @@
       "vndbScore": 85.4,
       "vndbVotes": 3559,
       "bangumiScore": 77,
-      "bangumiVotes": 4249,
+      "bangumiVotes": 4250,
       "egsScore": 85.69,
       "egsVotes": 1692,
       "egsMedian": 86
@@ -3093,7 +3093,7 @@
       "vndbScore": 74.3,
       "vndbVotes": 1703,
       "bangumiScore": 83,
-      "bangumiVotes": 2251,
+      "bangumiVotes": 2259,
       "egsScore": 85.7,
       "egsVotes": 1868,
       "egsMedian": 88
@@ -3327,7 +3327,7 @@
       "vndbScore": 81.3,
       "vndbVotes": 620,
       "bangumiScore": 79,
-      "bangumiVotes": 3082,
+      "bangumiVotes": 3083,
       "egsScore": 84.84,
       "egsVotes": 1737,
       "egsMedian": 85
@@ -4188,7 +4188,7 @@
       "vndbScore": 80.1,
       "vndbVotes": 531,
       "bangumiScore": 79,
-      "bangumiVotes": 2686,
+      "bangumiVotes": 2687,
       "egsScore": 83.69,
       "egsVotes": 1396,
       "egsMedian": 85
@@ -4296,7 +4296,7 @@
       "vndbScore": 80.4,
       "vndbVotes": 4761,
       "bangumiScore": 76,
-      "bangumiVotes": 1012,
+      "bangumiVotes": 1013,
       "egsScore": 82.93,
       "egsVotes": 2293,
       "egsMedian": 84
@@ -4717,7 +4717,7 @@
       "vndbScore": 80.8,
       "vndbVotes": 7557,
       "bangumiScore": 79,
-      "bangumiVotes": 3213,
+      "bangumiVotes": 3214,
       "egsScore": 79.47,
       "egsVotes": 136,
       "egsMedian": 80
@@ -5516,7 +5516,7 @@
       "vndbScore": 79.6,
       "vndbVotes": 1098,
       "bangumiScore": 76,
-      "bangumiVotes": 5237,
+      "bangumiVotes": 5238,
       "egsScore": 84.12,
       "egsVotes": 2522,
       "egsMedian": 85
@@ -5880,7 +5880,7 @@
         "released": "2008-09-18",
         "year": 2008,
         "image": "https://t.vndb.org/cv/60/76060.jpg",
-        "lengthMinutes": 5293,
+        "lengthMinutes": 5256,
         "genres": [
           "乙女向",
           "女性向",
@@ -5944,7 +5944,7 @@
       "vndbScore": 80.3,
       "vndbVotes": 1644,
       "bangumiScore": 74,
-      "bangumiVotes": 3165,
+      "bangumiVotes": 3166,
       "egsScore": 81.62,
       "egsVotes": 3111,
       "egsMedian": 83
@@ -6067,7 +6067,7 @@
       "vndbScore": 76.1,
       "vndbVotes": 935,
       "bangumiScore": 81,
-      "bangumiVotes": 1007,
+      "bangumiVotes": 1008,
       "egsScore": 77.81,
       "egsVotes": 91,
       "egsMedian": 79
@@ -7528,7 +7528,7 @@
       "vndbScore": 82.9,
       "vndbVotes": 1100,
       "bangumiScore": 73,
-      "bangumiVotes": 4470,
+      "bangumiVotes": 4471,
       "egsScore": 83.67,
       "egsVotes": 463,
       "egsMedian": 85
@@ -7625,7 +7625,7 @@
         },
         "released": "2021-10-07",
         "year": 2021,
-        "image": "https://t.vndb.org/cv/55/88055.jpg",
+        "image": "https://t.vndb.org/cv/42/80342.jpg",
         "lengthMinutes": 3338,
         "genres": [
           "乙女向",
