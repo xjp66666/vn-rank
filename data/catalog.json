@@ -30,9 +30,9 @@
         ]
       },
       "vndbScore": 90.2,
-      "vndbVotes": 1164,
+      "vndbVotes": 1165,
       "bangumiScore": 93,
-      "bangumiVotes": 3611,
+      "bangumiVotes": 3614,
       "egsScore": 93.47,
       "egsVotes": 1150,
       "egsMedian": 99
@@ -69,9 +69,9 @@
         ]
       },
       "vndbScore": 90.3,
-      "vndbVotes": 4452,
+      "vndbVotes": 4457,
       "bangumiScore": 91,
-      "bangumiVotes": 7117,
+      "bangumiVotes": 7119,
       "egsScore": 89.63,
       "egsVotes": 2630,
       "egsMedian": 94
@@ -107,15 +107,17 @@
           "psp",
           "ps3",
           "ps4",
+          "ps5",
           "psv",
           "swi",
+          "sw2",
           "xb3"
         ]
       },
       "vndbScore": 90.2,
-      "vndbVotes": 16661,
+      "vndbVotes": 16665,
       "bangumiScore": 89,
-      "bangumiVotes": 8456,
+      "bangumiVotes": 8459,
       "egsScore": 90.54,
       "egsVotes": 503,
       "egsMedian": 93
@@ -155,9 +157,9 @@
         ]
       },
       "vndbScore": 89.9,
-      "vndbVotes": 11243,
+      "vndbVotes": 11245,
       "bangumiScore": 88,
-      "bangumiVotes": 4033,
+      "bangumiVotes": 4036,
       "egsScore": 89.42,
       "egsVotes": 3670,
       "egsMedian": 94
@@ -199,9 +201,9 @@
         ]
       },
       "vndbScore": 89.9,
-      "vndbVotes": 10881,
+      "vndbVotes": 10886,
       "bangumiScore": 86,
-      "bangumiVotes": 1478,
+      "bangumiVotes": 1479,
       "egsScore": 73.5,
       "egsVotes": 204,
       "egsMedian": 75
@@ -235,9 +237,9 @@
         ]
       },
       "vndbScore": 90.1,
-      "vndbVotes": 5939,
+      "vndbVotes": 5946,
       "bangumiScore": 86,
-      "bangumiVotes": 4391,
+      "bangumiVotes": 4395,
       "egsScore": 88.84,
       "egsVotes": 3004,
       "egsMedian": 90
@@ -281,9 +283,9 @@
         ]
       },
       "vndbScore": 84.5,
-      "vndbVotes": 8697,
+      "vndbVotes": 8698,
       "bangumiScore": 91,
-      "bangumiVotes": 9784,
+      "bangumiVotes": 9789,
       "egsScore": 89.4,
       "egsVotes": 479,
       "egsMedian": 91
@@ -317,9 +319,9 @@
         ]
       },
       "vndbScore": 86.7,
-      "vndbVotes": 2677,
+      "vndbVotes": 2680,
       "bangumiScore": 88,
-      "bangumiVotes": 3220,
+      "bangumiVotes": 3221,
       "egsScore": 88.87,
       "egsVotes": 2366,
       "egsMedian": 90
@@ -352,10 +354,10 @@
           "win"
         ]
       },
-      "vndbScore": 88.5,
-      "vndbVotes": 158,
+      "vndbScore": 88.7,
+      "vndbVotes": 160,
       "bangumiScore": 88,
-      "bangumiVotes": 1029,
+      "bangumiVotes": 1030,
       "egsScore": 84.69,
       "egsVotes": 54,
       "egsMedian": 89
@@ -400,9 +402,9 @@
         ]
       },
       "vndbScore": 87.2,
-      "vndbVotes": 11317,
+      "vndbVotes": 11320,
       "bangumiScore": 89,
-      "bangumiVotes": 6421,
+      "bangumiVotes": 6426,
       "egsScore": 87.25,
       "egsVotes": 3292,
       "egsMedian": 90
@@ -425,7 +427,7 @@
         "released": "2004-12-30",
         "year": 2004,
         "image": "https://t.vndb.org/cv/92/76392.jpg",
-        "lengthMinutes": 3902,
+        "lengthMinutes": 3905,
         "genres": [
           "竜騎士07",
           "寒蝉鸣泣之时",
@@ -447,9 +449,9 @@
         ]
       },
       "vndbScore": 88.4,
-      "vndbVotes": 7866,
+      "vndbVotes": 7872,
       "bangumiScore": 84,
-      "bangumiVotes": 860,
+      "bangumiVotes": 862,
       "egsScore": 83.5,
       "egsVotes": 385,
       "egsMedian": 85
@@ -496,9 +498,9 @@
         ]
       },
       "vndbScore": 88.7,
-      "vndbVotes": 13709,
+      "vndbVotes": 13712,
       "bangumiScore": 84,
-      "bangumiVotes": 2501,
+      "bangumiVotes": 2503,
       "egsScore": 76.11,
       "egsVotes": 361,
       "egsMedian": 78
@@ -533,9 +535,9 @@
         ]
       },
       "vndbScore": 87.4,
-      "vndbVotes": 2496,
+      "vndbVotes": 2499,
       "bangumiScore": 87,
-      "bangumiVotes": 6665,
+      "bangumiVotes": 6667,
       "egsScore": 88.51,
       "egsVotes": 2657,
       "egsMedian": 90
@@ -574,9 +576,9 @@
         ]
       },
       "vndbScore": 87.3,
-      "vndbVotes": 1656,
+      "vndbVotes": 1658,
       "bangumiScore": 87,
-      "bangumiVotes": 1686,
+      "bangumiVotes": 1687,
       "egsScore": 86.92,
       "egsVotes": 38,
       "egsMedian": 88
@@ -599,7 +601,7 @@
         "released": "2016-09-21",
         "year": 2016,
         "image": "https://t.vndb.org/cv/64/85164.jpg",
-        "lengthMinutes": 3237,
+        "lengthMinutes": 3240,
         "genres": [
           "传颂之物",
           "leaf",
@@ -616,9 +618,9 @@
         ]
       },
       "vndbScore": 89.2,
-      "vndbVotes": 2914,
+      "vndbVotes": 2915,
       "bangumiScore": 82,
-      "bangumiVotes": 1543,
+      "bangumiVotes": 1544,
       "egsScore": 89.42,
       "egsVotes": 326,
       "egsMedian": 90
@@ -654,9 +656,9 @@
         ]
       },
       "vndbScore": 86.8,
-      "vndbVotes": 11780,
+      "vndbVotes": 11788,
       "bangumiScore": 87,
-      "bangumiVotes": 8504,
+      "bangumiVotes": 8506,
       "egsScore": 86.58,
       "egsVotes": 3286,
       "egsMedian": 90
@@ -696,9 +698,9 @@
         ]
       },
       "vndbScore": 87.9,
-      "vndbVotes": 7512,
+      "vndbVotes": 7514,
       "bangumiScore": 84,
-      "bangumiVotes": 3034,
+      "bangumiVotes": 3036,
       "egsScore": 86.63,
       "egsVotes": 467,
       "egsMedian": 89
@@ -733,9 +735,9 @@
         ]
       },
       "vndbScore": 86.6,
-      "vndbVotes": 1826,
+      "vndbVotes": 1828,
       "bangumiScore": 86,
-      "bangumiVotes": 3760,
+      "bangumiVotes": 3763,
       "egsScore": 88.61,
       "egsVotes": 1021,
       "egsMedian": 90
@@ -778,9 +780,9 @@
         ]
       },
       "vndbScore": 85.6,
-      "vndbVotes": 6496,
+      "vndbVotes": 6499,
       "bangumiScore": 88,
-      "bangumiVotes": 4295,
+      "bangumiVotes": 4296,
       "egsScore": 84.45,
       "egsVotes": 62,
       "egsMedian": 85
@@ -818,9 +820,9 @@
         ]
       },
       "vndbScore": 82.4,
-      "vndbVotes": 3220,
+      "vndbVotes": 3221,
       "bangumiScore": 89,
-      "bangumiVotes": 4579,
+      "bangumiVotes": 4583,
       "egsScore": 79.98,
       "egsVotes": 255,
       "egsMedian": 80
@@ -856,9 +858,9 @@
         ]
       },
       "vndbScore": 83.6,
-      "vndbVotes": 1068,
+      "vndbVotes": 1069,
       "bangumiScore": 84,
-      "bangumiVotes": 482,
+      "bangumiVotes": 484,
       "egsScore": 87.28,
       "egsVotes": 1558,
       "egsMedian": 90
@@ -903,9 +905,9 @@
         ]
       },
       "vndbScore": 86.3,
-      "vndbVotes": 19080,
+      "vndbVotes": 19087,
       "bangumiScore": 83,
-      "bangumiVotes": 5514,
+      "bangumiVotes": 5515,
       "egsScore": 86.86,
       "egsVotes": 4858,
       "egsMedian": 90
@@ -927,7 +929,7 @@
         },
         "released": "2021-08-26",
         "year": 2021,
-        "image": "https://t.vndb.org/cv/82/92482.jpg",
+        "image": "https://t.vndb.org/cv/86/86686.jpg",
         "lengthMinutes": 3600,
         "genres": [
           "Type-Moon",
@@ -940,9 +942,9 @@
         ]
       },
       "vndbScore": 88.2,
-      "vndbVotes": 2875,
+      "vndbVotes": 2879,
       "bangumiScore": 82,
-      "bangumiVotes": 1928,
+      "bangumiVotes": 1932,
       "egsScore": 86.71,
       "egsVotes": 316,
       "egsMedian": 87
@@ -965,7 +967,7 @@
         "released": "2012-04-12",
         "year": 2012,
         "image": "https://t.vndb.org/cv/24/85324.jpg",
-        "lengthMinutes": 1805,
+        "lengthMinutes": 1806,
         "genres": [
           "TypeMoon",
           "奈須きのこ",
@@ -978,9 +980,9 @@
         ]
       },
       "vndbScore": 86.3,
-      "vndbVotes": 5358,
+      "vndbVotes": 5369,
       "bangumiScore": 86,
-      "bangumiVotes": 7074,
+      "bangumiVotes": 7076,
       "egsScore": 82.05,
       "egsVotes": 1075,
       "egsMedian": 85
@@ -1027,9 +1029,9 @@
         ]
       },
       "vndbScore": 86.1,
-      "vndbVotes": 11098,
+      "vndbVotes": 11103,
       "bangumiScore": 83,
-      "bangumiVotes": 1233,
+      "bangumiVotes": 1235,
       "egsScore": 83.99,
       "egsVotes": 1151,
       "egsMedian": 85
@@ -1052,7 +1054,7 @@
         "released": "2007-07-27",
         "year": 2007,
         "image": "https://t.vndb.org/cv/12/75612.jpg",
-        "lengthMinutes": 4980,
+        "lengthMinutes": 4974,
         "genres": [
           "key",
           "麻枝准",
@@ -1069,7 +1071,7 @@
         ]
       },
       "vndbScore": 86.3,
-      "vndbVotes": 9201,
+      "vndbVotes": 9204,
       "bangumiScore": 85,
       "bangumiVotes": 2819,
       "egsScore": 82.97,
@@ -1111,7 +1113,7 @@
       "vndbScore": 87.2,
       "vndbVotes": 1845,
       "bangumiScore": 83,
-      "bangumiVotes": 2054,
+      "bangumiVotes": 2056,
       "egsScore": 87.3,
       "egsVotes": 619,
       "egsMedian": 88
@@ -1220,9 +1222,9 @@
         ]
       },
       "vndbScore": 87,
-      "vndbVotes": 692,
+      "vndbVotes": 693,
       "bangumiScore": 83,
-      "bangumiVotes": 512
+      "bangumiVotes": 514
     },
     {
       "name": "ファタモルガーナの館 -Another Episodes-",
@@ -1257,9 +1259,9 @@
         ]
       },
       "vndbScore": 85.6,
-      "vndbVotes": 2626,
+      "vndbVotes": 2628,
       "bangumiScore": 85,
-      "bangumiVotes": 1390,
+      "bangumiVotes": 1392,
       "egsScore": 82.97,
       "egsVotes": 143,
       "egsMedian": 85
@@ -1296,7 +1298,7 @@
       "vndbScore": 83.6,
       "vndbVotes": 5953,
       "bangumiScore": 83,
-      "bangumiVotes": 2791,
+      "bangumiVotes": 2795,
       "egsScore": 88.21,
       "egsVotes": 3167,
       "egsMedian": 90
@@ -1334,7 +1336,7 @@
       "vndbScore": 82.3,
       "vndbVotes": 681,
       "bangumiScore": 81,
-      "bangumiVotes": 492,
+      "bangumiVotes": 493,
       "egsScore": 86.22,
       "egsVotes": 1756,
       "egsMedian": 88
@@ -1370,7 +1372,7 @@
       "vndbScore": 86.9,
       "vndbVotes": 193,
       "bangumiScore": 82,
-      "bangumiVotes": 445,
+      "bangumiVotes": 447,
       "egsScore": 87.29,
       "egsVotes": 233,
       "egsMedian": 88
@@ -1392,7 +1394,7 @@
         },
         "released": "2025-04-19",
         "year": 2025,
-        "image": "https://t.vndb.org/cv/59/107659.jpg",
+        "image": "https://t.vndb.org/cv/69/107669.jpg",
         "lengthMinutes": 2700,
         "genres": [
           "BL",
@@ -1405,7 +1407,7 @@
         ]
       },
       "vndbScore": 88.6,
-      "vndbVotes": 372,
+      "vndbVotes": 373,
       "bangumiScore": 64,
       "bangumiVotes": 71,
       "egsScore": 85.63,
@@ -1448,7 +1450,7 @@
       "vndbScore": 80.7,
       "vndbVotes": 2229,
       "bangumiScore": 85,
-      "bangumiVotes": 1297,
+      "bangumiVotes": 1299,
       "egsScore": 89.6,
       "egsVotes": 1221,
       "egsMedian": 93
@@ -1486,9 +1488,9 @@
         ]
       },
       "vndbScore": 85.3,
-      "vndbVotes": 8388,
+      "vndbVotes": 8390,
       "bangumiScore": 86,
-      "bangumiVotes": 5254,
+      "bangumiVotes": 5257,
       "egsScore": 80.2,
       "egsVotes": 1856,
       "egsMedian": 82
@@ -1522,9 +1524,9 @@
         ]
       },
       "vndbScore": 81.5,
-      "vndbVotes": 3125,
+      "vndbVotes": 3127,
       "bangumiScore": 84,
-      "bangumiVotes": 3140,
+      "bangumiVotes": 3142,
       "egsScore": 87.5,
       "egsVotes": 2689,
       "egsMedian": 90
@@ -1566,7 +1568,7 @@
       "vndbScore": 83.8,
       "vndbVotes": 1689,
       "bangumiScore": 85,
-      "bangumiVotes": 3146,
+      "bangumiVotes": 3147,
       "egsScore": 83.91,
       "egsVotes": 23,
       "egsMedian": 85
@@ -1602,9 +1604,9 @@
         ]
       },
       "vndbScore": 87,
-      "vndbVotes": 1061,
+      "vndbVotes": 1062,
       "bangumiScore": 81,
-      "bangumiVotes": 3474,
+      "bangumiVotes": 3476,
       "egsScore": 89.25,
       "egsVotes": 1354,
       "egsMedian": 92
@@ -1638,7 +1640,7 @@
         ]
       },
       "vndbScore": 85.7,
-      "vndbVotes": 1415,
+      "vndbVotes": 1416,
       "bangumiScore": 65,
       "bangumiVotes": 85,
       "egsScore": 82.58,
@@ -1680,7 +1682,7 @@
       "vndbScore": 84.6,
       "vndbVotes": 3049,
       "bangumiScore": 83,
-      "bangumiVotes": 8011,
+      "bangumiVotes": 8012,
       "egsScore": 86.35,
       "egsVotes": 3632,
       "egsMedian": 88
@@ -1718,7 +1720,7 @@
       "vndbScore": 86.3,
       "vndbVotes": 617,
       "bangumiScore": 83,
-      "bangumiVotes": 1015,
+      "bangumiVotes": 1018,
       "egsScore": 84.22,
       "egsVotes": 2888,
       "egsMedian": 86
@@ -1752,9 +1754,9 @@
         ]
       },
       "vndbScore": 84.4,
-      "vndbVotes": 1555,
+      "vndbVotes": 1556,
       "bangumiScore": 81,
-      "bangumiVotes": 1849,
+      "bangumiVotes": 1852,
       "egsScore": 89.01,
       "egsVotes": 680,
       "egsMedian": 90
@@ -1794,9 +1796,9 @@
         ]
       },
       "vndbScore": 85,
-      "vndbVotes": 1909,
+      "vndbVotes": 1911,
       "bangumiScore": 82,
-      "bangumiVotes": 1012,
+      "bangumiVotes": 1013,
       "egsScore": 85.11,
       "egsVotes": 28,
       "egsMedian": 85
@@ -1832,9 +1834,9 @@
         ]
       },
       "vndbScore": 85.3,
-      "vndbVotes": 846,
+      "vndbVotes": 847,
       "bangumiScore": 82,
-      "bangumiVotes": 2684,
+      "bangumiVotes": 2687,
       "egsScore": 86.29,
       "egsVotes": 1147,
       "egsMedian": 90
@@ -1870,9 +1872,9 @@
         ]
       },
       "vndbScore": 81.4,
-      "vndbVotes": 2396,
+      "vndbVotes": 2397,
       "bangumiScore": 85,
-      "bangumiVotes": 2883,
+      "bangumiVotes": 2888,
       "egsScore": 86.72,
       "egsVotes": 666,
       "egsMedian": 89
@@ -1907,9 +1909,9 @@
         ]
       },
       "vndbScore": 83.5,
-      "vndbVotes": 1554,
+      "vndbVotes": 1555,
       "bangumiScore": 81,
-      "bangumiVotes": 2710,
+      "bangumiVotes": 2712,
       "egsScore": 87.65,
       "egsVotes": 1414,
       "egsMedian": 89
@@ -1951,9 +1953,9 @@
         ]
       },
       "vndbScore": 83.6,
-      "vndbVotes": 5070,
+      "vndbVotes": 5071,
       "bangumiScore": 84,
-      "bangumiVotes": 4646,
+      "bangumiVotes": 4650,
       "egsScore": 84.77,
       "egsVotes": 26,
       "egsMedian": 89
@@ -2029,9 +2031,9 @@
         ]
       },
       "vndbScore": 84.6,
-      "vndbVotes": 4697,
+      "vndbVotes": 4698,
       "bangumiScore": 82,
-      "bangumiVotes": 5783,
+      "bangumiVotes": 5786,
       "egsScore": 85.89,
       "egsVotes": 1267,
       "egsMedian": 87
@@ -2067,7 +2069,7 @@
       "vndbScore": 83.4,
       "vndbVotes": 571,
       "bangumiScore": 82,
-      "bangumiVotes": 683,
+      "bangumiVotes": 684,
       "egsScore": 84.26,
       "egsVotes": 1024,
       "egsMedian": 85
@@ -2105,9 +2107,9 @@
         ]
       },
       "vndbScore": 81.4,
-      "vndbVotes": 6845,
+      "vndbVotes": 6846,
       "bangumiScore": 81,
-      "bangumiVotes": 3328,
+      "bangumiVotes": 3329,
       "egsScore": 85.93,
       "egsVotes": 5755,
       "egsMedian": 88
@@ -2130,7 +2132,7 @@
         "released": "2003-09-26",
         "year": 2003,
         "image": "https://t.vndb.org/cv/79/86579.jpg",
-        "lengthMinutes": 1809,
+        "lengthMinutes": 1812,
         "genres": [
           "田中ロミオ",
           "孤独",
@@ -2154,9 +2156,9 @@
         ]
       },
       "vndbScore": 78.8,
-      "vndbVotes": 4822,
+      "vndbVotes": 4823,
       "bangumiScore": 85,
-      "bangumiVotes": 4232,
+      "bangumiVotes": 4236,
       "egsScore": 85.5,
       "egsVotes": 4593,
       "egsMedian": 90
@@ -2179,7 +2181,7 @@
         "released": "2016-08-13",
         "year": 2016,
         "image": "https://t.vndb.org/cv/58/92858.jpg",
-        "lengthMinutes": 1896,
+        "lengthMinutes": 1893,
         "genres": [
           "BL",
           "くろさわ凛子",
@@ -2192,7 +2194,7 @@
         ]
       },
       "vndbScore": 84.4,
-      "vndbVotes": 1111,
+      "vndbVotes": 1113,
       "bangumiScore": 79,
       "bangumiVotes": 223,
       "egsScore": 79.63,
@@ -2231,9 +2233,9 @@
         ]
       },
       "vndbScore": 80.2,
-      "vndbVotes": 893,
+      "vndbVotes": 896,
       "bangumiScore": 85,
-      "bangumiVotes": 719,
+      "bangumiVotes": 722,
       "egsScore": 84.8,
       "egsVotes": 608,
       "egsMedian": 85
@@ -2267,10 +2269,10 @@
           "web"
         ]
       },
-      "vndbScore": 84.7,
-      "vndbVotes": 1790,
+      "vndbScore": 84.8,
+      "vndbVotes": 1792,
       "bangumiScore": 82,
-      "bangumiVotes": 3073,
+      "bangumiVotes": 3074,
       "egsScore": 83.58,
       "egsVotes": 998,
       "egsMedian": 85
@@ -2303,10 +2305,10 @@
           "win"
         ]
       },
-      "vndbScore": 82.3,
-      "vndbVotes": 364,
+      "vndbScore": 82.4,
+      "vndbVotes": 365,
       "bangumiScore": 79,
-      "bangumiVotes": 533,
+      "bangumiVotes": 534,
       "egsScore": 85.02,
       "egsVotes": 805,
       "egsMedian": 85
@@ -2344,9 +2346,9 @@
         ]
       },
       "vndbScore": 83.5,
-      "vndbVotes": 12829,
+      "vndbVotes": 12830,
       "bangumiScore": 77,
-      "bangumiVotes": 1490,
+      "bangumiVotes": 1491,
       "egsScore": 83.2,
       "egsVotes": 3261,
       "egsMedian": 85
@@ -2380,9 +2382,9 @@
         ]
       },
       "vndbScore": 83.2,
-      "vndbVotes": 1413,
+      "vndbVotes": 1416,
       "bangumiScore": 82,
-      "bangumiVotes": 2223,
+      "bangumiVotes": 2225,
       "egsScore": 83.81,
       "egsVotes": 1141,
       "egsMedian": 85
@@ -2417,7 +2419,7 @@
         ]
       },
       "vndbScore": 85,
-      "vndbVotes": 2201,
+      "vndbVotes": 2202,
       "bangumiScore": 74,
       "bangumiVotes": 1840,
       "egsScore": 87.93,
@@ -2456,7 +2458,7 @@
       "vndbScore": 81.2,
       "vndbVotes": 969,
       "bangumiScore": 84,
-      "bangumiVotes": 1316,
+      "bangumiVotes": 1318,
       "egsScore": 80.02,
       "egsVotes": 91,
       "egsMedian": 81
@@ -2498,7 +2500,7 @@
       "vndbScore": 79.3,
       "vndbVotes": 860,
       "bangumiScore": 81,
-      "bangumiVotes": 1164,
+      "bangumiVotes": 1165,
       "egsScore": 85.19,
       "egsVotes": 1245,
       "egsMedian": 87
@@ -2533,7 +2535,7 @@
         ]
       },
       "vndbScore": 83.3,
-      "vndbVotes": 9333,
+      "vndbVotes": 9336,
       "bangumiScore": 79,
       "bangumiVotes": 636,
       "egsScore": 81.72,
@@ -2618,9 +2620,9 @@
         ]
       },
       "vndbScore": 81.8,
-      "vndbVotes": 11412,
+      "vndbVotes": 11418,
       "bangumiScore": 82,
-      "bangumiVotes": 2568,
+      "bangumiVotes": 2569,
       "egsScore": 83.69,
       "egsVotes": 2369,
       "egsMedian": 85
@@ -2660,9 +2662,9 @@
         ]
       },
       "vndbScore": 83.2,
-      "vndbVotes": 3105,
+      "vndbVotes": 3106,
       "bangumiScore": 80,
-      "bangumiVotes": 1573,
+      "bangumiVotes": 1574,
       "egsScore": 82.88,
       "egsVotes": 251,
       "egsMedian": 83
@@ -2703,9 +2705,9 @@
         ]
       },
       "vndbScore": 82.8,
-      "vndbVotes": 9012,
+      "vndbVotes": 9013,
       "bangumiScore": 80,
-      "bangumiVotes": 2414,
+      "bangumiVotes": 2415,
       "egsScore": 80.41,
       "egsVotes": 125,
       "egsMedian": 80
@@ -2778,9 +2780,9 @@
         ]
       },
       "vndbScore": 82.1,
-      "vndbVotes": 12052,
+      "vndbVotes": 12053,
       "bangumiScore": 78,
-      "bangumiVotes": 4554,
+      "bangumiVotes": 4556,
       "egsScore": 84.66,
       "egsVotes": 5277,
       "egsMedian": 86
@@ -2852,9 +2854,9 @@
         ]
       },
       "vndbScore": 82.7,
-      "vndbVotes": 422,
+      "vndbVotes": 424,
       "bangumiScore": 79,
-      "bangumiVotes": 1755,
+      "bangumiVotes": 1759,
       "egsScore": 87.26,
       "egsVotes": 660,
       "egsMedian": 89
@@ -2899,9 +2901,9 @@
         ]
       },
       "vndbScore": 80.9,
-      "vndbVotes": 13050,
+      "vndbVotes": 13054,
       "bangumiScore": 85,
-      "bangumiVotes": 5015,
+      "bangumiVotes": 5017,
       "egsScore": 83.14,
       "egsVotes": 278,
       "egsMedian": 85
@@ -2935,7 +2937,7 @@
         ]
       },
       "vndbScore": 82.9,
-      "vndbVotes": 861,
+      "vndbVotes": 862,
       "bangumiScore": 82,
       "bangumiVotes": 515,
       "egsScore": 71.77,
@@ -2974,9 +2976,9 @@
         ]
       },
       "vndbScore": 85.3,
-      "vndbVotes": 3564,
+      "vndbVotes": 3565,
       "bangumiScore": 77,
-      "bangumiVotes": 4255,
+      "bangumiVotes": 4257,
       "egsScore": 85.69,
       "egsVotes": 1692,
       "egsMedian": 86
@@ -3012,7 +3014,7 @@
       "vndbScore": 79.1,
       "vndbVotes": 173,
       "bangumiScore": 87,
-      "bangumiVotes": 1720,
+      "bangumiVotes": 1724,
       "egsScore": 76.57,
       "egsVotes": 1010,
       "egsMedian": 80
@@ -3052,7 +3054,7 @@
       "vndbScore": 83.1,
       "vndbVotes": 1120,
       "bangumiScore": 81,
-      "bangumiVotes": 1289,
+      "bangumiVotes": 1290,
       "egsScore": 81.8,
       "egsVotes": 205,
       "egsMedian": 82
@@ -3075,7 +3077,7 @@
         "released": "2001-11-02",
         "year": 2001,
         "image": "https://t.vndb.org/cv/49/101349.jpg",
-        "lengthMinutes": 1812,
+        "lengthMinutes": 1825,
         "genres": [
           "田中ロミオ",
           "家族计画",
@@ -3092,9 +3094,9 @@
         ]
       },
       "vndbScore": 74.3,
-      "vndbVotes": 1703,
+      "vndbVotes": 1704,
       "bangumiScore": 83,
-      "bangumiVotes": 2255,
+      "bangumiVotes": 2260,
       "egsScore": 85.7,
       "egsVotes": 1868,
       "egsMedian": 88
@@ -3171,7 +3173,7 @@
       "vndbScore": 82.7,
       "vndbVotes": 819,
       "bangumiScore": 81,
-      "bangumiVotes": 1023,
+      "bangumiVotes": 1024,
       "egsScore": 82.32,
       "egsVotes": 168,
       "egsMedian": 82
@@ -3209,7 +3211,7 @@
       "vndbScore": 86.5,
       "vndbVotes": 386,
       "bangumiScore": 79,
-      "bangumiVotes": 1285,
+      "bangumiVotes": 1287,
       "egsScore": 85.63,
       "egsVotes": 311,
       "egsMedian": 87
@@ -3248,9 +3250,9 @@
         ]
       },
       "vndbScore": 82.1,
-      "vndbVotes": 5952,
+      "vndbVotes": 5953,
       "bangumiScore": 80,
-      "bangumiVotes": 1217,
+      "bangumiVotes": 1218,
       "egsScore": 82.45,
       "egsVotes": 55,
       "egsMedian": 83
@@ -3291,7 +3293,7 @@
       "vndbScore": 82.1,
       "vndbVotes": 2849,
       "bangumiScore": 78,
-      "bangumiVotes": 510,
+      "bangumiVotes": 511,
       "egsScore": 83.92,
       "egsVotes": 198,
       "egsMedian": 85
@@ -3328,7 +3330,7 @@
       "vndbScore": 81.3,
       "vndbVotes": 621,
       "bangumiScore": 79,
-      "bangumiVotes": 3090,
+      "bangumiVotes": 3094,
       "egsScore": 84.84,
       "egsVotes": 1737,
       "egsMedian": 85
@@ -3365,9 +3367,9 @@
         ]
       },
       "vndbScore": 84.9,
-      "vndbVotes": 3716,
+      "vndbVotes": 3717,
       "bangumiScore": 74,
-      "bangumiVotes": 2197,
+      "bangumiVotes": 2198,
       "egsScore": 85.35,
       "egsVotes": 789,
       "egsMedian": 86
@@ -3412,9 +3414,9 @@
         ]
       },
       "vndbScore": 77.9,
-      "vndbVotes": 2880,
+      "vndbVotes": 2883,
       "bangumiScore": 83,
-      "bangumiVotes": 2666,
+      "bangumiVotes": 2668,
       "egsScore": 82.96,
       "egsVotes": 3224,
       "egsMedian": 85
@@ -3458,9 +3460,9 @@
         ]
       },
       "vndbScore": 80.8,
-      "vndbVotes": 9355,
+      "vndbVotes": 9357,
       "bangumiScore": 83,
-      "bangumiVotes": 4518,
+      "bangumiVotes": 4519,
       "egsScore": 80.92,
       "egsVotes": 83,
       "egsMedian": 81
@@ -3577,7 +3579,7 @@
         ]
       },
       "vndbScore": 81.6,
-      "vndbVotes": 805,
+      "vndbVotes": 806,
       "bangumiScore": 70,
       "bangumiVotes": 38,
       "egsScore": 81.66,
@@ -3651,7 +3653,7 @@
         ]
       },
       "vndbScore": 81.2,
-      "vndbVotes": 5164,
+      "vndbVotes": 5165,
       "bangumiScore": 74,
       "bangumiVotes": 600,
       "egsScore": 83.7,
@@ -3687,7 +3689,7 @@
         ]
       },
       "vndbScore": 82,
-      "vndbVotes": 4992,
+      "vndbVotes": 4995,
       "bangumiScore": 78,
       "bangumiVotes": 215,
       "egsScore": 79.85,
@@ -3729,9 +3731,9 @@
         ]
       },
       "vndbScore": 82.6,
-      "vndbVotes": 6542,
+      "vndbVotes": 6545,
       "bangumiScore": 78,
-      "bangumiVotes": 4399,
+      "bangumiVotes": 4401,
       "egsScore": 83.26,
       "egsVotes": 1774,
       "egsMedian": 85
@@ -3770,7 +3772,7 @@
         ]
       },
       "vndbScore": 81.4,
-      "vndbVotes": 5803,
+      "vndbVotes": 5805,
       "bangumiScore": 78,
       "bangumiVotes": 1721,
       "egsScore": 82.35,
@@ -3809,7 +3811,7 @@
       "vndbScore": 75,
       "vndbVotes": 753,
       "bangumiScore": 85,
-      "bangumiVotes": 1083,
+      "bangumiVotes": 1085,
       "egsScore": 81.56,
       "egsVotes": 929,
       "egsMedian": 85
@@ -3849,9 +3851,9 @@
         ]
       },
       "vndbScore": 75.8,
-      "vndbVotes": 3118,
+      "vndbVotes": 3119,
       "bangumiScore": 84,
-      "bangumiVotes": 2504,
+      "bangumiVotes": 2509,
       "egsScore": 84,
       "egsVotes": 2268,
       "egsMedian": 85
@@ -3925,7 +3927,7 @@
         ]
       },
       "vndbScore": 81.3,
-      "vndbVotes": 963,
+      "vndbVotes": 964,
       "bangumiScore": 79,
       "bangumiVotes": 92
     },
@@ -3967,6 +3969,41 @@
       "egsMedian": 78
     },
     {
+      "name": "ものべの -happy end-",
+      "vndbId": "v12392",
+      "egsId": "18799",
+      "metadata": {
+        "titles": {
+          "en": "Monobeno -Happy End-",
+          "zh": "茂伸奇谈-Happy End-",
+          "ja": "ものべの -happy end-"
+        },
+        "descriptions": {
+          "en": "After six years, Tooru returned with his younger sister Natsuha to the remote village of Monobeno deep in the mountains of Kochi prefecture. They reunited with the Akashaguma (child-like Yamori Youkai) Sumi, the Kasayou Hishakaku, and his childhood friend and self-proclaimed fiancée Alice. They played in the mountains, visited the shrine, and were visited by the Ushi Oni Tooko just like in the past. Just as they were getting used to living in Monobeno, it was time for the Shichi Seisai summer festival dedicated to the local deity Himemiya-sama. The festival was lively, concluding with the masked dance. While watching the dancing, Natsuha suddenly started shaking, complaining that her body felt cold. Tooru quickly took her to Naotake — the doctor and Alice's father, but nothing seemed wrong with her. They went to play in the nearby stream the next day. Hearing the waterfall caused Natsuha to panic and run in fear, but they couldn't find a reason for her peculiar actions. That night, she appeared in front of them very much an adult, and she bled in her nether regions for the first time. Unable to figure out what caused these inexplicable changes, they could only calm her down and watch over her. Another shock awaited them in the morning when they found Natsuha had returned to her normal size but without any memories of the day before. They decided to head back to the city for a proper examination. Unfortunately, a major landslide blocked off the only entrance to the village. Natsuha wished to leave badly, saying something scary was approaching her. What was causing Natsuha's",
+          "zh": "After six years, Tooru returned with his younger sister Natsuha to the remote village of Monobeno deep in the mountains of Kochi prefecture. They reunited with the Akashaguma (child-like Yamori Youkai) Sumi, the Kasayou Hishakaku, and his childhood friend and self-proclaimed fiancée Alice. They played in the mountains, visited the shrine, and were visited by the Ushi Oni Tooko just like in the past. Just as they were getting used to living in Monobeno, it was time for the Shichi Seisai summer festival dedicated to the local deity Himemiya-sama. The festival was lively, concluding with the masked dance. While watching the dancing, Natsuha suddenly started shaking, complaining that her body felt cold. Tooru quickly took her to Naotake — the doctor and Alice's father, but nothing seemed wrong with her. They went to play in the nearby stream the next day. Hearing the waterfall caused Natsuha to panic and run in fear, but they couldn't find a reason for her peculiar actions. That night, she appeared in front of them very much an adult, and she bled in her nether regions for the first time. Unable to figure out what caused these inexplicable changes, they could only calm her down and watch over her. Another shock awaited them in the morning when they found Natsuha had returned to her normal size but without any memories of the day before. They decided to head back to the city for a proper examination. Unfortunately, a major landslide blocked off the only entrance to the village. Natsuha wished to leave badly, saying something scary was approaching her. What was causing Natsuha's"
+        },
+        "released": "2013-10-25",
+        "year": 2013,
+        "image": "https://t.vndb.org/cv/19/111619.jpg",
+        "lengthMinutes": 4303,
+        "genres": [
+          "Visual novel"
+        ],
+        "platforms": [
+          "win",
+          "psv",
+          "web"
+        ]
+      },
+      "vndbScore": 82.8,
+      "vndbVotes": 377,
+      "bangumiScore": null,
+      "bangumiVotes": null,
+      "egsScore": 79.75,
+      "egsVotes": 353,
+      "egsMedian": 80
+    },
+    {
       "name": "あけいろ怪奇譚",
       "vndbId": "v18495",
       "bangumiId": "150138",
@@ -3997,7 +4034,7 @@
       "vndbScore": 79.9,
       "vndbVotes": 336,
       "bangumiScore": 76,
-      "bangumiVotes": 167,
+      "bangumiVotes": 168,
       "egsScore": 82.02,
       "egsVotes": 805,
       "egsMedian": 83
@@ -4034,7 +4071,7 @@
       "vndbScore": 82,
       "vndbVotes": 1453,
       "bangumiScore": 77,
-      "bangumiVotes": 313,
+      "bangumiVotes": 314,
       "egsScore": 47.5,
       "egsVotes": 4,
       "egsMedian": 45
@@ -4071,7 +4108,7 @@
       "vndbScore": 79.1,
       "vndbVotes": 529,
       "bangumiScore": 82,
-      "bangumiVotes": 2372,
+      "bangumiVotes": 2379,
       "egsScore": 80.31,
       "egsVotes": 1403,
       "egsMedian": 81
@@ -4115,41 +4152,6 @@
       "egsMedian": 87
     },
     {
-      "name": "ものべの -happy end-",
-      "vndbId": "v12392",
-      "egsId": "18799",
-      "metadata": {
-        "titles": {
-          "en": "Monobeno -Happy End-",
-          "zh": "茂伸奇谈-Happy End-",
-          "ja": "ものべの -happy end-"
-        },
-        "descriptions": {
-          "en": "After six years, Tooru returned with his younger sister Natsuha to the remote village of Monobeno deep in the mountains of Kochi prefecture. They reunited with the Akashaguma (child-like Yamori Youkai) Sumi, the Kasayou Hishakaku, and his childhood friend and self-proclaimed fiancée Alice. They played in the mountains, visited the shrine, and were visited by the Ushi Oni Tooko just like in the past. Just as they were getting used to living in Monobeno, it was time for the Shichi Seisai summer festival dedicated to the local deity Himemiya-sama. The festival was lively, concluding with the masked dance. While watching the dancing, Natsuha suddenly started shaking, complaining that her body felt cold. Tooru quickly took her to Naotake — the doctor and Alice's father, but nothing seemed wrong with her. They went to play in the nearby stream the next day. Hearing the waterfall caused Natsuha to panic and run in fear, but they couldn't find a reason for her peculiar actions. That night, she appeared in front of them very much an adult, and she bled in her nether regions for the first time. Unable to figure out what caused these inexplicable changes, they could only calm her down and watch over her. Another shock awaited them in the morning when they found Natsuha had returned to her normal size but without any memories of the day before. They decided to head back to the city for a proper examination. Unfortunately, a major landslide blocked off the only entrance to the village. Natsuha wished to leave badly, saying something scary was approaching her. What was causing Natsuha's",
-          "zh": "After six years, Tooru returned with his younger sister Natsuha to the remote village of Monobeno deep in the mountains of Kochi prefecture. They reunited with the Akashaguma (child-like Yamori Youkai) Sumi, the Kasayou Hishakaku, and his childhood friend and self-proclaimed fiancée Alice. They played in the mountains, visited the shrine, and were visited by the Ushi Oni Tooko just like in the past. Just as they were getting used to living in Monobeno, it was time for the Shichi Seisai summer festival dedicated to the local deity Himemiya-sama. The festival was lively, concluding with the masked dance. While watching the dancing, Natsuha suddenly started shaking, complaining that her body felt cold. Tooru quickly took her to Naotake — the doctor and Alice's father, but nothing seemed wrong with her. They went to play in the nearby stream the next day. Hearing the waterfall caused Natsuha to panic and run in fear, but they couldn't find a reason for her peculiar actions. That night, she appeared in front of them very much an adult, and she bled in her nether regions for the first time. Unable to figure out what caused these inexplicable changes, they could only calm her down and watch over her. Another shock awaited them in the morning when they found Natsuha had returned to her normal size but without any memories of the day before. They decided to head back to the city for a proper examination. Unfortunately, a major landslide blocked off the only entrance to the village. Natsuha wished to leave badly, saying something scary was approaching her. What was causing Natsuha's"
-        },
-        "released": "2013-10-25",
-        "year": 2013,
-        "image": "https://t.vndb.org/cv/19/111619.jpg",
-        "lengthMinutes": 4303,
-        "genres": [
-          "Visual novel"
-        ],
-        "platforms": [
-          "win",
-          "psv",
-          "web"
-        ]
-      },
-      "vndbScore": 82.7,
-      "vndbVotes": 375,
-      "bangumiScore": null,
-      "bangumiVotes": null,
-      "egsScore": 79.75,
-      "egsVotes": 353,
-      "egsMedian": 80
-    },
-    {
       "name": "レイジングループ",
       "vndbId": "v21289",
       "bangumiId": "215470",
@@ -4186,9 +4188,9 @@
         ]
       },
       "vndbScore": 79.3,
-      "vndbVotes": 3588,
+      "vndbVotes": 3590,
       "bangumiScore": 82,
-      "bangumiVotes": 5482,
+      "bangumiVotes": 5487,
       "egsScore": 83.43,
       "egsVotes": 92,
       "egsMedian": 85
@@ -4221,10 +4223,10 @@
           "win"
         ]
       },
-      "vndbScore": 80.1,
-      "vndbVotes": 531,
+      "vndbScore": 80,
+      "vndbVotes": 532,
       "bangumiScore": 79,
-      "bangumiVotes": 2693,
+      "bangumiVotes": 2697,
       "egsScore": 83.69,
       "egsVotes": 1396,
       "egsMedian": 85
@@ -4297,7 +4299,7 @@
       "vndbScore": 80.4,
       "vndbVotes": 4765,
       "bangumiScore": 76,
-      "bangumiVotes": 1015,
+      "bangumiVotes": 1018,
       "egsScore": 82.93,
       "egsVotes": 2293,
       "egsMedian": 84
@@ -4439,7 +4441,7 @@
         ]
       },
       "vndbScore": 81.8,
-      "vndbVotes": 776,
+      "vndbVotes": 777,
       "bangumiScore": 74,
       "bangumiVotes": 61,
       "egsScore": 78.5,
@@ -4477,7 +4479,7 @@
         ]
       },
       "vndbScore": 79.6,
-      "vndbVotes": 1119,
+      "vndbVotes": 1120,
       "bangumiScore": 78,
       "bangumiVotes": 1469,
       "egsScore": 82.69,
@@ -4527,7 +4529,7 @@
       "vndbScore": 78.5,
       "vndbVotes": 221,
       "bangumiScore": 81,
-      "bangumiVotes": 1905,
+      "bangumiVotes": 1907,
       "egsScore": 76.88,
       "egsVotes": 116,
       "egsMedian": 78
@@ -4563,7 +4565,7 @@
       "vndbScore": 77.2,
       "vndbVotes": 268,
       "bangumiScore": 82,
-      "bangumiVotes": 1054,
+      "bangumiVotes": 1056,
       "egsScore": 79.78,
       "egsVotes": 783,
       "egsMedian": 80
@@ -4600,7 +4602,7 @@
       "vndbScore": 76.2,
       "vndbVotes": 3591,
       "bangumiScore": 81,
-      "bangumiVotes": 2228,
+      "bangumiVotes": 2231,
       "egsScore": 84.43,
       "egsVotes": 2235,
       "egsMedian": 85
@@ -4635,9 +4637,9 @@
         ]
       },
       "vndbScore": 79,
-      "vndbVotes": 2169,
+      "vndbVotes": 2172,
       "bangumiScore": 75,
-      "bangumiVotes": 1822,
+      "bangumiVotes": 1823,
       "egsScore": 84.51,
       "egsVotes": 1960,
       "egsMedian": 85
@@ -4708,9 +4710,9 @@
         ]
       },
       "vndbScore": 81.3,
-      "vndbVotes": 3820,
+      "vndbVotes": 3821,
       "bangumiScore": 79,
-      "bangumiVotes": 239,
+      "bangumiVotes": 240,
       "egsScore": 70.15,
       "egsVotes": 244,
       "egsMedian": 80
@@ -4744,9 +4746,9 @@
         ]
       },
       "vndbScore": 79.5,
-      "vndbVotes": 405,
+      "vndbVotes": 406,
       "bangumiScore": 79,
-      "bangumiVotes": 1306,
+      "bangumiVotes": 1307,
       "egsScore": 84.17,
       "egsVotes": 313,
       "egsMedian": 85
@@ -4822,9 +4824,9 @@
         ]
       },
       "vndbScore": 80.7,
-      "vndbVotes": 7568,
+      "vndbVotes": 7570,
       "bangumiScore": 79,
-      "bangumiVotes": 3221,
+      "bangumiVotes": 3223,
       "egsScore": 79.47,
       "egsVotes": 136,
       "egsMedian": 80
@@ -4858,9 +4860,9 @@
         ]
       },
       "vndbScore": 80.2,
-      "vndbVotes": 881,
+      "vndbVotes": 882,
       "bangumiScore": 78,
-      "bangumiVotes": 255,
+      "bangumiVotes": 256,
       "egsScore": 81.9,
       "egsVotes": 205,
       "egsMedian": 81
@@ -4896,9 +4898,9 @@
         ]
       },
       "vndbScore": 80.8,
-      "vndbVotes": 769,
+      "vndbVotes": 770,
       "bangumiScore": 79,
-      "bangumiVotes": 662,
+      "bangumiVotes": 664,
       "egsScore": 80.94,
       "egsVotes": 212,
       "egsMedian": 80
@@ -4937,9 +4939,9 @@
         ]
       },
       "vndbScore": 81.6,
-      "vndbVotes": 3784,
+      "vndbVotes": 3785,
       "bangumiScore": 76,
-      "bangumiVotes": 3297,
+      "bangumiVotes": 3298,
       "egsScore": 82.68,
       "egsVotes": 1902,
       "egsMedian": 84
@@ -4973,7 +4975,7 @@
         ]
       },
       "vndbScore": 80.3,
-      "vndbVotes": 2451,
+      "vndbVotes": 2452,
       "bangumiScore": 76,
       "bangumiVotes": 71,
       "egsScore": 79.36,
@@ -5009,7 +5011,7 @@
         ]
       },
       "vndbScore": 80.6,
-      "vndbVotes": 500,
+      "vndbVotes": 501,
       "bangumiScore": 75,
       "bangumiVotes": 95,
       "egsScore": 82.36,
@@ -5047,12 +5049,51 @@
         ]
       },
       "vndbScore": 80.5,
-      "vndbVotes": 2723,
+      "vndbVotes": 2726,
       "bangumiScore": 74,
       "bangumiVotes": 311,
       "egsScore": 80.23,
       "egsVotes": 757,
       "egsMedian": 80
+    },
+    {
+      "name": "戦国†恋姫～乙女絢爛☆戦国絵巻～",
+      "vndbId": "v13188",
+      "bangumiId": "84038",
+      "egsId": "19459",
+      "metadata": {
+        "titles": {
+          "en": "Sengoku † Koihime ~Otome Kenran ☆ Sengoku Emaki~",
+          "zh": "戦国†恋姫～乙女絢爛☆戦国絵巻～",
+          "ja": "戦国†恋姫～乙女絢爛☆戦国絵巻～"
+        },
+        "descriptions": {
+          "en": "Kensuke trained hard every day under the tutelage of his uncle Kazuto. One day, when he held a sword he found in the storehouse, he lost consciousness. When he came to, he found himself in a place he did not recognize. He met a girl who introduced herself as Oda Saburou Kuon Nobunaga. She held out her hand to a stunned Kensuke and asked him to become her husband and accompany her on the road to national supremacy. They travelled across the country, racking up victories in this period of social upheaval. However, there was one enemy they could not defeat: the oni. These man-eating, blood-drinking beasts soon took over all of Japan, plunging the country into hell. However, Kuon and Kensuke vowed to continue fighting, issuing a written appeal to all the influential lords: “Samurai who are not afraid of even the oni, gather under me and let us save Japan together!” [From Hau~ Omochikaeri!]",
+          "zh": "雌伏の時を経て、新たな恋姫たちの物語が始まる！ 主人公・新田剣丞は、叔父である北郷一刀のもとで修行に励む日々を送っていた。 ある日、蔵で見つけた刀を手にした瞬間、剣丞は意識を失い── 気がつくと、光輝く刀を握りしめ、見たことのない風景の中に居た。 そこで出会った一人の少女。 自らを “織田 三郎 久遠 信長” と名乗った少女は、呆然とする剣丞に手を差し伸べる。 「我の夫となれ。 そして共に天下への道を歩もうぞ！」 自分が居た世界とは違う、下克上渦巻く戦国の世に戸惑いを覚えながら、少年と少女は力を合わせて戦い、そして勝利を積み重ねていく。 しかし運命は、そんなふたりに容赦無く襲い掛かる。 様々な苦難を乗り越え、急接近したふたりの前に、抗うことの出来ない大きな壁が立ちはだかったのだ。 “鬼”。 人を喰らい、生き血をすする異形の者は、やがて日本全土を侵略していった。 弱き者たちが次々と鬼の刃に倒れ、さながら地獄と化した日本を救うため、少年と少女は傷つきながらも立ち上がり、各地の有力大名に檄を飛ばした──。 『我が下に集え！ 鬼をも恐れぬサムライたちよ！ この日本を救うために！』"
+        },
+        "released": "2013-12-20",
+        "year": 2013,
+        "image": "https://t.vndb.org/cv/73/97773.jpg",
+        "lengthMinutes": 4658,
+        "genres": [
+          "全年龄",
+          "桜咲千依",
+          "片桐雏太"
+        ],
+        "platforms": [
+          "win",
+          "dvd",
+          "ps4",
+          "swi"
+        ]
+      },
+      "vndbScore": 85.1,
+      "vndbVotes": 310,
+      "bangumiScore": 70,
+      "bangumiVotes": 27,
+      "egsScore": 71.07,
+      "egsVotes": 105,
+      "egsMedian": 75
     },
     {
       "name": "ラストウィンドウ 真夜中の約束",
@@ -5087,45 +5128,6 @@
       "bangumiVotes": 94
     },
     {
-      "name": "戦国†恋姫～乙女絢爛☆戦国絵巻～",
-      "vndbId": "v13188",
-      "bangumiId": "84038",
-      "egsId": "19459",
-      "metadata": {
-        "titles": {
-          "en": "Sengoku † Koihime ~Otome Kenran ☆ Sengoku Emaki~",
-          "zh": "戦国†恋姫～乙女絢爛☆戦国絵巻～",
-          "ja": "戦国†恋姫～乙女絢爛☆戦国絵巻～"
-        },
-        "descriptions": {
-          "en": "Kensuke trained hard every day under the tutelage of his uncle Kazuto. One day, when he held a sword he found in the storehouse, he lost consciousness. When he came to, he found himself in a place he did not recognize. He met a girl who introduced herself as Oda Saburou Kuon Nobunaga. She held out her hand to a stunned Kensuke and asked him to become her husband and accompany her on the road to national supremacy. They travelled across the country, racking up victories in this period of social upheaval. However, there was one enemy they could not defeat: the oni. These man-eating, blood-drinking beasts soon took over all of Japan, plunging the country into hell. However, Kuon and Kensuke vowed to continue fighting, issuing a written appeal to all the influential lords: “Samurai who are not afraid of even the oni, gather under me and let us save Japan together!” [From Hau~ Omochikaeri!]",
-          "zh": "雌伏の時を経て、新たな恋姫たちの物語が始まる！ 主人公・新田剣丞は、叔父である北郷一刀のもとで修行に励む日々を送っていた。 ある日、蔵で見つけた刀を手にした瞬間、剣丞は意識を失い── 気がつくと、光輝く刀を握りしめ、見たことのない風景の中に居た。 そこで出会った一人の少女。 自らを “織田 三郎 久遠 信長” と名乗った少女は、呆然とする剣丞に手を差し伸べる。 「我の夫となれ。 そして共に天下への道を歩もうぞ！」 自分が居た世界とは違う、下克上渦巻く戦国の世に戸惑いを覚えながら、少年と少女は力を合わせて戦い、そして勝利を積み重ねていく。 しかし運命は、そんなふたりに容赦無く襲い掛かる。 様々な苦難を乗り越え、急接近したふたりの前に、抗うことの出来ない大きな壁が立ちはだかったのだ。 “鬼”。 人を喰らい、生き血をすする異形の者は、やがて日本全土を侵略していった。 弱き者たちが次々と鬼の刃に倒れ、さながら地獄と化した日本を救うため、少年と少女は傷つきながらも立ち上がり、各地の有力大名に檄を飛ばした──。 『我が下に集え！ 鬼をも恐れぬサムライたちよ！ この日本を救うために！』"
-        },
-        "released": "2013-12-20",
-        "year": 2013,
-        "image": "https://t.vndb.org/cv/73/97773.jpg",
-        "lengthMinutes": 4658,
-        "genres": [
-          "全年龄",
-          "桜咲千依",
-          "片桐雏太"
-        ],
-        "platforms": [
-          "win",
-          "dvd",
-          "ps4",
-          "swi"
-        ]
-      },
-      "vndbScore": 85,
-      "vndbVotes": 309,
-      "bangumiScore": 70,
-      "bangumiVotes": 27,
-      "egsScore": 71.07,
-      "egsVotes": 105,
-      "egsMedian": 75
-    },
-    {
       "name": "媚肉の香り～ネトリネトラレヤリヤラレ～",
       "vndbId": "v470",
       "bangumiId": "17436",
@@ -5156,7 +5158,7 @@
       "vndbScore": 79.1,
       "vndbVotes": 747,
       "bangumiScore": 79,
-      "bangumiVotes": 2933,
+      "bangumiVotes": 2937,
       "egsScore": 81.47,
       "egsVotes": 1001,
       "egsMedian": 82
@@ -5193,7 +5195,7 @@
         ]
       },
       "vndbScore": 79.7,
-      "vndbVotes": 5041,
+      "vndbVotes": 5043,
       "bangumiScore": null,
       "bangumiVotes": null,
       "egsScore": 75.68,
@@ -5236,7 +5238,7 @@
       "vndbScore": 80,
       "vndbVotes": 3451,
       "bangumiScore": 75,
-      "bangumiVotes": 377,
+      "bangumiVotes": 378,
       "egsScore": 81.03,
       "egsVotes": 209,
       "egsMedian": 81
@@ -5274,7 +5276,7 @@
         ]
       },
       "vndbScore": 82,
-      "vndbVotes": 1482,
+      "vndbVotes": 1483,
       "bangumiScore": 72,
       "bangumiVotes": 453,
       "egsScore": 76.15,
@@ -5317,9 +5319,9 @@
         ]
       },
       "vndbScore": 75.4,
-      "vndbVotes": 2801,
+      "vndbVotes": 2802,
       "bangumiScore": 82,
-      "bangumiVotes": 3539,
+      "bangumiVotes": 3541,
       "egsScore": 81.84,
       "egsVotes": 920,
       "egsMedian": 82
@@ -5357,7 +5359,7 @@
         ]
       },
       "vndbScore": 79.9,
-      "vndbVotes": 640,
+      "vndbVotes": 641,
       "bangumiScore": 75,
       "bangumiVotes": 979,
       "egsScore": 81.9,
@@ -5395,7 +5397,7 @@
       "vndbScore": 82.6,
       "vndbVotes": 755,
       "bangumiScore": 76,
-      "bangumiVotes": 1028,
+      "bangumiVotes": 1029,
       "egsScore": 81.78,
       "egsVotes": 340,
       "egsMedian": 81
@@ -5475,9 +5477,9 @@
         ]
       },
       "vndbScore": 75.1,
-      "vndbVotes": 6977,
+      "vndbVotes": 6976,
       "bangumiScore": 84,
-      "bangumiVotes": 6500,
+      "bangumiVotes": 6503,
       "egsScore": 79.77,
       "egsVotes": 1396,
       "egsMedian": 80
@@ -5517,7 +5519,7 @@
       "vndbScore": 79.6,
       "vndbVotes": 1101,
       "bangumiScore": 76,
-      "bangumiVotes": 5244,
+      "bangumiVotes": 5247,
       "egsScore": 84.12,
       "egsVotes": 2522,
       "egsMedian": 85
@@ -5633,9 +5635,9 @@
         ]
       },
       "vndbScore": 80.3,
-      "vndbVotes": 7819,
+      "vndbVotes": 7821,
       "bangumiScore": 76,
-      "bangumiVotes": 3661,
+      "bangumiVotes": 3662,
       "egsScore": 81.48,
       "egsVotes": 1319,
       "egsMedian": 83
@@ -5709,7 +5711,7 @@
         ]
       },
       "vndbScore": 81.9,
-      "vndbVotes": 684,
+      "vndbVotes": 685,
       "bangumiScore": 78,
       "bangumiVotes": 4447,
       "egsScore": 81.15,
@@ -5749,7 +5751,7 @@
         ]
       },
       "vndbScore": 81.3,
-      "vndbVotes": 1760,
+      "vndbVotes": 1761,
       "bangumiScore": 75,
       "bangumiVotes": 3130,
       "egsScore": 85.17,
@@ -5785,7 +5787,7 @@
         ]
       },
       "vndbScore": 79.5,
-      "vndbVotes": 2172,
+      "vndbVotes": 2173,
       "bangumiScore": 74,
       "bangumiVotes": 71,
       "egsScore": 78.03,
@@ -5843,7 +5845,7 @@
         "released": "2013-03-29",
         "year": 2013,
         "image": "https://t.vndb.org/cv/40/90640.jpg",
-        "lengthMinutes": 2098,
+        "lengthMinutes": 2090,
         "genres": [
           "枕",
           "狗神煌",
@@ -5856,7 +5858,7 @@
         ]
       },
       "vndbScore": 78.8,
-      "vndbVotes": 554,
+      "vndbVotes": 556,
       "bangumiScore": 77,
       "bangumiVotes": 1926,
       "egsScore": 81.25,
@@ -5943,9 +5945,9 @@
         ]
       },
       "vndbScore": 80.3,
-      "vndbVotes": 1649,
+      "vndbVotes": 1651,
       "bangumiScore": 74,
-      "bangumiVotes": 3167,
+      "bangumiVotes": 3168,
       "egsScore": 81.62,
       "egsVotes": 3111,
       "egsMedian": 83
@@ -5987,7 +5989,7 @@
         ]
       },
       "vndbScore": 78.8,
-      "vndbVotes": 18425,
+      "vndbVotes": 18429,
       "bangumiScore": 73,
       "bangumiVotes": 242,
       "egsScore": 72.31,
@@ -6068,7 +6070,7 @@
       "vndbScore": 76.1,
       "vndbVotes": 935,
       "bangumiScore": 81,
-      "bangumiVotes": 1010,
+      "bangumiVotes": 1012,
       "egsScore": 77.81,
       "egsVotes": 91,
       "egsMedian": 79
@@ -6106,7 +6108,7 @@
       "vndbScore": 79.7,
       "vndbVotes": 456,
       "bangumiScore": 75,
-      "bangumiVotes": 2115,
+      "bangumiVotes": 2117,
       "egsScore": 81.14,
       "egsVotes": 1811,
       "egsMedian": 81
@@ -6142,7 +6144,7 @@
         ]
       },
       "vndbScore": 80.7,
-      "vndbVotes": 2861,
+      "vndbVotes": 2862,
       "bangumiScore": 81,
       "bangumiVotes": 496,
       "egsScore": 75.41,
@@ -6178,7 +6180,7 @@
         ]
       },
       "vndbScore": 79.3,
-      "vndbVotes": 414,
+      "vndbVotes": 415,
       "bangumiScore": 75,
       "bangumiVotes": 1019,
       "egsScore": 80.87,
@@ -6332,44 +6334,6 @@
       "egsMedian": 80
     },
     {
-      "name": "WHITE ALBUM2 ミニアフターストーリー",
-      "vndbId": "v16493",
-      "bangumiId": "122158",
-      "egsId": "18010",
-      "metadata": {
-        "titles": {
-          "en": "WHITE ALBUM2 Mini After Story",
-          "zh": "白色相簿2 mini After Story",
-          "ja": "WHITE ALBUM2 ミニアフターストーリー"
-        },
-        "descriptions": {
-          "en": "White Album 2 fandisk featuring after-stories for the Kazusa and Setsuna routes of the original game: - The Way Back to Happiness: Follows Kazusa's true ending. - The Way Towards Happiness: Follows Setsuna’s true ending.",
-          "zh": "Windows®用アドベンチャーゲーム『WHITE ALBUM2 ミニアフターストーリー』（丸戸史明書き下ろし）を応募者全員にプレゼントいたします。 収録内容は下記の2本となり、ゲーム版のアフターストーリーをプレイできます。 小木曽雪菜ミニアフターストーリー 冬馬かずさミニアフターストーリー"
-        },
-        "released": "2012-12-20",
-        "year": 2012,
-        "image": "https://t.vndb.org/cv/75/76275.jpg",
-        "lengthMinutes": 233,
-        "genres": [
-          "leaf",
-          "丸戸史明",
-          "FD"
-        ],
-        "platforms": [
-          "win",
-          "ps3",
-          "psv"
-        ]
-      },
-      "vndbScore": 80.8,
-      "vndbVotes": 1001,
-      "bangumiScore": 75,
-      "bangumiVotes": 1476,
-      "egsScore": 91.25,
-      "egsVotes": 126,
-      "egsMedian": 95
-    },
-    {
       "name": "あやかしごはん",
       "vndbId": "v14759",
       "bangumiId": "102176",
@@ -6408,6 +6372,44 @@
       "egsMedian": 68
     },
     {
+      "name": "WHITE ALBUM2 ミニアフターストーリー",
+      "vndbId": "v16493",
+      "bangumiId": "122158",
+      "egsId": "18010",
+      "metadata": {
+        "titles": {
+          "en": "WHITE ALBUM2 Mini After Story",
+          "zh": "白色相簿2 mini After Story",
+          "ja": "WHITE ALBUM2 ミニアフターストーリー"
+        },
+        "descriptions": {
+          "en": "White Album 2 fandisk featuring after-stories for the Kazusa and Setsuna routes of the original game: - The Way Back to Happiness: Follows Kazusa's true ending. - The Way Towards Happiness: Follows Setsuna’s true ending.",
+          "zh": "Windows®用アドベンチャーゲーム『WHITE ALBUM2 ミニアフターストーリー』（丸戸史明書き下ろし）を応募者全員にプレゼントいたします。 収録内容は下記の2本となり、ゲーム版のアフターストーリーをプレイできます。 小木曽雪菜ミニアフターストーリー 冬馬かずさミニアフターストーリー"
+        },
+        "released": "2012-12-20",
+        "year": 2012,
+        "image": "https://t.vndb.org/cv/75/76275.jpg",
+        "lengthMinutes": 233,
+        "genres": [
+          "leaf",
+          "丸戸史明",
+          "FD"
+        ],
+        "platforms": [
+          "win",
+          "ps3",
+          "psv"
+        ]
+      },
+      "vndbScore": 80.8,
+      "vndbVotes": 1002,
+      "bangumiScore": 75,
+      "bangumiVotes": 1478,
+      "egsScore": 91.25,
+      "egsVotes": 126,
+      "egsMedian": 95
+    },
+    {
       "name": "屋上の百合霊さん",
       "vndbId": "v8508",
       "bangumiId": "27499",
@@ -6441,7 +6443,7 @@
         ]
       },
       "vndbScore": 79.3,
-      "vndbVotes": 1533,
+      "vndbVotes": 1534,
       "bangumiScore": 74,
       "bangumiVotes": 427,
       "egsScore": 78.95,
@@ -6481,7 +6483,7 @@
         ]
       },
       "vndbScore": 80.5,
-      "vndbVotes": 321,
+      "vndbVotes": 323,
       "bangumiScore": 72,
       "bangumiVotes": 234,
       "egsScore": 79.39,
@@ -6519,9 +6521,9 @@
         ]
       },
       "vndbScore": 80.7,
-      "vndbVotes": 1910,
+      "vndbVotes": 1911,
       "bangumiScore": 74,
-      "bangumiVotes": 2051,
+      "bangumiVotes": 2050,
       "egsScore": 80.67,
       "egsVotes": 1005,
       "egsMedian": 80
@@ -6592,9 +6594,9 @@
         ]
       },
       "vndbScore": 79.9,
-      "vndbVotes": 2594,
+      "vndbVotes": 2600,
       "bangumiScore": 74,
-      "bangumiVotes": 3195,
+      "bangumiVotes": 3196,
       "egsScore": 83.96,
       "egsVotes": 874,
       "egsMedian": 85
@@ -6666,9 +6668,9 @@
         ]
       },
       "vndbScore": 80.2,
-      "vndbVotes": 1046,
+      "vndbVotes": 1048,
       "bangumiScore": 76,
-      "bangumiVotes": 1207,
+      "bangumiVotes": 1209,
       "egsScore": 74.68,
       "egsVotes": 19,
       "egsMedian": 75
@@ -6705,9 +6707,9 @@
         ]
       },
       "vndbScore": 79.4,
-      "vndbVotes": 8105,
+      "vndbVotes": 8112,
       "bangumiScore": 74,
-      "bangumiVotes": 3803,
+      "bangumiVotes": 3805,
       "egsScore": 79.01,
       "egsVotes": 1113,
       "egsMedian": 80
@@ -6741,9 +6743,9 @@
         ]
       },
       "vndbScore": 79.6,
-      "vndbVotes": 527,
+      "vndbVotes": 528,
       "bangumiScore": 76,
-      "bangumiVotes": 1428,
+      "bangumiVotes": 1429,
       "egsScore": 80.42,
       "egsVotes": 391,
       "egsMedian": 80
@@ -6778,7 +6780,7 @@
         ]
       },
       "vndbScore": 80.9,
-      "vndbVotes": 1397,
+      "vndbVotes": 1398,
       "bangumiScore": 74,
       "bangumiVotes": 2504,
       "egsScore": 79.52,
@@ -7005,7 +7007,7 @@
       "vndbScore": 79.2,
       "vndbVotes": 2255,
       "bangumiScore": 74,
-      "bangumiVotes": 2429,
+      "bangumiVotes": 2430,
       "egsScore": 78.91,
       "egsVotes": 1740,
       "egsMedian": 80
@@ -7153,7 +7155,7 @@
       "vndbScore": 82,
       "vndbVotes": 680,
       "bangumiScore": 73,
-      "bangumiVotes": 1829,
+      "bangumiVotes": 1830,
       "egsScore": 81.78,
       "egsVotes": 419,
       "egsMedian": 82
@@ -7191,7 +7193,7 @@
         ]
       },
       "vndbScore": 79.5,
-      "vndbVotes": 480,
+      "vndbVotes": 481,
       "bangumiScore": 72,
       "bangumiVotes": 375,
       "egsScore": 76.92,
@@ -7264,8 +7266,8 @@
           "swi"
         ]
       },
-      "vndbScore": 80.1,
-      "vndbVotes": 482,
+      "vndbScore": 80,
+      "vndbVotes": 483,
       "bangumiScore": 74,
       "bangumiVotes": 1544,
       "egsScore": 78.45,
@@ -7301,7 +7303,7 @@
         ]
       },
       "vndbScore": 78.9,
-      "vndbVotes": 1475,
+      "vndbVotes": 1478,
       "bangumiScore": 72,
       "bangumiVotes": 570,
       "egsScore": 74.17,
@@ -7340,7 +7342,7 @@
       "vndbScore": 79.3,
       "vndbVotes": 615,
       "bangumiScore": 74,
-      "bangumiVotes": 792,
+      "bangumiVotes": 794,
       "egsScore": 76.26,
       "egsVotes": 187,
       "egsMedian": 77
@@ -7367,7 +7369,7 @@
         "genres": [
           "全年龄",
           "白玉",
-          "しらたま"
+          "萝莉"
         ],
         "platforms": [
           "win",
@@ -7377,7 +7379,7 @@
       "vndbScore": 80.3,
       "vndbVotes": 466,
       "bangumiScore": 75,
-      "bangumiVotes": 3511,
+      "bangumiVotes": 3512,
       "egsScore": 82.16,
       "egsVotes": 297,
       "egsMedian": 82
@@ -7412,9 +7414,9 @@
         ]
       },
       "vndbScore": 79.8,
-      "vndbVotes": 1613,
+      "vndbVotes": 1615,
       "bangumiScore": 74,
-      "bangumiVotes": 1704,
+      "bangumiVotes": 1705,
       "egsScore": 74.98,
       "egsVotes": 1054,
       "egsMedian": 78
@@ -7489,7 +7491,7 @@
         ]
       },
       "vndbScore": 78.9,
-      "vndbVotes": 2020,
+      "vndbVotes": 2022,
       "bangumiScore": 72,
       "bangumiVotes": 1429,
       "egsScore": 77.25,
@@ -7528,7 +7530,7 @@
       "vndbScore": 81.1,
       "vndbVotes": 628,
       "bangumiScore": 69,
-      "bangumiVotes": 452,
+      "bangumiVotes": 454,
       "egsScore": 75.21,
       "egsVotes": 95,
       "egsMedian": 75
@@ -7551,7 +7553,7 @@
         "released": "2021-10-07",
         "year": 2021,
         "image": "https://t.vndb.org/cv/42/80342.jpg",
-        "lengthMinutes": 3338,
+        "lengthMinutes": 3300,
         "genres": [
           "乙女向",
           "乙女ゲーム",
@@ -7603,9 +7605,9 @@
         ]
       },
       "vndbScore": 82.6,
-      "vndbVotes": 1117,
+      "vndbVotes": 1120,
       "bangumiScore": 73,
-      "bangumiVotes": 4493,
+      "bangumiVotes": 4498,
       "egsScore": 83.67,
       "egsVotes": 463,
       "egsMedian": 85
@@ -7641,7 +7643,7 @@
         ]
       },
       "vndbScore": 79.7,
-      "vndbVotes": 695,
+      "vndbVotes": 696,
       "bangumiScore": 70,
       "bangumiVotes": 824,
       "egsScore": 76.53,
@@ -7751,9 +7753,9 @@
         ]
       },
       "vndbScore": 80.9,
-      "vndbVotes": 634,
+      "vndbVotes": 637,
       "bangumiScore": 69,
-      "bangumiVotes": 1772,
+      "bangumiVotes": 1773,
       "egsScore": 83.05,
       "egsVotes": 728,
       "egsMedian": 84
@@ -7826,7 +7828,7 @@
       "vndbScore": 81.7,
       "vndbVotes": 338,
       "bangumiScore": 70,
-      "bangumiVotes": 953,
+      "bangumiVotes": 956,
       "egsScore": 82,
       "egsVotes": 247,
       "egsMedian": 82
@@ -7901,7 +7903,7 @@
       "vndbScore": 80.5,
       "vndbVotes": 412,
       "bangumiScore": 71,
-      "bangumiVotes": 1444,
+      "bangumiVotes": 1446,
       "egsScore": 81.83,
       "egsVotes": 300,
       "egsMedian": 81
