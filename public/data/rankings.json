@@ -24,11 +24,11 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 92.6207444359171,
+      "overallScore": 92.6412151898734,
       "sources": {
         "vndb": {
-          "score": 90.2,
-          "votes": 1172,
+          "score": 90.3,
+          "votes": 1173,
           "href": "https://vndb.org/v20802"
         },
         "bangumi": {
@@ -37,8 +37,8 @@
           "href": "https://bgm.tv/subject/226254"
         },
         "egs": {
-          "score": 93.47,
-          "votes": 1150,
+          "score": 93.48,
+          "votes": 1151,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=20764"
         }
       }
@@ -70,21 +70,21 @@
         "ps3",
         "psv"
       ],
-      "overallScore": 90.4221147045586,
+      "overallScore": 90.42209834484976,
       "sources": {
         "vndb": {
           "score": 90.2,
-          "votes": 4479,
+          "votes": 4480,
           "href": "https://vndb.org/v7771"
         },
         "bangumi": {
           "score": 91,
-          "votes": 7129,
+          "votes": 7131,
           "href": "https://bgm.tv/subject/22290"
         },
         "egs": {
           "score": 89.63,
-          "votes": 2630,
+          "votes": 2631,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=13255"
         }
       }
@@ -124,16 +124,16 @@
         "sw2",
         "xb3"
       ],
-      "overallScore": 89.81788852686576,
+      "overallScore": 89.81797275162353,
       "sources": {
         "vndb": {
           "score": 90.2,
-          "votes": 16708,
+          "votes": 16718,
           "href": "https://vndb.org/v2002"
         },
         "bangumi": {
           "score": 89,
-          "votes": 8472,
+          "votes": 8474,
           "href": "https://bgm.tv/subject/3154"
         },
         "egs": {
@@ -158,7 +158,7 @@
       "year": 2006,
       "released": "2006-02-24",
       "image": "https://t.vndb.org/cv/60/75660.jpg",
-      "lengthMinutes": 3285,
+      "lengthMinutes": 3288,
       "genres": [
         "燃",
         "muv-luv",
@@ -173,21 +173,21 @@
         "swi",
         "xb3"
       ],
-      "overallScore": 89.4040463261089,
+      "overallScore": 89.40396137586472,
       "sources": {
         "vndb": {
           "score": 89.9,
-          "votes": 11263,
+          "votes": 11265,
           "href": "https://vndb.org/v92"
         },
         "bangumi": {
           "score": 88,
-          "votes": 4041,
+          "votes": 4043,
           "href": "https://bgm.tv/subject/4828"
         },
         "egs": {
           "score": 89.42,
-          "votes": 3670,
+          "votes": 3672,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=4286"
         }
       }
@@ -207,7 +207,7 @@
       "year": 2009,
       "released": "2009-08-15",
       "image": "https://t.vndb.org/cv/64/86264.jpg",
-      "lengthMinutes": 4290,
+      "lengthMinutes": 4284,
       "genres": [
         "竜騎士07",
         "悬疑",
@@ -224,16 +224,16 @@
         "swi",
         "vnd"
       ],
-      "overallScore": 88.96392848704417,
+      "overallScore": 89.0499488309848,
       "sources": {
         "vndb": {
-          "score": 89.8,
-          "votes": 10910,
+          "score": 89.9,
+          "votes": 10915,
           "href": "https://vndb.org/v2153"
         },
         "bangumi": {
           "score": 86,
-          "votes": 1481,
+          "votes": 1482,
           "href": "https://bgm.tv/subject/109118"
         },
         "egs": {
@@ -258,7 +258,7 @@
       "year": 2009,
       "released": "2009-10-30",
       "image": "https://t.vndb.org/cv/25/77925.jpg",
-      "lengthMinutes": 4425,
+      "lengthMinutes": 4428,
       "genres": [
         "Nitro+",
         "奈良原一鉄",
@@ -267,21 +267,21 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 88.50693444384738,
+      "overallScore": 88.50950343902029,
       "sources": {
         "vndb": {
           "score": 90.1,
-          "votes": 5982,
+          "votes": 5984,
           "href": "https://vndb.org/v2016"
         },
         "bangumi": {
           "score": 86,
-          "votes": 4400,
+          "votes": 4405,
           "href": "https://bgm.tv/subject/3243"
         },
         "egs": {
-          "score": 88.84,
-          "votes": 3004,
+          "score": 88.85,
+          "votes": 3009,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=10469"
         }
       }
@@ -320,21 +320,21 @@
         "web",
         "mob"
       ],
-      "overallScore": 87.99820096191344,
+      "overallScore": 87.99708701528226,
       "sources": {
         "vndb": {
           "score": 84.5,
-          "votes": 8705,
+          "votes": 8709,
           "href": "https://vndb.org/v17"
         },
         "bangumi": {
           "score": 91,
-          "votes": 9809,
+          "votes": 9812,
           "href": "https://bgm.tv/subject/1126"
         },
         "egs": {
-          "score": 89.4,
-          "votes": 479,
+          "score": 89.38,
+          "votes": 478,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=5432"
         }
       }
@@ -363,21 +363,21 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 87.95755522672022,
+      "overallScore": 87.96176346356916,
       "sources": {
         "vndb": {
           "score": 86.7,
-          "votes": 2684,
+          "votes": 2685,
           "href": "https://vndb.org/v1913"
         },
         "bangumi": {
           "score": 88,
-          "votes": 3228,
+          "votes": 3230,
           "href": "https://bgm.tv/subject/12098"
         },
         "egs": {
-          "score": 88.87,
-          "votes": 2366,
+          "score": 88.88,
+          "votes": 2370,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=12082"
         }
       }
@@ -440,7 +440,7 @@
       "year": 2004,
       "released": "2004-04-28",
       "image": "https://t.vndb.org/cv/95/75895.jpg",
-      "lengthMinutes": 4672,
+      "lengthMinutes": 4665,
       "genres": [
         "key",
         "CLANNAD",
@@ -460,21 +460,21 @@
         "xb3",
         "mob"
       ],
-      "overallScore": 87.72068418967112,
+      "overallScore": 87.72063251023373,
       "sources": {
         "vndb": {
           "score": 87.2,
-          "votes": 11342,
+          "votes": 11344,
           "href": "https://vndb.org/v4"
         },
         "bangumi": {
           "score": 89,
-          "votes": 6433,
+          "votes": 6434,
           "href": "https://bgm.tv/subject/13"
         },
         "egs": {
           "score": 87.25,
-          "votes": 3292,
+          "votes": 3294,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=3454"
         }
       }
@@ -514,11 +514,11 @@
         "swi",
         "vnd"
       ],
-      "overallScore": 87.68958701590873,
+      "overallScore": 87.69004335956319,
       "sources": {
         "vndb": {
           "score": 88.4,
-          "votes": 7893,
+          "votes": 7899,
           "href": "https://vndb.org/v68"
         },
         "bangumi": {
@@ -570,16 +570,16 @@
         "xxs",
         "web"
       ],
-      "overallScore": 87.59191193545506,
+      "overallScore": 87.59161621573355,
       "sources": {
         "vndb": {
           "score": 88.7,
-          "votes": 13744,
+          "votes": 13746,
           "href": "https://vndb.org/v24"
         },
         "bangumi": {
           "score": 84,
-          "votes": 2509,
+          "votes": 2511,
           "href": "https://bgm.tv/subject/1020"
         },
         "egs": {
@@ -614,21 +614,21 @@
         "win",
         "and"
       ],
-      "overallScore": 87.55223487868777,
+      "overallScore": 87.53756822316555,
       "sources": {
         "vndb": {
-          "score": 87.5,
-          "votes": 2508,
+          "score": 87.4,
+          "votes": 2510,
           "href": "https://vndb.org/v562"
         },
         "bangumi": {
           "score": 87,
-          "votes": 6675,
+          "votes": 6677,
           "href": "https://bgm.tv/subject/22423"
         },
         "egs": {
-          "score": 88.51,
-          "votes": 2657,
+          "score": 88.52,
+          "votes": 2670,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=4529"
         }
       }
@@ -711,21 +711,21 @@
         "psv",
         "swi"
       ],
-      "overallScore": 86.97860774818403,
+      "overallScore": 86.9782491684306,
       "sources": {
         "vndb": {
           "score": 89.2,
-          "votes": 2923,
+          "votes": 2925,
           "href": "https://vndb.org/v18717"
         },
         "bangumi": {
           "score": 82,
-          "votes": 1544,
+          "votes": 1545,
           "href": "https://bgm.tv/subject/157916"
         },
         "egs": {
-          "score": 89.42,
-          "votes": 326,
+          "score": 89.41,
+          "votes": 327,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22900"
         }
       }
@@ -745,7 +745,7 @@
       "year": 2010,
       "released": "2010-03-26",
       "image": "https://t.vndb.org/cv/17/90017.jpg",
-      "lengthMinutes": 3075,
+      "lengthMinutes": 3080,
       "genres": [
         "电波",
         "哲学",
@@ -756,21 +756,21 @@
         "and",
         "web"
       ],
-      "overallScore": 86.82449640003165,
+      "overallScore": 86.82644660616486,
       "sources": {
         "vndb": {
           "score": 86.8,
-          "votes": 11831,
+          "votes": 11837,
           "href": "https://vndb.org/v3144"
         },
         "bangumi": {
           "score": 87,
-          "votes": 8518,
+          "votes": 8521,
           "href": "https://bgm.tv/subject/4639"
         },
         "egs": {
-          "score": 86.58,
-          "votes": 3286,
+          "score": 86.59,
+          "votes": 3287,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=12591"
         }
       }
@@ -805,11 +805,11 @@
         "swi",
         "n3d"
       ],
-      "overallScore": 86.76928118768004,
+      "overallScore": 86.7684406148939,
       "sources": {
         "vndb": {
           "score": 87.9,
-          "votes": 7539,
+          "votes": 7543,
           "href": "https://vndb.org/v12402"
         },
         "bangumi": {
@@ -818,7 +818,7 @@
           "href": "https://bgm.tv/subject/73806"
         },
         "egs": {
-          "score": 86.63,
+          "score": 86.61,
           "votes": 467,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=18111"
         }
@@ -849,21 +849,21 @@
         "win",
         "and"
       ],
-      "overallScore": 86.71349066498846,
+      "overallScore": 86.71180904522612,
       "sources": {
         "vndb": {
           "score": 86.6,
-          "votes": 1841,
+          "votes": 1843,
           "href": "https://vndb.org/v31055"
         },
         "bangumi": {
           "score": 86,
-          "votes": 3778,
+          "votes": 3785,
           "href": "https://bgm.tv/subject/347780"
         },
         "egs": {
-          "score": 88.61,
-          "votes": 1021,
+          "score": 88.6,
+          "votes": 1024,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=31550"
         }
       }
@@ -902,20 +902,20 @@
         "n3d",
         "xbo"
       ],
-      "overallScore": 86.53654745529575,
+      "overallScore": 86.5365588046567,
       "sources": {
         "vndb": {
           "score": 85.6,
-          "votes": 6512,
+          "votes": 6514,
           "href": "https://vndb.org/v716"
         },
         "bangumi": {
           "score": 88,
-          "votes": 4300,
+          "votes": 4302,
           "href": "https://bgm.tv/subject/943"
         },
         "egs": {
-          "score": 84.45,
+          "score": 84.44,
           "votes": 62,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=20683"
         }
@@ -949,16 +949,16 @@
         "psp",
         "ps2"
       ],
-      "overallScore": 85.98487471803938,
+      "overallScore": 85.98349479071469,
       "sources": {
         "vndb": {
           "score": 82.4,
-          "votes": 3224,
+          "votes": 3228,
           "href": "https://vndb.org/v13"
         },
         "bangumi": {
           "score": 89,
-          "votes": 4595,
+          "votes": 4596,
           "href": "https://bgm.tv/subject/1127"
         },
         "egs": {
@@ -1027,8 +1027,8 @@
       },
       "year": 2004,
       "released": "2004-01-30",
-      "image": "https://t.vndb.org/cv/71/89071.jpg",
-      "lengthMinutes": 5348,
+      "image": "https://t.vndb.org/cv/98/75598.jpg",
+      "lengthMinutes": 5340,
       "genres": [
         "Type-Moon",
         "Fate",
@@ -1048,21 +1048,21 @@
         "vnd",
         "web"
       ],
-      "overallScore": 85.85689215839724,
+      "overallScore": 85.85675971709333,
       "sources": {
         "vndb": {
           "score": 86.3,
-          "votes": 19132,
+          "votes": 19135,
           "href": "https://vndb.org/v11"
         },
         "bangumi": {
           "score": 83,
-          "votes": 5526,
+          "votes": 5529,
           "href": "https://bgm.tv/subject/935"
         },
         "egs": {
           "score": 86.86,
-          "votes": 4858,
+          "votes": 4860,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=3254"
         }
       }
@@ -1092,21 +1092,21 @@
         "ps4",
         "swi"
       ],
-      "overallScore": 85.80202145680406,
+      "overallScore": 85.80469669895608,
       "sources": {
         "vndb": {
           "score": 88.2,
-          "votes": 2898,
+          "votes": 2899,
           "href": "https://vndb.org/v17909"
         },
         "bangumi": {
           "score": 82,
-          "votes": 1941,
+          "votes": 1942,
           "href": "https://bgm.tv/subject/46874"
         },
         "egs": {
-          "score": 86.71,
-          "votes": 316,
+          "score": 86.74,
+          "votes": 317,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30422"
         }
       }
@@ -1126,7 +1126,7 @@
       "year": 2012,
       "released": "2012-04-12",
       "image": "https://t.vndb.org/cv/24/85324.jpg",
-      "lengthMinutes": 1809,
+      "lengthMinutes": 1812,
       "genres": [
         "TypeMoon",
         "奈須きのこ",
@@ -1137,21 +1137,21 @@
         "ps4",
         "swi"
       ],
-      "overallScore": 85.66299875864516,
+      "overallScore": 85.66305010275671,
       "sources": {
         "vndb": {
           "score": 86.3,
-          "votes": 5395,
+          "votes": 5402,
           "href": "https://vndb.org/v777"
         },
         "bangumi": {
           "score": 86,
-          "votes": 7090,
+          "votes": 7095,
           "href": "https://bgm.tv/subject/5418"
         },
         "egs": {
           "score": 82.05,
-          "votes": 1075,
+          "votes": 1076,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=10935"
         }
       }
@@ -1193,16 +1193,16 @@
         "vnd",
         "mob"
       ],
-      "overallScore": 85.56918854753552,
+      "overallScore": 85.56952102596804,
       "sources": {
         "vndb": {
           "score": 86.1,
-          "votes": 11143,
+          "votes": 11147,
           "href": "https://vndb.org/v67"
         },
         "bangumi": {
           "score": 83,
-          "votes": 1241,
+          "votes": 1240,
           "href": "https://bgm.tv/subject/17035"
         },
         "egs": {
@@ -1242,21 +1242,21 @@
         "psv",
         "swi"
       ],
-      "overallScore": 85.44809161084095,
+      "overallScore": 85.44775700934578,
       "sources": {
         "vndb": {
           "score": 86.3,
-          "votes": 9221,
+          "votes": 9225,
           "href": "https://vndb.org/v5"
         },
         "bangumi": {
           "score": 85,
-          "votes": 2823,
+          "votes": 2825,
           "href": "https://bgm.tv/subject/845"
         },
         "egs": {
           "score": 82.97,
-          "votes": 1773,
+          "votes": 1775,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=7062"
         }
       }
@@ -1289,27 +1289,70 @@
         "ps4",
         "swi"
       ],
-      "overallScore": 85.43349860551595,
+      "overallScore": 85.42609771181199,
       "sources": {
         "vndb": {
           "score": 87.2,
-          "votes": 1854,
+          "votes": 1855,
           "href": "https://vndb.org/v21438"
         },
         "bangumi": {
           "score": 83,
-          "votes": 2058,
+          "votes": 2060,
           "href": "https://bgm.tv/subject/308808"
         },
         "egs": {
-          "score": 87.3,
-          "votes": 619,
+          "score": 87.25,
+          "votes": 624,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30183"
         }
       }
     },
     {
       "rank": 28,
+      "id": "v21267",
+      "titles": {
+        "en": "Monmusu Quest! Paradox RPG Chuushou",
+        "zh": "勇者大战魔物娘RPG 中章",
+        "ja": "もんむす・くえすと！　ぱらどっくすRPG中章"
+      },
+      "descriptions": {
+        "en": "Lose and be ravished by the vamps! Battles sexy enchantresses, where failure ends in reverse rape! Party members are also monster girls who wildly fuck the hero! There's never a scene where the hero's in charge... Monmusu Quest! Is! Back! An adventuring role-playing game in a fantasy world! The protagonist is a beginner hero. Following in the footsteps of his hero father, he sets off for glory! Where will the adventure take him? When at last his journey ends, will he have achieved his dream? Over 200 enemy monsters in Part Two alone! All reverse-rape youjo (vixens)! Battle all kinds of reverse-rape youjo (vixens) and recruit them to your party! And, all it takes is a little pestering to get their libidos thrumming--- [From English DLsite]",
+        "zh": "負けたら妖女に犯される本格RPG! 戦闘で敗北すれば、魅惑的な妖女モンスターに逆レイプ! 仲間にしたモンスター娘にも、おねだりすれば逆レイプ! 男性側が女性側を性的に責めるシーンは一切なし! ・ファンタジー世界を冒険する本格ロールプレイングゲーム! 勇者ルカの冒険は、ついに佳境を迎える! 果たして彼の運命は? 長い旅の果てに、目的を叶えることはできるのか? ・中章の総モンスター数は200体以上! 全員に敗北後逆レイプシーンが存在! 敵モンスターとの戦いで、敗北してしまえば―― 主人公はなすすべもなく逆レイプされ、あえなく妖女の餌食にされてしまうのだ。 生殖奴隷にされたり、性のオモチャにされたり、死ぬまで精液を搾り取られたり―― 全モンスターに敗北後逆レイプが存在し、様々な逆陵辱の末路が用意されている。 ・敵モンスターを仲間に! 味方にした妖女からも逆レイプ! 戦ったモンスターを仲間にする事が可能、一緒に冒険できる! また、仲間にHなおねだりをすれば逆レイプも―― ※アップデートを行う場合、ファイル一式を差し替えます。 そのため、ダウンロードサイトに会員登録をした上での購入をお勧めします。 ※前章のセーブデータを引き継ぎ可能 また、中章のみでもプレイ可能です"
+      },
+      "year": 2017,
+      "released": "2017-06-23",
+      "image": "https://t.vndb.org/cv/73/79673.jpg",
+      "lengthMinutes": 2742,
+      "genres": [
+        "RPG",
+        "魔物娘",
+        "同人"
+      ],
+      "platforms": [
+        "win"
+      ],
+      "overallScore": 85.33979829325057,
+      "sources": {
+        "vndb": {
+          "score": 86.1,
+          "votes": 410,
+          "href": "https://vndb.org/v21267"
+        },
+        "bangumi": {
+          "score": 80,
+          "votes": 92,
+          "href": "https://bgm.tv/subject/222896"
+        },
+        "egs": {
+          "score": 86.6,
+          "votes": 95,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25414"
+        }
+      }
+    },
+    {
+      "rank": 29,
       "id": "v3660",
       "titles": {
         "en": "Shingakkou -Noli me tangere-",
@@ -1353,49 +1396,6 @@
       }
     },
     {
-      "rank": 29,
-      "id": "v21267",
-      "titles": {
-        "en": "Monmusu Quest! Paradox RPG Chuushou",
-        "zh": "勇者大战魔物娘RPG 中章",
-        "ja": "もんむす・くえすと！　ぱらどっくすRPG中章"
-      },
-      "descriptions": {
-        "en": "Lose and be ravished by the vamps! Battles sexy enchantresses, where failure ends in reverse rape! Party members are also monster girls who wildly fuck the hero! There's never a scene where the hero's in charge... Monmusu Quest! Is! Back! An adventuring role-playing game in a fantasy world! The protagonist is a beginner hero. Following in the footsteps of his hero father, he sets off for glory! Where will the adventure take him? When at last his journey ends, will he have achieved his dream? Over 200 enemy monsters in Part Two alone! All reverse-rape youjo (vixens)! Battle all kinds of reverse-rape youjo (vixens) and recruit them to your party! And, all it takes is a little pestering to get their libidos thrumming--- [From English DLsite]",
-        "zh": "負けたら妖女に犯される本格RPG! 戦闘で敗北すれば、魅惑的な妖女モンスターに逆レイプ! 仲間にしたモンスター娘にも、おねだりすれば逆レイプ! 男性側が女性側を性的に責めるシーンは一切なし! ・ファンタジー世界を冒険する本格ロールプレイングゲーム! 勇者ルカの冒険は、ついに佳境を迎える! 果たして彼の運命は? 長い旅の果てに、目的を叶えることはできるのか? ・中章の総モンスター数は200体以上! 全員に敗北後逆レイプシーンが存在! 敵モンスターとの戦いで、敗北してしまえば―― 主人公はなすすべもなく逆レイプされ、あえなく妖女の餌食にされてしまうのだ。 生殖奴隷にされたり、性のオモチャにされたり、死ぬまで精液を搾り取られたり―― 全モンスターに敗北後逆レイプが存在し、様々な逆陵辱の末路が用意されている。 ・敵モンスターを仲間に! 味方にした妖女からも逆レイプ! 戦ったモンスターを仲間にする事が可能、一緒に冒険できる! また、仲間にHなおねだりをすれば逆レイプも―― ※アップデートを行う場合、ファイル一式を差し替えます。 そのため、ダウンロードサイトに会員登録をした上での購入をお勧めします。 ※前章のセーブデータを引き継ぎ可能 また、中章のみでもプレイ可能です"
-      },
-      "year": 2017,
-      "released": "2017-06-23",
-      "image": "https://t.vndb.org/cv/73/79673.jpg",
-      "lengthMinutes": 2742,
-      "genres": [
-        "RPG",
-        "魔物娘",
-        "同人"
-      ],
-      "platforms": [
-        "win"
-      ],
-      "overallScore": 85.32808709175738,
-      "sources": {
-        "vndb": {
-          "score": 86.1,
-          "votes": 410,
-          "href": "https://vndb.org/v21267"
-        },
-        "bangumi": {
-          "score": 80,
-          "votes": 92,
-          "href": "https://bgm.tv/subject/222896"
-        },
-        "egs": {
-          "score": 86.56,
-          "votes": 94,
-          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25414"
-        }
-      }
-    },
-    {
       "rank": 30,
       "id": "v31929",
       "titles": {
@@ -1422,11 +1422,11 @@
         "mac",
         "and"
       ],
-      "overallScore": 85.30222956234516,
+      "overallScore": 85.30082644628098,
       "sources": {
         "vndb": {
           "score": 87,
-          "votes": 697,
+          "votes": 696,
           "href": "https://vndb.org/v31929"
         },
         "bangumi": {
@@ -1469,20 +1469,20 @@
         "psv",
         "swi"
       ],
-      "overallScore": 85.26997885586749,
+      "overallScore": 85.26855969010447,
       "sources": {
         "vndb": {
           "score": 85.6,
-          "votes": 2641,
+          "votes": 2643,
           "href": "https://vndb.org/v18397"
         },
         "bangumi": {
           "score": 85,
-          "votes": 1401,
+          "votes": 1402,
           "href": "https://bgm.tv/subject/144881"
         },
         "egs": {
-          "score": 82.97,
+          "score": 82.94,
           "votes": 143,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22156"
         }
@@ -1513,11 +1513,11 @@
         "win",
         "web"
       ],
-      "overallScore": 85.09609004476341,
+      "overallScore": 85.09713963547635,
       "sources": {
         "vndb": {
           "score": 83.6,
-          "votes": 5966,
+          "votes": 5969,
           "href": "https://vndb.org/v487"
         },
         "bangumi": {
@@ -1527,7 +1527,7 @@
         },
         "egs": {
           "score": 88.21,
-          "votes": 3167,
+          "votes": 3171,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=8134"
         }
       }
@@ -1557,7 +1557,7 @@
         "win",
         "web"
       ],
-      "overallScore": 84.91171374764595,
+      "overallScore": 84.9249765258216,
       "sources": {
         "vndb": {
           "score": 88.7,
@@ -1570,8 +1570,8 @@
           "href": "https://bgm.tv/subject/522285"
         },
         "egs": {
-          "score": 85.63,
-          "votes": 56,
+          "score": 85.7,
+          "votes": 57,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=38321"
         }
       }
@@ -1602,7 +1602,7 @@
         "mac",
         "psv"
       ],
-      "overallScore": 84.84114960629921,
+      "overallScore": 84.84223446105429,
       "sources": {
         "vndb": {
           "score": 82.3,
@@ -1616,7 +1616,7 @@
         },
         "egs": {
           "score": 86.22,
-          "votes": 1756,
+          "votes": 1758,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=17811"
         }
       }
@@ -1650,7 +1650,7 @@
         "sat",
         "swi"
       ],
-      "overallScore": 84.7815590947192,
+      "overallScore": 84.78635822007075,
       "sources": {
         "vndb": {
           "score": 80.7,
@@ -1659,12 +1659,12 @@
         },
         "bangumi": {
           "score": 85,
-          "votes": 1305,
+          "votes": 1306,
           "href": "https://bgm.tv/subject/1075"
         },
         "egs": {
-          "score": 89.6,
-          "votes": 1221,
+          "score": 89.61,
+          "votes": 1222,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=2093"
         }
       }
@@ -1693,21 +1693,21 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 84.75918973326623,
+      "overallScore": 84.7781143430291,
       "sources": {
         "vndb": {
-          "score": 86.6,
-          "votes": 194,
+          "score": 86.7,
+          "votes": 195,
           "href": "https://vndb.org/v21069"
         },
         "bangumi": {
           "score": 82,
-          "votes": 450,
+          "votes": 451,
           "href": "https://bgm.tv/subject/212376"
         },
         "egs": {
-          "score": 87.29,
-          "votes": 233,
+          "score": 87.28,
+          "votes": 234,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25166"
         }
       }
@@ -1740,11 +1740,11 @@
         "ps4",
         "psv"
       ],
-      "overallScore": 84.66088278210115,
+      "overallScore": 84.66131872473635,
       "sources": {
         "vndb": {
           "score": 85.3,
-          "votes": 8398,
+          "votes": 8397,
           "href": "https://vndb.org/v751"
         },
         "bangumi": {
@@ -1753,8 +1753,8 @@
           "href": "https://bgm.tv/subject/4022"
         },
         "egs": {
-          "score": 80.2,
-          "votes": 1856,
+          "score": 80.21,
+          "votes": 1859,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=10917"
         }
       }
@@ -1783,21 +1783,21 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 84.60997430053823,
+      "overallScore": 84.6105727299157,
       "sources": {
         "vndb": {
           "score": 81.5,
-          "votes": 3131,
+          "votes": 3133,
           "href": "https://vndb.org/v1306"
         },
         "bangumi": {
           "score": 84,
-          "votes": 3147,
+          "votes": 3148,
           "href": "https://bgm.tv/subject/1457"
         },
         "egs": {
           "score": 87.5,
-          "votes": 2689,
+          "votes": 2692,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=9979"
         }
       }
@@ -1832,7 +1832,7 @@
         "ps4",
         "wii"
       ],
-      "overallScore": 84.54157246897117,
+      "overallScore": 84.5418544336238,
       "sources": {
         "vndb": {
           "score": 83.7,
@@ -1841,7 +1841,7 @@
         },
         "bangumi": {
           "score": 85,
-          "votes": 3150,
+          "votes": 3153,
           "href": "https://bgm.tv/subject/955"
         },
         "egs": {
@@ -1877,21 +1877,21 @@
         "and",
         "psv"
       ],
-      "overallScore": 84.5361144852718,
+      "overallScore": 84.52937168811506,
       "sources": {
         "vndb": {
-          "score": 87.1,
-          "votes": 1071,
+          "score": 87,
+          "votes": 1072,
           "href": "https://vndb.org/v20431"
         },
         "bangumi": {
           "score": 81,
-          "votes": 3484,
+          "votes": 3487,
           "href": "https://bgm.tv/subject/220921"
         },
         "egs": {
           "score": 89.25,
-          "votes": 1354,
+          "votes": 1364,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25169"
         }
       }
@@ -1920,11 +1920,11 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 84.44869592674456,
+      "overallScore": 84.45027436140019,
       "sources": {
         "vndb": {
           "score": 85.7,
-          "votes": 1433,
+          "votes": 1435,
           "href": "https://vndb.org/v19035"
         },
         "bangumi": {
@@ -1967,21 +1967,21 @@
         "psv",
         "swi"
       ],
-      "overallScore": 84.39981852277539,
+      "overallScore": 84.40395224421943,
       "sources": {
         "vndb": {
           "score": 84.6,
-          "votes": 3056,
+          "votes": 3059,
           "href": "https://vndb.org/v3770"
         },
         "bangumi": {
           "score": 83,
-          "votes": 8027,
+          "votes": 8028,
           "href": "https://bgm.tv/subject/12280"
         },
         "egs": {
-          "score": 86.35,
-          "votes": 3632,
+          "score": 86.36,
+          "votes": 3637,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=13640"
         }
       }
@@ -2001,7 +2001,7 @@
       "year": 2009,
       "released": "2009-01-30",
       "image": "https://t.vndb.org/cv/72/79672.jpg",
-      "lengthMinutes": 3628,
+      "lengthMinutes": 3645,
       "genres": [
         "Navel",
         "王雀孫",
@@ -2012,21 +2012,21 @@
         "ps3",
         "psv"
       ],
-      "overallScore": 84.22586327929132,
+      "overallScore": 84.22579294235422,
       "sources": {
         "vndb": {
           "score": 86.3,
-          "votes": 621,
+          "votes": 622,
           "href": "https://vndb.org/v1141"
         },
         "bangumi": {
           "score": 83,
-          "votes": 1030,
+          "votes": 1032,
           "href": "https://bgm.tv/subject/7868"
         },
         "egs": {
           "score": 84.22,
-          "votes": 2888,
+          "votes": 2893,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=5148"
         }
       }
@@ -2055,21 +2055,21 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 84.03948671769473,
+      "overallScore": 84.04495114006515,
       "sources": {
         "vndb": {
           "score": 84.4,
-          "votes": 1568,
+          "votes": 1569,
           "href": "https://vndb.org/v17012"
         },
         "bangumi": {
           "score": 81,
-          "votes": 1854,
+          "votes": 1855,
           "href": "https://bgm.tv/subject/163041"
         },
         "egs": {
-          "score": 89.01,
-          "votes": 680,
+          "score": 89,
+          "votes": 685,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22704"
         }
       }
@@ -2104,11 +2104,11 @@
         "swi",
         "xbo"
       ],
-      "overallScore": 83.97903193277311,
+      "overallScore": 83.979375,
       "sources": {
         "vndb": {
           "score": 85,
-          "votes": 1919,
+          "votes": 1920,
           "href": "https://vndb.org/v6639"
         },
         "bangumi": {
@@ -2149,7 +2149,7 @@
         "ps4",
         "swi"
       ],
-      "overallScore": 83.9344039829303,
+      "overallScore": 83.93729970607755,
       "sources": {
         "vndb": {
           "score": 85.3,
@@ -2158,11 +2158,11 @@
         },
         "bangumi": {
           "score": 82,
-          "votes": 2698,
+          "votes": 2699,
           "href": "https://bgm.tv/subject/233030"
         },
         "egs": {
-          "score": 86.29,
+          "score": 86.3,
           "votes": 1147,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=26245"
         }
@@ -2194,7 +2194,7 @@
         "swi",
         "web"
       ],
-      "overallScore": 83.90079085278704,
+      "overallScore": 83.90131428571429,
       "sources": {
         "vndb": {
           "score": 81.4,
@@ -2203,7 +2203,7 @@
         },
         "bangumi": {
           "score": 85,
-          "votes": 2898,
+          "votes": 2901,
           "href": "https://bgm.tv/subject/1143"
         },
         "egs": {
@@ -2238,7 +2238,7 @@
         "win",
         "and"
       ],
-      "overallScore": 83.81054559625878,
+      "overallScore": 83.8128191158157,
       "sources": {
         "vndb": {
           "score": 83.5,
@@ -2247,12 +2247,12 @@
         },
         "bangumi": {
           "score": 81,
-          "votes": 2724,
+          "votes": 2727,
           "href": "https://bgm.tv/subject/273493"
         },
         "egs": {
           "score": 87.65,
-          "votes": 1414,
+          "votes": 1418,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27720"
         }
       }
@@ -2289,16 +2289,16 @@
         "swi",
         "xbo"
       ],
-      "overallScore": 83.79519783253245,
+      "overallScore": 83.79515891670924,
       "sources": {
         "vndb": {
           "score": 83.6,
-          "votes": 5083,
+          "votes": 5086,
           "href": "https://vndb.org/v14018"
         },
         "bangumi": {
           "score": 84,
-          "votes": 4659,
+          "votes": 4660,
           "href": "https://bgm.tv/subject/88765"
         },
         "egs": {
@@ -2334,7 +2334,7 @@
         "and",
         "swi"
       ],
-      "overallScore": 83.75665497076022,
+      "overallScore": 83.75014594279043,
       "sources": {
         "vndb": {
           "score": 87,
@@ -2347,8 +2347,8 @@
           "href": "https://bgm.tv/subject/281992"
         },
         "egs": {
-          "score": 79.14,
-          "votes": 14,
+          "score": 79.2,
+          "votes": 15,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=32189"
         }
       }
@@ -2381,21 +2381,21 @@
         "ps4",
         "swi"
       ],
-      "overallScore": 83.58216332782457,
+      "overallScore": 83.57682030620467,
       "sources": {
         "vndb": {
           "score": 84.6,
-          "votes": 4705,
+          "votes": 4707,
           "href": "https://vndb.org/v20424"
         },
         "bangumi": {
           "score": 82,
-          "votes": 5799,
+          "votes": 5804,
           "href": "https://bgm.tv/subject/200763"
         },
         "egs": {
-          "score": 85.89,
-          "votes": 1267,
+          "score": 85.86,
+          "votes": 1266,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24606"
         }
       }
@@ -2424,7 +2424,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 83.5296418338109,
+      "overallScore": 83.53003400751746,
       "sources": {
         "vndb": {
           "score": 83.4,
@@ -2438,7 +2438,7 @@
         },
         "egs": {
           "score": 84.26,
-          "votes": 1024,
+          "votes": 1025,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=6134"
         }
       }
@@ -2471,7 +2471,7 @@
         "ps3",
         "xb3"
       ],
-      "overallScore": 83.40783654485051,
+      "overallScore": 83.40871367089954,
       "sources": {
         "vndb": {
           "score": 81.4,
@@ -2480,12 +2480,12 @@
         },
         "bangumi": {
           "score": 81,
-          "votes": 3332,
+          "votes": 3333,
           "href": "https://bgm.tv/subject/1124"
         },
         "egs": {
           "score": 85.93,
-          "votes": 5755,
+          "votes": 5760,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=6234"
         }
       }
@@ -2527,21 +2527,21 @@
         "xb3",
         "web"
       ],
-      "overallScore": 83.34034961310735,
+      "overallScore": 83.34519914829659,
       "sources": {
         "vndb": {
           "score": 78.8,
-          "votes": 4828,
+          "votes": 4829,
           "href": "https://vndb.org/v66"
         },
         "bangumi": {
           "score": 85,
-          "votes": 4243,
+          "votes": 4245,
           "href": "https://bgm.tv/subject/2720"
         },
         "egs": {
-          "score": 85.5,
-          "votes": 4593,
+          "score": 85.51,
+          "votes": 4596,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=3007"
         }
       }
@@ -2572,7 +2572,7 @@
         "psv",
         "swi"
       ],
-      "overallScore": 83.28995774647888,
+      "overallScore": 83.29435211267607,
       "sources": {
         "vndb": {
           "score": 84.4,
@@ -2585,7 +2585,7 @@
           "href": "https://bgm.tv/subject/188744"
         },
         "egs": {
-          "score": 79.63,
+          "score": 79.71,
           "votes": 52,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24332"
         }
@@ -2618,7 +2618,7 @@
         "swi",
         "web"
       ],
-      "overallScore": 83.22839116719243,
+      "overallScore": 83.2465460267506,
       "sources": {
         "vndb": {
           "score": 80.2,
@@ -2631,8 +2631,8 @@
           "href": "https://bgm.tv/subject/241897"
         },
         "egs": {
-          "score": 84.8,
-          "votes": 608,
+          "score": 84.84,
+          "votes": 612,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28634"
         }
       }
@@ -2662,21 +2662,21 @@
         "win",
         "web"
       ],
-      "overallScore": 83.1925485893417,
+      "overallScore": 83.1953200813899,
       "sources": {
         "vndb": {
           "score": 84.9,
-          "votes": 1808,
+          "votes": 1811,
           "href": "https://vndb.org/v17642"
         },
         "bangumi": {
           "score": 82,
-          "votes": 3075,
+          "votes": 3078,
           "href": "https://bgm.tv/subject/134929"
         },
         "egs": {
-          "score": 83.58,
-          "votes": 998,
+          "score": 83.59,
+          "votes": 1000,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22060"
         }
       }
@@ -2685,7 +2685,7 @@
       "rank": 58,
       "id": "v2836",
       "titles": {
-        "en": "Ikusa Megami Verita",
+        "en": "Ikusa Megami VERITA",
         "zh": "战女神VERITA",
         "ja": "戦女神VERITA"
       },
@@ -2695,7 +2695,7 @@
       },
       "year": 2010,
       "released": "2010-04-23",
-      "image": "https://t.vndb.org/cv/68/27668.jpg",
+      "image": "https://t.vndb.org/cv/73/143173.jpg",
       "lengthMinutes": 5147,
       "genres": [
         "Eushully",
@@ -2705,7 +2705,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 83.00301161963482,
+      "overallScore": 83.00111400805878,
       "sources": {
         "vndb": {
           "score": 82.2,
@@ -2714,7 +2714,7 @@
         },
         "bangumi": {
           "score": 79,
-          "votes": 535,
+          "votes": 536,
           "href": "https://bgm.tv/subject/12119"
         },
         "egs": {
@@ -2752,21 +2752,21 @@
         "psv",
         "swi"
       ],
-      "overallScore": 82.9183442107179,
+      "overallScore": 82.91561781982638,
       "sources": {
         "vndb": {
           "score": 83.5,
-          "votes": 12843,
+          "votes": 12845,
           "href": "https://vndb.org/v5154"
         },
         "bangumi": {
           "score": 77,
-          "votes": 1495,
+          "votes": 1496,
           "href": "https://bgm.tv/subject/10869"
         },
         "egs": {
-          "score": 83.2,
-          "votes": 3261,
+          "score": 83.19,
+          "votes": 3264,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=14237"
         }
       }
@@ -2795,21 +2795,21 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 82.89611468531469,
+      "overallScore": 82.89956408345752,
       "sources": {
         "vndb": {
           "score": 83.2,
-          "votes": 1423,
+          "votes": 1426,
           "href": "https://vndb.org/v13802"
         },
         "bangumi": {
           "score": 82,
-          "votes": 2228,
+          "votes": 2229,
           "href": "https://bgm.tv/subject/88739"
         },
         "egs": {
-          "score": 83.81,
-          "votes": 1141,
+          "score": 83.82,
+          "votes": 1142,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=19702"
         }
       }
@@ -2839,66 +2839,66 @@
         "win",
         "swi"
       ],
-      "overallScore": 82.7645387335262,
+      "overallScore": 82.77202501202501,
       "sources": {
         "vndb": {
           "score": 85,
-          "votes": 2207,
+          "votes": 2208,
           "href": "https://vndb.org/v26987"
         },
         "bangumi": {
           "score": 74,
-          "votes": 1843,
+          "votes": 1845,
           "href": "https://bgm.tv/subject/295075"
         },
         "egs": {
           "score": 87.93,
-          "votes": 1448,
+          "votes": 1456,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28941"
         }
       }
     },
     {
       "rank": 62,
-      "id": "v19273",
+      "id": "v1143",
       "titles": {
-        "en": "SeaBed",
-        "zh": "海底",
-        "ja": "SeaBed"
+        "en": "Majikoi! Love Me Seriously!!",
+        "zh": "认真和我恋爱",
+        "ja": "真剣で私に恋しなさい！"
       },
       "descriptions": {
-        "en": "SeaBed is a yuri-themed mystery visual novel told through the perspectives of three separate characters: Mizuno Sachiko, a designer plagued by hallucinations of her past lover; Narasaki Hibiki, Sachiko's friend and a psychiatrist researching the workings of human memories; and Takako, Sachiko's former lover who has been rapidly forgetting her past, including how or why the two women drifted apart despite being together since childhood. All three live in different worlds, but seek the same goal. To separate truth from illusion. To make sense of their own lives. ---- I saw a ghost in the living room. But as I was already used to the phenomenon, I did not let it interfere with the preparation of my evening meal. The ghost ate my fried egg and commended its taste. As I listened to her talk, my memories drifted back to the days we were still together. Back when we were in school, she asked me what was necessary for the two of us to be together. A small workplace that we could make a living from without relying on anyone. A silent apartment where we would have the freedom to do what our hearts desired. I told her that. In the late eighties – during the economic boom – the small design company we founded was doing surprisingly well. We visited all the places we talked about when we were in school – the southern islands, the old European cities, the West Coast. We went wherever we wanted, seeing whatever we sought. Alone in that spacious living room, I attempted to figure out why it all ended this way. Why those days when nothing could stand in our way faded into the past. I no lon",
-        "zh": "本作是一部包含百合要素的悬疑小说。 故事将从三位角色的视角展开。 CG数量：90张以上 文本量：约47万字 逝去的时光，如同沉入无尽深海的碎片。 偶尔浮现的过往景色与气息，亦如泡沫般摇曳消散。 精神科医生楢崎在心理诊所研究人类遗忘的机制。 人为什么会遗忘？是否存在不忘记重要事物的方法？ 在深入探索某位患者的内心深处时，她最终抵达了幽深的海底。 在东京开设事务所的设计师佐知子，如同被某种执念驱使，不断创作。 她无视同事的关心，一心投入工作，直至精神濒临崩溃，甚至开始看到过去恋人的幻影。 追随着恋人的痕迹，她找到了一条幽暗漫长的隧道。 住在疗养院的贵呼，始终无法想起自己是如何与青梅竹马的同性恋人分开的。 在与一位酷似恋人的女性相遇后，她逐渐找回了失落的记忆。 她不断开启尘封的回忆之门，最终走入了一间冰冷而寂静的房间。 在各自的目标驱使下，三人踏上追寻过去的旅程。 三段故事在静谧而平淡的日常中缓缓展开，最终汇聚至同一个终点……"
+        "en": "Kawakami City is famous for its strong dedication to its samurai ancestors. A strong fighting spirit is always valued and it's even an important factor in succeeding in school there. Yamato, a second year student from Kawakami Highschool is always with his close friends (4 boys and 3 girls). They have known each other since they were young and have done loads of things together. They have many other friends, but these seven people are a close-knit group, they even have a secret base where they meet... With the new semester, they welcome two girls into their group and shortly after things start to change...",
+        "zh": "在互相信任的集体中，我们过着不知不觉间无法回到过去的时光。 川神学園的2年级生直江大和，有着一班非常重要的同伴。 男4人与女3人。从小开始就一直做着各种蠢事，一直成长到现在。 虽然发生了各种事情，直到现在大家还是好朋友。称心如意的空间。 这时加入了2名新同伴，周围的气氛变得更加热闹。 而且所有女性都以武道为嗜好，血脉也是源于武士的族谱，其成员构成相当可靠。 不要输给威风凛凛的武士女啊，男人们。 2009年4月，故事开始——"
       },
-      "year": 2015,
-      "released": "2015-11-15",
-      "image": "https://t.vndb.org/cv/42/79642.jpg",
-      "lengthMinutes": 1088,
+      "year": 2009,
+      "released": "2009-08-28",
+      "image": "https://t.vndb.org/cv/40/79440.jpg",
+      "lengthMinutes": 3900,
       "genres": [
-        "百合",
-        "全年龄",
-        "同人"
+        "神CV阵",
+        "欢乐日常",
+        "タカヒロ"
       ],
       "platforms": [
         "win",
-        "swi"
+        "ps3"
       ],
-      "overallScore": 82.65551079136691,
+      "overallScore": 82.63158484095601,
       "sources": {
         "vndb": {
-          "score": 81.2,
-          "votes": 974,
-          "href": "https://vndb.org/v19273"
+          "score": 83.3,
+          "votes": 9349,
+          "href": "https://vndb.org/v1143"
         },
         "bangumi": {
-          "score": 84,
-          "votes": 1322,
-          "href": "https://bgm.tv/subject/226956"
+          "score": 79,
+          "votes": 642,
+          "href": "https://bgm.tv/subject/11298"
         },
         "egs": {
-          "score": 80.02,
-          "votes": 91,
-          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23541"
+          "score": 81.72,
+          "votes": 2865,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=11236"
         }
       }
     },
@@ -2932,16 +2932,16 @@
         "xb3",
         "web"
       ],
-      "overallScore": 82.63210391276459,
+      "overallScore": 82.6308308757533,
       "sources": {
         "vndb": {
           "score": 79.3,
-          "votes": 861,
+          "votes": 862,
           "href": "https://vndb.org/v45"
         },
         "bangumi": {
           "score": 81,
-          "votes": 1169,
+          "votes": 1170,
           "href": "https://bgm.tv/subject/78442"
         },
         "egs": {
@@ -2953,45 +2953,45 @@
     },
     {
       "rank": 64,
-      "id": "v1143",
+      "id": "v19273",
       "titles": {
-        "en": "Majikoi! Love Me Seriously!!",
-        "zh": "认真和我恋爱",
-        "ja": "真剣で私に恋しなさい！"
+        "en": "SeaBed",
+        "zh": "海底",
+        "ja": "SeaBed"
       },
       "descriptions": {
-        "en": "Kawakami City is famous for its strong dedication to its samurai ancestors. A strong fighting spirit is always valued and it's even an important factor in succeeding in school there. Yamato, a second year student from Kawakami Highschool is always with his close friends (4 boys and 3 girls). They have known each other since they were young and have done loads of things together. They have many other friends, but these seven people are a close-knit group, they even have a secret base where they meet... With the new semester, they welcome two girls into their group and shortly after things start to change...",
-        "zh": "在互相信任的集体中，我们过着不知不觉间无法回到过去的时光。 川神学園的2年级生直江大和，有着一班非常重要的同伴。 男4人与女3人。从小开始就一直做着各种蠢事，一直成长到现在。 虽然发生了各种事情，直到现在大家还是好朋友。称心如意的空间。 这时加入了2名新同伴，周围的气氛变得更加热闹。 而且所有女性都以武道为嗜好，血脉也是源于武士的族谱，其成员构成相当可靠。 不要输给威风凛凛的武士女啊，男人们。 2009年4月，故事开始——"
+        "en": "SeaBed is a yuri-themed mystery visual novel told through the perspectives of three separate characters: Mizuno Sachiko, a designer plagued by hallucinations of her past lover; Narasaki Hibiki, Sachiko's friend and a psychiatrist researching the workings of human memories; and Takako, Sachiko's former lover who has been rapidly forgetting her past, including how or why the two women drifted apart despite being together since childhood. All three live in different worlds, but seek the same goal. To separate truth from illusion. To make sense of their own lives. ---- I saw a ghost in the living room. But as I was already used to the phenomenon, I did not let it interfere with the preparation of my evening meal. The ghost ate my fried egg and commended its taste. As I listened to her talk, my memories drifted back to the days we were still together. Back when we were in school, she asked me what was necessary for the two of us to be together. A small workplace that we could make a living from without relying on anyone. A silent apartment where we would have the freedom to do what our hearts desired. I told her that. In the late eighties – during the economic boom – the small design company we founded was doing surprisingly well. We visited all the places we talked about when we were in school – the southern islands, the old European cities, the West Coast. We went wherever we wanted, seeing whatever we sought. Alone in that spacious living room, I attempted to figure out why it all ended this way. Why those days when nothing could stand in our way faded into the past. I no lon",
+        "zh": "本作是一部包含百合要素的悬疑小说。 故事将从三位角色的视角展开。 CG数量：90张以上 文本量：约47万字 逝去的时光，如同沉入无尽深海的碎片。 偶尔浮现的过往景色与气息，亦如泡沫般摇曳消散。 精神科医生楢崎在心理诊所研究人类遗忘的机制。 人为什么会遗忘？是否存在不忘记重要事物的方法？ 在深入探索某位患者的内心深处时，她最终抵达了幽深的海底。 在东京开设事务所的设计师佐知子，如同被某种执念驱使，不断创作。 她无视同事的关心，一心投入工作，直至精神濒临崩溃，甚至开始看到过去恋人的幻影。 追随着恋人的痕迹，她找到了一条幽暗漫长的隧道。 住在疗养院的贵呼，始终无法想起自己是如何与青梅竹马的同性恋人分开的。 在与一位酷似恋人的女性相遇后，她逐渐找回了失落的记忆。 她不断开启尘封的回忆之门，最终走入了一间冰冷而寂静的房间。 在各自的目标驱使下，三人踏上追寻过去的旅程。 三段故事在静谧而平淡的日常中缓缓展开，最终汇聚至同一个终点……"
       },
-      "year": 2009,
-      "released": "2009-08-28",
-      "image": "https://t.vndb.org/cv/40/79440.jpg",
-      "lengthMinutes": 3900,
+      "year": 2015,
+      "released": "2015-11-15",
+      "image": "https://t.vndb.org/cv/42/79642.jpg",
+      "lengthMinutes": 1088,
       "genres": [
-        "神CV阵",
-        "欢乐日常",
-        "タカヒロ"
+        "百合",
+        "全年龄",
+        "同人"
       ],
       "platforms": [
         "win",
-        "ps3"
+        "swi"
       ],
-      "overallScore": 82.63158697934897,
+      "overallScore": 82.60477244772447,
       "sources": {
         "vndb": {
-          "score": 83.3,
-          "votes": 9347,
-          "href": "https://vndb.org/v1143"
+          "score": 81.1,
+          "votes": 975,
+          "href": "https://vndb.org/v19273"
         },
         "bangumi": {
-          "score": 79,
-          "votes": 642,
-          "href": "https://bgm.tv/subject/11298"
+          "score": 84,
+          "votes": 1326,
+          "href": "https://bgm.tv/subject/226956"
         },
         "egs": {
-          "score": 81.72,
-          "votes": 2864,
-          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=11236"
+          "score": 79.83,
+          "votes": 92,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23541"
         }
       }
     },
@@ -3022,11 +3022,11 @@
         "dvd",
         "bdp"
       ],
-      "overallScore": 82.4679423538831,
+      "overallScore": 82.46727564102564,
       "sources": {
         "vndb": {
           "score": 83.3,
-          "votes": 641,
+          "votes": 640,
           "href": "https://vndb.org/v13083"
         },
         "bangumi": {
@@ -3075,7 +3075,7 @@
         "vnd",
         "web"
       ],
-      "overallScore": 82.21156131713009,
+      "overallScore": 82.21357181479269,
       "sources": {
         "vndb": {
           "score": 81.8,
@@ -3084,11 +3084,11 @@
         },
         "bangumi": {
           "score": 82,
-          "votes": 2572,
+          "votes": 2573,
           "href": "https://bgm.tv/subject/1908"
         },
         "egs": {
-          "score": 83.69,
+          "score": 83.7,
           "votes": 2369,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=1610"
         }
@@ -3119,7 +3119,7 @@
         "win",
         "psp"
       ],
-      "overallScore": 82.19018299246503,
+      "overallScore": 82.19169445938677,
       "sources": {
         "vndb": {
           "score": 85.1,
@@ -3128,7 +3128,7 @@
         },
         "bangumi": {
           "score": 85,
-          "votes": 455,
+          "votes": 456,
           "href": "https://bgm.tv/subject/7978"
         },
         "egs": {
@@ -3168,11 +3168,11 @@
         "psv",
         "swi"
       ],
-      "overallScore": 82.1816803238227,
+      "overallScore": 82.17910400631538,
       "sources": {
         "vndb": {
           "score": 83.2,
-          "votes": 3114,
+          "votes": 3115,
           "href": "https://vndb.org/v7721"
         },
         "bangumi": {
@@ -3181,8 +3181,8 @@
           "href": "https://bgm.tv/subject/32340"
         },
         "egs": {
-          "score": 82.88,
-          "votes": 251,
+          "score": 82.84,
+          "votes": 252,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22618"
         }
       }
@@ -3263,7 +3263,7 @@
         "psp",
         "vnd"
       ],
-      "overallScore": 82.16355237687715,
+      "overallScore": 82.16460297741482,
       "sources": {
         "vndb": {
           "score": 82.1,
@@ -3272,12 +3272,12 @@
         },
         "bangumi": {
           "score": 78,
-          "votes": 4562,
+          "votes": 4563,
           "href": "https://bgm.tv/subject/1385"
         },
         "egs": {
           "score": 84.66,
-          "votes": 5277,
+          "votes": 5285,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=7835"
         }
       }
@@ -3351,21 +3351,21 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 82.06479750778816,
+      "overallScore": 82.08360294117647,
       "sources": {
         "vndb": {
           "score": 82.8,
-          "votes": 437,
+          "votes": 438,
           "href": "https://vndb.org/v60663"
         },
         "bangumi": {
           "score": 79,
-          "votes": 1783,
+          "votes": 1794,
           "href": "https://bgm.tv/subject/611546"
         },
         "egs": {
-          "score": 87.26,
-          "votes": 660,
+          "score": 87.14,
+          "votes": 688,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=39837"
         }
       }
@@ -3405,21 +3405,21 @@
         "xxs",
         "web"
       ],
-      "overallScore": 82.06360926615908,
+      "overallScore": 82.06376217850108,
       "sources": {
         "vndb": {
           "score": 80.9,
-          "votes": 13074,
+          "votes": 13078,
           "href": "https://vndb.org/v7679"
         },
         "bangumi": {
           "score": 85,
-          "votes": 5028,
+          "votes": 5030,
           "href": "https://bgm.tv/subject/39066"
         },
         "egs": {
           "score": 83.14,
-          "votes": 278,
+          "votes": 279,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=17082"
         }
       }
@@ -3494,21 +3494,21 @@
         "ps4",
         "swi"
       ],
-      "overallScore": 82.01784393063585,
+      "overallScore": 82.02309631482728,
       "sources": {
         "vndb": {
           "score": 85.4,
-          "votes": 3575,
+          "votes": 3577,
           "href": "https://vndb.org/v26523"
         },
         "bangumi": {
           "score": 77,
-          "votes": 4267,
+          "votes": 4272,
           "href": "https://bgm.tv/subject/290856"
         },
         "egs": {
-          "score": 85.69,
-          "votes": 1692,
+          "score": 85.71,
+          "votes": 1696,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28639"
         }
       }
@@ -3537,21 +3537,21 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 81.97387558411214,
+      "overallScore": 81.98067337122868,
       "sources": {
         "vndb": {
           "score": 79,
-          "votes": 176,
+          "votes": 177,
           "href": "https://vndb.org/v3184"
         },
         "bangumi": {
           "score": 87,
-          "votes": 1733,
+          "votes": 1734,
           "href": "https://bgm.tv/subject/101434"
         },
         "egs": {
-          "score": 76.57,
-          "votes": 1010,
+          "score": 76.6,
+          "votes": 1013,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=3789"
         }
       }
@@ -3584,20 +3584,20 @@
         "psv",
         "swi"
       ],
-      "overallScore": 81.95693551350358,
+      "overallScore": 81.95474573159537,
       "sources": {
         "vndb": {
           "score": 83.1,
-          "votes": 1123,
+          "votes": 1124,
           "href": "https://vndb.org/v15395"
         },
         "bangumi": {
           "score": 81,
-          "votes": 1291,
+          "votes": 1292,
           "href": "https://bgm.tv/subject/119895"
         },
         "egs": {
-          "score": 81.8,
+          "score": 81.78,
           "votes": 205,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=21122"
         }
@@ -3633,7 +3633,7 @@
         "ps3",
         "psv"
       ],
-      "overallScore": 81.9241592920354,
+      "overallScore": 81.92515296719498,
       "sources": {
         "vndb": {
           "score": 74.3,
@@ -3642,18 +3642,63 @@
         },
         "bangumi": {
           "score": 83,
-          "votes": 2270,
+          "votes": 2271,
           "href": "https://bgm.tv/subject/4347"
         },
         "egs": {
           "score": 85.7,
-          "votes": 1868,
+          "votes": 1869,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=1714"
         }
       }
     },
     {
       "rank": 79,
+      "id": "v16032",
+      "titles": {
+        "en": "TAISHO x ALICE",
+        "zh": "大正×对称爱丽丝 all in one",
+        "ja": "大正×対称アリス"
+      },
+      "descriptions": {
+        "en": "Once upon a time, in a topsy-turvy world... In the beginning, you find yourself lost within a world of utter darkness. Your memories are gone; even your name is a mystery. But just when the bitter loneliness threatens to break your spirit, you meet Alice—a blond-haired, blue-eyed young man who promptly christens you \"Arisu.\" Like you, Alice cannot remember anything beyond his own name. Ignoring his protests, you drag him along with you through the darkness... until you happen upon a massive mirror made of crystal. You stumble through the glass and into the Looking-Glass World, an antiquated fairytale dreamscape that feels oddly familiar... There, amid a colorful cast of gender-swapped fairytale characters, you take on the role of the heroine and join them in their twisted tales. How will the story end? It's up to you!",
+        "zh": "これは王子様を救うおとぎ話 女性向けコンテンツ品牌「Primula」よりPC用软件として発売された夢見るおとぎ話冒险游戏「大正×対称アリス」全4巻が、ワンパッケージになってPS Vitaに登場！ 物語の舞台は、全てがあべこべな鏡の国。「シンデレラ」や「赤ずきん」などの童話をモチーフに、性別が逆転した童話の角色達と紡ぐちょっぴり不思議で歪な物語。 プレイヤーは各童話のヒロインとなり、ヒーロー（攻略角色達）が抱える心の傷を癒やし、歪んだ世界を正常に導いていく。 PS Vita版では、PS Vitaのホーム画面に設定できる「壁紙集」や、集めたボイスの再生順を自由に変更してプレイヤーだけのボイスドラマを作れる「ボイスコレクション」を搭載。 「大正×対称アリス all in one」がNintendo Switchに登場！ 描き下ろしイベントスチルとビジュアルノベルを追加！ これまで汎用の立ち絵と背景で展開していたシーンをイベントスチル化。攻略キャラクター全員に描き下ろされます。 また、PS Vita版の初回生産分特典ドラマCD「鏡の国一のドMは誰だ大会！」をビジュアルノベル化して収録。 シンデレラ、グレーテル、魔法使い、アリス、猟師の織り成す本編では見ることのできないエピソードをお楽しみいただけます。"
+      },
+      "year": 2015,
+      "released": "2015-02-20",
+      "image": "https://t.vndb.org/cv/96/87196.jpg",
+      "lengthMinutes": 2550,
+      "genres": [
+        "乙女向",
+        "乙女ゲーム",
+        "藤文"
+      ],
+      "platforms": [
+        "win",
+        "psv",
+        "swi"
+      ],
+      "overallScore": 81.91639180962922,
+      "sources": {
+        "vndb": {
+          "score": 82.6,
+          "votes": 789,
+          "href": "https://vndb.org/v16032"
+        },
+        "bangumi": {
+          "score": 76,
+          "votes": 95,
+          "href": "https://bgm.tv/subject/175431"
+        },
+        "egs": {
+          "score": 83.08,
+          "votes": 13,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23298"
+        }
+      }
+    },
+    {
+      "rank": 80,
       "id": "v2956",
       "titles": {
         "en": "Tokimeki Memorial Girl's Side: 3rd Story",
@@ -3698,52 +3743,6 @@
       }
     },
     {
-      "rank": 80,
-      "id": "v18152",
-      "titles": {
-        "en": "Flowers -Le volume sur automne-",
-        "zh": "FLOWERS 秋篇",
-        "ja": "FLOWERS -Le volume sur automne-"
-      },
-      "descriptions": {
-        "en": "Yatsushiro Yuzuriha, president of the school's Council of Nicaea, knows the truth hidden within the school. The silver-haired beauty seeks to prevent Suou from reaching it by giving her what seems like an impossible task—take over the role of president and she'll hand over the key to what she desires. However, Yuzuriha is harboring her own secret, buried deep within herself... As the leaves turn and strange incidents continue to plague the isolated Saint Angraecum Academy, interweaving threads of emotion tangle together in an intricate story of love and truth. This is the third game in the Flowers visual novel series from Innocent Grey, renowned for its beautiful artwork, engaging stories, and complex characters. [Taken from Steam]",
-        "zh": "尼西亚会的会长——八代让叶知晓学院背后的内幕。她提出近乎不可能的要求，希望以此逼迫苏芳放弃调查。 “如果你能成为尼西亚会的会长，我就将打开真相大门的钥匙交给你。” 苏芳为了真相东奔西走，然而，守望着她的八代让叶内心深处也怀着不可告人的秘密—— 秋风吹红了叶尖，圣彗星兰学院依然发生了数起不可思议的事件。恋爱的红线错综复杂，故事在恋心与真相交织之中徐徐展开……"
-      },
-      "year": 2016,
-      "released": "2016-05-27",
-      "image": "https://t.vndb.org/cv/13/77913.jpg",
-      "lengthMinutes": 937,
-      "genres": [
-        "百合",
-        "InnocentGrey",
-        "杉菜水姫"
-      ],
-      "platforms": [
-        "win",
-        "ps4",
-        "psv",
-        "swi"
-      ],
-      "overallScore": 81.8250784593438,
-      "sources": {
-        "vndb": {
-          "score": 82.7,
-          "votes": 825,
-          "href": "https://vndb.org/v18152"
-        },
-        "bangumi": {
-          "score": 81,
-          "votes": 1026,
-          "href": "https://bgm.tv/subject/167531"
-        },
-        "egs": {
-          "score": 82.32,
-          "votes": 168,
-          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22702"
-        }
-      }
-    },
-    {
       "rank": 81,
       "id": "v31813",
       "titles": {
@@ -3769,27 +3768,73 @@
         "and",
         "dvd"
       ],
-      "overallScore": 81.79481680280047,
+      "overallScore": 81.82510023310023,
       "sources": {
         "vndb": {
-          "score": 86.5,
+          "score": 86.6,
           "votes": 386,
           "href": "https://vndb.org/v31813"
         },
         "bangumi": {
           "score": 79,
-          "votes": 1290,
+          "votes": 1291,
           "href": "https://bgm.tv/subject/345691"
         },
         "egs": {
-          "score": 85.63,
-          "votes": 311,
+          "score": 85.68,
+          "votes": 312,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33621"
         }
       }
     },
     {
       "rank": 82,
+      "id": "v18152",
+      "titles": {
+        "en": "Flowers -Le volume sur automne-",
+        "zh": "FLOWERS 秋篇",
+        "ja": "FLOWERS -Le volume sur automne-"
+      },
+      "descriptions": {
+        "en": "Yatsushiro Yuzuriha, president of the school's Council of Nicaea, knows the truth hidden within the school. The silver-haired beauty seeks to prevent Suou from reaching it by giving her what seems like an impossible task—take over the role of president and she'll hand over the key to what she desires. However, Yuzuriha is harboring her own secret, buried deep within herself... As the leaves turn and strange incidents continue to plague the isolated Saint Angraecum Academy, interweaving threads of emotion tangle together in an intricate story of love and truth. This is the third game in the Flowers visual novel series from Innocent Grey, renowned for its beautiful artwork, engaging stories, and complex characters. [Taken from Steam]",
+        "zh": "尼西亚会的会长——八代让叶知晓学院背后的内幕。她提出近乎不可能的要求，希望以此逼迫苏芳放弃调查。 “如果你能成为尼西亚会的会长，我就将打开真相大门的钥匙交给你。” 苏芳为了真相东奔西走，然而，守望着她的八代让叶内心深处也怀着不可告人的秘密—— 秋风吹红了叶尖，圣彗星兰学院依然发生了数起不可思议的事件。恋爱的红线错综复杂，故事在恋心与真相交织之中徐徐展开……"
+      },
+      "year": 2016,
+      "released": "2016-05-27",
+      "image": "https://t.vndb.org/cv/13/77913.jpg",
+      "lengthMinutes": 937,
+      "genres": [
+        "百合",
+        "InnocentGrey",
+        "杉菜水姫"
+      ],
+      "platforms": [
+        "win",
+        "ps4",
+        "psv",
+        "swi"
+      ],
+      "overallScore": 81.82268188302425,
+      "sources": {
+        "vndb": {
+          "score": 82.7,
+          "votes": 825,
+          "href": "https://vndb.org/v18152"
+        },
+        "bangumi": {
+          "score": 81,
+          "votes": 1026,
+          "href": "https://bgm.tv/subject/167531"
+        },
+        "egs": {
+          "score": 82.3,
+          "votes": 168,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22702"
+        }
+      }
+    },
+    {
+      "rank": 83,
       "id": "v7809",
       "titles": {
         "en": "Zero Escape: Virtue's Last Reward",
@@ -3837,7 +3882,7 @@
       }
     },
     {
-      "rank": 83,
+      "rank": 84,
       "id": "v11849",
       "titles": {
         "en": "Monster Girl Quest - Part 3",
@@ -3865,7 +3910,7 @@
         "and",
         "swi"
       ],
-      "overallScore": 81.67336609336608,
+      "overallScore": 81.6723635371179,
       "sources": {
         "vndb": {
           "score": 82.1,
@@ -3874,7 +3919,7 @@
         },
         "bangumi": {
           "score": 78,
-          "votes": 513,
+          "votes": 514,
           "href": "https://bgm.tv/subject/75507"
         },
         "egs": {
@@ -3885,7 +3930,7 @@
       }
     },
     {
-      "rank": 84,
+      "rank": 85,
       "id": "v12246",
       "titles": {
         "en": "Otome Riron to Sono Shuuhen -Ecole de Paris-",
@@ -3909,27 +3954,27 @@
         "win",
         "psv"
       ],
-      "overallScore": 81.63126847387971,
+      "overallScore": 81.63644081181394,
       "sources": {
         "vndb": {
           "score": 81.3,
-          "votes": 622,
+          "votes": 623,
           "href": "https://vndb.org/v12246"
         },
         "bangumi": {
           "score": 79,
-          "votes": 3099,
+          "votes": 3100,
           "href": "https://bgm.tv/subject/66760"
         },
         "egs": {
-          "score": 84.84,
-          "votes": 1737,
+          "score": 84.85,
+          "votes": 1739,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=18530"
         }
       }
     },
     {
-      "rank": 85,
+      "rank": 86,
       "id": "v5922",
       "titles": {
         "en": "Kara no Shojo - The Second Episode",
@@ -3943,7 +3988,7 @@
       "year": 2013,
       "released": "2013-02-08",
       "image": "https://t.vndb.org/cv/62/88062.jpg",
-      "lengthMinutes": 2482,
+      "lengthMinutes": 2487,
       "genres": [
         "InnocentGrey",
         "杉菜水姫",
@@ -3955,11 +4000,11 @@
         "mac",
         "psv"
       ],
-      "overallScore": 81.60427647761614,
+      "overallScore": 81.60599185164372,
       "sources": {
         "vndb": {
           "score": 84.9,
-          "votes": 3731,
+          "votes": 3733,
           "href": "https://vndb.org/v5922"
         },
         "bangumi": {
@@ -3969,13 +4014,13 @@
         },
         "egs": {
           "score": 85.35,
-          "votes": 789,
+          "votes": 790,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=14875"
         }
       }
     },
     {
-      "rank": 86,
+      "rank": 87,
       "id": "v36",
       "titles": {
         "en": "AIR",
@@ -3989,7 +4034,7 @@
       "year": 2000,
       "released": "2000-09-08",
       "image": "https://t.vndb.org/cv/04/103904.jpg",
-      "lengthMinutes": 1801,
+      "lengthMinutes": 1804,
       "genres": [
         "key",
         "麻枝准",
@@ -4009,67 +4054,22 @@
         "swi",
         "mob"
       ],
-      "overallScore": 81.56262824207494,
+      "overallScore": 81.55726801401758,
       "sources": {
         "vndb": {
           "score": 77.9,
-          "votes": 2896,
+          "votes": 2899,
           "href": "https://vndb.org/v36"
         },
         "bangumi": {
           "score": 83,
-          "votes": 2678,
+          "votes": 2679,
           "href": "https://bgm.tv/subject/232"
         },
         "egs": {
-          "score": 82.96,
-          "votes": 3224,
+          "score": 82.95,
+          "votes": 3225,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=84"
-        }
-      }
-    },
-    {
-      "rank": 87,
-      "id": "v16032",
-      "titles": {
-        "en": "TAISHO x ALICE",
-        "zh": "大正×对称爱丽丝 all in one",
-        "ja": "大正×対称アリス"
-      },
-      "descriptions": {
-        "en": "Once upon a time, in a topsy-turvy world... In the beginning, you find yourself lost within a world of utter darkness. Your memories are gone; even your name is a mystery. But just when the bitter loneliness threatens to break your spirit, you meet Alice—a blond-haired, blue-eyed young man who promptly christens you \"Arisu.\" Like you, Alice cannot remember anything beyond his own name. Ignoring his protests, you drag him along with you through the darkness... until you happen upon a massive mirror made of crystal. You stumble through the glass and into the Looking-Glass World, an antiquated fairytale dreamscape that feels oddly familiar... There, amid a colorful cast of gender-swapped fairytale characters, you take on the role of the heroine and join them in their twisted tales. How will the story end? It's up to you!",
-        "zh": "これは王子様を救うおとぎ話 女性向けコンテンツ品牌「Primula」よりPC用软件として発売された夢見るおとぎ話冒险游戏「大正×対称アリス」全4巻が、ワンパッケージになってPS Vitaに登場！ 物語の舞台は、全てがあべこべな鏡の国。「シンデレラ」や「赤ずきん」などの童話をモチーフに、性別が逆転した童話の角色達と紡ぐちょっぴり不思議で歪な物語。 プレイヤーは各童話のヒロインとなり、ヒーロー（攻略角色達）が抱える心の傷を癒やし、歪んだ世界を正常に導いていく。 PS Vita版では、PS Vitaのホーム画面に設定できる「壁紙集」や、集めたボイスの再生順を自由に変更してプレイヤーだけのボイスドラマを作れる「ボイスコレクション」を搭載。 「大正×対称アリス all in one」がNintendo Switchに登場！ 描き下ろしイベントスチルとビジュアルノベルを追加！ これまで汎用の立ち絵と背景で展開していたシーンをイベントスチル化。攻略キャラクター全員に描き下ろされます。 また、PS Vita版の初回生産分特典ドラマCD「鏡の国一のドMは誰だ大会！」をビジュアルノベル化して収録。 シンデレラ、グレーテル、魔法使い、アリス、猟師の織り成す本編では見ることのできないエピソードをお楽しみいただけます。"
-      },
-      "year": 2015,
-      "released": "2015-02-20",
-      "image": "https://t.vndb.org/cv/96/87196.jpg",
-      "lengthMinutes": 2550,
-      "genres": [
-        "乙女向",
-        "乙女ゲーム",
-        "藤文"
-      ],
-      "platforms": [
-        "win",
-        "psv",
-        "swi"
-      ],
-      "overallScore": 81.47121739130434,
-      "sources": {
-        "vndb": {
-          "score": 82.6,
-          "votes": 789,
-          "href": "https://vndb.org/v16032"
-        },
-        "bangumi": {
-          "score": 76,
-          "votes": 95,
-          "href": "https://bgm.tv/subject/175431"
-        },
-        "egs": {
-          "score": 71.17,
-          "votes": 24,
-          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23298"
         }
       }
     },
@@ -4108,20 +4108,20 @@
         "n3d",
         "xbo"
       ],
-      "overallScore": 81.4441002602774,
+      "overallScore": 81.44399030752237,
       "sources": {
         "vndb": {
           "score": 80.7,
-          "votes": 9374,
+          "votes": 9379,
           "href": "https://vndb.org/v711"
         },
         "bangumi": {
           "score": 83,
-          "votes": 4525,
+          "votes": 4528,
           "href": "https://bgm.tv/subject/1111"
         },
         "egs": {
-          "score": 80.92,
+          "score": 80.9,
           "votes": 83,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=20681"
         }
@@ -4158,7 +4158,7 @@
         "swi",
         "web"
       ],
-      "overallScore": 81.43785929043895,
+      "overallScore": 81.4309140108238,
       "sources": {
         "vndb": {
           "score": 81.6,
@@ -4171,7 +4171,7 @@
           "href": "https://bgm.tv/subject/13139"
         },
         "egs": {
-          "score": 82.36,
+          "score": 82.31,
           "votes": 77,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=10384"
         }
@@ -4203,7 +4203,7 @@
         "ps4",
         "swi"
       ],
-      "overallScore": 81.3790742857143,
+      "overallScore": 81.37415072794747,
       "sources": {
         "vndb": {
           "score": 81.6,
@@ -4216,8 +4216,8 @@
           "href": "https://bgm.tv/subject/508259"
         },
         "egs": {
-          "score": 81.66,
-          "votes": 602,
+          "score": 81.65,
+          "votes": 603,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30122"
         }
       }
@@ -4248,11 +4248,11 @@
         "psv",
         "swi"
       ],
-      "overallScore": 81.31848010728655,
+      "overallScore": 81.3201250558285,
       "sources": {
         "vndb": {
           "score": 81.6,
-          "votes": 967,
+          "votes": 968,
           "href": "https://vndb.org/v16212"
         },
         "bangumi": {
@@ -4262,7 +4262,7 @@
         },
         "egs": {
           "score": 83.68,
-          "votes": 1334,
+          "votes": 1336,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=21228"
         }
       }
@@ -4334,7 +4334,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 81.29874860178971,
+      "overallScore": 81.30114349619068,
       "sources": {
         "vndb": {
           "score": 82,
@@ -4347,8 +4347,8 @@
           "href": "https://bgm.tv/subject/22963"
         },
         "egs": {
-          "score": 79.85,
-          "votes": 1286,
+          "score": 79.86,
+          "votes": 1287,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=14312"
         }
       }
@@ -4383,21 +4383,21 @@
         "psv",
         "swi"
       ],
-      "overallScore": 81.28936376311735,
+      "overallScore": 81.2875957485798,
       "sources": {
         "vndb": {
           "score": 82.7,
-          "votes": 6559,
+          "votes": 6562,
           "href": "https://vndb.org/v12849"
         },
         "bangumi": {
           "score": 78,
-          "votes": 4407,
+          "votes": 4412,
           "href": "https://bgm.tv/subject/76912"
         },
         "egs": {
-          "score": 83.26,
-          "votes": 1774,
+          "score": 83.25,
+          "votes": 1779,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=19232"
         }
       }
@@ -4431,21 +4431,21 @@
         "swi",
         "oth"
       ],
-      "overallScore": 81.21650705206338,
+      "overallScore": 81.2200087009484,
       "sources": {
         "vndb": {
           "score": 81.4,
-          "votes": 5815,
+          "votes": 5818,
           "href": "https://vndb.org/v50"
         },
         "bangumi": {
           "score": 78,
-          "votes": 1723,
+          "votes": 1724,
           "href": "https://bgm.tv/subject/911"
         },
         "egs": {
-          "score": 82.35,
-          "votes": 2632,
+          "score": 82.36,
+          "votes": 2634,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=4628"
         }
       }
@@ -4475,7 +4475,7 @@
         "win",
         "web"
       ],
-      "overallScore": 81.19508252352307,
+      "overallScore": 81.19525131051495,
       "sources": {
         "vndb": {
           "score": 75,
@@ -4489,7 +4489,7 @@
         },
         "egs": {
           "score": 81.56,
-          "votes": 929,
+          "votes": 930,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=3294"
         }
       }
@@ -4524,7 +4524,7 @@
         "vnd",
         "web"
       ],
-      "overallScore": 81.16841057405153,
+      "overallScore": 81.17593173533635,
       "sources": {
         "vndb": {
           "score": 75.8,
@@ -4533,12 +4533,12 @@
         },
         "bangumi": {
           "score": 84,
-          "votes": 2517,
+          "votes": 2520,
           "href": "https://bgm.tv/subject/2723"
         },
         "egs": {
-          "score": 84,
-          "votes": 2268,
+          "score": 84.01,
+          "votes": 2274,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=9716"
         }
       }
@@ -4567,7 +4567,7 @@
       "platforms": [
         "psp"
       ],
-      "overallScore": 81.12943986820429,
+      "overallScore": 81.12602965403626,
       "sources": {
         "vndb": {
           "score": 82.5,
@@ -4580,7 +4580,7 @@
           "href": "https://bgm.tv/subject/35862"
         },
         "egs": {
-          "score": 82.28,
+          "score": 82.25,
           "votes": 92,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=16034"
         }
@@ -4768,6 +4768,57 @@
     },
     {
       "rank": 103,
+      "id": "v21289",
+      "titles": {
+        "en": "Raging Loop",
+        "zh": "人狼村之谜",
+        "ja": "レイジングループ"
+      },
+      "descriptions": {
+        "en": "After breaking up with his girlfriend, grad student Haruaki Fusaishi goes on a motorcycle trip to forget her, only to end up stranded in the remote settlement of Yasumizu. The next day, as he is repairing his bike, a mysterious mist drifts in, and all the villagers shelter inside their homes. Confused, Haruaki sees a mysterious figure with the body of a human and the head of a wolf that kills him. Haruaki finds that instead of dying, however, he has instead looped back in time. After managing to hide from the creature this time, he discovers the village must engage in a ritual known as a \"feast.\" Several of them have been replaced with spirits of ancient \"wolves\" that will kill one villager each night, and it is up to the villagers to discover who amongst them are the wolves, and execute them. Caught in an all-out war of doubt and trust, can Haruaki survive and discover the mysteries behind the feast and his looping...?",
+        "zh": "「おおかみ」信仰の息づく地・休水（やすみず）に夕霧が立つとき、 殺人儀式「黄泉忌みの宴」が開かれる！ 幾多の狂気と死の果てに、 「死に戻る男」房石陽明は事件を解決できるのか？ 大人気テーブルゲーム「人狼（汝は人狼なりや？）」を大胆解釈した、 フルボイス・ホラーサスペンスノベルＡＤＶ巨編です。"
+      },
+      "year": 2015,
+      "released": "2015-12-03",
+      "image": "https://t.vndb.org/cv/28/80128.jpg",
+      "lengthMinutes": 2198,
+      "genres": [
+        "悬疑",
+        "狼人杀",
+        "AVG"
+      ],
+      "platforms": [
+        "win",
+        "ios",
+        "and",
+        "ps4",
+        "ps5",
+        "psv",
+        "swi",
+        "xbo",
+        "xxs"
+      ],
+      "overallScore": 81.01063365051903,
+      "sources": {
+        "vndb": {
+          "score": 79.4,
+          "votes": 3595,
+          "href": "https://vndb.org/v21289"
+        },
+        "bangumi": {
+          "score": 82,
+          "votes": 5515,
+          "href": "https://bgm.tv/subject/215470"
+        },
+        "egs": {
+          "score": 83.43,
+          "votes": 92,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23281"
+        }
+      }
+    },
+    {
+      "rank": 104,
       "id": "v37",
       "titles": {
         "en": "The Rotting Princess ~Euthanasia~",
@@ -4791,27 +4842,27 @@
         "win",
         "web"
       ],
-      "overallScore": 80.97530494478161,
+      "overallScore": 80.97930815109345,
       "sources": {
         "vndb": {
           "score": 79,
-          "votes": 531,
+          "votes": 532,
           "href": "https://vndb.org/v37"
         },
         "bangumi": {
           "score": 82,
-          "votes": 2390,
+          "votes": 2392,
           "href": "https://bgm.tv/subject/1012"
         },
         "egs": {
-          "score": 80.31,
-          "votes": 1403,
+          "score": 80.32,
+          "votes": 1404,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=1890"
         }
       }
     },
     {
-      "rank": 104,
+      "rank": 105,
       "id": "v18495",
       "titles": {
         "en": "Akeiro Kaikitan",
@@ -4854,7 +4905,7 @@
       }
     },
     {
-      "rank": 105,
+      "rank": 106,
       "id": "v26664",
       "titles": {
         "en": "Sakura no Kumo * Scarlet no Koi",
@@ -4879,7 +4930,7 @@
         "ps4",
         "swi"
       ],
-      "overallScore": 80.96974025974026,
+      "overallScore": 80.9634081750144,
       "sources": {
         "vndb": {
           "score": 80.8,
@@ -4888,18 +4939,18 @@
         },
         "bangumi": {
           "score": 76,
-          "votes": 2322,
+          "votes": 2325,
           "href": "https://bgm.tv/subject/292024"
         },
         "egs": {
-          "score": 85.95,
-          "votes": 1557,
+          "score": 85.92,
+          "votes": 1564,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28762"
         }
       }
     },
     {
-      "rank": 106,
+      "rank": 107,
       "id": "v20860",
       "titles": {
         "en": "Hikari no Umi no Apeiria",
@@ -4922,27 +4973,27 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 80.94074226804125,
+      "overallScore": 80.93619702497895,
       "sources": {
         "vndb": {
           "score": 80,
-          "votes": 533,
+          "votes": 534,
           "href": "https://vndb.org/v20860"
         },
         "bangumi": {
           "score": 79,
-          "votes": 2708,
+          "votes": 2709,
           "href": "https://bgm.tv/subject/210068"
         },
         "egs": {
-          "score": 83.69,
-          "votes": 1396,
+          "score": 83.67,
+          "votes": 1401,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24991"
         }
       }
     },
     {
-      "rank": 107,
+      "rank": 108,
       "id": "v2133",
       "titles": {
         "en": "Ar tonelico II: Melody of Metafalica",
@@ -4983,7 +5034,7 @@
       }
     },
     {
-      "rank": 108,
+      "rank": 109,
       "id": "v7723",
       "titles": {
         "en": "The Labyrinth of Grisaia",
@@ -5010,11 +5061,11 @@
         "psv",
         "swi"
       ],
-      "overallScore": 80.85441929720072,
+      "overallScore": 80.85194049229105,
       "sources": {
         "vndb": {
           "score": 80.4,
-          "votes": 4771,
+          "votes": 4773,
           "href": "https://vndb.org/v7723"
         },
         "bangumi": {
@@ -5023,14 +5074,14 @@
           "href": "https://bgm.tv/subject/24275"
         },
         "egs": {
-          "score": 82.93,
-          "votes": 2293,
+          "score": 82.92,
+          "votes": 2297,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=15915"
         }
       }
     },
     {
-      "rank": 109,
+      "rank": 110,
       "id": "v8095",
       "titles": {
         "en": "Black Wolves Saga -Bloody Nightmare-",
@@ -5072,7 +5123,7 @@
       }
     },
     {
-      "rank": 110,
+      "rank": 111,
       "id": "v10028",
       "titles": {
         "en": "The Colorful Light -The Eternal Chapter In World's End Tale-",
@@ -5086,7 +5137,7 @@
       "year": 2012,
       "released": "2012-08-31",
       "image": "https://t.vndb.org/cv/82/88282.jpg",
-      "lengthMinutes": 2336,
+      "lengthMinutes": 2315,
       "genres": [
         "FAVORITE",
         "光鸟鸟",
@@ -5096,11 +5147,11 @@
         "win",
         "psv"
       ],
-      "overallScore": 80.52648117421825,
+      "overallScore": 80.53328190743338,
       "sources": {
         "vndb": {
           "score": 84.4,
-          "votes": 625,
+          "votes": 626,
           "href": "https://vndb.org/v10028"
         },
         "bangumi": {
@@ -5109,14 +5160,14 @@
           "href": "https://bgm.tv/subject/37755"
         },
         "egs": {
-          "score": 83.06,
-          "votes": 1011,
+          "score": 83.07,
+          "votes": 1013,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=16919"
         }
       }
     },
     {
-      "rank": 111,
+      "rank": 112,
       "id": "v7724",
       "titles": {
         "en": "The Eden of Grisaia",
@@ -5141,7 +5192,7 @@
         "psv",
         "swi"
       ],
-      "overallScore": 80.52175236558351,
+      "overallScore": 80.52613264932211,
       "sources": {
         "vndb": {
           "score": 80.5,
@@ -5154,14 +5205,14 @@
           "href": null
         },
         "egs": {
-          "score": 80.55,
-          "votes": 1977,
+          "score": 80.56,
+          "votes": 1981,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=15916"
         }
       }
     },
     {
-      "rank": 112,
+      "rank": 113,
       "id": "v1153",
       "titles": {
         "en": "Memories Off 2nd",
@@ -5196,7 +5247,7 @@
         "web",
         "mob"
       ],
-      "overallScore": 80.44881458966564,
+      "overallScore": 80.44905381944444,
       "sources": {
         "vndb": {
           "score": 78.5,
@@ -5205,7 +5256,7 @@
         },
         "bangumi": {
           "score": 81,
-          "votes": 1908,
+          "votes": 1909,
           "href": "https://bgm.tv/subject/1733"
         },
         "egs": {
@@ -5216,7 +5267,7 @@
       }
     },
     {
-      "rank": 113,
+      "rank": 114,
       "id": "v428",
       "titles": {
         "en": "Zoku Satsuriku no Django -Jigoku no Shoukinkubi-",
@@ -5239,7 +5290,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 80.44212187812188,
+      "overallScore": 80.44257228315055,
       "sources": {
         "vndb": {
           "score": 77.2,
@@ -5248,18 +5299,18 @@
         },
         "bangumi": {
           "score": 82,
-          "votes": 1059,
+          "votes": 1061,
           "href": "https://bgm.tv/subject/20714"
         },
         "egs": {
           "score": 79.78,
-          "votes": 783,
+          "votes": 785,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=9138"
         }
       }
     },
     {
-      "rank": 114,
+      "rank": 115,
       "id": "v11093",
       "titles": {
         "en": "A Clockwork Ley-Line: Daybreak of Remnants Shadow",
@@ -5284,7 +5335,7 @@
         "psv",
         "swi"
       ],
-      "overallScore": 80.43586388560371,
+      "overallScore": 80.44174277425594,
       "sources": {
         "vndb": {
           "score": 79.5,
@@ -5297,60 +5348,9 @@
           "href": "https://bgm.tv/subject/49533"
         },
         "egs": {
-          "score": 82.69,
-          "votes": 1371,
+          "score": 82.7,
+          "votes": 1373,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=17573"
-        }
-      }
-    },
-    {
-      "rank": 115,
-      "id": "v21289",
-      "titles": {
-        "en": "Raging Loop",
-        "zh": "人狼村之谜",
-        "ja": "レイジングループ"
-      },
-      "descriptions": {
-        "en": "After breaking up with his girlfriend, grad student Haruaki Fusaishi goes on a motorcycle trip to forget her, only to end up stranded in the remote settlement of Yasumizu. The next day, as he is repairing his bike, a mysterious mist drifts in, and all the villagers shelter inside their homes. Confused, Haruaki sees a mysterious figure with the body of a human and the head of a wolf that kills him. Haruaki finds that instead of dying, however, he has instead looped back in time. After managing to hide from the creature this time, he discovers the village must engage in a ritual known as a \"feast.\" Several of them have been replaced with spirits of ancient \"wolves\" that will kill one villager each night, and it is up to the villagers to discover who amongst them are the wolves, and execute them. Caught in an all-out war of doubt and trust, can Haruaki survive and discover the mysteries behind the feast and his looping...?",
-        "zh": "「おおかみ」信仰の息づく地・休水（やすみず）に夕霧が立つとき、 殺人儀式「黄泉忌みの宴」が開かれる！ 幾多の狂気と死の果てに、 「死に戻る男」房石陽明は事件を解決できるのか？ 大人気テーブルゲーム「人狼（汝は人狼なりや？）」を大胆解釈した、 フルボイス・ホラーサスペンスノベルＡＤＶ巨編です。"
-      },
-      "year": 2015,
-      "released": "2015-12-03",
-      "image": "https://t.vndb.org/cv/28/80128.jpg",
-      "lengthMinutes": 2198,
-      "genres": [
-        "悬疑",
-        "狼人杀",
-        "AVG"
-      ],
-      "platforms": [
-        "win",
-        "ios",
-        "and",
-        "ps4",
-        "ps5",
-        "psv",
-        "swi",
-        "xbo",
-        "xxs"
-      ],
-      "overallScore": 80.41370073624947,
-      "sources": {
-        "vndb": {
-          "score": 79.4,
-          "votes": 3594,
-          "href": "https://vndb.org/v21289"
-        },
-        "bangumi": {
-          "score": 81,
-          "votes": 5504,
-          "href": "https://bgm.tv/subject/215470"
-        },
-        "egs": {
-          "score": 83.43,
-          "votes": 92,
-          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=23281"
         }
       }
     },
@@ -5378,7 +5378,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 80.39760683760683,
+      "overallScore": 80.39201709401709,
       "sources": {
         "vndb": {
           "score": 81.7,
@@ -5391,7 +5391,7 @@
           "href": "https://bgm.tv/subject/137844"
         },
         "egs": {
-          "score": 78.5,
+          "score": 78.48,
           "votes": 218,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=17719"
         }
@@ -5422,7 +5422,7 @@
         "win",
         "and"
       ],
-      "overallScore": 80.37210194201165,
+      "overallScore": 80.3748170897429,
       "sources": {
         "vndb": {
           "score": 76.2,
@@ -5431,12 +5431,12 @@
         },
         "bangumi": {
           "score": 81,
-          "votes": 2241,
+          "votes": 2242,
           "href": "https://bgm.tv/subject/2722"
         },
         "egs": {
           "score": 84.43,
-          "votes": 2235,
+          "votes": 2239,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=5924"
         }
       }
@@ -5466,11 +5466,11 @@
         "win",
         "web"
       ],
-      "overallScore": 80.31168681635003,
+      "overallScore": 80.31116386131492,
       "sources": {
         "vndb": {
           "score": 79.1,
-          "votes": 2182,
+          "votes": 2185,
           "href": "https://vndb.org/v2047"
         },
         "bangumi": {
@@ -5513,11 +5513,11 @@
         "psp",
         "swi"
       ],
-      "overallScore": 80.25509467989181,
+      "overallScore": 80.25556557007661,
       "sources": {
         "vndb": {
           "score": 81.3,
-          "votes": 3829,
+          "votes": 3831,
           "href": "https://vndb.org/v548"
         },
         "bangumi": {
@@ -5554,7 +5554,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 80.25335817419656,
+      "overallScore": 80.23766233766234,
       "sources": {
         "vndb": {
           "score": 79.4,
@@ -5567,8 +5567,8 @@
           "href": null
         },
         "egs": {
-          "score": 81.16,
-          "votes": 347,
+          "score": 81.12,
+          "votes": 350,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28992"
         }
       }
@@ -5597,7 +5597,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 80.20320832380517,
+      "overallScore": 80.20968814022308,
       "sources": {
         "vndb": {
           "score": 79.5,
@@ -5606,12 +5606,12 @@
         },
         "bangumi": {
           "score": 79,
-          "votes": 1310,
+          "votes": 1314,
           "href": "https://bgm.tv/subject/402650"
         },
         "egs": {
-          "score": 84.17,
-          "votes": 313,
+          "score": 84.16,
+          "votes": 317,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33300"
         }
       }
@@ -5645,21 +5645,21 @@
         "swi",
         "xbo"
       ],
-      "overallScore": 80.1786337657625,
+      "overallScore": 80.17866687820135,
       "sources": {
         "vndb": {
           "score": 80.7,
-          "votes": 7586,
+          "votes": 7591,
           "href": "https://vndb.org/v17102"
         },
         "bangumi": {
           "score": 79,
-          "votes": 3233,
+          "votes": 3234,
           "href": "https://bgm.tv/subject/129820"
         },
         "egs": {
           "score": 79.47,
-          "votes": 136,
+          "votes": 137,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22161"
         }
       }
@@ -5688,7 +5688,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 80.16905829596413,
+      "overallScore": 80.1623294279807,
       "sources": {
         "vndb": {
           "score": 80.2,
@@ -5701,8 +5701,8 @@
           "href": "https://bgm.tv/subject/156122"
         },
         "egs": {
-          "score": 81.9,
-          "votes": 205,
+          "score": 81.86,
+          "votes": 206,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22875"
         }
       }
@@ -5733,16 +5733,16 @@
         "ps2",
         "psv"
       ],
-      "overallScore": 80.0999543899658,
+      "overallScore": 80.1436902050114,
       "sources": {
         "vndb": {
-          "score": 80.7,
-          "votes": 772,
+          "score": 80.8,
+          "votes": 773,
           "href": "https://vndb.org/v1281"
         },
         "bangumi": {
           "score": 79,
-          "votes": 664,
+          "votes": 665,
           "href": "https://bgm.tv/subject/13210"
         },
         "egs": {
@@ -5754,50 +5754,6 @@
     },
     {
       "rank": 125,
-      "id": "v5844",
-      "titles": {
-        "en": "Kajiri Kamui Kagura",
-        "zh": "神咒神威神乐",
-        "ja": "神咒神威神楽"
-      },
-      "descriptions": {
-        "en": "In ancient Ashihara no Nakatsukuni, generals fought each other to gain the favour of the emperor. They attempted to invade the uncharted eastern lands, but suffered total defeat at the hands of demons more intelligent than humans. Three hundred years later, the land of the gods, Shinshuu, has locked itself away from all foreign countries, but an air of gloom begins to drift in from the east. They are forced to head east again to drive away the demons. [From Hau~ Omochikaeri!]",
-        "zh": "神州の东には妖异が栖む。 土蜘蛛、鬼神、まつろわぬ化外の国―― 建国の起源を遡れば、异形讨伐の戦に行き着く神州・苇原中津国。 诸将が天子の奉戴を竞い合い、数多の血が流れた动乱の时代は、 国土の东半に未开の领域が広がっている事実が明るみに出たことで、急転直下を迎える。 东征戦争。 建国の英雄惮になぞらえて、东地を制した者こそが天下を握れる。 そうした野望に取り凭かれ、侵攻した诸将たちは、しかし东の军势によって败れ去った。 それは常轨を逸したものであり、人知を超えた魔であったという。 そして三百年。 败北の事実と国家の疲弊を诸外国に悟られぬよう、锁国体制に入っていた神州だったが、 东から流入する阴気の汚染と开国を迫る外异を前に、今や存亡の危机にあった。 ゆえに阴気を払うべく、そして列强と渡り合うべく、ここに再度の东征が幕を开ける。 负けられぬ戦い。湖に塩は不要。 それが混ざれば必然として戦が生じる。これは纷れもない生存竞争。 征夷の将となった久雅竜胆は、汚染によって半异形となった者らを率いて空前の戦に身を投じる。 その果てに、彼らはいったい何を见るのか。"
-      },
-      "year": 2011,
-      "released": "2011-09-30",
-      "image": "https://t.vndb.org/cv/92/79692.jpg",
-      "lengthMinutes": 3735,
-      "genres": [
-        "LIGHT",
-        "正田崇",
-        "中二"
-      ],
-      "platforms": [
-        "win",
-        "psv"
-      ],
-      "overallScore": 80.09988627748294,
-      "sources": {
-        "vndb": {
-          "score": 83.8,
-          "votes": 393,
-          "href": "https://vndb.org/v5844"
-        },
-        "bangumi": {
-          "score": 75,
-          "votes": 119,
-          "href": "https://bgm.tv/subject/14895"
-        },
-        "egs": {
-          "score": 79.05,
-          "votes": 538,
-          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=14822"
-        }
-      }
-    },
-    {
-      "rank": 126,
       "id": "v21852",
       "titles": {
         "en": "Kinkoi: Golden Loveriche",
@@ -5825,22 +5781,66 @@
         "psv",
         "swi"
       ],
-      "overallScore": 80.04866298342542,
+      "overallScore": 80.04383986354287,
       "sources": {
         "vndb": {
           "score": 81.6,
-          "votes": 3794,
+          "votes": 3795,
           "href": "https://vndb.org/v21852"
         },
         "bangumi": {
           "score": 76,
-          "votes": 3308,
+          "votes": 3311,
           "href": "https://bgm.tv/subject/225784"
         },
         "egs": {
-          "score": 82.68,
-          "votes": 1902,
+          "score": 82.66,
+          "votes": 1907,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=25861"
+        }
+      }
+    },
+    {
+      "rank": 126,
+      "id": "v5844",
+      "titles": {
+        "en": "Kajiri Kamui Kagura",
+        "zh": "神咒神威神乐",
+        "ja": "神咒神威神楽"
+      },
+      "descriptions": {
+        "en": "In ancient Ashihara no Nakatsukuni, generals fought each other to gain the favour of the emperor. They attempted to invade the uncharted eastern lands, but suffered total defeat at the hands of demons more intelligent than humans. Three hundred years later, the land of the gods, Shinshuu, has locked itself away from all foreign countries, but an air of gloom begins to drift in from the east. They are forced to head east again to drive away the demons. [From Hau~ Omochikaeri!]",
+        "zh": "神州の东には妖异が栖む。 土蜘蛛、鬼神、まつろわぬ化外の国―― 建国の起源を遡れば、异形讨伐の戦に行き着く神州・苇原中津国。 诸将が天子の奉戴を竞い合い、数多の血が流れた动乱の时代は、 国土の东半に未开の领域が広がっている事実が明るみに出たことで、急転直下を迎える。 东征戦争。 建国の英雄惮になぞらえて、东地を制した者こそが天下を握れる。 そうした野望に取り凭かれ、侵攻した诸将たちは、しかし东の军势によって败れ去った。 それは常轨を逸したものであり、人知を超えた魔であったという。 そして三百年。 败北の事実と国家の疲弊を诸外国に悟られぬよう、锁国体制に入っていた神州だったが、 东から流入する阴気の汚染と开国を迫る外异を前に、今や存亡の危机にあった。 ゆえに阴気を払うべく、そして列强と渡り合うべく、ここに再度の东征が幕を开ける。 负けられぬ戦い。湖に塩は不要。 それが混ざれば必然として戦が生じる。これは纷れもない生存竞争。 征夷の将となった久雅竜胆は、汚染によって半异形となった者らを率いて空前の戦に身を投じる。 その果てに、彼らはいったい何を见るのか。"
+      },
+      "year": 2011,
+      "released": "2011-09-30",
+      "image": "https://t.vndb.org/cv/92/79692.jpg",
+      "lengthMinutes": 3735,
+      "genres": [
+        "LIGHT",
+        "正田崇",
+        "中二"
+      ],
+      "platforms": [
+        "win",
+        "psv"
+      ],
+      "overallScore": 80.00685346459674,
+      "sources": {
+        "vndb": {
+          "score": 83.8,
+          "votes": 393,
+          "href": "https://vndb.org/v5844"
+        },
+        "bangumi": {
+          "score": 75,
+          "votes": 119,
+          "href": "https://bgm.tv/subject/14895"
+        },
+        "egs": {
+          "score": 78.9,
+          "votes": 539,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=14822"
         }
       }
     },
@@ -5868,11 +5868,11 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 79.99790833589664,
+      "overallScore": 79.99781538461538,
       "sources": {
         "vndb": {
           "score": 80.3,
-          "votes": 2460,
+          "votes": 2459,
           "href": "https://vndb.org/v20598"
         },
         "bangumi": {
@@ -5913,7 +5913,7 @@
         "ps4",
         "psv"
       ],
-      "overallScore": 79.94088492396119,
+      "overallScore": 79.93574162679425,
       "sources": {
         "vndb": {
           "score": 80.5,
@@ -5926,8 +5926,8 @@
           "href": "https://bgm.tv/subject/91166"
         },
         "egs": {
-          "score": 80.23,
-          "votes": 757,
+          "score": 80.21,
+          "votes": 760,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=19483"
         }
       }
@@ -6042,7 +6042,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 79.72842525748388,
+      "overallScore": 79.72878776217047,
       "sources": {
         "vndb": {
           "score": 79.1,
@@ -6051,12 +6051,12 @@
         },
         "bangumi": {
           "score": 79,
-          "votes": 2942,
+          "votes": 2943,
           "href": "https://bgm.tv/subject/17436"
         },
         "egs": {
           "score": 81.47,
-          "votes": 1001,
+          "votes": 1002,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=10035"
         }
       }
@@ -6135,11 +6135,11 @@
         "psv",
         "swi"
       ],
-      "overallScore": 79.6598,
+      "overallScore": 79.65982363315696,
       "sources": {
         "vndb": {
           "score": 79.7,
-          "votes": 5049,
+          "votes": 5052,
           "href": "https://vndb.org/v18872"
         },
         "bangumi": {
@@ -6280,7 +6280,7 @@
         "vnd",
         "web"
       ],
-      "overallScore": 79.57728095115017,
+      "overallScore": 79.57405164622337,
       "sources": {
         "vndb": {
           "score": 75.4,
@@ -6289,18 +6289,61 @@
         },
         "bangumi": {
           "score": 82,
-          "votes": 3551,
+          "votes": 3555,
           "href": "https://bgm.tv/subject/1168"
         },
         "egs": {
-          "score": 81.84,
-          "votes": 920,
+          "score": 81.81,
+          "votes": 922,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=7334"
         }
       }
     },
     {
       "rank": 137,
+      "id": "v37651",
+      "titles": {
+        "en": "Mashiroiro Symphony HD -Sana Edition-",
+        "zh": "纯白交响曲 SANA EDITION",
+        "ja": "ましろ色シンフォニー SANA EDITION"
+      },
+      "descriptions": {
+        "en": "Inui Sana is a young lady who can’t admit her feelings. Luckily, she doesn’t have to at Yuihime Girls Private Academy, the place where she spends fun-filled days with her precious friends and the senior she loves. Or at least, that’s how things have always been... Now, her comfy and prestigious school is being merged with the boys’ school from the upstart side of town! Shoved into a combined class to trial the new system, she finds her world changing faster than she can keep up—and one of her new classmates makes her heart beat faster too. Quicker and quicker, the changes pile up, altering the landscape of her life like a sudden snowfall... A new love story is about to begin. [From Steam] The standalone game of Inui Sana's route that was first included in the console edition of the Mashiro-iro Symphony. In addition, newly written scenes, new CGs, as well as H scenes are also added.",
+        "zh": "自分の気持ちに素直になれない少女「乾 紗凪」 「私立結姫女子学園」大好きな先輩や大切な友達と楽しく過ごす場所 ——— だったのだが 紗凪は学園統合のテスト生として 「私立各務台学園」の生徒たちと同じクラスになり 周りの環境が一気に変わってしまう そこで出逢った一人の生徒 彼の存在が紗凪の心を揺るがした まるで降り積もる雪が街を変えていくように これは、もう一つの恋の物語"
+      },
+      "year": 2023,
+      "released": "2023-06-23",
+      "image": "https://t.vndb.org/cv/16/90216.jpg",
+      "lengthMinutes": 850,
+      "genres": [
+        "和泉つばす",
+        "调色板",
+        "ぱれっと"
+      ],
+      "platforms": [
+        "win"
+      ],
+      "overallScore": 79.46031533477321,
+      "sources": {
+        "vndb": {
+          "score": 82.6,
+          "votes": 760,
+          "href": "https://vndb.org/v37651"
+        },
+        "bangumi": {
+          "score": 76,
+          "votes": 1036,
+          "href": "https://bgm.tv/subject/417463"
+        },
+        "egs": {
+          "score": 81.77,
+          "votes": 346,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33110"
+        }
+      }
+    },
+    {
+      "rank": 138,
       "id": "v12455",
       "titles": {
         "en": "Soushuu Senshinkan Gakuen: Hachimyoujin",
@@ -6344,49 +6387,6 @@
       }
     },
     {
-      "rank": 138,
-      "id": "v37651",
-      "titles": {
-        "en": "Mashiroiro Symphony HD -Sana Edition-",
-        "zh": "纯白交响曲 SANA EDITION",
-        "ja": "ましろ色シンフォニー SANA EDITION"
-      },
-      "descriptions": {
-        "en": "Inui Sana is a young lady who can’t admit her feelings. Luckily, she doesn’t have to at Yuihime Girls Private Academy, the place where she spends fun-filled days with her precious friends and the senior she loves. Or at least, that’s how things have always been... Now, her comfy and prestigious school is being merged with the boys’ school from the upstart side of town! Shoved into a combined class to trial the new system, she finds her world changing faster than she can keep up—and one of her new classmates makes her heart beat faster too. Quicker and quicker, the changes pile up, altering the landscape of her life like a sudden snowfall... A new love story is about to begin. [From Steam] The standalone game of Inui Sana's route that was first included in the console edition of the Mashiro-iro Symphony. In addition, newly written scenes, new CGs, as well as H scenes are also added.",
-        "zh": "自分の気持ちに素直になれない少女「乾 紗凪」 「私立結姫女子学園」大好きな先輩や大切な友達と楽しく過ごす場所 ——— だったのだが 紗凪は学園統合のテスト生として 「私立各務台学園」の生徒たちと同じクラスになり 周りの環境が一気に変わってしまう そこで出逢った一人の生徒 彼の存在が紗凪の心を揺るがした まるで降り積もる雪が街を変えていくように これは、もう一つの恋の物語"
-      },
-      "year": 2023,
-      "released": "2023-06-23",
-      "image": "https://t.vndb.org/cv/16/90216.jpg",
-      "lengthMinutes": 850,
-      "genres": [
-        "和泉つばす",
-        "调色板",
-        "ぱれっと"
-      ],
-      "platforms": [
-        "win"
-      ],
-      "overallScore": 79.45651041666666,
-      "sources": {
-        "vndb": {
-          "score": 82.6,
-          "votes": 760,
-          "href": "https://vndb.org/v37651"
-        },
-        "bangumi": {
-          "score": 76,
-          "votes": 1034,
-          "href": "https://bgm.tv/subject/417463"
-        },
-        "egs": {
-          "score": 81.78,
-          "votes": 340,
-          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33110"
-        }
-      }
-    },
-    {
       "rank": 139,
       "id": "v19841",
       "titles": {
@@ -6414,21 +6414,21 @@
         "psv",
         "swi"
       ],
-      "overallScore": 79.44782215523738,
+      "overallScore": 79.45101488497971,
       "sources": {
         "vndb": {
           "score": 79.8,
-          "votes": 644,
+          "votes": 645,
           "href": "https://vndb.org/v19841"
         },
         "bangumi": {
           "score": 75,
-          "votes": 983,
+          "votes": 984,
           "href": "https://bgm.tv/subject/189550"
         },
         "egs": {
           "score": 81.9,
-          "votes": 1127,
+          "votes": 1131,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=24085"
         }
       }
@@ -6466,21 +6466,21 @@
         "vnd",
         "web"
       ],
-      "overallScore": 79.44378956811482,
+      "overallScore": 79.44052050321713,
       "sources": {
         "vndb": {
           "score": 75.1,
-          "votes": 6994,
+          "votes": 6996,
           "href": "https://vndb.org/v10"
         },
         "bangumi": {
           "score": 84,
-          "votes": 6518,
+          "votes": 6522,
           "href": "https://bgm.tv/subject/1167"
         },
         "egs": {
-          "score": 79.77,
-          "votes": 1396,
+          "score": 79.74,
+          "votes": 1401,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=4682"
         }
       }
@@ -6513,21 +6513,21 @@
         "ps4",
         "psv"
       ],
-      "overallScore": 79.41113127527369,
+      "overallScore": 79.41261115761486,
       "sources": {
         "vndb": {
           "score": 79.5,
-          "votes": 1105,
+          "votes": 1107,
           "href": "https://vndb.org/v10680"
         },
         "bangumi": {
           "score": 76,
-          "votes": 5251,
+          "votes": 5257,
           "href": "https://bgm.tv/subject/44123"
         },
         "egs": {
           "score": 84.12,
-          "votes": 2522,
+          "votes": 2527,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=17334"
         }
       }
@@ -6606,7 +6606,7 @@
         "ps3",
         "psv"
       ],
-      "overallScore": 79.30808045165844,
+      "overallScore": 79.30686468181176,
       "sources": {
         "vndb": {
           "score": 81.6,
@@ -6615,7 +6615,7 @@
         },
         "bangumi": {
           "score": 75,
-          "votes": 504,
+          "votes": 505,
           "href": "https://bgm.tv/subject/10767"
         },
         "egs": {
@@ -6652,11 +6652,11 @@
         "dvd",
         "psv"
       ],
-      "overallScore": 79.3037609815769,
+      "overallScore": 79.30415060776758,
       "sources": {
         "vndb": {
           "score": 80.3,
-          "votes": 7842,
+          "votes": 7844,
           "href": "https://vndb.org/v810"
         },
         "bangumi": {
@@ -6666,58 +6666,13 @@
         },
         "egs": {
           "score": 81.48,
-          "votes": 1319,
+          "votes": 1320,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=10082"
         }
       }
     },
     {
       "rank": 145,
-      "id": "v15871",
-      "titles": {
-        "en": "Kami no Ue no Mahoutsukai",
-        "zh": "纸上的魔法使",
-        "ja": "紙の上の魔法使い"
-      },
-      "descriptions": {
-        "en": "This is the debut game for Uguisu Kagura, which succeeds Yonaki Uguisu. There was a small library on that island. It was the Yuugyouji family’s private library built solely for one girl, Yoruko, who didn’t attend school and spent all her time there. With lots of intriguing books on its shelves, there was no happier place for a bookworm like her. There were also other wonderful and pleasant people who resided there: the protagonist Ruri and his cool sharp-tongued imouto Kisaki, the freeloading tennen moodmaker Rio, and the curious and honest “detective” Kanata. It’s as if they were all brought together by someone or something. Their love of books was the beginning of their youth. Before long, the lonely library became full of light and they became close like childhood friends. Two years later, Ruri returned to the library after leaving the island due to family matters. Nothing seemed to have changed from six years ago, except that there was a secret which they were not aware of back then: “Anything that is written in the magic book will become reality”. If it’s a romance novel, then a miracle-like love story will unfold. If it’s a fantasy novel, then vampires will appear the next day. If it’s a horror novel, then there’ll be a ghost beckoning you from behind. Yoruko’s strong will. Kisaki’s beauty. Rio’s cheerfulness. Kanata’s brilliance. Let’s fall in love with them and books. [From Hau~ Omochikaeri!]",
-        "zh": "在某个岛上， 有一座规模略小的图书馆。 它是专门为了某个少女而建造的， 遊行寺家的私人图书馆。 图书馆里有很多很多罕见的书物， 如果是书虫的话， 就绝对不会存在比这里还更加爱不释手的地方。 而，在这般首屈一指的私人图书馆里，住着几位出众且愉快的住人。 热爱图书的尼特少女·遊行寺夜子。 毒舌，冷淡的妹妹·月社妃。 借住于图书馆的天然少女·伏見理央。 还有一位被这背后的秘密而吸引过来的侦探少女·日向かなた。 宛如被引导着，他们互相邂逅——随后又以“喜爱书”的契机，开始了属于他们的青春。 一开始的图书馆虽然寂寞单调，可自主人公一行人住进来开始，这座图书馆就变得渐渐热闹了起来。 在不知不觉中——他们之间的关系变的亲密起来，达到了所谓青梅竹马的程度。 时光飞逝，2年后。因家庭原因，主人公离开了这座岛屿。 而这次，主人公久违的回到了那座图书馆。 与记忆中的6年前一模一样，无论是图书馆，还是亲爱的青梅竹马们。 可是，那在6年前未曾得知的“图书馆的秘密”，这次却等待着主人公去揭晓它。 【——出现在书中之事，会在现世中再现。 无论那是何等荒谬之事。】 如果是酸酸甜甜的恋爱系小说的话，那就会发生宛如飘渺的爱情罗曼史。 又假如那是惊讶重重的幻想系小说的话，到了明天就会有吸血鬼出现在你的面前。 而碰到了略惊悚的恐怖系物语的话，你的身后就会有幽灵在向你招手。 【这就是所谓的“魔法书物”。】 这是一个被小清新的青春与苦闷焦躁的感情动摇的，某个小而又小图书馆的物语…… 去将遊行寺夜子的逞强。 去将月社妃的可爱。 去将伏見理央的坚强。 去将日向かなた的耀眼感。 准备好——来一场你与书的恋爱吧。"
-      },
-      "year": 2014,
-      "released": "2014-12-19",
-      "image": "https://t.vndb.org/cv/70/92770.jpg",
-      "lengthMinutes": 2040,
-      "genres": [
-        "桐葉",
-        "紙の上の魔法使い",
-        "妹控"
-      ],
-      "platforms": [
-        "win",
-        "psv",
-        "swi"
-      ],
-      "overallScore": 79.19717885411372,
-      "sources": {
-        "vndb": {
-          "score": 82,
-          "votes": 687,
-          "href": "https://vndb.org/v15871"
-        },
-        "bangumi": {
-          "score": 78,
-          "votes": 4454,
-          "href": "https://bgm.tv/subject/111552"
-        },
-        "egs": {
-          "score": 81.15,
-          "votes": 1163,
-          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=20988"
-        }
-      }
-    },
-    {
-      "rank": 146,
       "id": "v4936",
       "titles": {
         "en": "Sona-Nyl of the Violet Shadows ~What Beautiful Memories~",
@@ -6742,7 +6697,7 @@
         "psp",
         "xb3"
       ],
-      "overallScore": 79.18840179496031,
+      "overallScore": 79.20033103448276,
       "sources": {
         "vndb": {
           "score": 81.3,
@@ -6755,9 +6710,54 @@
           "href": "https://bgm.tv/subject/10957"
         },
         "egs": {
-          "score": 79.44,
-          "votes": 375,
+          "score": 79.47,
+          "votes": 376,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=14286"
+        }
+      }
+    },
+    {
+      "rank": 146,
+      "id": "v15871",
+      "titles": {
+        "en": "Kami no Ue no Mahoutsukai",
+        "zh": "纸上的魔法使",
+        "ja": "紙の上の魔法使い"
+      },
+      "descriptions": {
+        "en": "This is the debut game for Uguisu Kagura, which succeeds Yonaki Uguisu. There was a small library on that island. It was the Yuugyouji family’s private library built solely for one girl, Yoruko, who didn’t attend school and spent all her time there. With lots of intriguing books on its shelves, there was no happier place for a bookworm like her. There were also other wonderful and pleasant people who resided there: the protagonist Ruri and his cool sharp-tongued imouto Kisaki, the freeloading tennen moodmaker Rio, and the curious and honest “detective” Kanata. It’s as if they were all brought together by someone or something. Their love of books was the beginning of their youth. Before long, the lonely library became full of light and they became close like childhood friends. Two years later, Ruri returned to the library after leaving the island due to family matters. Nothing seemed to have changed from six years ago, except that there was a secret which they were not aware of back then: “Anything that is written in the magic book will become reality”. If it’s a romance novel, then a miracle-like love story will unfold. If it’s a fantasy novel, then vampires will appear the next day. If it’s a horror novel, then there’ll be a ghost beckoning you from behind. Yoruko’s strong will. Kisaki’s beauty. Rio’s cheerfulness. Kanata’s brilliance. Let’s fall in love with them and books. [From Hau~ Omochikaeri!]",
+        "zh": "在某个岛上， 有一座规模略小的图书馆。 它是专门为了某个少女而建造的， 遊行寺家的私人图书馆。 图书馆里有很多很多罕见的书物， 如果是书虫的话， 就绝对不会存在比这里还更加爱不释手的地方。 而，在这般首屈一指的私人图书馆里，住着几位出众且愉快的住人。 热爱图书的尼特少女·遊行寺夜子。 毒舌，冷淡的妹妹·月社妃。 借住于图书馆的天然少女·伏見理央。 还有一位被这背后的秘密而吸引过来的侦探少女·日向かなた。 宛如被引导着，他们互相邂逅——随后又以“喜爱书”的契机，开始了属于他们的青春。 一开始的图书馆虽然寂寞单调，可自主人公一行人住进来开始，这座图书馆就变得渐渐热闹了起来。 在不知不觉中——他们之间的关系变的亲密起来，达到了所谓青梅竹马的程度。 时光飞逝，2年后。因家庭原因，主人公离开了这座岛屿。 而这次，主人公久违的回到了那座图书馆。 与记忆中的6年前一模一样，无论是图书馆，还是亲爱的青梅竹马们。 可是，那在6年前未曾得知的“图书馆的秘密”，这次却等待着主人公去揭晓它。 【——出现在书中之事，会在现世中再现。 无论那是何等荒谬之事。】 如果是酸酸甜甜的恋爱系小说的话，那就会发生宛如飘渺的爱情罗曼史。 又假如那是惊讶重重的幻想系小说的话，到了明天就会有吸血鬼出现在你的面前。 而碰到了略惊悚的恐怖系物语的话，你的身后就会有幽灵在向你招手。 【这就是所谓的“魔法书物”。】 这是一个被小清新的青春与苦闷焦躁的感情动摇的，某个小而又小图书馆的物语…… 去将遊行寺夜子的逞强。 去将月社妃的可爱。 去将伏見理央的坚强。 去将日向かなた的耀眼感。 准备好——来一场你与书的恋爱吧。"
+      },
+      "year": 2014,
+      "released": "2014-12-19",
+      "image": "https://t.vndb.org/cv/70/92770.jpg",
+      "lengthMinutes": 2040,
+      "genres": [
+        "桐葉",
+        "紙の上の魔法使い",
+        "妹控"
+      ],
+      "platforms": [
+        "win",
+        "psv",
+        "swi"
+      ],
+      "overallScore": 79.19472202061257,
+      "sources": {
+        "vndb": {
+          "score": 82,
+          "votes": 687,
+          "href": "https://vndb.org/v15871"
+        },
+        "bangumi": {
+          "score": 78,
+          "votes": 4456,
+          "href": "https://bgm.tv/subject/111552"
+        },
+        "egs": {
+          "score": 81.14,
+          "votes": 1164,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=20988"
         }
       }
     },
@@ -6789,11 +6789,11 @@
         "psv",
         "swi"
       ],
-      "overallScore": 79.11884378171598,
+      "overallScore": 79.12507011530072,
       "sources": {
         "vndb": {
           "score": 81.3,
-          "votes": 1773,
+          "votes": 1776,
           "href": "https://vndb.org/v29443"
         },
         "bangumi": {
@@ -6802,8 +6802,8 @@
           "href": "https://bgm.tv/subject/317675"
         },
         "egs": {
-          "score": 85.17,
-          "votes": 997,
+          "score": 85.15,
+          "votes": 1004,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=31597"
         }
       }
@@ -6832,7 +6832,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 79.0678627311522,
+      "overallScore": 79.06586770981508,
       "sources": {
         "vndb": {
           "score": 79.5,
@@ -6845,7 +6845,7 @@
           "href": "https://bgm.tv/subject/126957"
         },
         "egs": {
-          "score": 78.03,
+          "score": 78.02,
           "votes": 374,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=17716"
         }
@@ -6921,7 +6921,7 @@
         "psp",
         "ps3"
       ],
-      "overallScore": 78.98902898892294,
+      "overallScore": 79.00034065546811,
       "sources": {
         "vndb": {
           "score": 78.8,
@@ -6934,8 +6934,8 @@
           "href": "https://bgm.tv/subject/41565"
         },
         "egs": {
-          "score": 81.25,
-          "votes": 1166,
+          "score": 81.26,
+          "votes": 1175,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=17190"
         }
       }
@@ -6974,11 +6974,11 @@
         "swi",
         "n3d"
       ],
-      "overallScore": 78.95097939885173,
+      "overallScore": 78.95134998312521,
       "sources": {
         "vndb": {
           "score": 79.5,
-          "votes": 1376,
+          "votes": 1377,
           "href": "https://vndb.org/v1715"
         },
         "bangumi": {
@@ -7022,7 +7022,7 @@
         "psv",
         "swi"
       ],
-      "overallScore": 78.84468165780189,
+      "overallScore": 78.85128064821635,
       "sources": {
         "vndb": {
           "score": 80.3,
@@ -7031,12 +7031,12 @@
         },
         "bangumi": {
           "score": 74,
-          "votes": 3171,
+          "votes": 3172,
           "href": "https://bgm.tv/subject/19002"
         },
         "egs": {
-          "score": 81.62,
-          "votes": 3111,
+          "score": 81.63,
+          "votes": 3116,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=15425"
         }
       }
@@ -7073,11 +7073,11 @@
         "swi",
         "web"
       ],
-      "overallScore": 78.6799128679205,
+      "overallScore": 78.67999575010623,
       "sources": {
         "vndb": {
           "score": 78.8,
-          "votes": 18448,
+          "votes": 18450,
           "href": "https://vndb.org/v945"
         },
         "bangumi": {
@@ -7086,7 +7086,7 @@
           "href": "https://bgm.tv/subject/28710"
         },
         "egs": {
-          "score": 72.31,
+          "score": 72.32,
           "votes": 88,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=17154"
         }
@@ -7122,7 +7122,7 @@
         "swi",
         "web"
       ],
-      "overallScore": 78.67285505659001,
+      "overallScore": 78.67989788475565,
       "sources": {
         "vndb": {
           "score": 79.7,
@@ -7135,8 +7135,8 @@
           "href": "https://bgm.tv/subject/18203"
         },
         "egs": {
-          "score": 79.35,
-          "votes": 63,
+          "score": 79.44,
+          "votes": 64,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=15103"
         }
       }
@@ -7166,7 +7166,7 @@
         "win",
         "ps2"
       ],
-      "overallScore": 78.59317757009345,
+      "overallScore": 78.59178554332216,
       "sources": {
         "vndb": {
           "score": 76.1,
@@ -7175,12 +7175,12 @@
         },
         "bangumi": {
           "score": 81,
-          "votes": 1014,
+          "votes": 1015,
           "href": "https://bgm.tv/subject/1079"
         },
         "egs": {
-          "score": 77.81,
-          "votes": 91,
+          "score": 77.78,
+          "votes": 92,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=6331"
         }
       }
@@ -7211,7 +7211,7 @@
         "and",
         "psp"
       ],
-      "overallScore": 78.55553856320212,
+      "overallScore": 78.55773250330125,
       "sources": {
         "vndb": {
           "score": 79.7,
@@ -7225,7 +7225,7 @@
         },
         "egs": {
           "score": 81.14,
-          "votes": 1811,
+          "votes": 1814,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=13576"
         }
       }
@@ -7256,7 +7256,7 @@
         "ps2",
         "vnd"
       ],
-      "overallScore": 78.55306964520369,
+      "overallScore": 78.55388290889996,
       "sources": {
         "vndb": {
           "score": 80.7,
@@ -7269,8 +7269,8 @@
           "href": "https://bgm.tv/subject/4219"
         },
         "egs": {
-          "score": 75.41,
-          "votes": 1563,
+          "score": 75.42,
+          "votes": 1567,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=4862"
         }
       }
@@ -7299,11 +7299,11 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 78.52407760141094,
+      "overallScore": 78.52462460345436,
       "sources": {
         "vndb": {
           "score": 79.3,
-          "votes": 415,
+          "votes": 417,
           "href": "https://vndb.org/v16166"
         },
         "bangumi": {
@@ -7342,7 +7342,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 78.48837820304898,
+      "overallScore": 78.48841730115018,
       "sources": {
         "vndb": {
           "score": 81.6,
@@ -7351,12 +7351,12 @@
         },
         "bangumi": {
           "score": 72,
-          "votes": 940,
+          "votes": 942,
           "href": "https://bgm.tv/subject/161787"
         },
         "egs": {
-          "score": 80.99,
-          "votes": 622,
+          "score": 81,
+          "votes": 623,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22258"
         }
       }
@@ -7387,7 +7387,7 @@
         "ps4",
         "swi"
       ],
-      "overallScore": 78.43276463477811,
+      "overallScore": 78.43648397104447,
       "sources": {
         "vndb": {
           "score": 80.9,
@@ -7396,12 +7396,12 @@
         },
         "bangumi": {
           "score": 72,
-          "votes": 1028,
+          "votes": 1029,
           "href": "https://bgm.tv/subject/363763"
         },
         "egs": {
           "score": 82.26,
-          "votes": 983,
+          "votes": 986,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=32066"
         }
       }
@@ -7430,7 +7430,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 78.33003929273085,
+      "overallScore": 78.34123287671231,
       "sources": {
         "vndb": {
           "score": 83.2,
@@ -7439,18 +7439,63 @@
         },
         "bangumi": {
           "score": 73,
-          "votes": 448,
+          "votes": 449,
           "href": "https://bgm.tv/subject/403275"
         },
         "egs": {
-          "score": 80.97,
-          "votes": 116,
+          "score": 81.02,
+          "votes": 118,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=33322"
         }
       }
     },
     {
       "rank": 162,
+      "id": "v16493",
+      "titles": {
+        "en": "WHITE ALBUM2 Mini After Story",
+        "zh": "白色相簿2 mini After Story",
+        "ja": "WHITE ALBUM2 ミニアフターストーリー"
+      },
+      "descriptions": {
+        "en": "White Album 2 fandisk featuring after-stories for the Kazusa and Setsuna routes of the original game: - The Way Back to Happiness: Follows Kazusa's true ending. - The Way Towards Happiness: Follows Setsuna’s true ending.",
+        "zh": "Windows®用アドベンチャーゲーム『WHITE ALBUM2 ミニアフターストーリー』（丸戸史明書き下ろし）を応募者全員にプレゼントいたします。 収録内容は下記の2本となり、ゲーム版のアフターストーリーをプレイできます。 小木曽雪菜ミニアフターストーリー 冬馬かずさミニアフターストーリー"
+      },
+      "year": 2012,
+      "released": "2012-12-20",
+      "image": "https://t.vndb.org/cv/75/76275.jpg",
+      "lengthMinutes": 226,
+      "genres": [
+        "leaf",
+        "丸戸史明",
+        "FD"
+      ],
+      "platforms": [
+        "win",
+        "ps3",
+        "psv"
+      ],
+      "overallScore": 78.32194196428571,
+      "sources": {
+        "vndb": {
+          "score": 80.8,
+          "votes": 1011,
+          "href": "https://vndb.org/v16493"
+        },
+        "bangumi": {
+          "score": 75,
+          "votes": 1488,
+          "href": "https://bgm.tv/subject/122158"
+        },
+        "egs": {
+          "score": 91.22,
+          "votes": 126,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=18010"
+        }
+      }
+    },
+    {
+      "rank": 163,
       "id": "v8508",
       "titles": {
         "en": "Kindred Spirits on the Roof",
@@ -7494,51 +7539,6 @@
           "score": 78.95,
           "votes": 335,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=16334"
-        }
-      }
-    },
-    {
-      "rank": 163,
-      "id": "v16493",
-      "titles": {
-        "en": "WHITE ALBUM2 Mini After Story",
-        "zh": "白色相簿2 mini After Story",
-        "ja": "WHITE ALBUM2 ミニアフターストーリー"
-      },
-      "descriptions": {
-        "en": "White Album 2 fandisk featuring after-stories for the Kazusa and Setsuna routes of the original game: - The Way Back to Happiness: Follows Kazusa's true ending. - The Way Towards Happiness: Follows Setsuna’s true ending.",
-        "zh": "Windows®用アドベンチャーゲーム『WHITE ALBUM2 ミニアフターストーリー』（丸戸史明書き下ろし）を応募者全員にプレゼントいたします。 収録内容は下記の2本となり、ゲーム版のアフターストーリーをプレイできます。 小木曽雪菜ミニアフターストーリー 冬馬かずさミニアフターストーリー"
-      },
-      "year": 2012,
-      "released": "2012-12-20",
-      "image": "https://t.vndb.org/cv/75/76275.jpg",
-      "lengthMinutes": 226,
-      "genres": [
-        "leaf",
-        "丸戸史明",
-        "FD"
-      ],
-      "platforms": [
-        "win",
-        "ps3",
-        "psv"
-      ],
-      "overallScore": 78.28709016393442,
-      "sources": {
-        "vndb": {
-          "score": 80.7,
-          "votes": 1009,
-          "href": "https://vndb.org/v16493"
-        },
-        "bangumi": {
-          "score": 75,
-          "votes": 1486,
-          "href": "https://bgm.tv/subject/122158"
-        },
-        "egs": {
-          "score": 91.25,
-          "votes": 126,
-          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=18010"
         }
       }
     },
@@ -7660,7 +7660,7 @@
         "ps4",
         "swi"
       ],
-      "overallScore": 78.17596881553753,
+      "overallScore": 78.18352405247813,
       "sources": {
         "vndb": {
           "score": 80.7,
@@ -7673,14 +7673,57 @@
           "href": "https://bgm.tv/subject/267448"
         },
         "egs": {
-          "score": 80.67,
-          "votes": 1005,
+          "score": 80.69,
+          "votes": 1008,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=27485"
         }
       }
     },
     {
       "rank": 167,
+      "id": "v29057",
+      "titles": {
+        "en": "Waga Himegimi ni Eikan o",
+        "zh": "为我的女王献上荣冠",
+        "ja": "我が姫君に栄冠を"
+      },
+      "descriptions": {
+        "en": "The protagonist Shaon, who grew up in a remote area, was taught a technique called Tenken by his teacher. The teacher hopes that Shaon will pass on his abilities to his descendants. When he is old enough, he needs to leave his home to find a bride. How you live your life, whom will you marry? It all depends on your choice.",
+        "zh": "作品紹介 みなとそふとがお届けする超大作！ みなとそふとが『まじこい』に次ぐ18禁完全新作タイトルを発表！ シナリオ「タカヒロ」、原画「wagi」の『まじこい』黄金タッグが再び！ 今作ではファンタジー世界を舞台にしたADVで目的は嫁探し。 三人のヒロインは皇帝、元首、王とそれぞれの国の若き統治者たち。 世界観は変わってもテイストは変わらず、賑やかなキャラクター達に囲まれる世界を楽しもう！ みなとそふとの代名詞とも言える多数のキャラクターと豪華な声優陣は今作でも健在！ ヒロインはそれぞれの種族の王なので、姉、ツンデレ、武士娘、不良娘など続いてきたメーカーの雰囲気そのままで楽します。 間違いなく2021年の最大注目作になるであろう本作を要チェックです！ ストーリー 辺境に育つ主人公・シャオンは、師匠から天眷という能力と技術を伝授された。 師匠の願いは、この教えを子孫にも受け継いでいく事。 年頃のシャオンは、都会に出てお嫁さんを探す事になる。 彼が生きる大陸周辺は、今、三つの勢力で成り立っていた。 全ての勢力で女性が指導者である状況は、後に姫君の世紀と呼ばれるようになる。 シャオンはどの勢力に行き、どの女性をお嫁に迎えるのか、全ては彼の選択次第…。"
+      },
+      "year": 2021,
+      "released": "2021-03-26",
+      "image": "https://t.vndb.org/cv/43/90843.jpg",
+      "lengthMinutes": 2962,
+      "genres": [
+        "みなとそふと",
+        "CV阵容爆炸",
+        "タカヒロ"
+      ],
+      "platforms": [
+        "win"
+      ],
+      "overallScore": 78.07994299674267,
+      "sources": {
+        "vndb": {
+          "score": 79.9,
+          "votes": 389,
+          "href": "https://vndb.org/v29057"
+        },
+        "bangumi": {
+          "score": 73,
+          "votes": 332,
+          "href": "https://bgm.tv/subject/313964"
+        },
+        "egs": {
+          "score": 80.01,
+          "votes": 338,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29938"
+        }
+      }
+    },
+    {
+      "rank": 168,
       "id": "v28731",
       "titles": {
         "en": "Mama×Holic ~Miwaku no Mama to Ama Ama Kankei~",
@@ -7704,7 +7747,7 @@
         "win",
         "dvd"
       ],
-      "overallScore": 78.07973684210525,
+      "overallScore": 78.06833411543877,
       "sources": {
         "vndb": {
           "score": 84.3,
@@ -7717,52 +7760,9 @@
           "href": "https://bgm.tv/subject/310158"
         },
         "egs": {
-          "score": 75.92,
-          "votes": 98,
+          "score": 75.86,
+          "votes": 99,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29791"
-        }
-      }
-    },
-    {
-      "rank": 168,
-      "id": "v29057",
-      "titles": {
-        "en": "Waga Himegimi ni Eikan o",
-        "zh": "为我的女王献上荣冠",
-        "ja": "我が姫君に栄冠を"
-      },
-      "descriptions": {
-        "en": "The protagonist Shaon, who grew up in a remote area, was taught a technique called Tenken by his teacher. The teacher hopes that Shaon will pass on his abilities to his descendants. When he is old enough, he needs to leave his home to find a bride. How you live your life, whom will you marry? It all depends on your choice.",
-        "zh": "作品紹介 みなとそふとがお届けする超大作！ みなとそふとが『まじこい』に次ぐ18禁完全新作タイトルを発表！ シナリオ「タカヒロ」、原画「wagi」の『まじこい』黄金タッグが再び！ 今作ではファンタジー世界を舞台にしたADVで目的は嫁探し。 三人のヒロインは皇帝、元首、王とそれぞれの国の若き統治者たち。 世界観は変わってもテイストは変わらず、賑やかなキャラクター達に囲まれる世界を楽しもう！ みなとそふとの代名詞とも言える多数のキャラクターと豪華な声優陣は今作でも健在！ ヒロインはそれぞれの種族の王なので、姉、ツンデレ、武士娘、不良娘など続いてきたメーカーの雰囲気そのままで楽します。 間違いなく2021年の最大注目作になるであろう本作を要チェックです！ ストーリー 辺境に育つ主人公・シャオンは、師匠から天眷という能力と技術を伝授された。 師匠の願いは、この教えを子孫にも受け継いでいく事。 年頃のシャオンは、都会に出てお嫁さんを探す事になる。 彼が生きる大陸周辺は、今、三つの勢力で成り立っていた。 全ての勢力で女性が指導者である状況は、後に姫君の世紀と呼ばれるようになる。 シャオンはどの勢力に行き、どの女性をお嫁に迎えるのか、全ては彼の選択次第…。"
-      },
-      "year": 2021,
-      "released": "2021-03-26",
-      "image": "https://t.vndb.org/cv/43/90843.jpg",
-      "lengthMinutes": 2962,
-      "genres": [
-        "みなとそふと",
-        "CV阵容爆炸",
-        "タカヒロ"
-      ],
-      "platforms": [
-        "win"
-      ],
-      "overallScore": 78.06933958418263,
-      "sources": {
-        "vndb": {
-          "score": 79.9,
-          "votes": 389,
-          "href": "https://vndb.org/v29057"
-        },
-        "bangumi": {
-          "score": 73,
-          "votes": 332,
-          "href": "https://bgm.tv/subject/313964"
-        },
-        "egs": {
-          "score": 79.99,
-          "votes": 337,
-          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29938"
         }
       }
     },
@@ -7790,21 +7790,21 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 78.03304713804714,
+      "overallScore": 78.0301316157939,
       "sources": {
         "vndb": {
           "score": 80,
-          "votes": 2615,
+          "votes": 2617,
           "href": "https://vndb.org/v27519"
         },
         "bangumi": {
           "score": 74,
-          "votes": 3202,
+          "votes": 3205,
           "href": "https://bgm.tv/subject/297734"
         },
         "egs": {
-          "score": 83.96,
-          "votes": 874,
+          "score": 83.91,
+          "votes": 880,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29109"
         }
       }
@@ -7832,7 +7832,7 @@
         "win",
         "swi"
       ],
-      "overallScore": 77.942,
+      "overallScore": 77.92242990654205,
       "sources": {
         "vndb": {
           "score": 82.1,
@@ -7845,8 +7845,8 @@
           "href": null
         },
         "egs": {
-          "score": 73.19,
-          "votes": 399,
+          "score": 73.16,
+          "votes": 400,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=13933"
         }
       }
@@ -7879,21 +7879,21 @@
         "and",
         "psv"
       ],
-      "overallScore": 77.86662918918917,
+      "overallScore": 77.86594734570565,
       "sources": {
         "vndb": {
           "score": 80.1,
-          "votes": 1062,
+          "votes": 1064,
           "href": "https://vndb.org/v58641"
         },
         "bangumi": {
           "score": 76,
-          "votes": 1222,
+          "votes": 1223,
           "href": "https://bgm.tv/subject/604105"
         },
         "egs": {
-          "score": 74.68,
-          "votes": 19,
+          "score": 74.7,
+          "votes": 20,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=39971"
         }
       }
@@ -7925,21 +7925,21 @@
         "and",
         "swi"
       ],
-      "overallScore": 77.84060455896929,
+      "overallScore": 77.84596478356566,
       "sources": {
         "vndb": {
           "score": 79.4,
-          "votes": 8139,
+          "votes": 8142,
           "href": "https://vndb.org/v7738"
         },
         "bangumi": {
           "score": 74,
-          "votes": 3813,
+          "votes": 3814,
           "href": "https://bgm.tv/subject/59842"
         },
         "egs": {
-          "score": 79.01,
-          "votes": 1113,
+          "score": 79.05,
+          "votes": 1116,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=15929"
         }
       }
@@ -7959,7 +7959,7 @@
       "year": 2025,
       "released": "2025-09-26",
       "image": "https://t.vndb.org/cv/01/111701.jpg",
-      "lengthMinutes": 653,
+      "lengthMinutes": 654,
       "genres": [
         "紫社",
         "克",
@@ -7968,21 +7968,21 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 77.79074196689388,
+      "overallScore": 77.80155189136761,
       "sources": {
         "vndb": {
           "score": 79.7,
-          "votes": 542,
+          "votes": 544,
           "href": "https://vndb.org/v57252"
         },
         "bangumi": {
           "score": 76,
-          "votes": 1439,
+          "votes": 1441,
           "href": "https://bgm.tv/subject/566420"
         },
         "egs": {
-          "score": 80.42,
-          "votes": 391,
+          "score": 80.44,
+          "votes": 395,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=38888"
         }
       }
@@ -8002,7 +8002,7 @@
       "year": 2011,
       "released": "2011-07-29",
       "image": "https://t.vndb.org/cv/77/88277.jpg",
-      "lengthMinutes": 2730,
+      "lengthMinutes": 2745,
       "genres": [
         "FAVORITE",
         "色鸟鸟",
@@ -8012,11 +8012,11 @@
         "win",
         "psv"
       ],
-      "overallScore": 77.66640323584319,
+      "overallScore": 77.6687046390551,
       "sources": {
         "vndb": {
           "score": 80.9,
-          "votes": 1402,
+          "votes": 1404,
           "href": "https://vndb.org/v5834"
         },
         "bangumi": {
@@ -8026,7 +8026,7 @@
         },
         "egs": {
           "score": 79.52,
-          "votes": 1678,
+          "votes": 1681,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=14834"
         }
       }
@@ -8091,7 +8091,7 @@
       "year": 2009,
       "released": "2009-07-24",
       "image": "https://t.vndb.org/cv/98/79698.jpg",
-      "lengthMinutes": 1875,
+      "lengthMinutes": 1928,
       "genres": [
         "朱门优",
         "propeller",
@@ -8101,21 +8101,21 @@
         "win",
         "bdp"
       ],
-      "overallScore": 77.64722349454398,
+      "overallScore": 77.65267761033368,
       "sources": {
         "vndb": {
           "score": 83.6,
-          "votes": 559,
+          "votes": 560,
           "href": "https://vndb.org/v1483"
         },
         "bangumi": {
           "score": 75,
-          "votes": 1177,
+          "votes": 1179,
           "href": "https://bgm.tv/subject/3591"
         },
         "egs": {
-          "score": 77.54,
-          "votes": 1317,
+          "score": 77.55,
+          "votes": 1318,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=12144"
         }
       }
@@ -8188,7 +8188,7 @@
       "platforms": [
         "swi"
       ],
-      "overallScore": 77.59736020806241,
+      "overallScore": 77.59243997404282,
       "sources": {
         "vndb": {
           "score": 81.3,
@@ -8201,8 +8201,8 @@
           "href": "https://bgm.tv/subject/353760"
         },
         "egs": {
-          "score": 72.07,
-          "votes": 14,
+          "score": 72.27,
+          "votes": 15,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=32430"
         }
       }
@@ -8279,7 +8279,7 @@
         "psv",
         "swi"
       ],
-      "overallScore": 77.362340862423,
+      "overallScore": 77.360960591133,
       "sources": {
         "vndb": {
           "score": 79.2,
@@ -8288,7 +8288,7 @@
         },
         "bangumi": {
           "score": 74,
-          "votes": 2436,
+          "votes": 2439,
           "href": "https://bgm.tv/subject/24796"
         },
         "egs": {
@@ -8403,8 +8403,8 @@
       "lengthMinutes": 1587,
       "genres": [
         "拔作",
-        "炎孕",
-        "动态CG"
+        "动态CG",
+        "炎孕"
       ],
       "platforms": [
         "win"
@@ -8455,7 +8455,7 @@
         "dvd",
         "swi"
       ],
-      "overallScore": 76.68517411353156,
+      "overallScore": 76.69092063492064,
       "sources": {
         "vndb": {
           "score": 81.9,
@@ -8464,12 +8464,12 @@
         },
         "bangumi": {
           "score": 73,
-          "votes": 1834,
+          "votes": 1838,
           "href": "https://bgm.tv/subject/295350"
         },
         "egs": {
-          "score": 81.78,
-          "votes": 419,
+          "score": 81.82,
+          "votes": 420,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=28433"
         }
       }
@@ -8502,7 +8502,7 @@
         "bdp",
         "swi"
       ],
-      "overallScore": 76.57701177929324,
+      "overallScore": 76.56980810894459,
       "sources": {
         "vndb": {
           "score": 79.6,
@@ -8511,12 +8511,12 @@
         },
         "bangumi": {
           "score": 72,
-          "votes": 375,
+          "votes": 376,
           "href": "https://bgm.tv/subject/114735"
         },
         "egs": {
-          "score": 76.92,
-          "votes": 504,
+          "score": 76.91,
+          "votes": 505,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=20842"
         }
       }
@@ -8566,49 +8566,6 @@
     },
     {
       "rank": 187,
-      "id": "v13774",
-      "titles": {
-        "en": "Angel Beats! -1st beat-",
-        "zh": "Angel Beats! -1st beat-",
-        "ja": "Angel Beats! -1st beat-"
-      },
-      "descriptions": {
-        "en": "Angel Beats! is a collaboration project of Key, Dengeki G's, and Aniplex. The story of the visual novel is to be based on the Angel Beats! anime series. The player takes on the role of Otonashi, a newcomer to the Afterlife who finds himself in the middle of a struggle between a group of students who call themselves the Shinda Sekai Sensen (\"Afterlife Battlefront\"), or SSS for short, and a mysterious girl who is known under the alias of Tenshi (Angel). The story will undergo changes from the original anime and will include story routes with each of the characters. It also stated that Otonashi will be very different than his original personality in the anime, and will change according to the choices made by the player. [Edited from Angel Beats! wiki] Rumors of a game release existed since 2010, but a formal game announcement was made in 2013. The first volume was released on June 26, 2015. Only the first volume had been released while the other five planned volumes have been abandoned with no announcement. The Angel Beats! collaborations in Key x Wright Flyer Studios gacha game HEAVEN BURNS RED contain content that would've been in 2nd beat and beyond.",
-        "zh": "†『Angel Beats！ 1st beat』ストーリー† 舞台は死後の世界。運命に立ち向かう少年少女達の物語。 何らかの理由で最期を遂げた少年・音無は死後の世界の学校で、ゆりと名乗る少女と出会う。彼女は理不尽な人生を強いた神に反逆する“死んだ世界戦線”のリーダーで、日夜激戦を繰り広げていた。 彼女たちに立ちはだかるのは、神の使い“天使”と呼ばれる1人の可憐な少女だった。生前の記憶がなく、この死後の世界で何が起きているのかもわからず戸惑う音無。彼はゆりたちとともに戦う道を選ぶことにしたのだが……。"
-      },
-      "year": 2015,
-      "released": "2015-06-26",
-      "image": "https://t.vndb.org/cv/70/121870.jpg",
-      "lengthMinutes": 1656,
-      "genres": [
-        "key",
-        "麻枝准",
-        "有生之年"
-      ],
-      "platforms": [
-        "win"
-      ],
-      "overallScore": 76.41218435321456,
-      "sources": {
-        "vndb": {
-          "score": 78.9,
-          "votes": 1485,
-          "href": "https://vndb.org/v13774"
-        },
-        "bangumi": {
-          "score": 72,
-          "votes": 569,
-          "href": "https://bgm.tv/subject/84520"
-        },
-        "egs": {
-          "score": 74.17,
-          "votes": 352,
-          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=19670"
-        }
-      }
-    },
-    {
-      "rank": 188,
       "id": "v33036",
       "titles": {
         "en": "AMBITIOUS MISSION",
@@ -8633,7 +8590,7 @@
         "ps4",
         "swi"
       ],
-      "overallScore": 76.40906374501992,
+      "overallScore": 76.40928014596119,
       "sources": {
         "vndb": {
           "score": 80,
@@ -8642,13 +8599,56 @@
         },
         "bangumi": {
           "score": 74,
-          "votes": 1550,
+          "votes": 1551,
           "href": "https://bgm.tv/subject/360498"
         },
         "egs": {
           "score": 78.45,
-          "votes": 652,
+          "votes": 653,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=32004"
+        }
+      }
+    },
+    {
+      "rank": 188,
+      "id": "v13774",
+      "titles": {
+        "en": "Angel Beats! -1st beat-",
+        "zh": "Angel Beats! -1st beat-",
+        "ja": "Angel Beats! -1st beat-"
+      },
+      "descriptions": {
+        "en": "Angel Beats! is a collaboration project of Key, Dengeki G's, and Aniplex. The story of the visual novel is to be based on the Angel Beats! anime series. The player takes on the role of Otonashi, a newcomer to the Afterlife who finds himself in the middle of a struggle between a group of students who call themselves the Shinda Sekai Sensen (\"Afterlife Battlefront\"), or SSS for short, and a mysterious girl who is known under the alias of Tenshi (Angel). The story will undergo changes from the original anime and will include story routes with each of the characters. It also stated that Otonashi will be very different than his original personality in the anime, and will change according to the choices made by the player. [Edited from Angel Beats! wiki] Rumors of a game release existed since 2010, but a formal game announcement was made in 2013. The first volume was released on June 26, 2015. Only the first volume had been released while the other five planned volumes have been abandoned with no announcement. The Angel Beats! collaborations in Key x Wright Flyer Studios gacha game HEAVEN BURNS RED contain content that would've been in 2nd beat and beyond.",
+        "zh": "†『Angel Beats！ 1st beat』ストーリー† 舞台は死後の世界。運命に立ち向かう少年少女達の物語。 何らかの理由で最期を遂げた少年・音無は死後の世界の学校で、ゆりと名乗る少女と出会う。彼女は理不尽な人生を強いた神に反逆する“死んだ世界戦線”のリーダーで、日夜激戦を繰り広げていた。 彼女たちに立ちはだかるのは、神の使い“天使”と呼ばれる1人の可憐な少女だった。生前の記憶がなく、この死後の世界で何が起きているのかもわからず戸惑う音無。彼はゆりたちとともに戦う道を選ぶことにしたのだが……。"
+      },
+      "year": 2015,
+      "released": "2015-06-26",
+      "image": "https://t.vndb.org/cv/70/121870.jpg",
+      "lengthMinutes": 1656,
+      "genres": [
+        "key",
+        "麻枝准",
+        "有生之年"
+      ],
+      "platforms": [
+        "win"
+      ],
+      "overallScore": 76.40843205574915,
+      "sources": {
+        "vndb": {
+          "score": 78.9,
+          "votes": 1485,
+          "href": "https://vndb.org/v13774"
+        },
+        "bangumi": {
+          "score": 72,
+          "votes": 570,
+          "href": "https://bgm.tv/subject/84520"
+        },
+        "egs": {
+          "score": 74.16,
+          "votes": 352,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=19670"
         }
       }
     },
@@ -8677,7 +8677,7 @@
         "win",
         "web"
       ],
-      "overallScore": 76.30312333629104,
+      "overallScore": 76.30342004138339,
       "sources": {
         "vndb": {
           "score": 79.3,
@@ -8686,11 +8686,11 @@
         },
         "bangumi": {
           "score": 74,
-          "votes": 795,
+          "votes": 796,
           "href": "https://bgm.tv/subject/149220"
         },
         "egs": {
-          "score": 76.26,
+          "score": 76.27,
           "votes": 187,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22698"
         }
@@ -8721,7 +8721,7 @@
         "win",
         "swi"
       ],
-      "overallScore": 76.28350703432753,
+      "overallScore": 76.29116485242957,
       "sources": {
         "vndb": {
           "score": 80.3,
@@ -8730,12 +8730,12 @@
         },
         "bangumi": {
           "score": 75,
-          "votes": 3523,
+          "votes": 3527,
           "href": "https://bgm.tv/subject/304421"
         },
         "egs": {
-          "score": 82.16,
-          "votes": 297,
+          "score": 82.13,
+          "votes": 303,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=29465"
         }
       }
@@ -8765,16 +8765,16 @@
         "win",
         "web"
       ],
-      "overallScore": 76.23138204762874,
+      "overallScore": 76.23383082553883,
       "sources": {
         "vndb": {
           "score": 79.8,
-          "votes": 1623,
+          "votes": 1627,
           "href": "https://vndb.org/v6985"
         },
         "bangumi": {
           "score": 74,
-          "votes": 1709,
+          "votes": 1710,
           "href": "https://bgm.tv/subject/19750"
         },
         "egs": {
@@ -8856,7 +8856,7 @@
         "swi",
         "n3d"
       ],
-      "overallScore": 76.06234690971233,
+      "overallScore": 76.06119020501139,
       "sources": {
         "vndb": {
           "score": 78.9,
@@ -8865,7 +8865,7 @@
         },
         "bangumi": {
           "score": 72,
-          "votes": 1431,
+          "votes": 1432,
           "href": "https://bgm.tv/subject/102690"
         },
         "egs": {
@@ -8991,21 +8991,21 @@
         "mac",
         "swi"
       ],
-      "overallScore": 75.85233278314863,
+      "overallScore": 75.87311542070691,
       "sources": {
         "vndb": {
           "score": 82.4,
-          "votes": 1142,
+          "votes": 1145,
           "href": "https://vndb.org/v50283"
         },
         "bangumi": {
           "score": 73,
-          "votes": 4525,
+          "votes": 4538,
           "href": "https://bgm.tv/subject/488392"
         },
         "egs": {
-          "score": 83.67,
-          "votes": 463,
+          "score": 83.7,
+          "votes": 474,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=38631"
         }
       }
@@ -9025,7 +9025,7 @@
       "year": 2010,
       "released": "2010-04-22",
       "image": "https://t.vndb.org/cv/14/100214.jpg",
-      "lengthMinutes": 2040,
+      "lengthMinutes": 2100,
       "genres": [
         "衣笠彰梧",
         "暁の護衛",
@@ -9036,7 +9036,7 @@
         "psp",
         "ps3"
       ],
-      "overallScore": 75.83161518093556,
+      "overallScore": 75.83207717750827,
       "sources": {
         "vndb": {
           "score": 79.7,
@@ -9050,7 +9050,7 @@
         },
         "egs": {
           "score": 76.53,
-          "votes": 2004,
+          "votes": 2006,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=12156"
         }
       }
@@ -9079,7 +9079,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 75.68203562340967,
+      "overallScore": 75.65944209636518,
       "sources": {
         "vndb": {
           "score": 79.4,
@@ -9088,7 +9088,7 @@
         },
         "bangumi": {
           "score": 69,
-          "votes": 192,
+          "votes": 194,
           "href": "https://bgm.tv/subject/289565"
         },
         "egs": {
@@ -9100,6 +9100,50 @@
     },
     {
       "rank": 199,
+      "id": "v56650",
+      "titles": {
+        "en": "LimeLight Lemonade Jam",
+        "zh": "橘光柠水随想曲",
+        "ja": "ライムライト・レモネードジャム"
+      },
+      "descriptions": {
+        "en": "Music, friends, and love. From the day he met her, the world began to shine— Okinami Yukitaka was skilled at bass but had never belonged to a specific band. He had no goals, yet nothing else he wanted to do. Amidst his aimless musical pursuits, he stumbled upon a street performance that would completely transform his monotonous daily life. There stood a girl, Harumi Ena, challenging herself with a solo performance of singing and guitar playing, with her complete amateur skill. The moment Yukitaka witnessed her street performance, his ordinary world began to sparkle once again. [Translated from official website]",
+        "zh": "音乐、伙伴，还有恋爱。 从遇见她的那天起，世界开始闪闪发光—— 【冲浪雪鹰】的贝斯技术高超，却从未加入过任何固定的乐队。 他没有明确的目标，也找不到其他想做的事。 就在这种漫无目的的音乐生活中，一场街头演出， 彻底改变了【冲浪雪鹰】一成不变的日常。 那是一个独自挑战弹唱的少女——【阳见惠凪】。 她的吉他技术，几乎还是个新手。 然而，从看到她演出的那一刻起， 【冲浪雪鹰】的世界，再度绽放出了光芒。 音楽、仲間、そして恋。 彼女と出逢った日から世界は輝く—— ベースは上手いが、特定のバンドに所属することのなかった【沖浪雪鷹】。 目標がない、けれど他にやりたいこともない。 漫然と音楽活動を続ける中で見かけた路上ライブが、 変わり映えしなかった【沖浪雪鷹】の日常を一変させる。 素人同然のギターで、たった一人で弾き語りに挑戦する少女【陽見恵凪】。 彼女の路上ライブ見かけた瞬間から【沖浪雪鷹】の日常が、再びキラメキ始める。"
+      },
+      "year": 2025,
+      "released": "2025-09-26",
+      "image": "https://t.vndb.org/cv/06/109906.jpg",
+      "lengthMinutes": 2825,
+      "genres": [
+        "柚子社",
+        "废萌",
+        "Yuzusoft"
+      ],
+      "platforms": [
+        "win",
+        "web"
+      ],
+      "overallScore": 75.59890763390973,
+      "sources": {
+        "vndb": {
+          "score": 81,
+          "votes": 649,
+          "href": "https://vndb.org/v56650"
+        },
+        "bangumi": {
+          "score": 69,
+          "votes": 1793,
+          "href": "https://bgm.tv/subject/561526"
+        },
+        "egs": {
+          "score": 83.07,
+          "votes": 743,
+          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=38794"
+        }
+      }
+    },
+    {
+      "rank": 200,
       "id": "v12984",
       "titles": {
         "en": "AstralAir no Shiroki Towa",
@@ -9143,50 +9187,6 @@
       }
     },
     {
-      "rank": 200,
-      "id": "v56650",
-      "titles": {
-        "en": "LimeLight Lemonade Jam",
-        "zh": "橘光柠水随想曲",
-        "ja": "ライムライト・レモネードジャム"
-      },
-      "descriptions": {
-        "en": "Music, friends, and love. From the day he met her, the world began to shine— Okinami Yukitaka was skilled at bass but had never belonged to a specific band. He had no goals, yet nothing else he wanted to do. Amidst his aimless musical pursuits, he stumbled upon a street performance that would completely transform his monotonous daily life. There stood a girl, Harumi Ena, challenging herself with a solo performance of singing and guitar playing, with her complete amateur skill. The moment Yukitaka witnessed her street performance, his ordinary world began to sparkle once again. [Translated from official website]",
-        "zh": "音乐、伙伴，还有恋爱。 从遇见她的那天起，世界开始闪闪发光—— 【冲浪雪鹰】的贝斯技术高超，却从未加入过任何固定的乐队。 他没有明确的目标，也找不到其他想做的事。 就在这种漫无目的的音乐生活中，一场街头演出， 彻底改变了【冲浪雪鹰】一成不变的日常。 那是一个独自挑战弹唱的少女——【阳见惠凪】。 她的吉他技术，几乎还是个新手。 然而，从看到她演出的那一刻起， 【冲浪雪鹰】的世界，再度绽放出了光芒。 音楽、仲間、そして恋。 彼女と出逢った日から世界は輝く—— ベースは上手いが、特定のバンドに所属することのなかった【沖浪雪鷹】。 目標がない、けれど他にやりたいこともない。 漫然と音楽活動を続ける中で見かけた路上ライブが、 変わり映えしなかった【沖浪雪鷹】の日常を一変させる。 素人同然のギターで、たった一人で弾き語りに挑戦する少女【陽見恵凪】。 彼女の路上ライブ見かけた瞬間から【沖浪雪鷹】の日常が、再びキラメキ始める。"
-      },
-      "year": 2025,
-      "released": "2025-09-26",
-      "image": "https://t.vndb.org/cv/06/109906.jpg",
-      "lengthMinutes": 2750,
-      "genres": [
-        "柚子社",
-        "废萌",
-        "Yuzusoft"
-      ],
-      "platforms": [
-        "win",
-        "web"
-      ],
-      "overallScore": 75.5326721450836,
-      "sources": {
-        "vndb": {
-          "score": 80.9,
-          "votes": 648,
-          "href": "https://vndb.org/v56650"
-        },
-        "bangumi": {
-          "score": 69,
-          "votes": 1789,
-          "href": "https://bgm.tv/subject/561526"
-        },
-        "egs": {
-          "score": 83.05,
-          "votes": 728,
-          "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=38794"
-        }
-      }
-    },
-    {
       "rank": 201,
       "id": "v8424",
       "titles": {
@@ -9210,7 +9210,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 75.16900097370984,
+      "overallScore": 75.17799922148696,
       "sources": {
         "vndb": {
           "score": 78.8,
@@ -9223,8 +9223,8 @@
           "href": "https://bgm.tv/subject/26830"
         },
         "egs": {
-          "score": 75.22,
-          "votes": 767,
+          "score": 75.24,
+          "votes": 768,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=16279"
         }
       }
@@ -9254,21 +9254,21 @@
         "win",
         "and"
       ],
-      "overallScore": 75.08130421776846,
+      "overallScore": 75.09400178518298,
       "sources": {
         "vndb": {
           "score": 81.8,
-          "votes": 343,
+          "votes": 345,
           "href": "https://vndb.org/v50215"
         },
         "bangumi": {
           "score": 70,
-          "votes": 958,
+          "votes": 962,
           "href": "https://bgm.tv/subject/518278"
         },
         "egs": {
-          "score": 82,
-          "votes": 247,
+          "score": 82.02,
+          "votes": 249,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=38745"
         }
       }
@@ -9343,7 +9343,7 @@
         "win",
         "web"
       ],
-      "overallScore": 74.77968952134542,
+      "overallScore": 74.77774096385544,
       "sources": {
         "vndb": {
           "score": 80.4,
@@ -9352,12 +9352,12 @@
         },
         "bangumi": {
           "score": 71,
-          "votes": 1455,
+          "votes": 1457,
           "href": "https://bgm.tv/subject/331474"
         },
         "egs": {
-          "score": 81.83,
-          "votes": 300,
+          "score": 81.79,
+          "votes": 302,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=30818"
         }
       }
@@ -9377,7 +9377,7 @@
       "year": 2025,
       "released": "2025-04-24",
       "image": "https://t.vndb.org/cv/44/104144.jpg",
-      "lengthMinutes": 9446,
+      "lengthMinutes": 9450,
       "genres": [
         "小高和刚",
         "打越钢太郎",
@@ -9387,16 +9387,16 @@
         "win",
         "swi"
       ],
-      "overallScore": 74.20610404624277,
+      "overallScore": 74.2037297921478,
       "sources": {
         "vndb": {
           "score": 79.3,
-          "votes": 1100,
+          "votes": 1101,
           "href": "https://vndb.org/v54897"
         },
         "bangumi": {
           "score": 65,
-          "votes": 609,
+          "votes": 610,
           "href": "https://bgm.tv/subject/499874"
         },
         "egs": {
@@ -9433,7 +9433,7 @@
         "psv",
         "swi"
       ],
-      "overallScore": 73.9117935483871,
+      "overallScore": 73.9053578336557,
       "sources": {
         "vndb": {
           "score": 80.1,
@@ -9442,11 +9442,11 @@
         },
         "bangumi": {
           "score": 66,
-          "votes": 697,
+          "votes": 698,
           "href": "https://bgm.tv/subject/167532"
         },
         "egs": {
-          "score": 81.24,
+          "score": 81.23,
           "votes": 138,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=22703"
         }
@@ -9476,7 +9476,7 @@
       "platforms": [
         "win"
       ],
-      "overallScore": 73.52491856677526,
+      "overallScore": 73.53099744245525,
       "sources": {
         "vndb": {
           "score": 78.9,
@@ -9489,14 +9489,14 @@
           "href": "https://bgm.tv/subject/130211"
         },
         "egs": {
-          "score": 77.73,
-          "votes": 450,
+          "score": 77.74,
+          "votes": 451,
           "href": "https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/game.php?game=21872"
         }
       }
     }
   ],
-  "updatedAt": "2026-08-26T09:01:13.301Z",
+  "updatedAt": "2026-08-27T19:03:45.291Z",
   "source": "github-actions-static",
   "catalogSize": 207,
   "calculation": {

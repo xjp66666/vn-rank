@@ -29,12 +29,12 @@
           "win"
         ]
       },
-      "vndbScore": 90.2,
-      "vndbVotes": 1172,
+      "vndbScore": 90.3,
+      "vndbVotes": 1173,
       "bangumiScore": 93,
       "bangumiVotes": 3618,
-      "egsScore": 93.47,
-      "egsVotes": 1150,
+      "egsScore": 93.48,
+      "egsVotes": 1151,
       "egsMedian": 99
     },
     {
@@ -69,11 +69,11 @@
         ]
       },
       "vndbScore": 90.2,
-      "vndbVotes": 4479,
+      "vndbVotes": 4480,
       "bangumiScore": 91,
-      "bangumiVotes": 7129,
+      "bangumiVotes": 7131,
       "egsScore": 89.63,
-      "egsVotes": 2630,
+      "egsVotes": 2631,
       "egsMedian": 94
     },
     {
@@ -116,9 +116,9 @@
         ]
       },
       "vndbScore": 90.2,
-      "vndbVotes": 16708,
+      "vndbVotes": 16718,
       "bangumiScore": 89,
-      "bangumiVotes": 8472,
+      "bangumiVotes": 8474,
       "egsScore": 90.54,
       "egsVotes": 503,
       "egsMedian": 93
@@ -141,7 +141,7 @@
         "released": "2006-02-24",
         "year": 2006,
         "image": "https://t.vndb.org/cv/60/75660.jpg",
-        "lengthMinutes": 3285,
+        "lengthMinutes": 3288,
         "genres": [
           "燃",
           "muv-luv",
@@ -158,11 +158,11 @@
         ]
       },
       "vndbScore": 89.9,
-      "vndbVotes": 11263,
+      "vndbVotes": 11265,
       "bangumiScore": 88,
-      "bangumiVotes": 4041,
+      "bangumiVotes": 4043,
       "egsScore": 89.42,
-      "egsVotes": 3670,
+      "egsVotes": 3672,
       "egsMedian": 94
     },
     {
@@ -183,7 +183,7 @@
         "released": "2009-08-15",
         "year": 2009,
         "image": "https://t.vndb.org/cv/64/86264.jpg",
-        "lengthMinutes": 4290,
+        "lengthMinutes": 4284,
         "genres": [
           "竜騎士07",
           "悬疑",
@@ -201,10 +201,10 @@
           "vnd"
         ]
       },
-      "vndbScore": 89.8,
-      "vndbVotes": 10910,
+      "vndbScore": 89.9,
+      "vndbVotes": 10915,
       "bangumiScore": 86,
-      "bangumiVotes": 1481,
+      "bangumiVotes": 1482,
       "egsScore": 73.5,
       "egsVotes": 204,
       "egsMedian": 75
@@ -227,7 +227,7 @@
         "released": "2009-10-30",
         "year": 2009,
         "image": "https://t.vndb.org/cv/25/77925.jpg",
-        "lengthMinutes": 4425,
+        "lengthMinutes": 4428,
         "genres": [
           "Nitro+",
           "奈良原一鉄",
@@ -238,11 +238,11 @@
         ]
       },
       "vndbScore": 90.1,
-      "vndbVotes": 5982,
+      "vndbVotes": 5984,
       "bangumiScore": 86,
-      "bangumiVotes": 4400,
-      "egsScore": 88.84,
-      "egsVotes": 3004,
+      "bangumiVotes": 4405,
+      "egsScore": 88.85,
+      "egsVotes": 3009,
       "egsMedian": 90
     },
     {
@@ -284,11 +284,11 @@
         ]
       },
       "vndbScore": 84.5,
-      "vndbVotes": 8705,
+      "vndbVotes": 8709,
       "bangumiScore": 91,
-      "bangumiVotes": 9809,
-      "egsScore": 89.4,
-      "egsVotes": 479,
+      "bangumiVotes": 9812,
+      "egsScore": 89.38,
+      "egsVotes": 478,
       "egsMedian": 91
     },
     {
@@ -320,11 +320,11 @@
         ]
       },
       "vndbScore": 86.7,
-      "vndbVotes": 2684,
+      "vndbVotes": 2685,
       "bangumiScore": 88,
-      "bangumiVotes": 3228,
-      "egsScore": 88.87,
-      "egsVotes": 2366,
+      "bangumiVotes": 3230,
+      "egsScore": 88.88,
+      "egsVotes": 2370,
       "egsMedian": 90
     },
     {
@@ -381,7 +381,7 @@
         "released": "2004-04-28",
         "year": 2004,
         "image": "https://t.vndb.org/cv/95/75895.jpg",
-        "lengthMinutes": 4672,
+        "lengthMinutes": 4665,
         "genres": [
           "key",
           "CLANNAD",
@@ -403,11 +403,11 @@
         ]
       },
       "vndbScore": 87.2,
-      "vndbVotes": 11342,
+      "vndbVotes": 11344,
       "bangumiScore": 89,
-      "bangumiVotes": 6433,
+      "bangumiVotes": 6434,
       "egsScore": 87.25,
-      "egsVotes": 3292,
+      "egsVotes": 3294,
       "egsMedian": 90
     },
     {
@@ -450,7 +450,7 @@
         ]
       },
       "vndbScore": 88.4,
-      "vndbVotes": 7893,
+      "vndbVotes": 7899,
       "bangumiScore": 84,
       "bangumiVotes": 864,
       "egsScore": 83.5,
@@ -499,9 +499,9 @@
         ]
       },
       "vndbScore": 88.7,
-      "vndbVotes": 13744,
+      "vndbVotes": 13746,
       "bangumiScore": 84,
-      "bangumiVotes": 2509,
+      "bangumiVotes": 2511,
       "egsScore": 76.11,
       "egsVotes": 361,
       "egsMedian": 78
@@ -535,12 +535,12 @@
           "and"
         ]
       },
-      "vndbScore": 87.5,
-      "vndbVotes": 2508,
+      "vndbScore": 87.4,
+      "vndbVotes": 2510,
       "bangumiScore": 87,
-      "bangumiVotes": 6675,
-      "egsScore": 88.51,
-      "egsVotes": 2657,
+      "bangumiVotes": 6677,
+      "egsScore": 88.52,
+      "egsVotes": 2670,
       "egsMedian": 90
     },
     {
@@ -619,11 +619,11 @@
         ]
       },
       "vndbScore": 89.2,
-      "vndbVotes": 2923,
+      "vndbVotes": 2925,
       "bangumiScore": 82,
-      "bangumiVotes": 1544,
-      "egsScore": 89.42,
-      "egsVotes": 326,
+      "bangumiVotes": 1545,
+      "egsScore": 89.41,
+      "egsVotes": 327,
       "egsMedian": 90
     },
     {
@@ -644,7 +644,7 @@
         "released": "2010-03-26",
         "year": 2010,
         "image": "https://t.vndb.org/cv/17/90017.jpg",
-        "lengthMinutes": 3075,
+        "lengthMinutes": 3080,
         "genres": [
           "电波",
           "哲学",
@@ -657,11 +657,11 @@
         ]
       },
       "vndbScore": 86.8,
-      "vndbVotes": 11831,
+      "vndbVotes": 11837,
       "bangumiScore": 87,
-      "bangumiVotes": 8518,
-      "egsScore": 86.58,
-      "egsVotes": 3286,
+      "bangumiVotes": 8521,
+      "egsScore": 86.59,
+      "egsVotes": 3287,
       "egsMedian": 90
     },
     {
@@ -699,10 +699,10 @@
         ]
       },
       "vndbScore": 87.9,
-      "vndbVotes": 7539,
+      "vndbVotes": 7543,
       "bangumiScore": 84,
       "bangumiVotes": 3043,
-      "egsScore": 86.63,
+      "egsScore": 86.61,
       "egsVotes": 467,
       "egsMedian": 89
     },
@@ -736,11 +736,11 @@
         ]
       },
       "vndbScore": 86.6,
-      "vndbVotes": 1841,
+      "vndbVotes": 1843,
       "bangumiScore": 86,
-      "bangumiVotes": 3778,
-      "egsScore": 88.61,
-      "egsVotes": 1021,
+      "bangumiVotes": 3785,
+      "egsScore": 88.6,
+      "egsVotes": 1024,
       "egsMedian": 90
     },
     {
@@ -782,10 +782,10 @@
         ]
       },
       "vndbScore": 85.6,
-      "vndbVotes": 6512,
+      "vndbVotes": 6514,
       "bangumiScore": 88,
-      "bangumiVotes": 4300,
-      "egsScore": 84.45,
+      "bangumiVotes": 4302,
+      "egsScore": 84.44,
       "egsVotes": 62,
       "egsMedian": 85
     },
@@ -822,9 +822,9 @@
         ]
       },
       "vndbScore": 82.4,
-      "vndbVotes": 3224,
+      "vndbVotes": 3228,
       "bangumiScore": 89,
-      "bangumiVotes": 4595,
+      "bangumiVotes": 4596,
       "egsScore": 79.98,
       "egsVotes": 255,
       "egsMedian": 80
@@ -884,8 +884,8 @@
         },
         "released": "2004-01-30",
         "year": 2004,
-        "image": "https://t.vndb.org/cv/71/89071.jpg",
-        "lengthMinutes": 5348,
+        "image": "https://t.vndb.org/cv/98/75598.jpg",
+        "lengthMinutes": 5340,
         "genres": [
           "Type-Moon",
           "Fate",
@@ -907,11 +907,11 @@
         ]
       },
       "vndbScore": 86.3,
-      "vndbVotes": 19132,
+      "vndbVotes": 19135,
       "bangumiScore": 83,
-      "bangumiVotes": 5526,
+      "bangumiVotes": 5529,
       "egsScore": 86.86,
-      "egsVotes": 4858,
+      "egsVotes": 4860,
       "egsMedian": 90
     },
     {
@@ -944,11 +944,11 @@
         ]
       },
       "vndbScore": 88.2,
-      "vndbVotes": 2898,
+      "vndbVotes": 2899,
       "bangumiScore": 82,
-      "bangumiVotes": 1941,
-      "egsScore": 86.71,
-      "egsVotes": 316,
+      "bangumiVotes": 1942,
+      "egsScore": 86.74,
+      "egsVotes": 317,
       "egsMedian": 87
     },
     {
@@ -969,7 +969,7 @@
         "released": "2012-04-12",
         "year": 2012,
         "image": "https://t.vndb.org/cv/24/85324.jpg",
-        "lengthMinutes": 1809,
+        "lengthMinutes": 1812,
         "genres": [
           "TypeMoon",
           "奈須きのこ",
@@ -982,11 +982,11 @@
         ]
       },
       "vndbScore": 86.3,
-      "vndbVotes": 5395,
+      "vndbVotes": 5402,
       "bangumiScore": 86,
-      "bangumiVotes": 7090,
+      "bangumiVotes": 7095,
       "egsScore": 82.05,
-      "egsVotes": 1075,
+      "egsVotes": 1076,
       "egsMedian": 85
     },
     {
@@ -1031,9 +1031,9 @@
         ]
       },
       "vndbScore": 86.1,
-      "vndbVotes": 11143,
+      "vndbVotes": 11147,
       "bangumiScore": 83,
-      "bangumiVotes": 1241,
+      "bangumiVotes": 1240,
       "egsScore": 83.99,
       "egsVotes": 1151,
       "egsMedian": 85
@@ -1073,11 +1073,11 @@
         ]
       },
       "vndbScore": 86.3,
-      "vndbVotes": 9221,
+      "vndbVotes": 9225,
       "bangumiScore": 85,
-      "bangumiVotes": 2823,
+      "bangumiVotes": 2825,
       "egsScore": 82.97,
-      "egsVotes": 1773,
+      "egsVotes": 1775,
       "egsMedian": 85
     },
     {
@@ -1113,11 +1113,47 @@
         ]
       },
       "vndbScore": 87.2,
-      "vndbVotes": 1854,
+      "vndbVotes": 1855,
       "bangumiScore": 83,
-      "bangumiVotes": 2058,
-      "egsScore": 87.3,
-      "egsVotes": 619,
+      "bangumiVotes": 2060,
+      "egsScore": 87.25,
+      "egsVotes": 624,
+      "egsMedian": 88
+    },
+    {
+      "name": "もんむす・くえすと！　ぱらどっくすRPG中章",
+      "vndbId": "v21267",
+      "bangumiId": "222896",
+      "egsId": "25414",
+      "metadata": {
+        "titles": {
+          "en": "Monmusu Quest! Paradox RPG Chuushou",
+          "zh": "勇者大战魔物娘RPG 中章",
+          "ja": "もんむす・くえすと！　ぱらどっくすRPG中章"
+        },
+        "descriptions": {
+          "en": "Lose and be ravished by the vamps! Battles sexy enchantresses, where failure ends in reverse rape! Party members are also monster girls who wildly fuck the hero! There's never a scene where the hero's in charge... Monmusu Quest! Is! Back! An adventuring role-playing game in a fantasy world! The protagonist is a beginner hero. Following in the footsteps of his hero father, he sets off for glory! Where will the adventure take him? When at last his journey ends, will he have achieved his dream? Over 200 enemy monsters in Part Two alone! All reverse-rape youjo (vixens)! Battle all kinds of reverse-rape youjo (vixens) and recruit them to your party! And, all it takes is a little pestering to get their libidos thrumming--- [From English DLsite]",
+          "zh": "負けたら妖女に犯される本格RPG! 戦闘で敗北すれば、魅惑的な妖女モンスターに逆レイプ! 仲間にしたモンスター娘にも、おねだりすれば逆レイプ! 男性側が女性側を性的に責めるシーンは一切なし! ・ファンタジー世界を冒険する本格ロールプレイングゲーム! 勇者ルカの冒険は、ついに佳境を迎える! 果たして彼の運命は? 長い旅の果てに、目的を叶えることはできるのか? ・中章の総モンスター数は200体以上! 全員に敗北後逆レイプシーンが存在! 敵モンスターとの戦いで、敗北してしまえば―― 主人公はなすすべもなく逆レイプされ、あえなく妖女の餌食にされてしまうのだ。 生殖奴隷にされたり、性のオモチャにされたり、死ぬまで精液を搾り取られたり―― 全モンスターに敗北後逆レイプが存在し、様々な逆陵辱の末路が用意されている。 ・敵モンスターを仲間に! 味方にした妖女からも逆レイプ! 戦ったモンスターを仲間にする事が可能、一緒に冒険できる! また、仲間にHなおねだりをすれば逆レイプも―― ※アップデートを行う場合、ファイル一式を差し替えます。 そのため、ダウンロードサイトに会員登録をした上での購入をお勧めします。 ※前章のセーブデータを引き継ぎ可能 また、中章のみでもプレイ可能です"
+        },
+        "released": "2017-06-23",
+        "year": 2017,
+        "image": "https://t.vndb.org/cv/73/79673.jpg",
+        "lengthMinutes": 2742,
+        "genres": [
+          "RPG",
+          "魔物娘",
+          "同人"
+        ],
+        "platforms": [
+          "win"
+        ]
+      },
+      "vndbScore": 86.1,
+      "vndbVotes": 410,
+      "bangumiScore": 80,
+      "bangumiVotes": 92,
+      "egsScore": 86.6,
+      "egsVotes": 95,
       "egsMedian": 88
     },
     {
@@ -1158,42 +1194,6 @@
       "egsMedian": 85
     },
     {
-      "name": "もんむす・くえすと！　ぱらどっくすRPG中章",
-      "vndbId": "v21267",
-      "bangumiId": "222896",
-      "egsId": "25414",
-      "metadata": {
-        "titles": {
-          "en": "Monmusu Quest! Paradox RPG Chuushou",
-          "zh": "勇者大战魔物娘RPG 中章",
-          "ja": "もんむす・くえすと！　ぱらどっくすRPG中章"
-        },
-        "descriptions": {
-          "en": "Lose and be ravished by the vamps! Battles sexy enchantresses, where failure ends in reverse rape! Party members are also monster girls who wildly fuck the hero! There's never a scene where the hero's in charge... Monmusu Quest! Is! Back! An adventuring role-playing game in a fantasy world! The protagonist is a beginner hero. Following in the footsteps of his hero father, he sets off for glory! Where will the adventure take him? When at last his journey ends, will he have achieved his dream? Over 200 enemy monsters in Part Two alone! All reverse-rape youjo (vixens)! Battle all kinds of reverse-rape youjo (vixens) and recruit them to your party! And, all it takes is a little pestering to get their libidos thrumming--- [From English DLsite]",
-          "zh": "負けたら妖女に犯される本格RPG! 戦闘で敗北すれば、魅惑的な妖女モンスターに逆レイプ! 仲間にしたモンスター娘にも、おねだりすれば逆レイプ! 男性側が女性側を性的に責めるシーンは一切なし! ・ファンタジー世界を冒険する本格ロールプレイングゲーム! 勇者ルカの冒険は、ついに佳境を迎える! 果たして彼の運命は? 長い旅の果てに、目的を叶えることはできるのか? ・中章の総モンスター数は200体以上! 全員に敗北後逆レイプシーンが存在! 敵モンスターとの戦いで、敗北してしまえば―― 主人公はなすすべもなく逆レイプされ、あえなく妖女の餌食にされてしまうのだ。 生殖奴隷にされたり、性のオモチャにされたり、死ぬまで精液を搾り取られたり―― 全モンスターに敗北後逆レイプが存在し、様々な逆陵辱の末路が用意されている。 ・敵モンスターを仲間に! 味方にした妖女からも逆レイプ! 戦ったモンスターを仲間にする事が可能、一緒に冒険できる! また、仲間にHなおねだりをすれば逆レイプも―― ※アップデートを行う場合、ファイル一式を差し替えます。 そのため、ダウンロードサイトに会員登録をした上での購入をお勧めします。 ※前章のセーブデータを引き継ぎ可能 また、中章のみでもプレイ可能です"
-        },
-        "released": "2017-06-23",
-        "year": 2017,
-        "image": "https://t.vndb.org/cv/73/79673.jpg",
-        "lengthMinutes": 2742,
-        "genres": [
-          "RPG",
-          "魔物娘",
-          "同人"
-        ],
-        "platforms": [
-          "win"
-        ]
-      },
-      "vndbScore": 86.1,
-      "vndbVotes": 410,
-      "bangumiScore": 80,
-      "bangumiVotes": 92,
-      "egsScore": 86.56,
-      "egsVotes": 94,
-      "egsMedian": 88
-    },
-    {
       "name": "Eternum",
       "vndbId": "v31929",
       "bangumiId": "442350",
@@ -1224,7 +1224,7 @@
         ]
       },
       "vndbScore": 87,
-      "vndbVotes": 697,
+      "vndbVotes": 696,
       "bangumiScore": 83,
       "bangumiVotes": 514
     },
@@ -1261,10 +1261,10 @@
         ]
       },
       "vndbScore": 85.6,
-      "vndbVotes": 2641,
+      "vndbVotes": 2643,
       "bangumiScore": 85,
-      "bangumiVotes": 1401,
-      "egsScore": 82.97,
+      "bangumiVotes": 1402,
+      "egsScore": 82.94,
       "egsVotes": 143,
       "egsMedian": 85
     },
@@ -1298,11 +1298,11 @@
         ]
       },
       "vndbScore": 83.6,
-      "vndbVotes": 5966,
+      "vndbVotes": 5969,
       "bangumiScore": 83,
       "bangumiVotes": 2799,
       "egsScore": 88.21,
-      "egsVotes": 3167,
+      "egsVotes": 3171,
       "egsMedian": 90
     },
     {
@@ -1338,9 +1338,9 @@
       "vndbVotes": 376,
       "bangumiScore": 64,
       "bangumiVotes": 71,
-      "egsScore": 85.63,
-      "egsVotes": 56,
-      "egsMedian": 87
+      "egsScore": 85.7,
+      "egsVotes": 57,
+      "egsMedian": 88
     },
     {
       "name": "ChuSinGura 46+1",
@@ -1377,7 +1377,7 @@
       "bangumiScore": 81,
       "bangumiVotes": 495,
       "egsScore": 86.22,
-      "egsVotes": 1756,
+      "egsVotes": 1758,
       "egsMedian": 88
     },
     {
@@ -1416,9 +1416,9 @@
       "vndbScore": 80.7,
       "vndbVotes": 2232,
       "bangumiScore": 85,
-      "bangumiVotes": 1305,
-      "egsScore": 89.6,
-      "egsVotes": 1221,
+      "bangumiVotes": 1306,
+      "egsScore": 89.61,
+      "egsVotes": 1222,
       "egsMedian": 93
     },
     {
@@ -1449,12 +1449,12 @@
           "win"
         ]
       },
-      "vndbScore": 86.6,
-      "vndbVotes": 194,
+      "vndbScore": 86.7,
+      "vndbVotes": 195,
       "bangumiScore": 82,
-      "bangumiVotes": 450,
-      "egsScore": 87.29,
-      "egsVotes": 233,
+      "bangumiVotes": 451,
+      "egsScore": 87.28,
+      "egsVotes": 234,
       "egsMedian": 88
     },
     {
@@ -1490,11 +1490,11 @@
         ]
       },
       "vndbScore": 85.3,
-      "vndbVotes": 8398,
+      "vndbVotes": 8397,
       "bangumiScore": 86,
       "bangumiVotes": 5266,
-      "egsScore": 80.2,
-      "egsVotes": 1856,
+      "egsScore": 80.21,
+      "egsVotes": 1859,
       "egsMedian": 82
     },
     {
@@ -1526,11 +1526,11 @@
         ]
       },
       "vndbScore": 81.5,
-      "vndbVotes": 3131,
+      "vndbVotes": 3133,
       "bangumiScore": 84,
-      "bangumiVotes": 3147,
+      "bangumiVotes": 3148,
       "egsScore": 87.5,
-      "egsVotes": 2689,
+      "egsVotes": 2692,
       "egsMedian": 90
     },
     {
@@ -1570,7 +1570,7 @@
       "vndbScore": 83.7,
       "vndbVotes": 1690,
       "bangumiScore": 85,
-      "bangumiVotes": 3150,
+      "bangumiVotes": 3153,
       "egsScore": 83.91,
       "egsVotes": 23,
       "egsMedian": 85
@@ -1605,12 +1605,12 @@
           "psv"
         ]
       },
-      "vndbScore": 87.1,
-      "vndbVotes": 1071,
+      "vndbScore": 87,
+      "vndbVotes": 1072,
       "bangumiScore": 81,
-      "bangumiVotes": 3484,
+      "bangumiVotes": 3487,
       "egsScore": 89.25,
-      "egsVotes": 1354,
+      "egsVotes": 1364,
       "egsMedian": 92
     },
     {
@@ -1642,7 +1642,7 @@
         ]
       },
       "vndbScore": 85.7,
-      "vndbVotes": 1433,
+      "vndbVotes": 1435,
       "bangumiScore": 65,
       "bangumiVotes": 86,
       "egsScore": 82.58,
@@ -1682,11 +1682,11 @@
         ]
       },
       "vndbScore": 84.6,
-      "vndbVotes": 3056,
+      "vndbVotes": 3059,
       "bangumiScore": 83,
-      "bangumiVotes": 8027,
-      "egsScore": 86.35,
-      "egsVotes": 3632,
+      "bangumiVotes": 8028,
+      "egsScore": 86.36,
+      "egsVotes": 3637,
       "egsMedian": 88
     },
     {
@@ -1707,7 +1707,7 @@
         "released": "2009-01-30",
         "year": 2009,
         "image": "https://t.vndb.org/cv/72/79672.jpg",
-        "lengthMinutes": 3628,
+        "lengthMinutes": 3645,
         "genres": [
           "Navel",
           "王雀孫",
@@ -1720,11 +1720,11 @@
         ]
       },
       "vndbScore": 86.3,
-      "vndbVotes": 621,
+      "vndbVotes": 622,
       "bangumiScore": 83,
-      "bangumiVotes": 1030,
+      "bangumiVotes": 1032,
       "egsScore": 84.22,
-      "egsVotes": 2888,
+      "egsVotes": 2893,
       "egsMedian": 86
     },
     {
@@ -1756,11 +1756,11 @@
         ]
       },
       "vndbScore": 84.4,
-      "vndbVotes": 1568,
+      "vndbVotes": 1569,
       "bangumiScore": 81,
-      "bangumiVotes": 1854,
-      "egsScore": 89.01,
-      "egsVotes": 680,
+      "bangumiVotes": 1855,
+      "egsScore": 89,
+      "egsVotes": 685,
       "egsMedian": 90
     },
     {
@@ -1798,7 +1798,7 @@
         ]
       },
       "vndbScore": 85,
-      "vndbVotes": 1919,
+      "vndbVotes": 1920,
       "bangumiScore": 82,
       "bangumiVotes": 1014,
       "egsScore": 85.11,
@@ -1838,8 +1838,8 @@
       "vndbScore": 85.3,
       "vndbVotes": 854,
       "bangumiScore": 82,
-      "bangumiVotes": 2698,
-      "egsScore": 86.29,
+      "bangumiVotes": 2699,
+      "egsScore": 86.3,
       "egsVotes": 1147,
       "egsMedian": 90
     },
@@ -1876,7 +1876,7 @@
       "vndbScore": 81.4,
       "vndbVotes": 2400,
       "bangumiScore": 85,
-      "bangumiVotes": 2898,
+      "bangumiVotes": 2901,
       "egsScore": 86.72,
       "egsVotes": 666,
       "egsMedian": 89
@@ -1913,9 +1913,9 @@
       "vndbScore": 83.5,
       "vndbVotes": 1570,
       "bangumiScore": 81,
-      "bangumiVotes": 2724,
+      "bangumiVotes": 2727,
       "egsScore": 87.65,
-      "egsVotes": 1414,
+      "egsVotes": 1418,
       "egsMedian": 89
     },
     {
@@ -1955,9 +1955,9 @@
         ]
       },
       "vndbScore": 83.6,
-      "vndbVotes": 5083,
+      "vndbVotes": 5086,
       "bangumiScore": 84,
-      "bangumiVotes": 4659,
+      "bangumiVotes": 4660,
       "egsScore": 84.77,
       "egsVotes": 26,
       "egsMedian": 89
@@ -1996,8 +1996,8 @@
       "vndbVotes": 508,
       "bangumiScore": 79,
       "bangumiVotes": 326,
-      "egsScore": 79.14,
-      "egsVotes": 14,
+      "egsScore": 79.2,
+      "egsVotes": 15,
       "egsMedian": 80
     },
     {
@@ -2033,11 +2033,11 @@
         ]
       },
       "vndbScore": 84.6,
-      "vndbVotes": 4705,
+      "vndbVotes": 4707,
       "bangumiScore": 82,
-      "bangumiVotes": 5799,
-      "egsScore": 85.89,
-      "egsVotes": 1267,
+      "bangumiVotes": 5804,
+      "egsScore": 85.86,
+      "egsVotes": 1266,
       "egsMedian": 87
     },
     {
@@ -2073,7 +2073,7 @@
       "bangumiScore": 82,
       "bangumiVotes": 685,
       "egsScore": 84.26,
-      "egsVotes": 1024,
+      "egsVotes": 1025,
       "egsMedian": 85
     },
     {
@@ -2111,9 +2111,9 @@
       "vndbScore": 81.4,
       "vndbVotes": 6848,
       "bangumiScore": 81,
-      "bangumiVotes": 3332,
+      "bangumiVotes": 3333,
       "egsScore": 85.93,
-      "egsVotes": 5755,
+      "egsVotes": 5760,
       "egsMedian": 88
     },
     {
@@ -2158,11 +2158,11 @@
         ]
       },
       "vndbScore": 78.8,
-      "vndbVotes": 4828,
+      "vndbVotes": 4829,
       "bangumiScore": 85,
-      "bangumiVotes": 4243,
-      "egsScore": 85.5,
-      "egsVotes": 4593,
+      "bangumiVotes": 4245,
+      "egsScore": 85.51,
+      "egsVotes": 4596,
       "egsMedian": 90
     },
     {
@@ -2199,7 +2199,7 @@
       "vndbVotes": 1119,
       "bangumiScore": 79,
       "bangumiVotes": 223,
-      "egsScore": 79.63,
+      "egsScore": 79.71,
       "egsVotes": 52,
       "egsMedian": 80
     },
@@ -2238,8 +2238,8 @@
       "vndbVotes": 898,
       "bangumiScore": 85,
       "bangumiVotes": 726,
-      "egsScore": 84.8,
-      "egsVotes": 608,
+      "egsScore": 84.84,
+      "egsVotes": 612,
       "egsMedian": 85
     },
     {
@@ -2272,11 +2272,11 @@
         ]
       },
       "vndbScore": 84.9,
-      "vndbVotes": 1808,
+      "vndbVotes": 1811,
       "bangumiScore": 82,
-      "bangumiVotes": 3075,
-      "egsScore": 83.58,
-      "egsVotes": 998,
+      "bangumiVotes": 3078,
+      "egsScore": 83.59,
+      "egsVotes": 1000,
       "egsMedian": 85
     },
     {
@@ -2286,7 +2286,7 @@
       "egsId": "11748",
       "metadata": {
         "titles": {
-          "en": "Ikusa Megami Verita",
+          "en": "Ikusa Megami VERITA",
           "zh": "战女神VERITA",
           "ja": "戦女神VERITA"
         },
@@ -2296,7 +2296,7 @@
         },
         "released": "2010-04-23",
         "year": 2010,
-        "image": "https://t.vndb.org/cv/68/27668.jpg",
+        "image": "https://t.vndb.org/cv/73/143173.jpg",
         "lengthMinutes": 5147,
         "genres": [
           "Eushully",
@@ -2310,7 +2310,7 @@
       "vndbScore": 82.2,
       "vndbVotes": 366,
       "bangumiScore": 79,
-      "bangumiVotes": 535,
+      "bangumiVotes": 536,
       "egsScore": 85.02,
       "egsVotes": 805,
       "egsMedian": 85
@@ -2348,11 +2348,11 @@
         ]
       },
       "vndbScore": 83.5,
-      "vndbVotes": 12843,
+      "vndbVotes": 12845,
       "bangumiScore": 77,
-      "bangumiVotes": 1495,
-      "egsScore": 83.2,
-      "egsVotes": 3261,
+      "bangumiVotes": 1496,
+      "egsScore": 83.19,
+      "egsVotes": 3264,
       "egsMedian": 85
     },
     {
@@ -2384,11 +2384,11 @@
         ]
       },
       "vndbScore": 83.2,
-      "vndbVotes": 1423,
+      "vndbVotes": 1426,
       "bangumiScore": 82,
-      "bangumiVotes": 2228,
-      "egsScore": 83.81,
-      "egsVotes": 1141,
+      "bangumiVotes": 2229,
+      "egsScore": 83.82,
+      "egsVotes": 1142,
       "egsMedian": 85
     },
     {
@@ -2421,49 +2421,49 @@
         ]
       },
       "vndbScore": 85,
-      "vndbVotes": 2207,
+      "vndbVotes": 2208,
       "bangumiScore": 74,
-      "bangumiVotes": 1843,
+      "bangumiVotes": 1845,
       "egsScore": 87.93,
-      "egsVotes": 1448,
+      "egsVotes": 1456,
       "egsMedian": 90
     },
     {
-      "name": "SeaBed",
-      "vndbId": "v19273",
-      "bangumiId": "226956",
-      "egsId": "23541",
+      "name": "真剣で私に恋しなさい！",
+      "vndbId": "v1143",
+      "bangumiId": "11298",
+      "egsId": "11236",
       "metadata": {
         "titles": {
-          "en": "SeaBed",
-          "zh": "海底",
-          "ja": "SeaBed"
+          "en": "Majikoi! Love Me Seriously!!",
+          "zh": "认真和我恋爱",
+          "ja": "真剣で私に恋しなさい！"
         },
         "descriptions": {
-          "en": "SeaBed is a yuri-themed mystery visual novel told through the perspectives of three separate characters: Mizuno Sachiko, a designer plagued by hallucinations of her past lover; Narasaki Hibiki, Sachiko's friend and a psychiatrist researching the workings of human memories; and Takako, Sachiko's former lover who has been rapidly forgetting her past, including how or why the two women drifted apart despite being together since childhood. All three live in different worlds, but seek the same goal. To separate truth from illusion. To make sense of their own lives. ---- I saw a ghost in the living room. But as I was already used to the phenomenon, I did not let it interfere with the preparation of my evening meal. The ghost ate my fried egg and commended its taste. As I listened to her talk, my memories drifted back to the days we were still together. Back when we were in school, she asked me what was necessary for the two of us to be together. A small workplace that we could make a living from without relying on anyone. A silent apartment where we would have the freedom to do what our hearts desired. I told her that. In the late eighties – during the economic boom – the small design company we founded was doing surprisingly well. We visited all the places we talked about when we were in school – the southern islands, the old European cities, the West Coast. We went wherever we wanted, seeing whatever we sought. Alone in that spacious living room, I attempted to figure out why it all ended this way. Why those days when nothing could stand in our way faded into the past. I no lon",
-          "zh": "本作是一部包含百合要素的悬疑小说。 故事将从三位角色的视角展开。 CG数量：90张以上 文本量：约47万字 逝去的时光，如同沉入无尽深海的碎片。 偶尔浮现的过往景色与气息，亦如泡沫般摇曳消散。 精神科医生楢崎在心理诊所研究人类遗忘的机制。 人为什么会遗忘？是否存在不忘记重要事物的方法？ 在深入探索某位患者的内心深处时，她最终抵达了幽深的海底。 在东京开设事务所的设计师佐知子，如同被某种执念驱使，不断创作。 她无视同事的关心，一心投入工作，直至精神濒临崩溃，甚至开始看到过去恋人的幻影。 追随着恋人的痕迹，她找到了一条幽暗漫长的隧道。 住在疗养院的贵呼，始终无法想起自己是如何与青梅竹马的同性恋人分开的。 在与一位酷似恋人的女性相遇后，她逐渐找回了失落的记忆。 她不断开启尘封的回忆之门，最终走入了一间冰冷而寂静的房间。 在各自的目标驱使下，三人踏上追寻过去的旅程。 三段故事在静谧而平淡的日常中缓缓展开，最终汇聚至同一个终点……"
+          "en": "Kawakami City is famous for its strong dedication to its samurai ancestors. A strong fighting spirit is always valued and it's even an important factor in succeeding in school there. Yamato, a second year student from Kawakami Highschool is always with his close friends (4 boys and 3 girls). They have known each other since they were young and have done loads of things together. They have many other friends, but these seven people are a close-knit group, they even have a secret base where they meet... With the new semester, they welcome two girls into their group and shortly after things start to change...",
+          "zh": "在互相信任的集体中，我们过着不知不觉间无法回到过去的时光。 川神学園的2年级生直江大和，有着一班非常重要的同伴。 男4人与女3人。从小开始就一直做着各种蠢事，一直成长到现在。 虽然发生了各种事情，直到现在大家还是好朋友。称心如意的空间。 这时加入了2名新同伴，周围的气氛变得更加热闹。 而且所有女性都以武道为嗜好，血脉也是源于武士的族谱，其成员构成相当可靠。 不要输给威风凛凛的武士女啊，男人们。 2009年4月，故事开始——"
         },
-        "released": "2015-11-15",
-        "year": 2015,
-        "image": "https://t.vndb.org/cv/42/79642.jpg",
-        "lengthMinutes": 1088,
+        "released": "2009-08-28",
+        "year": 2009,
+        "image": "https://t.vndb.org/cv/40/79440.jpg",
+        "lengthMinutes": 3900,
         "genres": [
-          "百合",
-          "全年龄",
-          "同人"
+          "神CV阵",
+          "欢乐日常",
+          "タカヒロ"
         ],
         "platforms": [
           "win",
-          "swi"
+          "ps3"
         ]
       },
-      "vndbScore": 81.2,
-      "vndbVotes": 974,
-      "bangumiScore": 84,
-      "bangumiVotes": 1322,
-      "egsScore": 80.02,
-      "egsVotes": 91,
-      "egsMedian": 81
+      "vndbScore": 83.3,
+      "vndbVotes": 9349,
+      "bangumiScore": 79,
+      "bangumiVotes": 642,
+      "egsScore": 81.72,
+      "egsVotes": 2865,
+      "egsMedian": 85
     },
     {
       "name": "Phantom -PHANTOM OF INFERNO-",
@@ -2500,49 +2500,49 @@
         ]
       },
       "vndbScore": 79.3,
-      "vndbVotes": 861,
+      "vndbVotes": 862,
       "bangumiScore": 81,
-      "bangumiVotes": 1169,
+      "bangumiVotes": 1170,
       "egsScore": 85.19,
       "egsVotes": 1245,
       "egsMedian": 87
     },
     {
-      "name": "真剣で私に恋しなさい！",
-      "vndbId": "v1143",
-      "bangumiId": "11298",
-      "egsId": "11236",
+      "name": "SeaBed",
+      "vndbId": "v19273",
+      "bangumiId": "226956",
+      "egsId": "23541",
       "metadata": {
         "titles": {
-          "en": "Majikoi! Love Me Seriously!!",
-          "zh": "认真和我恋爱",
-          "ja": "真剣で私に恋しなさい！"
+          "en": "SeaBed",
+          "zh": "海底",
+          "ja": "SeaBed"
         },
         "descriptions": {
-          "en": "Kawakami City is famous for its strong dedication to its samurai ancestors. A strong fighting spirit is always valued and it's even an important factor in succeeding in school there. Yamato, a second year student from Kawakami Highschool is always with his close friends (4 boys and 3 girls). They have known each other since they were young and have done loads of things together. They have many other friends, but these seven people are a close-knit group, they even have a secret base where they meet... With the new semester, they welcome two girls into their group and shortly after things start to change...",
-          "zh": "在互相信任的集体中，我们过着不知不觉间无法回到过去的时光。 川神学園的2年级生直江大和，有着一班非常重要的同伴。 男4人与女3人。从小开始就一直做着各种蠢事，一直成长到现在。 虽然发生了各种事情，直到现在大家还是好朋友。称心如意的空间。 这时加入了2名新同伴，周围的气氛变得更加热闹。 而且所有女性都以武道为嗜好，血脉也是源于武士的族谱，其成员构成相当可靠。 不要输给威风凛凛的武士女啊，男人们。 2009年4月，故事开始——"
+          "en": "SeaBed is a yuri-themed mystery visual novel told through the perspectives of three separate characters: Mizuno Sachiko, a designer plagued by hallucinations of her past lover; Narasaki Hibiki, Sachiko's friend and a psychiatrist researching the workings of human memories; and Takako, Sachiko's former lover who has been rapidly forgetting her past, including how or why the two women drifted apart despite being together since childhood. All three live in different worlds, but seek the same goal. To separate truth from illusion. To make sense of their own lives. ---- I saw a ghost in the living room. But as I was already used to the phenomenon, I did not let it interfere with the preparation of my evening meal. The ghost ate my fried egg and commended its taste. As I listened to her talk, my memories drifted back to the days we were still together. Back when we were in school, she asked me what was necessary for the two of us to be together. A small workplace that we could make a living from without relying on anyone. A silent apartment where we would have the freedom to do what our hearts desired. I told her that. In the late eighties – during the economic boom – the small design company we founded was doing surprisingly well. We visited all the places we talked about when we were in school – the southern islands, the old European cities, the West Coast. We went wherever we wanted, seeing whatever we sought. Alone in that spacious living room, I attempted to figure out why it all ended this way. Why those days when nothing could stand in our way faded into the past. I no lon",
+          "zh": "本作是一部包含百合要素的悬疑小说。 故事将从三位角色的视角展开。 CG数量：90张以上 文本量：约47万字 逝去的时光，如同沉入无尽深海的碎片。 偶尔浮现的过往景色与气息，亦如泡沫般摇曳消散。 精神科医生楢崎在心理诊所研究人类遗忘的机制。 人为什么会遗忘？是否存在不忘记重要事物的方法？ 在深入探索某位患者的内心深处时，她最终抵达了幽深的海底。 在东京开设事务所的设计师佐知子，如同被某种执念驱使，不断创作。 她无视同事的关心，一心投入工作，直至精神濒临崩溃，甚至开始看到过去恋人的幻影。 追随着恋人的痕迹，她找到了一条幽暗漫长的隧道。 住在疗养院的贵呼，始终无法想起自己是如何与青梅竹马的同性恋人分开的。 在与一位酷似恋人的女性相遇后，她逐渐找回了失落的记忆。 她不断开启尘封的回忆之门，最终走入了一间冰冷而寂静的房间。 在各自的目标驱使下，三人踏上追寻过去的旅程。 三段故事在静谧而平淡的日常中缓缓展开，最终汇聚至同一个终点……"
         },
-        "released": "2009-08-28",
-        "year": 2009,
-        "image": "https://t.vndb.org/cv/40/79440.jpg",
-        "lengthMinutes": 3900,
+        "released": "2015-11-15",
+        "year": 2015,
+        "image": "https://t.vndb.org/cv/42/79642.jpg",
+        "lengthMinutes": 1088,
         "genres": [
-          "神CV阵",
-          "欢乐日常",
-          "タカヒロ"
+          "百合",
+          "全年龄",
+          "同人"
         ],
         "platforms": [
           "win",
-          "ps3"
+          "swi"
         ]
       },
-      "vndbScore": 83.3,
-      "vndbVotes": 9347,
-      "bangumiScore": 79,
-      "bangumiVotes": 642,
-      "egsScore": 81.72,
-      "egsVotes": 2864,
-      "egsMedian": 85
+      "vndbScore": 81.1,
+      "vndbVotes": 975,
+      "bangumiScore": 84,
+      "bangumiVotes": 1326,
+      "egsScore": 79.83,
+      "egsVotes": 92,
+      "egsMedian": 81
     },
     {
       "name": "巨乳ファンタジー外伝2",
@@ -2576,7 +2576,7 @@
         ]
       },
       "vndbScore": 83.3,
-      "vndbVotes": 641,
+      "vndbVotes": 640,
       "bangumiScore": 78,
       "bangumiVotes": 125,
       "egsScore": 82.52,
@@ -2624,8 +2624,8 @@
       "vndbScore": 81.8,
       "vndbVotes": 11443,
       "bangumiScore": 82,
-      "bangumiVotes": 2572,
-      "egsScore": 83.69,
+      "bangumiVotes": 2573,
+      "egsScore": 83.7,
       "egsVotes": 2369,
       "egsMedian": 85
     },
@@ -2661,7 +2661,7 @@
       "vndbScore": 85.1,
       "vndbVotes": 272,
       "bangumiScore": 85,
-      "bangumiVotes": 455,
+      "bangumiVotes": 456,
       "egsScore": 80.36,
       "egsVotes": 754,
       "egsMedian": 82
@@ -2701,11 +2701,11 @@
         ]
       },
       "vndbScore": 83.2,
-      "vndbVotes": 3114,
+      "vndbVotes": 3115,
       "bangumiScore": 80,
       "bangumiVotes": 1574,
-      "egsScore": 82.88,
-      "egsVotes": 251,
+      "egsScore": 82.84,
+      "egsVotes": 252,
       "egsMedian": 83
     },
     {
@@ -2784,9 +2784,9 @@
       "vndbScore": 82.1,
       "vndbVotes": 12061,
       "bangumiScore": 78,
-      "bangumiVotes": 4562,
+      "bangumiVotes": 4563,
       "egsScore": 84.66,
-      "egsVotes": 5277,
+      "egsVotes": 5285,
       "egsMedian": 86
     },
     {
@@ -2856,12 +2856,12 @@
         ]
       },
       "vndbScore": 82.8,
-      "vndbVotes": 437,
+      "vndbVotes": 438,
       "bangumiScore": 79,
-      "bangumiVotes": 1783,
-      "egsScore": 87.26,
-      "egsVotes": 660,
-      "egsMedian": 89
+      "bangumiVotes": 1794,
+      "egsScore": 87.14,
+      "egsVotes": 688,
+      "egsMedian": 88
     },
     {
       "name": "スーパーダンガンロンパ2 さよなら絶望学園",
@@ -2903,11 +2903,11 @@
         ]
       },
       "vndbScore": 80.9,
-      "vndbVotes": 13074,
+      "vndbVotes": 13078,
       "bangumiScore": 85,
-      "bangumiVotes": 5028,
+      "bangumiVotes": 5030,
       "egsScore": 83.14,
-      "egsVotes": 278,
+      "egsVotes": 279,
       "egsMedian": 85
     },
     {
@@ -2978,11 +2978,11 @@
         ]
       },
       "vndbScore": 85.4,
-      "vndbVotes": 3575,
+      "vndbVotes": 3577,
       "bangumiScore": 77,
-      "bangumiVotes": 4267,
-      "egsScore": 85.69,
-      "egsVotes": 1692,
+      "bangumiVotes": 4272,
+      "egsScore": 85.71,
+      "egsVotes": 1696,
       "egsMedian": 86
     },
     {
@@ -3014,11 +3014,11 @@
         ]
       },
       "vndbScore": 79,
-      "vndbVotes": 176,
+      "vndbVotes": 177,
       "bangumiScore": 87,
-      "bangumiVotes": 1733,
-      "egsScore": 76.57,
-      "egsVotes": 1010,
+      "bangumiVotes": 1734,
+      "egsScore": 76.6,
+      "egsVotes": 1013,
       "egsMedian": 80
     },
     {
@@ -3054,10 +3054,10 @@
         ]
       },
       "vndbScore": 83.1,
-      "vndbVotes": 1123,
+      "vndbVotes": 1124,
       "bangumiScore": 81,
-      "bangumiVotes": 1291,
-      "egsScore": 81.8,
+      "bangumiVotes": 1292,
+      "egsScore": 81.78,
       "egsVotes": 205,
       "egsMedian": 82
     },
@@ -3098,10 +3098,48 @@
       "vndbScore": 74.3,
       "vndbVotes": 1708,
       "bangumiScore": 83,
-      "bangumiVotes": 2270,
+      "bangumiVotes": 2271,
       "egsScore": 85.7,
-      "egsVotes": 1868,
+      "egsVotes": 1869,
       "egsMedian": 88
+    },
+    {
+      "name": "大正×対称アリス",
+      "vndbId": "v16032",
+      "bangumiId": "175431",
+      "egsId": "23298",
+      "metadata": {
+        "titles": {
+          "en": "TAISHO x ALICE",
+          "zh": "大正×对称爱丽丝 all in one",
+          "ja": "大正×対称アリス"
+        },
+        "descriptions": {
+          "en": "Once upon a time, in a topsy-turvy world... In the beginning, you find yourself lost within a world of utter darkness. Your memories are gone; even your name is a mystery. But just when the bitter loneliness threatens to break your spirit, you meet Alice—a blond-haired, blue-eyed young man who promptly christens you \"Arisu.\" Like you, Alice cannot remember anything beyond his own name. Ignoring his protests, you drag him along with you through the darkness... until you happen upon a massive mirror made of crystal. You stumble through the glass and into the Looking-Glass World, an antiquated fairytale dreamscape that feels oddly familiar... There, amid a colorful cast of gender-swapped fairytale characters, you take on the role of the heroine and join them in their twisted tales. How will the story end? It's up to you!",
+          "zh": "これは王子様を救うおとぎ話 女性向けコンテンツ品牌「Primula」よりPC用软件として発売された夢見るおとぎ話冒险游戏「大正×対称アリス」全4巻が、ワンパッケージになってPS Vitaに登場！ 物語の舞台は、全てがあべこべな鏡の国。「シンデレラ」や「赤ずきん」などの童話をモチーフに、性別が逆転した童話の角色達と紡ぐちょっぴり不思議で歪な物語。 プレイヤーは各童話のヒロインとなり、ヒーロー（攻略角色達）が抱える心の傷を癒やし、歪んだ世界を正常に導いていく。 PS Vita版では、PS Vitaのホーム画面に設定できる「壁紙集」や、集めたボイスの再生順を自由に変更してプレイヤーだけのボイスドラマを作れる「ボイスコレクション」を搭載。 「大正×対称アリス all in one」がNintendo Switchに登場！ 描き下ろしイベントスチルとビジュアルノベルを追加！ これまで汎用の立ち絵と背景で展開していたシーンをイベントスチル化。攻略キャラクター全員に描き下ろされます。 また、PS Vita版の初回生産分特典ドラマCD「鏡の国一のドMは誰だ大会！」をビジュアルノベル化して収録。 シンデレラ、グレーテル、魔法使い、アリス、猟師の織り成す本編では見ることのできないエピソードをお楽しみいただけます。"
+        },
+        "released": "2015-02-20",
+        "year": 2015,
+        "image": "https://t.vndb.org/cv/96/87196.jpg",
+        "lengthMinutes": 2550,
+        "genres": [
+          "乙女向",
+          "乙女ゲーム",
+          "藤文"
+        ],
+        "platforms": [
+          "win",
+          "psv",
+          "swi"
+        ]
+      },
+      "vndbScore": 82.6,
+      "vndbVotes": 789,
+      "bangumiScore": 76,
+      "bangumiVotes": 95,
+      "egsScore": 83.08,
+      "egsVotes": 13,
+      "egsMedian": 82
     },
     {
       "name": "ときめきメモリアル Girl's Side 3rd Story",
@@ -3142,6 +3180,44 @@
       "egsMedian": 70
     },
     {
+      "name": "アマカノ２＋",
+      "vndbId": "v31813",
+      "bangumiId": "345691",
+      "egsId": "33621",
+      "metadata": {
+        "titles": {
+          "en": "Amakano 2+",
+          "zh": "甜蜜女友2+",
+          "ja": "アマカノ２＋"
+        },
+        "descriptions": {
+          "en": "About half a year has passed since \"Amakano 2\", sets in autumn. As the seasons change, and summer approaches, a new love story is about to begin. Showing her true self as a matter of course, Yuuhi is now able to spend her age-appropriate youth together as lovers. Despite aiming for affection straightforwardly as a lover, becoming interested in her classmates, Rei's world around her has expanded a little. While attending college, acting like an older sister as before, the relationship as lovers with Chitose, continues to be deepened. And one more, attending the school as a first-year student, a new love story with Sara. Along with this new encounter, each affection gradually grows in the dazzling summer. Eventually, this feeling becomes the driving force to take a step from just a lover towards being bounded together in the future, marriage. [Translated and edited from the official website]",
+          "zh": "秋を舞台にした『アマカノ2』から約半年。 季節はめぐり、夏に向けて、新たな恋物語が描かれる。 素を見せることが当たり前となり、恋人として ともに年相応の青春を過ごすようになった結灯。 恋人として真っ直ぐな好意を向けつつ、 クラスメイトにも関心や興味を抱いたりと すこしだけ周りの世界が広がった玲。 大学に通いつつ、今まで通りお姉ちゃんとして、 そして恋人としても仲を深めていくちとせ。 そしてもう1人。新1年生として学園に入ってきた 咲來と描かれる夏の初恋物語。 新しい出会いも相まって、それぞれの恋愛模様は、 夏のまばゆさの中で大きく育まれる。 やがてその想いは、恋人から一歩踏み出す原動力となり、 結婚というさらなる未来へと繋がっていく。"
+        },
+        "released": "2023-04-28",
+        "year": 2023,
+        "image": "https://t.vndb.org/cv/64/79664.jpg",
+        "lengthMinutes": 1875,
+        "genres": [
+          "海豹社",
+          "纯爱",
+          "あざらしそふと"
+        ],
+        "platforms": [
+          "win",
+          "and",
+          "dvd"
+        ]
+      },
+      "vndbScore": 86.6,
+      "vndbVotes": 386,
+      "bangumiScore": 79,
+      "bangumiVotes": 1291,
+      "egsScore": 85.68,
+      "egsVotes": 312,
+      "egsMedian": 87
+    },
+    {
       "name": "FLOWERS -Le volume sur automne-",
       "vndbId": "v18152",
       "bangumiId": "167531",
@@ -3176,47 +3252,9 @@
       "vndbVotes": 825,
       "bangumiScore": 81,
       "bangumiVotes": 1026,
-      "egsScore": 82.32,
+      "egsScore": 82.3,
       "egsVotes": 168,
       "egsMedian": 82
-    },
-    {
-      "name": "アマカノ２＋",
-      "vndbId": "v31813",
-      "bangumiId": "345691",
-      "egsId": "33621",
-      "metadata": {
-        "titles": {
-          "en": "Amakano 2+",
-          "zh": "甜蜜女友2+",
-          "ja": "アマカノ２＋"
-        },
-        "descriptions": {
-          "en": "About half a year has passed since \"Amakano 2\", sets in autumn. As the seasons change, and summer approaches, a new love story is about to begin. Showing her true self as a matter of course, Yuuhi is now able to spend her age-appropriate youth together as lovers. Despite aiming for affection straightforwardly as a lover, becoming interested in her classmates, Rei's world around her has expanded a little. While attending college, acting like an older sister as before, the relationship as lovers with Chitose, continues to be deepened. And one more, attending the school as a first-year student, a new love story with Sara. Along with this new encounter, each affection gradually grows in the dazzling summer. Eventually, this feeling becomes the driving force to take a step from just a lover towards being bounded together in the future, marriage. [Translated and edited from the official website]",
-          "zh": "秋を舞台にした『アマカノ2』から約半年。 季節はめぐり、夏に向けて、新たな恋物語が描かれる。 素を見せることが当たり前となり、恋人として ともに年相応の青春を過ごすようになった結灯。 恋人として真っ直ぐな好意を向けつつ、 クラスメイトにも関心や興味を抱いたりと すこしだけ周りの世界が広がった玲。 大学に通いつつ、今まで通りお姉ちゃんとして、 そして恋人としても仲を深めていくちとせ。 そしてもう1人。新1年生として学園に入ってきた 咲來と描かれる夏の初恋物語。 新しい出会いも相まって、それぞれの恋愛模様は、 夏のまばゆさの中で大きく育まれる。 やがてその想いは、恋人から一歩踏み出す原動力となり、 結婚というさらなる未来へと繋がっていく。"
-        },
-        "released": "2023-04-28",
-        "year": 2023,
-        "image": "https://t.vndb.org/cv/64/79664.jpg",
-        "lengthMinutes": 1875,
-        "genres": [
-          "海豹社",
-          "纯爱",
-          "あざらしそふと"
-        ],
-        "platforms": [
-          "win",
-          "and",
-          "dvd"
-        ]
-      },
-      "vndbScore": 86.5,
-      "vndbVotes": 386,
-      "bangumiScore": 79,
-      "bangumiVotes": 1290,
-      "egsScore": 85.63,
-      "egsVotes": 311,
-      "egsMedian": 87
     },
     {
       "name": "極限脱出ADV 善人シボウデス",
@@ -3295,7 +3333,7 @@
       "vndbScore": 82.1,
       "vndbVotes": 2853,
       "bangumiScore": 78,
-      "bangumiVotes": 513,
+      "bangumiVotes": 514,
       "egsScore": 83.92,
       "egsVotes": 198,
       "egsMedian": 85
@@ -3330,11 +3368,11 @@
         ]
       },
       "vndbScore": 81.3,
-      "vndbVotes": 622,
+      "vndbVotes": 623,
       "bangumiScore": 79,
-      "bangumiVotes": 3099,
-      "egsScore": 84.84,
-      "egsVotes": 1737,
+      "bangumiVotes": 3100,
+      "egsScore": 84.85,
+      "egsVotes": 1739,
       "egsMedian": 85
     },
     {
@@ -3355,7 +3393,7 @@
         "released": "2013-02-08",
         "year": 2013,
         "image": "https://t.vndb.org/cv/62/88062.jpg",
-        "lengthMinutes": 2482,
+        "lengthMinutes": 2487,
         "genres": [
           "InnocentGrey",
           "杉菜水姫",
@@ -3369,11 +3407,11 @@
         ]
       },
       "vndbScore": 84.9,
-      "vndbVotes": 3731,
+      "vndbVotes": 3733,
       "bangumiScore": 74,
       "bangumiVotes": 2200,
       "egsScore": 85.35,
-      "egsVotes": 789,
+      "egsVotes": 790,
       "egsMedian": 86
     },
     {
@@ -3394,7 +3432,7 @@
         "released": "2000-09-08",
         "year": 2000,
         "image": "https://t.vndb.org/cv/04/103904.jpg",
-        "lengthMinutes": 1801,
+        "lengthMinutes": 1804,
         "genres": [
           "key",
           "麻枝准",
@@ -3416,50 +3454,12 @@
         ]
       },
       "vndbScore": 77.9,
-      "vndbVotes": 2896,
+      "vndbVotes": 2899,
       "bangumiScore": 83,
-      "bangumiVotes": 2678,
-      "egsScore": 82.96,
-      "egsVotes": 3224,
+      "bangumiVotes": 2679,
+      "egsScore": 82.95,
+      "egsVotes": 3225,
       "egsMedian": 85
-    },
-    {
-      "name": "大正×対称アリス",
-      "vndbId": "v16032",
-      "bangumiId": "175431",
-      "egsId": "23298",
-      "metadata": {
-        "titles": {
-          "en": "TAISHO x ALICE",
-          "zh": "大正×对称爱丽丝 all in one",
-          "ja": "大正×対称アリス"
-        },
-        "descriptions": {
-          "en": "Once upon a time, in a topsy-turvy world... In the beginning, you find yourself lost within a world of utter darkness. Your memories are gone; even your name is a mystery. But just when the bitter loneliness threatens to break your spirit, you meet Alice—a blond-haired, blue-eyed young man who promptly christens you \"Arisu.\" Like you, Alice cannot remember anything beyond his own name. Ignoring his protests, you drag him along with you through the darkness... until you happen upon a massive mirror made of crystal. You stumble through the glass and into the Looking-Glass World, an antiquated fairytale dreamscape that feels oddly familiar... There, amid a colorful cast of gender-swapped fairytale characters, you take on the role of the heroine and join them in their twisted tales. How will the story end? It's up to you!",
-          "zh": "これは王子様を救うおとぎ話 女性向けコンテンツ品牌「Primula」よりPC用软件として発売された夢見るおとぎ話冒险游戏「大正×対称アリス」全4巻が、ワンパッケージになってPS Vitaに登場！ 物語の舞台は、全てがあべこべな鏡の国。「シンデレラ」や「赤ずきん」などの童話をモチーフに、性別が逆転した童話の角色達と紡ぐちょっぴり不思議で歪な物語。 プレイヤーは各童話のヒロインとなり、ヒーロー（攻略角色達）が抱える心の傷を癒やし、歪んだ世界を正常に導いていく。 PS Vita版では、PS Vitaのホーム画面に設定できる「壁紙集」や、集めたボイスの再生順を自由に変更してプレイヤーだけのボイスドラマを作れる「ボイスコレクション」を搭載。 「大正×対称アリス all in one」がNintendo Switchに登場！ 描き下ろしイベントスチルとビジュアルノベルを追加！ これまで汎用の立ち絵と背景で展開していたシーンをイベントスチル化。攻略キャラクター全員に描き下ろされます。 また、PS Vita版の初回生産分特典ドラマCD「鏡の国一のドMは誰だ大会！」をビジュアルノベル化して収録。 シンデレラ、グレーテル、魔法使い、アリス、猟師の織り成す本編では見ることのできないエピソードをお楽しみいただけます。"
-        },
-        "released": "2015-02-20",
-        "year": 2015,
-        "image": "https://t.vndb.org/cv/96/87196.jpg",
-        "lengthMinutes": 2550,
-        "genres": [
-          "乙女向",
-          "乙女ゲーム",
-          "藤文"
-        ],
-        "platforms": [
-          "win",
-          "psv",
-          "swi"
-        ]
-      },
-      "vndbScore": 82.6,
-      "vndbVotes": 789,
-      "bangumiScore": 76,
-      "bangumiVotes": 95,
-      "egsScore": 71.17,
-      "egsVotes": 24,
-      "egsMedian": 70
     },
     {
       "name": "逆転裁判",
@@ -3501,10 +3501,10 @@
         ]
       },
       "vndbScore": 80.7,
-      "vndbVotes": 9374,
+      "vndbVotes": 9379,
       "bangumiScore": 83,
-      "bangumiVotes": 4525,
-      "egsScore": 80.92,
+      "bangumiVotes": 4528,
+      "egsScore": 80.9,
       "egsVotes": 83,
       "egsMedian": 81
     },
@@ -3547,7 +3547,7 @@
       "vndbVotes": 345,
       "bangumiScore": 81,
       "bangumiVotes": 371,
-      "egsScore": 82.36,
+      "egsScore": 82.31,
       "egsVotes": 77,
       "egsMedian": 83
     },
@@ -3585,8 +3585,8 @@
       "vndbVotes": 809,
       "bangumiScore": 70,
       "bangumiVotes": 38,
-      "egsScore": 81.66,
-      "egsVotes": 602,
+      "egsScore": 81.65,
+      "egsVotes": 603,
       "egsMedian": 83
     },
     {
@@ -3620,11 +3620,11 @@
         ]
       },
       "vndbScore": 81.6,
-      "vndbVotes": 967,
+      "vndbVotes": 968,
       "bangumiScore": 78,
       "bangumiVotes": 1506,
       "egsScore": 83.68,
-      "egsVotes": 1334,
+      "egsVotes": 1336,
       "egsMedian": 85
     },
     {
@@ -3695,8 +3695,8 @@
       "vndbVotes": 5006,
       "bangumiScore": 78,
       "bangumiVotes": 217,
-      "egsScore": 79.85,
-      "egsVotes": 1286,
+      "egsScore": 79.86,
+      "egsVotes": 1287,
       "egsMedian": 80
     },
     {
@@ -3734,11 +3734,11 @@
         ]
       },
       "vndbScore": 82.7,
-      "vndbVotes": 6559,
+      "vndbVotes": 6562,
       "bangumiScore": 78,
-      "bangumiVotes": 4407,
-      "egsScore": 83.26,
-      "egsVotes": 1774,
+      "bangumiVotes": 4412,
+      "egsScore": 83.25,
+      "egsVotes": 1779,
       "egsMedian": 85
     },
     {
@@ -3775,11 +3775,11 @@
         ]
       },
       "vndbScore": 81.4,
-      "vndbVotes": 5815,
+      "vndbVotes": 5818,
       "bangumiScore": 78,
-      "bangumiVotes": 1723,
-      "egsScore": 82.35,
-      "egsVotes": 2632,
+      "bangumiVotes": 1724,
+      "egsScore": 82.36,
+      "egsVotes": 2634,
       "egsMedian": 85
     },
     {
@@ -3816,7 +3816,7 @@
       "bangumiScore": 85,
       "bangumiVotes": 1094,
       "egsScore": 81.56,
-      "egsVotes": 929,
+      "egsVotes": 930,
       "egsMedian": 85
     },
     {
@@ -3856,9 +3856,9 @@
       "vndbScore": 75.8,
       "vndbVotes": 3122,
       "bangumiScore": 84,
-      "bangumiVotes": 2517,
-      "egsScore": 84,
-      "egsVotes": 2268,
+      "bangumiVotes": 2520,
+      "egsScore": 84.01,
+      "egsVotes": 2274,
       "egsMedian": 85
     },
     {
@@ -3893,7 +3893,7 @@
       "vndbVotes": 779,
       "bangumiScore": 77,
       "bangumiVotes": 297,
-      "egsScore": 82.28,
+      "egsScore": 82.25,
       "egsVotes": 92,
       "egsMedian": 85
     },
@@ -4044,6 +4044,50 @@
       "egsMedian": 78
     },
     {
+      "name": "レイジングループ",
+      "vndbId": "v21289",
+      "bangumiId": "215470",
+      "egsId": "23281",
+      "metadata": {
+        "titles": {
+          "en": "Raging Loop",
+          "zh": "人狼村之谜",
+          "ja": "レイジングループ"
+        },
+        "descriptions": {
+          "en": "After breaking up with his girlfriend, grad student Haruaki Fusaishi goes on a motorcycle trip to forget her, only to end up stranded in the remote settlement of Yasumizu. The next day, as he is repairing his bike, a mysterious mist drifts in, and all the villagers shelter inside their homes. Confused, Haruaki sees a mysterious figure with the body of a human and the head of a wolf that kills him. Haruaki finds that instead of dying, however, he has instead looped back in time. After managing to hide from the creature this time, he discovers the village must engage in a ritual known as a \"feast.\" Several of them have been replaced with spirits of ancient \"wolves\" that will kill one villager each night, and it is up to the villagers to discover who amongst them are the wolves, and execute them. Caught in an all-out war of doubt and trust, can Haruaki survive and discover the mysteries behind the feast and his looping...?",
+          "zh": "「おおかみ」信仰の息づく地・休水（やすみず）に夕霧が立つとき、 殺人儀式「黄泉忌みの宴」が開かれる！ 幾多の狂気と死の果てに、 「死に戻る男」房石陽明は事件を解決できるのか？ 大人気テーブルゲーム「人狼（汝は人狼なりや？）」を大胆解釈した、 フルボイス・ホラーサスペンスノベルＡＤＶ巨編です。"
+        },
+        "released": "2015-12-03",
+        "year": 2015,
+        "image": "https://t.vndb.org/cv/28/80128.jpg",
+        "lengthMinutes": 2198,
+        "genres": [
+          "悬疑",
+          "狼人杀",
+          "AVG"
+        ],
+        "platforms": [
+          "win",
+          "ios",
+          "and",
+          "ps4",
+          "ps5",
+          "psv",
+          "swi",
+          "xbo",
+          "xxs"
+        ]
+      },
+      "vndbScore": 79.4,
+      "vndbVotes": 3595,
+      "bangumiScore": 82,
+      "bangumiVotes": 5515,
+      "egsScore": 83.43,
+      "egsVotes": 92,
+      "egsMedian": 85
+    },
+    {
       "name": "腐り姫 ～euthanasia～",
       "vndbId": "v37",
       "bangumiId": "1012",
@@ -4073,11 +4117,11 @@
         ]
       },
       "vndbScore": 79,
-      "vndbVotes": 531,
+      "vndbVotes": 532,
       "bangumiScore": 82,
-      "bangumiVotes": 2390,
-      "egsScore": 80.31,
-      "egsVotes": 1403,
+      "bangumiVotes": 2392,
+      "egsScore": 80.32,
+      "egsVotes": 1404,
       "egsMedian": 81
     },
     {
@@ -4149,9 +4193,9 @@
       "vndbScore": 80.8,
       "vndbVotes": 540,
       "bangumiScore": 76,
-      "bangumiVotes": 2322,
-      "egsScore": 85.95,
-      "egsVotes": 1557,
+      "bangumiVotes": 2325,
+      "egsScore": 85.92,
+      "egsVotes": 1564,
       "egsMedian": 87
     },
     {
@@ -4183,11 +4227,11 @@
         ]
       },
       "vndbScore": 80,
-      "vndbVotes": 533,
+      "vndbVotes": 534,
       "bangumiScore": 79,
-      "bangumiVotes": 2708,
-      "egsScore": 83.69,
-      "egsVotes": 1396,
+      "bangumiVotes": 2709,
+      "egsScore": 83.67,
+      "egsVotes": 1401,
       "egsMedian": 85
     },
     {
@@ -4256,11 +4300,11 @@
         ]
       },
       "vndbScore": 80.4,
-      "vndbVotes": 4771,
+      "vndbVotes": 4773,
       "bangumiScore": 76,
       "bangumiVotes": 1024,
-      "egsScore": 82.93,
-      "egsVotes": 2293,
+      "egsScore": 82.92,
+      "egsVotes": 2297,
       "egsMedian": 84
     },
     {
@@ -4315,7 +4359,7 @@
         "released": "2012-08-31",
         "year": 2012,
         "image": "https://t.vndb.org/cv/82/88282.jpg",
-        "lengthMinutes": 2336,
+        "lengthMinutes": 2315,
         "genres": [
           "FAVORITE",
           "光鸟鸟",
@@ -4327,12 +4371,12 @@
         ]
       },
       "vndbScore": 84.4,
-      "vndbVotes": 625,
+      "vndbVotes": 626,
       "bangumiScore": 77,
       "bangumiVotes": 1776,
-      "egsScore": 83.06,
-      "egsVotes": 1011,
-      "egsMedian": 84
+      "egsScore": 83.07,
+      "egsVotes": 1013,
+      "egsMedian": 85
     },
     {
       "name": "グリザイアの楽園 -LE EDEN DE LA GRISAIA-",
@@ -4367,8 +4411,8 @@
       "vndbVotes": 3851,
       "bangumiScore": null,
       "bangumiVotes": null,
-      "egsScore": 80.55,
-      "egsVotes": 1977,
+      "egsScore": 80.56,
+      "egsVotes": 1981,
       "egsMedian": 80
     },
     {
@@ -4414,7 +4458,7 @@
       "vndbScore": 78.5,
       "vndbVotes": 221,
       "bangumiScore": 81,
-      "bangumiVotes": 1908,
+      "bangumiVotes": 1909,
       "egsScore": 76.88,
       "egsVotes": 116,
       "egsMedian": 78
@@ -4450,9 +4494,9 @@
       "vndbScore": 77.2,
       "vndbVotes": 269,
       "bangumiScore": 82,
-      "bangumiVotes": 1059,
+      "bangumiVotes": 1061,
       "egsScore": 79.78,
-      "egsVotes": 783,
+      "egsVotes": 785,
       "egsMedian": 80
     },
     {
@@ -4489,53 +4533,9 @@
       "vndbVotes": 1122,
       "bangumiScore": 78,
       "bangumiVotes": 1472,
-      "egsScore": 82.69,
-      "egsVotes": 1371,
+      "egsScore": 82.7,
+      "egsVotes": 1373,
       "egsMedian": 83
-    },
-    {
-      "name": "レイジングループ",
-      "vndbId": "v21289",
-      "bangumiId": "215470",
-      "egsId": "23281",
-      "metadata": {
-        "titles": {
-          "en": "Raging Loop",
-          "zh": "人狼村之谜",
-          "ja": "レイジングループ"
-        },
-        "descriptions": {
-          "en": "After breaking up with his girlfriend, grad student Haruaki Fusaishi goes on a motorcycle trip to forget her, only to end up stranded in the remote settlement of Yasumizu. The next day, as he is repairing his bike, a mysterious mist drifts in, and all the villagers shelter inside their homes. Confused, Haruaki sees a mysterious figure with the body of a human and the head of a wolf that kills him. Haruaki finds that instead of dying, however, he has instead looped back in time. After managing to hide from the creature this time, he discovers the village must engage in a ritual known as a \"feast.\" Several of them have been replaced with spirits of ancient \"wolves\" that will kill one villager each night, and it is up to the villagers to discover who amongst them are the wolves, and execute them. Caught in an all-out war of doubt and trust, can Haruaki survive and discover the mysteries behind the feast and his looping...?",
-          "zh": "「おおかみ」信仰の息づく地・休水（やすみず）に夕霧が立つとき、 殺人儀式「黄泉忌みの宴」が開かれる！ 幾多の狂気と死の果てに、 「死に戻る男」房石陽明は事件を解決できるのか？ 大人気テーブルゲーム「人狼（汝は人狼なりや？）」を大胆解釈した、 フルボイス・ホラーサスペンスノベルＡＤＶ巨編です。"
-        },
-        "released": "2015-12-03",
-        "year": 2015,
-        "image": "https://t.vndb.org/cv/28/80128.jpg",
-        "lengthMinutes": 2198,
-        "genres": [
-          "悬疑",
-          "狼人杀",
-          "AVG"
-        ],
-        "platforms": [
-          "win",
-          "ios",
-          "and",
-          "ps4",
-          "ps5",
-          "psv",
-          "swi",
-          "xbo",
-          "xxs"
-        ]
-      },
-      "vndbScore": 79.4,
-      "vndbVotes": 3594,
-      "bangumiScore": 81,
-      "bangumiVotes": 5504,
-      "egsScore": 83.43,
-      "egsVotes": 92,
-      "egsMedian": 85
     },
     {
       "name": "真剣で私に恋しなさい！A-5",
@@ -4569,7 +4569,7 @@
       "vndbVotes": 781,
       "bangumiScore": 74,
       "bangumiVotes": 62,
-      "egsScore": 78.5,
+      "egsScore": 78.48,
       "egsVotes": 218,
       "egsMedian": 80
     },
@@ -4605,9 +4605,9 @@
       "vndbScore": 76.2,
       "vndbVotes": 3598,
       "bangumiScore": 81,
-      "bangumiVotes": 2241,
+      "bangumiVotes": 2242,
       "egsScore": 84.43,
-      "egsVotes": 2235,
+      "egsVotes": 2239,
       "egsMedian": 85
     },
     {
@@ -4640,7 +4640,7 @@
         ]
       },
       "vndbScore": 79.1,
-      "vndbVotes": 2182,
+      "vndbVotes": 2185,
       "bangumiScore": 75,
       "bangumiVotes": 1826,
       "egsScore": 84.51,
@@ -4680,7 +4680,7 @@
         ]
       },
       "vndbScore": 81.3,
-      "vndbVotes": 3829,
+      "vndbVotes": 3831,
       "bangumiScore": 79,
       "bangumiVotes": 241,
       "egsScore": 70.15,
@@ -4716,8 +4716,8 @@
       "vndbVotes": 553,
       "bangumiScore": null,
       "bangumiVotes": null,
-      "egsScore": 81.16,
-      "egsVotes": 347,
+      "egsScore": 81.12,
+      "egsVotes": 350,
       "egsMedian": 81
     },
     {
@@ -4751,9 +4751,9 @@
       "vndbScore": 79.5,
       "vndbVotes": 407,
       "bangumiScore": 79,
-      "bangumiVotes": 1310,
-      "egsScore": 84.17,
-      "egsVotes": 313,
+      "bangumiVotes": 1314,
+      "egsScore": 84.16,
+      "egsVotes": 317,
       "egsMedian": 85
     },
     {
@@ -4790,11 +4790,11 @@
         ]
       },
       "vndbScore": 80.7,
-      "vndbVotes": 7586,
+      "vndbVotes": 7591,
       "bangumiScore": 79,
-      "bangumiVotes": 3233,
+      "bangumiVotes": 3234,
       "egsScore": 79.47,
-      "egsVotes": 136,
+      "egsVotes": 137,
       "egsMedian": 80
     },
     {
@@ -4829,8 +4829,8 @@
       "vndbVotes": 884,
       "bangumiScore": 78,
       "bangumiVotes": 258,
-      "egsScore": 81.9,
-      "egsVotes": 205,
+      "egsScore": 81.86,
+      "egsVotes": 206,
       "egsMedian": 81
     },
     {
@@ -4863,49 +4863,12 @@
           "psv"
         ]
       },
-      "vndbScore": 80.7,
-      "vndbVotes": 772,
+      "vndbScore": 80.8,
+      "vndbVotes": 773,
       "bangumiScore": 79,
-      "bangumiVotes": 664,
+      "bangumiVotes": 665,
       "egsScore": 80.94,
       "egsVotes": 212,
-      "egsMedian": 80
-    },
-    {
-      "name": "神咒神威神楽",
-      "vndbId": "v5844",
-      "bangumiId": "14895",
-      "egsId": "14822",
-      "metadata": {
-        "titles": {
-          "en": "Kajiri Kamui Kagura",
-          "zh": "神咒神威神乐",
-          "ja": "神咒神威神楽"
-        },
-        "descriptions": {
-          "en": "In ancient Ashihara no Nakatsukuni, generals fought each other to gain the favour of the emperor. They attempted to invade the uncharted eastern lands, but suffered total defeat at the hands of demons more intelligent than humans. Three hundred years later, the land of the gods, Shinshuu, has locked itself away from all foreign countries, but an air of gloom begins to drift in from the east. They are forced to head east again to drive away the demons. [From Hau~ Omochikaeri!]",
-          "zh": "神州の东には妖异が栖む。 土蜘蛛、鬼神、まつろわぬ化外の国―― 建国の起源を遡れば、异形讨伐の戦に行き着く神州・苇原中津国。 诸将が天子の奉戴を竞い合い、数多の血が流れた动乱の时代は、 国土の东半に未开の领域が広がっている事実が明るみに出たことで、急転直下を迎える。 东征戦争。 建国の英雄惮になぞらえて、东地を制した者こそが天下を握れる。 そうした野望に取り凭かれ、侵攻した诸将たちは、しかし东の军势によって败れ去った。 それは常轨を逸したものであり、人知を超えた魔であったという。 そして三百年。 败北の事実と国家の疲弊を诸外国に悟られぬよう、锁国体制に入っていた神州だったが、 东から流入する阴気の汚染と开国を迫る外异を前に、今や存亡の危机にあった。 ゆえに阴気を払うべく、そして列强と渡り合うべく、ここに再度の东征が幕を开ける。 负けられぬ戦い。湖に塩は不要。 それが混ざれば必然として戦が生じる。これは纷れもない生存竞争。 征夷の将となった久雅竜胆は、汚染によって半异形となった者らを率いて空前の戦に身を投じる。 その果てに、彼らはいったい何を见るのか。"
-        },
-        "released": "2011-09-30",
-        "year": 2011,
-        "image": "https://t.vndb.org/cv/92/79692.jpg",
-        "lengthMinutes": 3735,
-        "genres": [
-          "LIGHT",
-          "正田崇",
-          "中二"
-        ],
-        "platforms": [
-          "win",
-          "psv"
-        ]
-      },
-      "vndbScore": 83.8,
-      "vndbVotes": 393,
-      "bangumiScore": 75,
-      "bangumiVotes": 119,
-      "egsScore": 79.05,
-      "egsVotes": 538,
       "egsMedian": 80
     },
     {
@@ -4942,12 +4905,49 @@
         ]
       },
       "vndbScore": 81.6,
-      "vndbVotes": 3794,
+      "vndbVotes": 3795,
       "bangumiScore": 76,
-      "bangumiVotes": 3308,
-      "egsScore": 82.68,
-      "egsVotes": 1902,
+      "bangumiVotes": 3311,
+      "egsScore": 82.66,
+      "egsVotes": 1907,
       "egsMedian": 84
+    },
+    {
+      "name": "神咒神威神楽",
+      "vndbId": "v5844",
+      "bangumiId": "14895",
+      "egsId": "14822",
+      "metadata": {
+        "titles": {
+          "en": "Kajiri Kamui Kagura",
+          "zh": "神咒神威神乐",
+          "ja": "神咒神威神楽"
+        },
+        "descriptions": {
+          "en": "In ancient Ashihara no Nakatsukuni, generals fought each other to gain the favour of the emperor. They attempted to invade the uncharted eastern lands, but suffered total defeat at the hands of demons more intelligent than humans. Three hundred years later, the land of the gods, Shinshuu, has locked itself away from all foreign countries, but an air of gloom begins to drift in from the east. They are forced to head east again to drive away the demons. [From Hau~ Omochikaeri!]",
+          "zh": "神州の东には妖异が栖む。 土蜘蛛、鬼神、まつろわぬ化外の国―― 建国の起源を遡れば、异形讨伐の戦に行き着く神州・苇原中津国。 诸将が天子の奉戴を竞い合い、数多の血が流れた动乱の时代は、 国土の东半に未开の领域が広がっている事実が明るみに出たことで、急転直下を迎える。 东征戦争。 建国の英雄惮になぞらえて、东地を制した者こそが天下を握れる。 そうした野望に取り凭かれ、侵攻した诸将たちは、しかし东の军势によって败れ去った。 それは常轨を逸したものであり、人知を超えた魔であったという。 そして三百年。 败北の事実と国家の疲弊を诸外国に悟られぬよう、锁国体制に入っていた神州だったが、 东から流入する阴気の汚染と开国を迫る外异を前に、今や存亡の危机にあった。 ゆえに阴気を払うべく、そして列强と渡り合うべく、ここに再度の东征が幕を开ける。 负けられぬ戦い。湖に塩は不要。 それが混ざれば必然として戦が生じる。これは纷れもない生存竞争。 征夷の将となった久雅竜胆は、汚染によって半异形となった者らを率いて空前の戦に身を投じる。 その果てに、彼らはいったい何を见るのか。"
+        },
+        "released": "2011-09-30",
+        "year": 2011,
+        "image": "https://t.vndb.org/cv/92/79692.jpg",
+        "lengthMinutes": 3735,
+        "genres": [
+          "LIGHT",
+          "正田崇",
+          "中二"
+        ],
+        "platforms": [
+          "win",
+          "psv"
+        ]
+      },
+      "vndbScore": 83.8,
+      "vndbVotes": 393,
+      "bangumiScore": 75,
+      "bangumiVotes": 119,
+      "egsScore": 78.9,
+      "egsVotes": 539,
+      "egsMedian": 80
     },
     {
       "name": "真剣で私に恋しなさい！A-1",
@@ -4978,7 +4978,7 @@
         ]
       },
       "vndbScore": 80.3,
-      "vndbVotes": 2460,
+      "vndbVotes": 2459,
       "bangumiScore": 76,
       "bangumiVotes": 71,
       "egsScore": 79.36,
@@ -5019,8 +5019,8 @@
       "vndbVotes": 2728,
       "bangumiScore": 74,
       "bangumiVotes": 312,
-      "egsScore": 80.23,
-      "egsVotes": 757,
+      "egsScore": 80.21,
+      "egsVotes": 760,
       "egsMedian": 80
     },
     {
@@ -5122,9 +5122,9 @@
       "vndbScore": 79.1,
       "vndbVotes": 751,
       "bangumiScore": 79,
-      "bangumiVotes": 2942,
+      "bangumiVotes": 2943,
       "egsScore": 81.47,
-      "egsVotes": 1001,
+      "egsVotes": 1002,
       "egsMedian": 82
     },
     {
@@ -5198,7 +5198,7 @@
         ]
       },
       "vndbScore": 79.7,
-      "vndbVotes": 5049,
+      "vndbVotes": 5052,
       "bangumiScore": null,
       "bangumiVotes": null,
       "egsScore": 75.68,
@@ -5324,10 +5324,46 @@
       "vndbScore": 75.4,
       "vndbVotes": 2807,
       "bangumiScore": 82,
-      "bangumiVotes": 3551,
-      "egsScore": 81.84,
-      "egsVotes": 920,
+      "bangumiVotes": 3555,
+      "egsScore": 81.81,
+      "egsVotes": 922,
       "egsMedian": 82
+    },
+    {
+      "name": "ましろ色シンフォニー SANA EDITION",
+      "vndbId": "v37651",
+      "bangumiId": "417463",
+      "egsId": "33110",
+      "metadata": {
+        "titles": {
+          "en": "Mashiroiro Symphony HD -Sana Edition-",
+          "zh": "纯白交响曲 SANA EDITION",
+          "ja": "ましろ色シンフォニー SANA EDITION"
+        },
+        "descriptions": {
+          "en": "Inui Sana is a young lady who can’t admit her feelings. Luckily, she doesn’t have to at Yuihime Girls Private Academy, the place where she spends fun-filled days with her precious friends and the senior she loves. Or at least, that’s how things have always been... Now, her comfy and prestigious school is being merged with the boys’ school from the upstart side of town! Shoved into a combined class to trial the new system, she finds her world changing faster than she can keep up—and one of her new classmates makes her heart beat faster too. Quicker and quicker, the changes pile up, altering the landscape of her life like a sudden snowfall... A new love story is about to begin. [From Steam] The standalone game of Inui Sana's route that was first included in the console edition of the Mashiro-iro Symphony. In addition, newly written scenes, new CGs, as well as H scenes are also added.",
+          "zh": "自分の気持ちに素直になれない少女「乾 紗凪」 「私立結姫女子学園」大好きな先輩や大切な友達と楽しく過ごす場所 ——— だったのだが 紗凪は学園統合のテスト生として 「私立各務台学園」の生徒たちと同じクラスになり 周りの環境が一気に変わってしまう そこで出逢った一人の生徒 彼の存在が紗凪の心を揺るがした まるで降り積もる雪が街を変えていくように これは、もう一つの恋の物語"
+        },
+        "released": "2023-06-23",
+        "year": 2023,
+        "image": "https://t.vndb.org/cv/16/90216.jpg",
+        "lengthMinutes": 850,
+        "genres": [
+          "和泉つばす",
+          "调色板",
+          "ぱれっと"
+        ],
+        "platforms": [
+          "win"
+        ]
+      },
+      "vndbScore": 82.6,
+      "vndbVotes": 760,
+      "bangumiScore": 76,
+      "bangumiVotes": 1036,
+      "egsScore": 81.77,
+      "egsVotes": 346,
+      "egsMedian": 81
     },
     {
       "name": "相州戦神館學園 八命陣",
@@ -5367,42 +5403,6 @@
       "egsMedian": 80
     },
     {
-      "name": "ましろ色シンフォニー SANA EDITION",
-      "vndbId": "v37651",
-      "bangumiId": "417463",
-      "egsId": "33110",
-      "metadata": {
-        "titles": {
-          "en": "Mashiroiro Symphony HD -Sana Edition-",
-          "zh": "纯白交响曲 SANA EDITION",
-          "ja": "ましろ色シンフォニー SANA EDITION"
-        },
-        "descriptions": {
-          "en": "Inui Sana is a young lady who can’t admit her feelings. Luckily, she doesn’t have to at Yuihime Girls Private Academy, the place where she spends fun-filled days with her precious friends and the senior she loves. Or at least, that’s how things have always been... Now, her comfy and prestigious school is being merged with the boys’ school from the upstart side of town! Shoved into a combined class to trial the new system, she finds her world changing faster than she can keep up—and one of her new classmates makes her heart beat faster too. Quicker and quicker, the changes pile up, altering the landscape of her life like a sudden snowfall... A new love story is about to begin. [From Steam] The standalone game of Inui Sana's route that was first included in the console edition of the Mashiro-iro Symphony. In addition, newly written scenes, new CGs, as well as H scenes are also added.",
-          "zh": "自分の気持ちに素直になれない少女「乾 紗凪」 「私立結姫女子学園」大好きな先輩や大切な友達と楽しく過ごす場所 ——— だったのだが 紗凪は学園統合のテスト生として 「私立各務台学園」の生徒たちと同じクラスになり 周りの環境が一気に変わってしまう そこで出逢った一人の生徒 彼の存在が紗凪の心を揺るがした まるで降り積もる雪が街を変えていくように これは、もう一つの恋の物語"
-        },
-        "released": "2023-06-23",
-        "year": 2023,
-        "image": "https://t.vndb.org/cv/16/90216.jpg",
-        "lengthMinutes": 850,
-        "genres": [
-          "和泉つばす",
-          "调色板",
-          "ぱれっと"
-        ],
-        "platforms": [
-          "win"
-        ]
-      },
-      "vndbScore": 82.6,
-      "vndbVotes": 760,
-      "bangumiScore": 76,
-      "bangumiVotes": 1034,
-      "egsScore": 81.78,
-      "egsVotes": 340,
-      "egsMedian": 81
-    },
-    {
       "name": "ノラと皇女と野良猫ハート2",
       "vndbId": "v19841",
       "bangumiId": "189550",
@@ -5435,12 +5435,12 @@
         ]
       },
       "vndbScore": 79.8,
-      "vndbVotes": 644,
+      "vndbVotes": 645,
       "bangumiScore": 75,
-      "bangumiVotes": 983,
+      "bangumiVotes": 984,
       "egsScore": 81.9,
-      "egsVotes": 1127,
-      "egsMedian": 83
+      "egsVotes": 1131,
+      "egsMedian": 82
     },
     {
       "name": "narcissu",
@@ -5480,11 +5480,11 @@
         ]
       },
       "vndbScore": 75.1,
-      "vndbVotes": 6994,
+      "vndbVotes": 6996,
       "bangumiScore": 84,
-      "bangumiVotes": 6518,
-      "egsScore": 79.77,
-      "egsVotes": 1396,
+      "bangumiVotes": 6522,
+      "egsScore": 79.74,
+      "egsVotes": 1401,
       "egsMedian": 80
     },
     {
@@ -5520,11 +5520,11 @@
         ]
       },
       "vndbScore": 79.5,
-      "vndbVotes": 1105,
+      "vndbVotes": 1107,
       "bangumiScore": 76,
-      "bangumiVotes": 5251,
+      "bangumiVotes": 5257,
       "egsScore": 84.12,
-      "egsVotes": 2522,
+      "egsVotes": 2527,
       "egsMedian": 85
     },
     {
@@ -5601,7 +5601,7 @@
       "vndbScore": 81.6,
       "vndbVotes": 361,
       "bangumiScore": 75,
-      "bangumiVotes": 504,
+      "bangumiVotes": 505,
       "egsScore": 79.81,
       "egsVotes": 1785,
       "egsMedian": 82
@@ -5638,49 +5638,11 @@
         ]
       },
       "vndbScore": 80.3,
-      "vndbVotes": 7842,
+      "vndbVotes": 7844,
       "bangumiScore": 76,
       "bangumiVotes": 3668,
       "egsScore": 81.48,
-      "egsVotes": 1319,
-      "egsMedian": 83
-    },
-    {
-      "name": "紙の上の魔法使い",
-      "vndbId": "v15871",
-      "bangumiId": "111552",
-      "egsId": "20988",
-      "metadata": {
-        "titles": {
-          "en": "Kami no Ue no Mahoutsukai",
-          "zh": "纸上的魔法使",
-          "ja": "紙の上の魔法使い"
-        },
-        "descriptions": {
-          "en": "This is the debut game for Uguisu Kagura, which succeeds Yonaki Uguisu. There was a small library on that island. It was the Yuugyouji family’s private library built solely for one girl, Yoruko, who didn’t attend school and spent all her time there. With lots of intriguing books on its shelves, there was no happier place for a bookworm like her. There were also other wonderful and pleasant people who resided there: the protagonist Ruri and his cool sharp-tongued imouto Kisaki, the freeloading tennen moodmaker Rio, and the curious and honest “detective” Kanata. It’s as if they were all brought together by someone or something. Their love of books was the beginning of their youth. Before long, the lonely library became full of light and they became close like childhood friends. Two years later, Ruri returned to the library after leaving the island due to family matters. Nothing seemed to have changed from six years ago, except that there was a secret which they were not aware of back then: “Anything that is written in the magic book will become reality”. If it’s a romance novel, then a miracle-like love story will unfold. If it’s a fantasy novel, then vampires will appear the next day. If it’s a horror novel, then there’ll be a ghost beckoning you from behind. Yoruko’s strong will. Kisaki’s beauty. Rio’s cheerfulness. Kanata’s brilliance. Let’s fall in love with them and books. [From Hau~ Omochikaeri!]",
-          "zh": "在某个岛上， 有一座规模略小的图书馆。 它是专门为了某个少女而建造的， 遊行寺家的私人图书馆。 图书馆里有很多很多罕见的书物， 如果是书虫的话， 就绝对不会存在比这里还更加爱不释手的地方。 而，在这般首屈一指的私人图书馆里，住着几位出众且愉快的住人。 热爱图书的尼特少女·遊行寺夜子。 毒舌，冷淡的妹妹·月社妃。 借住于图书馆的天然少女·伏見理央。 还有一位被这背后的秘密而吸引过来的侦探少女·日向かなた。 宛如被引导着，他们互相邂逅——随后又以“喜爱书”的契机，开始了属于他们的青春。 一开始的图书馆虽然寂寞单调，可自主人公一行人住进来开始，这座图书馆就变得渐渐热闹了起来。 在不知不觉中——他们之间的关系变的亲密起来，达到了所谓青梅竹马的程度。 时光飞逝，2年后。因家庭原因，主人公离开了这座岛屿。 而这次，主人公久违的回到了那座图书馆。 与记忆中的6年前一模一样，无论是图书馆，还是亲爱的青梅竹马们。 可是，那在6年前未曾得知的“图书馆的秘密”，这次却等待着主人公去揭晓它。 【——出现在书中之事，会在现世中再现。 无论那是何等荒谬之事。】 如果是酸酸甜甜的恋爱系小说的话，那就会发生宛如飘渺的爱情罗曼史。 又假如那是惊讶重重的幻想系小说的话，到了明天就会有吸血鬼出现在你的面前。 而碰到了略惊悚的恐怖系物语的话，你的身后就会有幽灵在向你招手。 【这就是所谓的“魔法书物”。】 这是一个被小清新的青春与苦闷焦躁的感情动摇的，某个小而又小图书馆的物语…… 去将遊行寺夜子的逞强。 去将月社妃的可爱。 去将伏見理央的坚强。 去将日向かなた的耀眼感。 准备好——来一场你与书的恋爱吧。"
-        },
-        "released": "2014-12-19",
-        "year": 2014,
-        "image": "https://t.vndb.org/cv/70/92770.jpg",
-        "lengthMinutes": 2040,
-        "genres": [
-          "桐葉",
-          "紙の上の魔法使い",
-          "妹控"
-        ],
-        "platforms": [
-          "win",
-          "psv",
-          "swi"
-        ]
-      },
-      "vndbScore": 82,
-      "vndbVotes": 687,
-      "bangumiScore": 78,
-      "bangumiVotes": 4454,
-      "egsScore": 81.15,
-      "egsVotes": 1163,
+      "egsVotes": 1320,
       "egsMedian": 83
     },
     {
@@ -5717,9 +5679,47 @@
       "vndbVotes": 418,
       "bangumiScore": 77,
       "bangumiVotes": 468,
-      "egsScore": 79.44,
-      "egsVotes": 375,
+      "egsScore": 79.47,
+      "egsVotes": 376,
       "egsMedian": 80
+    },
+    {
+      "name": "紙の上の魔法使い",
+      "vndbId": "v15871",
+      "bangumiId": "111552",
+      "egsId": "20988",
+      "metadata": {
+        "titles": {
+          "en": "Kami no Ue no Mahoutsukai",
+          "zh": "纸上的魔法使",
+          "ja": "紙の上の魔法使い"
+        },
+        "descriptions": {
+          "en": "This is the debut game for Uguisu Kagura, which succeeds Yonaki Uguisu. There was a small library on that island. It was the Yuugyouji family’s private library built solely for one girl, Yoruko, who didn’t attend school and spent all her time there. With lots of intriguing books on its shelves, there was no happier place for a bookworm like her. There were also other wonderful and pleasant people who resided there: the protagonist Ruri and his cool sharp-tongued imouto Kisaki, the freeloading tennen moodmaker Rio, and the curious and honest “detective” Kanata. It’s as if they were all brought together by someone or something. Their love of books was the beginning of their youth. Before long, the lonely library became full of light and they became close like childhood friends. Two years later, Ruri returned to the library after leaving the island due to family matters. Nothing seemed to have changed from six years ago, except that there was a secret which they were not aware of back then: “Anything that is written in the magic book will become reality”. If it’s a romance novel, then a miracle-like love story will unfold. If it’s a fantasy novel, then vampires will appear the next day. If it’s a horror novel, then there’ll be a ghost beckoning you from behind. Yoruko’s strong will. Kisaki’s beauty. Rio’s cheerfulness. Kanata’s brilliance. Let’s fall in love with them and books. [From Hau~ Omochikaeri!]",
+          "zh": "在某个岛上， 有一座规模略小的图书馆。 它是专门为了某个少女而建造的， 遊行寺家的私人图书馆。 图书馆里有很多很多罕见的书物， 如果是书虫的话， 就绝对不会存在比这里还更加爱不释手的地方。 而，在这般首屈一指的私人图书馆里，住着几位出众且愉快的住人。 热爱图书的尼特少女·遊行寺夜子。 毒舌，冷淡的妹妹·月社妃。 借住于图书馆的天然少女·伏見理央。 还有一位被这背后的秘密而吸引过来的侦探少女·日向かなた。 宛如被引导着，他们互相邂逅——随后又以“喜爱书”的契机，开始了属于他们的青春。 一开始的图书馆虽然寂寞单调，可自主人公一行人住进来开始，这座图书馆就变得渐渐热闹了起来。 在不知不觉中——他们之间的关系变的亲密起来，达到了所谓青梅竹马的程度。 时光飞逝，2年后。因家庭原因，主人公离开了这座岛屿。 而这次，主人公久违的回到了那座图书馆。 与记忆中的6年前一模一样，无论是图书馆，还是亲爱的青梅竹马们。 可是，那在6年前未曾得知的“图书馆的秘密”，这次却等待着主人公去揭晓它。 【——出现在书中之事，会在现世中再现。 无论那是何等荒谬之事。】 如果是酸酸甜甜的恋爱系小说的话，那就会发生宛如飘渺的爱情罗曼史。 又假如那是惊讶重重的幻想系小说的话，到了明天就会有吸血鬼出现在你的面前。 而碰到了略惊悚的恐怖系物语的话，你的身后就会有幽灵在向你招手。 【这就是所谓的“魔法书物”。】 这是一个被小清新的青春与苦闷焦躁的感情动摇的，某个小而又小图书馆的物语…… 去将遊行寺夜子的逞强。 去将月社妃的可爱。 去将伏見理央的坚强。 去将日向かなた的耀眼感。 准备好——来一场你与书的恋爱吧。"
+        },
+        "released": "2014-12-19",
+        "year": 2014,
+        "image": "https://t.vndb.org/cv/70/92770.jpg",
+        "lengthMinutes": 2040,
+        "genres": [
+          "桐葉",
+          "紙の上の魔法使い",
+          "妹控"
+        ],
+        "platforms": [
+          "win",
+          "psv",
+          "swi"
+        ]
+      },
+      "vndbScore": 82,
+      "vndbVotes": 687,
+      "bangumiScore": 78,
+      "bangumiVotes": 4456,
+      "egsScore": 81.14,
+      "egsVotes": 1164,
+      "egsMedian": 83
     },
     {
       "name": "終のステラ",
@@ -5754,11 +5754,11 @@
         ]
       },
       "vndbScore": 81.3,
-      "vndbVotes": 1773,
+      "vndbVotes": 1776,
       "bangumiScore": 75,
       "bangumiVotes": 3136,
-      "egsScore": 85.17,
-      "egsVotes": 997,
+      "egsScore": 85.15,
+      "egsVotes": 1004,
       "egsMedian": 85
     },
     {
@@ -5793,7 +5793,7 @@
       "vndbVotes": 2180,
       "bangumiScore": 74,
       "bangumiVotes": 71,
-      "egsScore": 78.03,
+      "egsScore": 78.02,
       "egsVotes": 374,
       "egsMedian": 79
     },
@@ -5864,8 +5864,8 @@
       "vndbVotes": 559,
       "bangumiScore": 77,
       "bangumiVotes": 1935,
-      "egsScore": 81.25,
-      "egsVotes": 1166,
+      "egsScore": 81.26,
+      "egsVotes": 1175,
       "egsMedian": 82
     },
     {
@@ -5907,7 +5907,7 @@
         ]
       },
       "vndbScore": 79.5,
-      "vndbVotes": 1376,
+      "vndbVotes": 1377,
       "bangumiScore": 73,
       "bangumiVotes": 85,
       "egsScore": 66.15,
@@ -5950,9 +5950,9 @@
       "vndbScore": 80.3,
       "vndbVotes": 1657,
       "bangumiScore": 74,
-      "bangumiVotes": 3171,
-      "egsScore": 81.62,
-      "egsVotes": 3111,
+      "bangumiVotes": 3172,
+      "egsScore": 81.63,
+      "egsVotes": 3116,
       "egsMedian": 83
     },
     {
@@ -5992,10 +5992,10 @@
         ]
       },
       "vndbScore": 78.8,
-      "vndbVotes": 18448,
+      "vndbVotes": 18450,
       "bangumiScore": 73,
       "bangumiVotes": 242,
-      "egsScore": 72.31,
+      "egsScore": 72.32,
       "egsVotes": 88,
       "egsMedian": 75
     },
@@ -6037,8 +6037,8 @@
       "vndbVotes": 467,
       "bangumiScore": 78,
       "bangumiVotes": 808,
-      "egsScore": 79.35,
-      "egsVotes": 63,
+      "egsScore": 79.44,
+      "egsVotes": 64,
       "egsMedian": 80
     },
     {
@@ -6073,9 +6073,9 @@
       "vndbScore": 76.1,
       "vndbVotes": 936,
       "bangumiScore": 81,
-      "bangumiVotes": 1014,
-      "egsScore": 77.81,
-      "egsVotes": 91,
+      "bangumiVotes": 1015,
+      "egsScore": 77.78,
+      "egsVotes": 92,
       "egsMedian": 79
     },
     {
@@ -6113,7 +6113,7 @@
       "bangumiScore": 75,
       "bangumiVotes": 2122,
       "egsScore": 81.14,
-      "egsVotes": 1811,
+      "egsVotes": 1814,
       "egsMedian": 81
     },
     {
@@ -6150,8 +6150,8 @@
       "vndbVotes": 2867,
       "bangumiScore": 81,
       "bangumiVotes": 496,
-      "egsScore": 75.41,
-      "egsVotes": 1563,
+      "egsScore": 75.42,
+      "egsVotes": 1567,
       "egsMedian": 77
     },
     {
@@ -6183,7 +6183,7 @@
         ]
       },
       "vndbScore": 79.3,
-      "vndbVotes": 415,
+      "vndbVotes": 417,
       "bangumiScore": 75,
       "bangumiVotes": 1022,
       "egsScore": 80.87,
@@ -6221,9 +6221,9 @@
       "vndbScore": 81.6,
       "vndbVotes": 1210,
       "bangumiScore": 72,
-      "bangumiVotes": 940,
-      "egsScore": 80.99,
-      "egsVotes": 622,
+      "bangumiVotes": 942,
+      "egsScore": 81,
+      "egsVotes": 623,
       "egsMedian": 81
     },
     {
@@ -6259,9 +6259,9 @@
       "vndbScore": 80.9,
       "vndbVotes": 393,
       "bangumiScore": 72,
-      "bangumiVotes": 1028,
+      "bangumiVotes": 1029,
       "egsScore": 82.26,
-      "egsVotes": 983,
+      "egsVotes": 986,
       "egsMedian": 83
     },
     {
@@ -6295,10 +6295,48 @@
       "vndbScore": 83.2,
       "vndbVotes": 396,
       "bangumiScore": 73,
-      "bangumiVotes": 448,
-      "egsScore": 80.97,
-      "egsVotes": 116,
+      "bangumiVotes": 449,
+      "egsScore": 81.02,
+      "egsVotes": 118,
       "egsMedian": 80
+    },
+    {
+      "name": "WHITE ALBUM2 ミニアフターストーリー",
+      "vndbId": "v16493",
+      "bangumiId": "122158",
+      "egsId": "18010",
+      "metadata": {
+        "titles": {
+          "en": "WHITE ALBUM2 Mini After Story",
+          "zh": "白色相簿2 mini After Story",
+          "ja": "WHITE ALBUM2 ミニアフターストーリー"
+        },
+        "descriptions": {
+          "en": "White Album 2 fandisk featuring after-stories for the Kazusa and Setsuna routes of the original game: - The Way Back to Happiness: Follows Kazusa's true ending. - The Way Towards Happiness: Follows Setsuna’s true ending.",
+          "zh": "Windows®用アドベンチャーゲーム『WHITE ALBUM2 ミニアフターストーリー』（丸戸史明書き下ろし）を応募者全員にプレゼントいたします。 収録内容は下記の2本となり、ゲーム版のアフターストーリーをプレイできます。 小木曽雪菜ミニアフターストーリー 冬馬かずさミニアフターストーリー"
+        },
+        "released": "2012-12-20",
+        "year": 2012,
+        "image": "https://t.vndb.org/cv/75/76275.jpg",
+        "lengthMinutes": 226,
+        "genres": [
+          "leaf",
+          "丸戸史明",
+          "FD"
+        ],
+        "platforms": [
+          "win",
+          "ps3",
+          "psv"
+        ]
+      },
+      "vndbScore": 80.8,
+      "vndbVotes": 1011,
+      "bangumiScore": 75,
+      "bangumiVotes": 1488,
+      "egsScore": 91.22,
+      "egsVotes": 126,
+      "egsMedian": 95
     },
     {
       "name": "屋上の百合霊さん",
@@ -6340,44 +6378,6 @@
       "egsScore": 78.95,
       "egsVotes": 335,
       "egsMedian": 80
-    },
-    {
-      "name": "WHITE ALBUM2 ミニアフターストーリー",
-      "vndbId": "v16493",
-      "bangumiId": "122158",
-      "egsId": "18010",
-      "metadata": {
-        "titles": {
-          "en": "WHITE ALBUM2 Mini After Story",
-          "zh": "白色相簿2 mini After Story",
-          "ja": "WHITE ALBUM2 ミニアフターストーリー"
-        },
-        "descriptions": {
-          "en": "White Album 2 fandisk featuring after-stories for the Kazusa and Setsuna routes of the original game: - The Way Back to Happiness: Follows Kazusa's true ending. - The Way Towards Happiness: Follows Setsuna’s true ending.",
-          "zh": "Windows®用アドベンチャーゲーム『WHITE ALBUM2 ミニアフターストーリー』（丸戸史明書き下ろし）を応募者全員にプレゼントいたします。 収録内容は下記の2本となり、ゲーム版のアフターストーリーをプレイできます。 小木曽雪菜ミニアフターストーリー 冬馬かずさミニアフターストーリー"
-        },
-        "released": "2012-12-20",
-        "year": 2012,
-        "image": "https://t.vndb.org/cv/75/76275.jpg",
-        "lengthMinutes": 226,
-        "genres": [
-          "leaf",
-          "丸戸史明",
-          "FD"
-        ],
-        "platforms": [
-          "win",
-          "ps3",
-          "psv"
-        ]
-      },
-      "vndbScore": 80.7,
-      "vndbVotes": 1009,
-      "bangumiScore": 75,
-      "bangumiVotes": 1486,
-      "egsScore": 91.25,
-      "egsVotes": 126,
-      "egsMedian": 95
     },
     {
       "name": "あやかしごはん",
@@ -6491,8 +6491,44 @@
       "vndbVotes": 1917,
       "bangumiScore": 74,
       "bangumiVotes": 2059,
-      "egsScore": 80.67,
-      "egsVotes": 1005,
+      "egsScore": 80.69,
+      "egsVotes": 1008,
+      "egsMedian": 80
+    },
+    {
+      "name": "我が姫君に栄冠を",
+      "vndbId": "v29057",
+      "bangumiId": "313964",
+      "egsId": "29938",
+      "metadata": {
+        "titles": {
+          "en": "Waga Himegimi ni Eikan o",
+          "zh": "为我的女王献上荣冠",
+          "ja": "我が姫君に栄冠を"
+        },
+        "descriptions": {
+          "en": "The protagonist Shaon, who grew up in a remote area, was taught a technique called Tenken by his teacher. The teacher hopes that Shaon will pass on his abilities to his descendants. When he is old enough, he needs to leave his home to find a bride. How you live your life, whom will you marry? It all depends on your choice.",
+          "zh": "作品紹介 みなとそふとがお届けする超大作！ みなとそふとが『まじこい』に次ぐ18禁完全新作タイトルを発表！ シナリオ「タカヒロ」、原画「wagi」の『まじこい』黄金タッグが再び！ 今作ではファンタジー世界を舞台にしたADVで目的は嫁探し。 三人のヒロインは皇帝、元首、王とそれぞれの国の若き統治者たち。 世界観は変わってもテイストは変わらず、賑やかなキャラクター達に囲まれる世界を楽しもう！ みなとそふとの代名詞とも言える多数のキャラクターと豪華な声優陣は今作でも健在！ ヒロインはそれぞれの種族の王なので、姉、ツンデレ、武士娘、不良娘など続いてきたメーカーの雰囲気そのままで楽します。 間違いなく2021年の最大注目作になるであろう本作を要チェックです！ ストーリー 辺境に育つ主人公・シャオンは、師匠から天眷という能力と技術を伝授された。 師匠の願いは、この教えを子孫にも受け継いでいく事。 年頃のシャオンは、都会に出てお嫁さんを探す事になる。 彼が生きる大陸周辺は、今、三つの勢力で成り立っていた。 全ての勢力で女性が指導者である状況は、後に姫君の世紀と呼ばれるようになる。 シャオンはどの勢力に行き、どの女性をお嫁に迎えるのか、全ては彼の選択次第…。"
+        },
+        "released": "2021-03-26",
+        "year": 2021,
+        "image": "https://t.vndb.org/cv/43/90843.jpg",
+        "lengthMinutes": 2962,
+        "genres": [
+          "みなとそふと",
+          "CV阵容爆炸",
+          "タカヒロ"
+        ],
+        "platforms": [
+          "win"
+        ]
+      },
+      "vndbScore": 79.9,
+      "vndbVotes": 389,
+      "bangumiScore": 73,
+      "bangumiVotes": 332,
+      "egsScore": 80.01,
+      "egsVotes": 338,
       "egsMedian": 80
     },
     {
@@ -6528,45 +6564,9 @@
       "vndbVotes": 512,
       "bangumiScore": 71,
       "bangumiVotes": 405,
-      "egsScore": 75.92,
-      "egsVotes": 98,
-      "egsMedian": 76
-    },
-    {
-      "name": "我が姫君に栄冠を",
-      "vndbId": "v29057",
-      "bangumiId": "313964",
-      "egsId": "29938",
-      "metadata": {
-        "titles": {
-          "en": "Waga Himegimi ni Eikan o",
-          "zh": "为我的女王献上荣冠",
-          "ja": "我が姫君に栄冠を"
-        },
-        "descriptions": {
-          "en": "The protagonist Shaon, who grew up in a remote area, was taught a technique called Tenken by his teacher. The teacher hopes that Shaon will pass on his abilities to his descendants. When he is old enough, he needs to leave his home to find a bride. How you live your life, whom will you marry? It all depends on your choice.",
-          "zh": "作品紹介 みなとそふとがお届けする超大作！ みなとそふとが『まじこい』に次ぐ18禁完全新作タイトルを発表！ シナリオ「タカヒロ」、原画「wagi」の『まじこい』黄金タッグが再び！ 今作ではファンタジー世界を舞台にしたADVで目的は嫁探し。 三人のヒロインは皇帝、元首、王とそれぞれの国の若き統治者たち。 世界観は変わってもテイストは変わらず、賑やかなキャラクター達に囲まれる世界を楽しもう！ みなとそふとの代名詞とも言える多数のキャラクターと豪華な声優陣は今作でも健在！ ヒロインはそれぞれの種族の王なので、姉、ツンデレ、武士娘、不良娘など続いてきたメーカーの雰囲気そのままで楽します。 間違いなく2021年の最大注目作になるであろう本作を要チェックです！ ストーリー 辺境に育つ主人公・シャオンは、師匠から天眷という能力と技術を伝授された。 師匠の願いは、この教えを子孫にも受け継いでいく事。 年頃のシャオンは、都会に出てお嫁さんを探す事になる。 彼が生きる大陸周辺は、今、三つの勢力で成り立っていた。 全ての勢力で女性が指導者である状況は、後に姫君の世紀と呼ばれるようになる。 シャオンはどの勢力に行き、どの女性をお嫁に迎えるのか、全ては彼の選択次第…。"
-        },
-        "released": "2021-03-26",
-        "year": 2021,
-        "image": "https://t.vndb.org/cv/43/90843.jpg",
-        "lengthMinutes": 2962,
-        "genres": [
-          "みなとそふと",
-          "CV阵容爆炸",
-          "タカヒロ"
-        ],
-        "platforms": [
-          "win"
-        ]
-      },
-      "vndbScore": 79.9,
-      "vndbVotes": 389,
-      "bangumiScore": 73,
-      "bangumiVotes": 332,
-      "egsScore": 79.99,
-      "egsVotes": 337,
-      "egsMedian": 80
+      "egsScore": 75.86,
+      "egsVotes": 99,
+      "egsMedian": 75
     },
     {
       "name": "ドーナドーナ いっしょにわるいことをしよう",
@@ -6597,11 +6597,11 @@
         ]
       },
       "vndbScore": 80,
-      "vndbVotes": 2615,
+      "vndbVotes": 2617,
       "bangumiScore": 74,
-      "bangumiVotes": 3202,
-      "egsScore": 83.96,
-      "egsVotes": 874,
+      "bangumiVotes": 3205,
+      "egsScore": 83.91,
+      "egsVotes": 880,
       "egsMedian": 85
     },
     {
@@ -6634,8 +6634,8 @@
       "vndbVotes": 684,
       "bangumiScore": null,
       "bangumiVotes": null,
-      "egsScore": 73.19,
-      "egsVotes": 399,
+      "egsScore": 73.16,
+      "egsVotes": 400,
       "egsMedian": 75
     },
     {
@@ -6671,11 +6671,11 @@
         ]
       },
       "vndbScore": 80.1,
-      "vndbVotes": 1062,
+      "vndbVotes": 1064,
       "bangumiScore": 76,
-      "bangumiVotes": 1222,
-      "egsScore": 74.68,
-      "egsVotes": 19,
+      "bangumiVotes": 1223,
+      "egsScore": 74.7,
+      "egsVotes": 20,
       "egsMedian": 75
     },
     {
@@ -6710,11 +6710,11 @@
         ]
       },
       "vndbScore": 79.4,
-      "vndbVotes": 8139,
+      "vndbVotes": 8142,
       "bangumiScore": 74,
-      "bangumiVotes": 3813,
-      "egsScore": 79.01,
-      "egsVotes": 1113,
+      "bangumiVotes": 3814,
+      "egsScore": 79.05,
+      "egsVotes": 1116,
       "egsMedian": 80
     },
     {
@@ -6735,7 +6735,7 @@
         "released": "2025-09-26",
         "year": 2025,
         "image": "https://t.vndb.org/cv/01/111701.jpg",
-        "lengthMinutes": 653,
+        "lengthMinutes": 654,
         "genres": [
           "紫社",
           "克",
@@ -6746,11 +6746,11 @@
         ]
       },
       "vndbScore": 79.7,
-      "vndbVotes": 542,
+      "vndbVotes": 544,
       "bangumiScore": 76,
-      "bangumiVotes": 1439,
-      "egsScore": 80.42,
-      "egsVotes": 391,
+      "bangumiVotes": 1441,
+      "egsScore": 80.44,
+      "egsVotes": 395,
       "egsMedian": 80
     },
     {
@@ -6771,7 +6771,7 @@
         "released": "2011-07-29",
         "year": 2011,
         "image": "https://t.vndb.org/cv/77/88277.jpg",
-        "lengthMinutes": 2730,
+        "lengthMinutes": 2745,
         "genres": [
           "FAVORITE",
           "色鸟鸟",
@@ -6783,11 +6783,11 @@
         ]
       },
       "vndbScore": 80.9,
-      "vndbVotes": 1402,
+      "vndbVotes": 1404,
       "bangumiScore": 74,
       "bangumiVotes": 2509,
       "egsScore": 79.52,
-      "egsVotes": 1678,
+      "egsVotes": 1681,
       "egsMedian": 80
     },
     {
@@ -6846,7 +6846,7 @@
         "released": "2009-07-24",
         "year": 2009,
         "image": "https://t.vndb.org/cv/98/79698.jpg",
-        "lengthMinutes": 1875,
+        "lengthMinutes": 1928,
         "genres": [
           "朱门优",
           "propeller",
@@ -6858,11 +6858,11 @@
         ]
       },
       "vndbScore": 83.6,
-      "vndbVotes": 559,
+      "vndbVotes": 560,
       "bangumiScore": 75,
-      "bangumiVotes": 1177,
-      "egsScore": 77.54,
-      "egsVotes": 1317,
+      "bangumiVotes": 1179,
+      "egsScore": 77.55,
+      "egsVotes": 1318,
       "egsMedian": 80
     },
     {
@@ -6934,9 +6934,9 @@
       "vndbVotes": 603,
       "bangumiScore": 63,
       "bangumiVotes": 145,
-      "egsScore": 72.07,
-      "egsVotes": 14,
-      "egsMedian": 77
+      "egsScore": 72.27,
+      "egsVotes": 15,
+      "egsMedian": 76
     },
     {
       "name": "灰鷹のサイケデリカ",
@@ -7010,7 +7010,7 @@
       "vndbScore": 79.2,
       "vndbVotes": 2259,
       "bangumiScore": 74,
-      "bangumiVotes": 2436,
+      "bangumiVotes": 2439,
       "egsScore": 78.91,
       "egsVotes": 1740,
       "egsMedian": 80
@@ -7109,8 +7109,8 @@
         "lengthMinutes": 1587,
         "genres": [
           "拔作",
-          "炎孕",
-          "动态CG"
+          "动态CG",
+          "炎孕"
         ],
         "platforms": [
           "win"
@@ -7158,9 +7158,9 @@
       "vndbScore": 81.9,
       "vndbVotes": 682,
       "bangumiScore": 73,
-      "bangumiVotes": 1834,
-      "egsScore": 81.78,
-      "egsVotes": 419,
+      "bangumiVotes": 1838,
+      "egsScore": 81.82,
+      "egsVotes": 420,
       "egsMedian": 82
     },
     {
@@ -7198,9 +7198,9 @@
       "vndbScore": 79.6,
       "vndbVotes": 482,
       "bangumiScore": 72,
-      "bangumiVotes": 375,
-      "egsScore": 76.92,
-      "egsVotes": 504,
+      "bangumiVotes": 376,
+      "egsScore": 76.91,
+      "egsVotes": 505,
       "egsMedian": 78
     },
     {
@@ -7240,42 +7240,6 @@
       "egsMedian": 80
     },
     {
-      "name": "Angel Beats! -1st beat-",
-      "vndbId": "v13774",
-      "bangumiId": "84520",
-      "egsId": "19670",
-      "metadata": {
-        "titles": {
-          "en": "Angel Beats! -1st beat-",
-          "zh": "Angel Beats! -1st beat-",
-          "ja": "Angel Beats! -1st beat-"
-        },
-        "descriptions": {
-          "en": "Angel Beats! is a collaboration project of Key, Dengeki G's, and Aniplex. The story of the visual novel is to be based on the Angel Beats! anime series. The player takes on the role of Otonashi, a newcomer to the Afterlife who finds himself in the middle of a struggle between a group of students who call themselves the Shinda Sekai Sensen (\"Afterlife Battlefront\"), or SSS for short, and a mysterious girl who is known under the alias of Tenshi (Angel). The story will undergo changes from the original anime and will include story routes with each of the characters. It also stated that Otonashi will be very different than his original personality in the anime, and will change according to the choices made by the player. [Edited from Angel Beats! wiki] Rumors of a game release existed since 2010, but a formal game announcement was made in 2013. The first volume was released on June 26, 2015. Only the first volume had been released while the other five planned volumes have been abandoned with no announcement. The Angel Beats! collaborations in Key x Wright Flyer Studios gacha game HEAVEN BURNS RED contain content that would've been in 2nd beat and beyond.",
-          "zh": "†『Angel Beats！ 1st beat』ストーリー† 舞台は死後の世界。運命に立ち向かう少年少女達の物語。 何らかの理由で最期を遂げた少年・音無は死後の世界の学校で、ゆりと名乗る少女と出会う。彼女は理不尽な人生を強いた神に反逆する“死んだ世界戦線”のリーダーで、日夜激戦を繰り広げていた。 彼女たちに立ちはだかるのは、神の使い“天使”と呼ばれる1人の可憐な少女だった。生前の記憶がなく、この死後の世界で何が起きているのかもわからず戸惑う音無。彼はゆりたちとともに戦う道を選ぶことにしたのだが……。"
-        },
-        "released": "2015-06-26",
-        "year": 2015,
-        "image": "https://t.vndb.org/cv/70/121870.jpg",
-        "lengthMinutes": 1656,
-        "genres": [
-          "key",
-          "麻枝准",
-          "有生之年"
-        ],
-        "platforms": [
-          "win"
-        ]
-      },
-      "vndbScore": 78.9,
-      "vndbVotes": 1485,
-      "bangumiScore": 72,
-      "bangumiVotes": 569,
-      "egsScore": 74.17,
-      "egsVotes": 352,
-      "egsMedian": 77
-    },
-    {
       "name": "AMBITIOUS MISSION",
       "vndbId": "v33036",
       "bangumiId": "360498",
@@ -7308,10 +7272,46 @@
       "vndbScore": 80,
       "vndbVotes": 484,
       "bangumiScore": 74,
-      "bangumiVotes": 1550,
+      "bangumiVotes": 1551,
       "egsScore": 78.45,
-      "egsVotes": 652,
+      "egsVotes": 653,
       "egsMedian": 80
+    },
+    {
+      "name": "Angel Beats! -1st beat-",
+      "vndbId": "v13774",
+      "bangumiId": "84520",
+      "egsId": "19670",
+      "metadata": {
+        "titles": {
+          "en": "Angel Beats! -1st beat-",
+          "zh": "Angel Beats! -1st beat-",
+          "ja": "Angel Beats! -1st beat-"
+        },
+        "descriptions": {
+          "en": "Angel Beats! is a collaboration project of Key, Dengeki G's, and Aniplex. The story of the visual novel is to be based on the Angel Beats! anime series. The player takes on the role of Otonashi, a newcomer to the Afterlife who finds himself in the middle of a struggle between a group of students who call themselves the Shinda Sekai Sensen (\"Afterlife Battlefront\"), or SSS for short, and a mysterious girl who is known under the alias of Tenshi (Angel). The story will undergo changes from the original anime and will include story routes with each of the characters. It also stated that Otonashi will be very different than his original personality in the anime, and will change according to the choices made by the player. [Edited from Angel Beats! wiki] Rumors of a game release existed since 2010, but a formal game announcement was made in 2013. The first volume was released on June 26, 2015. Only the first volume had been released while the other five planned volumes have been abandoned with no announcement. The Angel Beats! collaborations in Key x Wright Flyer Studios gacha game HEAVEN BURNS RED contain content that would've been in 2nd beat and beyond.",
+          "zh": "†『Angel Beats！ 1st beat』ストーリー† 舞台は死後の世界。運命に立ち向かう少年少女達の物語。 何らかの理由で最期を遂げた少年・音無は死後の世界の学校で、ゆりと名乗る少女と出会う。彼女は理不尽な人生を強いた神に反逆する“死んだ世界戦線”のリーダーで、日夜激戦を繰り広げていた。 彼女たちに立ちはだかるのは、神の使い“天使”と呼ばれる1人の可憐な少女だった。生前の記憶がなく、この死後の世界で何が起きているのかもわからず戸惑う音無。彼はゆりたちとともに戦う道を選ぶことにしたのだが……。"
+        },
+        "released": "2015-06-26",
+        "year": 2015,
+        "image": "https://t.vndb.org/cv/70/121870.jpg",
+        "lengthMinutes": 1656,
+        "genres": [
+          "key",
+          "麻枝准",
+          "有生之年"
+        ],
+        "platforms": [
+          "win"
+        ]
+      },
+      "vndbScore": 78.9,
+      "vndbVotes": 1485,
+      "bangumiScore": 72,
+      "bangumiVotes": 570,
+      "egsScore": 74.16,
+      "egsVotes": 352,
+      "egsMedian": 77
     },
     {
       "name": "妻みぐい3",
@@ -7345,8 +7345,8 @@
       "vndbScore": 79.3,
       "vndbVotes": 615,
       "bangumiScore": 74,
-      "bangumiVotes": 795,
-      "egsScore": 76.26,
+      "bangumiVotes": 796,
+      "egsScore": 76.27,
       "egsVotes": 187,
       "egsMedian": 77
     },
@@ -7382,9 +7382,9 @@
       "vndbScore": 80.3,
       "vndbVotes": 474,
       "bangumiScore": 75,
-      "bangumiVotes": 3523,
-      "egsScore": 82.16,
-      "egsVotes": 297,
+      "bangumiVotes": 3527,
+      "egsScore": 82.13,
+      "egsVotes": 303,
       "egsMedian": 82
     },
     {
@@ -7417,9 +7417,9 @@
         ]
       },
       "vndbScore": 79.8,
-      "vndbVotes": 1623,
+      "vndbVotes": 1627,
       "bangumiScore": 74,
-      "bangumiVotes": 1709,
+      "bangumiVotes": 1710,
       "egsScore": 74.98,
       "egsVotes": 1054,
       "egsMedian": 78
@@ -7496,7 +7496,7 @@
       "vndbScore": 78.9,
       "vndbVotes": 2026,
       "bangumiScore": 72,
-      "bangumiVotes": 1431,
+      "bangumiVotes": 1432,
       "egsScore": 77.25,
       "egsVotes": 36,
       "egsMedian": 78
@@ -7608,11 +7608,11 @@
         ]
       },
       "vndbScore": 82.4,
-      "vndbVotes": 1142,
+      "vndbVotes": 1145,
       "bangumiScore": 73,
-      "bangumiVotes": 4525,
-      "egsScore": 83.67,
-      "egsVotes": 463,
+      "bangumiVotes": 4538,
+      "egsScore": 83.7,
+      "egsVotes": 474,
       "egsMedian": 85
     },
     {
@@ -7633,7 +7633,7 @@
         "released": "2010-04-22",
         "year": 2010,
         "image": "https://t.vndb.org/cv/14/100214.jpg",
-        "lengthMinutes": 2040,
+        "lengthMinutes": 2100,
         "genres": [
           "衣笠彰梧",
           "暁の護衛",
@@ -7650,7 +7650,7 @@
       "bangumiScore": 70,
       "bangumiVotes": 825,
       "egsScore": 76.53,
-      "egsVotes": 2004,
+      "egsVotes": 2006,
       "egsMedian": 79
     },
     {
@@ -7684,10 +7684,47 @@
       "vndbScore": 79.4,
       "vndbVotes": 312,
       "bangumiScore": 69,
-      "bangumiVotes": 192,
+      "bangumiVotes": 194,
       "egsScore": 77.12,
       "egsVotes": 57,
       "egsMedian": 79
+    },
+    {
+      "name": "ライムライト・レモネードジャム",
+      "vndbId": "v56650",
+      "bangumiId": "561526",
+      "egsId": "38794",
+      "metadata": {
+        "titles": {
+          "en": "LimeLight Lemonade Jam",
+          "zh": "橘光柠水随想曲",
+          "ja": "ライムライト・レモネードジャム"
+        },
+        "descriptions": {
+          "en": "Music, friends, and love. From the day he met her, the world began to shine— Okinami Yukitaka was skilled at bass but had never belonged to a specific band. He had no goals, yet nothing else he wanted to do. Amidst his aimless musical pursuits, he stumbled upon a street performance that would completely transform his monotonous daily life. There stood a girl, Harumi Ena, challenging herself with a solo performance of singing and guitar playing, with her complete amateur skill. The moment Yukitaka witnessed her street performance, his ordinary world began to sparkle once again. [Translated from official website]",
+          "zh": "音乐、伙伴，还有恋爱。 从遇见她的那天起，世界开始闪闪发光—— 【冲浪雪鹰】的贝斯技术高超，却从未加入过任何固定的乐队。 他没有明确的目标，也找不到其他想做的事。 就在这种漫无目的的音乐生活中，一场街头演出， 彻底改变了【冲浪雪鹰】一成不变的日常。 那是一个独自挑战弹唱的少女——【阳见惠凪】。 她的吉他技术，几乎还是个新手。 然而，从看到她演出的那一刻起， 【冲浪雪鹰】的世界，再度绽放出了光芒。 音楽、仲間、そして恋。 彼女と出逢った日から世界は輝く—— ベースは上手いが、特定のバンドに所属することのなかった【沖浪雪鷹】。 目標がない、けれど他にやりたいこともない。 漫然と音楽活動を続ける中で見かけた路上ライブが、 変わり映えしなかった【沖浪雪鷹】の日常を一変させる。 素人同然のギターで、たった一人で弾き語りに挑戦する少女【陽見恵凪】。 彼女の路上ライブ見かけた瞬間から【沖浪雪鷹】の日常が、再びキラメキ始める。"
+        },
+        "released": "2025-09-26",
+        "year": 2025,
+        "image": "https://t.vndb.org/cv/06/109906.jpg",
+        "lengthMinutes": 2825,
+        "genres": [
+          "柚子社",
+          "废萌",
+          "Yuzusoft"
+        ],
+        "platforms": [
+          "win",
+          "web"
+        ]
+      },
+      "vndbScore": 81,
+      "vndbVotes": 649,
+      "bangumiScore": 69,
+      "bangumiVotes": 1793,
+      "egsScore": 83.07,
+      "egsVotes": 743,
+      "egsMedian": 84
     },
     {
       "name": "アストラエアの白き永遠",
@@ -7727,43 +7764,6 @@
       "egsMedian": 80
     },
     {
-      "name": "ライムライト・レモネードジャム",
-      "vndbId": "v56650",
-      "bangumiId": "561526",
-      "egsId": "38794",
-      "metadata": {
-        "titles": {
-          "en": "LimeLight Lemonade Jam",
-          "zh": "橘光柠水随想曲",
-          "ja": "ライムライト・レモネードジャム"
-        },
-        "descriptions": {
-          "en": "Music, friends, and love. From the day he met her, the world began to shine— Okinami Yukitaka was skilled at bass but had never belonged to a specific band. He had no goals, yet nothing else he wanted to do. Amidst his aimless musical pursuits, he stumbled upon a street performance that would completely transform his monotonous daily life. There stood a girl, Harumi Ena, challenging herself with a solo performance of singing and guitar playing, with her complete amateur skill. The moment Yukitaka witnessed her street performance, his ordinary world began to sparkle once again. [Translated from official website]",
-          "zh": "音乐、伙伴，还有恋爱。 从遇见她的那天起，世界开始闪闪发光—— 【冲浪雪鹰】的贝斯技术高超，却从未加入过任何固定的乐队。 他没有明确的目标，也找不到其他想做的事。 就在这种漫无目的的音乐生活中，一场街头演出， 彻底改变了【冲浪雪鹰】一成不变的日常。 那是一个独自挑战弹唱的少女——【阳见惠凪】。 她的吉他技术，几乎还是个新手。 然而，从看到她演出的那一刻起， 【冲浪雪鹰】的世界，再度绽放出了光芒。 音楽、仲間、そして恋。 彼女と出逢った日から世界は輝く—— ベースは上手いが、特定のバンドに所属することのなかった【沖浪雪鷹】。 目標がない、けれど他にやりたいこともない。 漫然と音楽活動を続ける中で見かけた路上ライブが、 変わり映えしなかった【沖浪雪鷹】の日常を一変させる。 素人同然のギターで、たった一人で弾き語りに挑戦する少女【陽見恵凪】。 彼女の路上ライブ見かけた瞬間から【沖浪雪鷹】の日常が、再びキラメキ始める。"
-        },
-        "released": "2025-09-26",
-        "year": 2025,
-        "image": "https://t.vndb.org/cv/06/109906.jpg",
-        "lengthMinutes": 2750,
-        "genres": [
-          "柚子社",
-          "废萌",
-          "Yuzusoft"
-        ],
-        "platforms": [
-          "win",
-          "web"
-        ]
-      },
-      "vndbScore": 80.9,
-      "vndbVotes": 648,
-      "bangumiScore": 69,
-      "bangumiVotes": 1789,
-      "egsScore": 83.05,
-      "egsVotes": 728,
-      "egsMedian": 84
-    },
-    {
       "name": "創刻のアテリアル",
       "vndbId": "v8424",
       "bangumiId": "26830",
@@ -7795,8 +7795,8 @@
       "vndbVotes": 886,
       "bangumiScore": 69,
       "bangumiVotes": 531,
-      "egsScore": 75.22,
-      "egsVotes": 767,
+      "egsScore": 75.24,
+      "egsVotes": 768,
       "egsMedian": 77
     },
     {
@@ -7829,11 +7829,11 @@
         ]
       },
       "vndbScore": 81.8,
-      "vndbVotes": 343,
+      "vndbVotes": 345,
       "bangumiScore": 70,
-      "bangumiVotes": 958,
-      "egsScore": 82,
-      "egsVotes": 247,
+      "bangumiVotes": 962,
+      "egsScore": 82.02,
+      "egsVotes": 249,
       "egsMedian": 82
     },
     {
@@ -7906,9 +7906,9 @@
       "vndbScore": 80.4,
       "vndbVotes": 414,
       "bangumiScore": 71,
-      "bangumiVotes": 1455,
-      "egsScore": 81.83,
-      "egsVotes": 300,
+      "bangumiVotes": 1457,
+      "egsScore": 81.79,
+      "egsVotes": 302,
       "egsMedian": 81
     },
     {
@@ -7929,7 +7929,7 @@
         "released": "2025-04-24",
         "year": 2025,
         "image": "https://t.vndb.org/cv/44/104144.jpg",
-        "lengthMinutes": 9446,
+        "lengthMinutes": 9450,
         "genres": [
           "小高和刚",
           "打越钢太郎",
@@ -7941,9 +7941,9 @@
         ]
       },
       "vndbScore": 79.3,
-      "vndbVotes": 1100,
+      "vndbVotes": 1101,
       "bangumiScore": 65,
-      "bangumiVotes": 609,
+      "bangumiVotes": 610,
       "egsScore": 74.36,
       "egsVotes": 14,
       "egsMedian": 76
@@ -7982,8 +7982,8 @@
       "vndbScore": 80.1,
       "vndbVotes": 646,
       "bangumiScore": 66,
-      "bangumiVotes": 697,
-      "egsScore": 81.24,
+      "bangumiVotes": 698,
+      "egsScore": 81.23,
       "egsVotes": 138,
       "egsMedian": 82
     },
@@ -8019,8 +8019,8 @@
       "vndbVotes": 387,
       "bangumiScore": 69,
       "bangumiVotes": 1087,
-      "egsScore": 77.73,
-      "egsVotes": 450,
+      "egsScore": 77.74,
+      "egsVotes": 451,
       "egsMedian": 78
     }
   ]
